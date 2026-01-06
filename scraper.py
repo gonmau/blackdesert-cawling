@@ -6,7 +6,7 @@ from datetime import datetime, timezone
 from email.utils import parsedate_to_datetime
 
 DISCORD_WEBHOOK_URL = os.environ.get('DISCORD_WEBHOOK')
-KEYWORDS = ['붉은사막', 'Crimson Desert', '펄어비스', 'Pearl Abyss']
+KEYWORDS = ['Crimson Desert', '붉은사막', '펄어비스', 'Pearl Abyss']
 LANG_SETTINGS = [
     ("en", "US", "US:en"),   # 미국
     ("zh-CN", "CN", "CN:zh-Hans"),  # 중국
@@ -17,7 +17,7 @@ translator = Translator()
 sent_links = set()
 
 def fetch_news(keyword, lang, gl, ceid):
-    url = f"https://news.google.com/rss/search?q={keyword}&hl={lang}&gl={gl}&ceid={ceid}"
+    url = f"https://news.google.com/rss/search?q={keyword}+preorder+sales&hl={lang}&gl={gl}&ceid={ceid}"
     response = requests.get(url)
     soup = BeautifulSoup(response.content, 'lxml-xml')
     return soup.find_all('item')[:5]
@@ -42,6 +42,7 @@ def check_news():
                 link = item.link.text
                 pub_date = parsedate_to_datetime(item.pubDate.text)
 
+                # 오늘 기사만 필터링
                 if pub_date.date() != today:
                     continue
                 if link in sent_links:
@@ -55,7 +56,8 @@ def check_news():
                     title = translator.translate(title, dest="ko").text
                     description = translator.translate(description, dest="ko").text
 
-                message = f"🌍 **[{keyword}] {gl} 최신 소식**\n제목: {title}\n요약: {description[:150]}...\n링크: {link}"
+                # 메시지 구성
+                message = f"📊 **[{keyword}] {gl} 예약 판매 소식**\n제목: {title}\n요약: {description[:150]}...\n링크: {link}"
                 send_to_discord(message)
                 break
 
