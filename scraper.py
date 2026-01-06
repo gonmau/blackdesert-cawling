@@ -5,7 +5,7 @@ from googletrans import Translator
 from datetime import datetime, timezone
 from email.utils import parsedate_to_datetime
 
-DISCORD_WEBHOOK_URL = os.environ['DISCORD_WEBHOOK']
+DISCORD_WEBHOOK_URL = os.environ.get('DISCORD_WEBHOOK')
 KEYWORDS = ['붉은사막', 'Crimson Desert', '펄어비스', 'Pearl Abyss']
 LANG_SETTINGS = [
     ("en", "US", "US:en"),   # 미국
@@ -21,6 +21,16 @@ def fetch_news(keyword, lang, gl, ceid):
     response = requests.get(url)
     soup = BeautifulSoup(response.content, 'lxml-xml')
     return soup.find_all('item')[:5]
+
+def send_to_discord(message):
+    try:
+        resp = requests.post(DISCORD_WEBHOOK_URL, json={"content": message})
+        if resp.status_code == 204:
+            print("✅ 디스코드 전송 성공")
+        else:
+            print(f"❌ 디스코드 전송 실패: {resp.status_code}, {resp.text}")
+    except Exception as e:
+        print("⚠️ 디스코드 전송 에러:", e)
 
 def check_news():
     today = datetime.now(timezone.utc).date()
@@ -46,7 +56,7 @@ def check_news():
                     description = translator.translate(description, dest="ko").text
 
                 message = f"🌍 **[{keyword}] {gl} 최신 소식**\n제목: {title}\n요약: {description[:150]}...\n링크: {link}"
-                requests.post(DISCORD_WEBHOOK_URL, json={"content": message})
+                send_to_discord(message)
                 break
 
 if __name__ == "__main__":
