@@ -1,36 +1,53 @@
-import os
-import subprocess
-import json
 import requests
-from datetime import datetime
+from bs4 import BeautifulSoup
+import os
+from googletrans import Translator
+from datetime import datetime, timezone
+from email.utils import parsedate_to_datetime
 
 DISCORD_WEBHOOK_URL = os.environ['DISCORD_WEBHOOK']
-KEYWORDS = ["붉은사막", "Crimson Desert", "펄어비스", "Pearl Abyss"]
+KEYWORDS = ['붉은사막', 'Crimson Desert', '펄어비스', 'Pearl Abyss']
+LANG_SETTINGS = [
+    ("en", "US", "US:en"),   # 미국
+    ("zh-CN", "CN", "CN:zh-Hans"),  # 중국
+    ("ja", "JP", "JP:ja")    # 일본
+]
 
-def fetch_tweets(keyword):
-    today = datetime.now().strftime("%Y-%m-%d")
-    cmd = f"snscrape --jsonl --max-results 5 twitter-search '{keyword} since:{today}'"
-    result = subprocess.run(cmd, shell=True, capture_output=True, text=True)
-    tweets = []
-    for line in result.stdout.splitlines():
-        data = json.loads(line)
-        tweets.append({
-            "user": data["user"]["username"],
-            "content": data["content"],
-            "link": data["url"]
-        })
-    return tweets
+translator = Translator()
+sent_links = set()
 
-def send_to_discord(keyword, tweets):
-    for t in tweets:
-        message = f"🐦 **[{keyword}] 트윗 소식**\n작성자: @{t['user']}\n내용: {t['content']}\n링크: {t['link']}"
-        requests.post(DISCORD_WEBHOOK_URL, json={"content": message})
+def fetch_news(keyword, lang, gl, ceid):
+    url = f"https://news.google.com/rss/search?q={keyword}&hl={lang}&gl={gl}&ceid={ceid}"
+    response = requests.get(url)
+    soup = BeautifulSoup(response.content, 'lxml-xml')
+    return soup.find_all('item')[:5]
 
-def main():
+def check_news():
+    today = datetime.now(timezone.utc).date()
     for keyword in KEYWORDS:
-        tweets = fetch_tweets(keyword)
-        if tweets:
-            send_to_discord(keyword, tweets)
+        for lang, gl, ceid in LANG_SETTINGS:
+            items = fetch_news(keyword, lang, gl, ceid)
+            for item in items:
+                title = item.title.text
+                link = item.link.text
+                pub_date = parsedate_to_datetime(item.pubDate.text)
+
+                if pub_date.date() != today:
+                    continue
+                if link in sent_links:
+                    continue
+                sent_links.add(link)
+
+                description = item.description.text if item.description else ""
+
+                # 번역 (영문/중문/일문 기사 → 한국어)
+                if lang in ["en", "zh-CN", "ja"]:
+                    title = translator.translate(title, dest="ko").text
+                    description = translator.translate(description, dest="ko").text
+
+                message = f"🌍 **[{keyword}] {gl} 최신 소식**\n제목: {title}\n요약: {description[:150]}...\n링크: {link}"
+                requests.post(DISCORD_WEBHOOK_URL, json={"content": message})
+                break
 
 if __name__ == "__main__":
-    main()
+    check_news()
