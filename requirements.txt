@@ -1,3 +1,4 @@
 requests
 beautifulsoup4
+lxml
 googletrans==4.0.0-rc1
