@@ -16,7 +16,7 @@ sent_links = set()  # 중복 방지용
 def fetch_news(keyword, lang, gl, ceid):
     url = f"https://news.google.com/rss/search?q={keyword}&hl={lang}&gl={gl}&ceid={ceid}"
     response = requests.get(url)
-    soup = BeautifulSoup(response.content, 'xml')
+    soup = BeautifulSoup(response.content, 'lxml-xml')
     return soup.find_all('item')[:5]
 
 def check_news():
