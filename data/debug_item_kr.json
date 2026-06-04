@@ -1,0 +1,28 @@
+{
+  "top_keys": [
+    "desc",
+    "items"
+  ],
+  "items": [
+    {
+      "name": "Yu-Gi-Oh! Master Duel",
+      "logo": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1449850/f5ece36cb0b3fe40f666737b2dd9778fddda47fb/capsule_sm_120.jpg?t=1778872856"
+    },
+    {
+      "name": "PUBG: BATTLEGROUNDS",
+      "logo": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/578080/14f42ab797699a9c9f137fda66582d8776da4330/capsule_sm_120.jpg?t=1778634253"
+    },
+    {
+      "name": "F1® 25",
+      "logo": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3059520/343899f5928081baf1189ace48f13853e65738bb/capsule_sm_120.jpg?t=1780499177"
+    },
+    {
+      "name": "F1® 25: 2026 Season Pack",
+      "logo": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4148930/9c82a9b758a936a1ec24c34b83fd5817018d9ad3/capsule_sm_120.jpg?t=1780498842"
+    },
+    {
+      "name": "Once Human",
+      "logo": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2139460/3f64619c9430d9ec7e98d3e32625d5f62dd81da4/capsule_sm_120.jpg?t=1779932539"
+    }
+  ]
+}

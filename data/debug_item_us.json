@@ -1,0 +1,28 @@
+{
+  "top_keys": [
+    "desc",
+    "items"
+  ],
+  "items": [
+    {
+      "name": "Counter-Strike 2",
+      "logo": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/730/942c04efaa5bc87afb6f2a97dbf17ac614c8a84d/capsule_sm_120.jpg?t=1780435263"
+    },
+    {
+      "name": "Forza Horizon 6",
+      "logo": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2483190/d0d73e4ff499d6cd6fb06f7af898414179997125/capsule_sm_120.jpg?t=1779912021"
+    },
+    {
+      "name": "Steam Deck",
+      "logo": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1675200/capsule_sm_120.jpg?t=1763066602"
+    },
+    {
+      "name": "Path of Exile 2",
+      "logo": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2694490/bae62b5ac9eeb900458e3f6c089bf5df3eb923c9/capsule_sm_120.jpg?t=1780348251"
+    },
+    {
+      "name": "007 First Light",
+      "logo": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3768760/244e00f17e6d0b5d1e88320dfbb5a12b483be700/capsule_sm_120.jpg?t=1780344100"
+    }
+  ]
+}
