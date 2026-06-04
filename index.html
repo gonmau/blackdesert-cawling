@@ -1,0 +1,997 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>붉은사막 Steam 경쟁 트래커</title>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Noto+Sans+KR:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #0a0c10;
+    --surface: #111520;
+    --border: #1e2535;
+    --accent: #c84b31;
+    --accent2: #e8a020;
+    --text: #dce4f0;
+    --muted: #6a7a90;
+    --free: #22bb88;
+    --disc: #e8a020;
+    --top: #c84b31;
+    --mid: #e8a020;
+    --low: #4488cc;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: 'Noto Sans KR', sans-serif;
+    min-height: 100vh;
+  }
+
+  /* ── 헤더 ── */
+  header {
+    background: linear-gradient(135deg, #0d0f18 0%, #1a0a08 100%);
+    border-bottom: 1px solid var(--border);
+    padding: 28px 32px 24px;
+    position: relative;
+    overflow: hidden;
+  }
+  header::before {
+    content: '';
+    position: absolute; inset: 0;
+    background: radial-gradient(ellipse 60% 80% at 80% 50%, rgba(200,75,49,.12) 0%, transparent 70%);
+  }
+  .header-inner { position: relative; max-width: 1400px; margin: 0 auto; }
+  .site-title {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 2.4rem;
+    letter-spacing: .05em;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+  .site-title span { color: var(--accent); }
+  .subtitle {
+    color: var(--muted);
+    font-size: .85rem;
+    margin-top: 4px;
+  }
+  .updated { 
+    position: absolute; right: 0; top: 4px;
+    font-size: .75rem; color: var(--muted);
+    background: rgba(255,255,255,.04);
+    border: 1px solid var(--border);
+    padding: 4px 10px; border-radius: 4px;
+  }
+
+  /* ── 통계 바 ── */
+  .stats-bar {
+    background: var(--surface);
+    border-bottom: 1px solid var(--border);
+    padding: 16px 32px;
+  }
+  .stats-inner {
+    max-width: 1400px; margin: 0 auto;
+    display: flex; gap: 32px; flex-wrap: wrap;
+  }
+  .stat-item {
+    display: flex; flex-direction: column; gap: 2px;
+  }
+  .stat-label { font-size: .72rem; color: var(--muted); text-transform: uppercase; letter-spacing: .06em; }
+  .stat-value { font-size: 1.3rem; font-weight: 700; color: var(--accent2); }
+
+  /* ── 메인 그리드 ── */
+  .main { max-width: 1400px; margin: 0 auto; padding: 28px 32px; }
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
+    gap: 16px;
+  }
+
+  /* ── 국가 카드 ── */
+  .country-card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    overflow: hidden;
+    transition: border-color .2s;
+  }
+  .country-card:hover { border-color: rgba(200,75,49,.4); }
+  .country-card.charted-no {
+    opacity: .5;
+  }
+
+  .country-header {
+    padding: 12px 16px;
+    background: rgba(255,255,255,.03);
+    border-bottom: 1px solid var(--border);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+  .country-name { font-weight: 700; font-size: .95rem; flex: 1; }
+  .rank-badge {
+    font-size: .72rem; font-weight: 700;
+    padding: 3px 8px; border-radius: 4px;
+  }
+  .rank-badge.rank-top  { background: rgba(200,75,49,.2); color: var(--top); border: 1px solid rgba(200,75,49,.3); }
+  .rank-badge.rank-mid  { background: rgba(232,160,32,.15); color: var(--mid); border: 1px solid rgba(232,160,32,.25); }
+  .rank-badge.rank-low  { background: rgba(68,136,204,.15); color: var(--low); border: 1px solid rgba(68,136,204,.25); }
+  .rank-badge.none      { background: rgba(255,255,255,.05); color: var(--muted); border: 1px solid var(--border); }
+  .rival-count { font-size: .72rem; color: var(--muted); }
+
+  /* ── 테이블 ── */
+  .rivals-wrap { max-height: 300px; overflow-y: auto; }
+  .rivals-wrap::-webkit-scrollbar { width: 4px; }
+  .rivals-wrap::-webkit-scrollbar-track { background: transparent; }
+  .rivals-wrap::-webkit-scrollbar-thumb { background: var(--border); border-radius: 2px; }
+
+  .rivals-table {
+    width: 100%; border-collapse: collapse; font-size: .82rem;
+  }
+  .rivals-table thead tr {
+    background: rgba(255,255,255,.04);
+    position: sticky; top: 0; z-index: 1;
+  }
+  .rivals-table th {
+    padding: 6px 10px;
+    text-align: left;
+    font-size: .7rem;
+    color: var(--muted);
+    text-transform: uppercase;
+    letter-spacing: .04em;
+  }
+  .rivals-table td { padding: 7px 10px; border-bottom: 1px solid rgba(255,255,255,.04); }
+  .rivals-table tr:last-child td { border-bottom: none; }
+  .rivals-table tr.free-row { background: rgba(34,187,136,.04); }
+  .rivals-table tr.disc-row { background: rgba(232,160,32,.03); }
+  .rivals-table tr:hover td { background: rgba(255,255,255,.04); }
+
+  .rank-num { color: var(--muted); font-variant-numeric: tabular-nums; white-space: nowrap; }
+  .game-name a {
+    color: var(--text);
+    text-decoration: none;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+  .game-name a:hover { color: var(--accent2); }
+
+  .badge {
+    display: inline-block;
+    padding: 2px 7px; border-radius: 3px;
+    font-size: .7rem; font-weight: 700; white-space: nowrap;
+  }
+  .badge.free { background: rgba(34,187,136,.2); color: var(--free); border: 1px solid rgba(34,187,136,.25); }
+  .badge.disc { color: #fff; }
+  .price-orig { color: var(--muted); text-decoration: line-through; font-size: .78rem; margin-right: 4px; }
+  .price-final { color: var(--accent2); font-weight: 600; }
+
+  .no-rival { padding: 14px 16px; color: var(--muted); font-size: .82rem; }
+
+  /* ── 범례 ── */
+  .legend {
+    display: flex; gap: 20px; flex-wrap: wrap;
+    padding: 12px 0 0;
+    font-size: .78rem; color: var(--muted);
+  }
+  .legend-item { display: flex; align-items: center; gap: 6px; }
+  .dot { width: 10px; height: 10px; border-radius: 50%; }
+
+  footer {
+    text-align: center;
+    padding: 28px;
+    color: var(--muted);
+    font-size: .78rem;
+    border-top: 1px solid var(--border);
+    margin-top: 16px;
+  }
+
+  @media (max-width: 600px) {
+    header { padding: 20px 16px; }
+    .main { padding: 16px; }
+    .stats-bar { padding: 12px 16px; }
+    .grid { grid-template-columns: 1fr; }
+    .site-title { font-size: 1.8rem; }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="header-inner">
+    <div class="site-title">🗡️ <span>붉은사막</span>&nbsp;Steam 경쟁 트래커</div>
+    <div class="subtitle">각국 Top Sellers 기준 · 붉은사막보다 높은 순위의 무료/할인 게임 실시간 추적</div>
+    <div class="updated">🕐 2026-06-04 09:00 UTC</div>
+  </div>
+</header>
+
+<div class="stats-bar">
+  <div class="stats-inner">
+    <div class="stat-item">
+      <span class="stat-label">순위권 국가</span>
+      <span class="stat-value">15개국</span>
+    </div>
+    <div class="stat-item">
+      <span class="stat-label">전체 경쟁 게임</span>
+      <span class="stat-value">57개</span>
+    </div>
+    <div class="stat-item">
+      <span class="stat-label">평균 순위</span>
+      <span class="stat-value">10.9위</span>
+    </div>
+    <div class="stat-item">
+      <span class="stat-label">최고 순위 국가</span>
+      <span class="stat-value" style="font-size:1rem">🇹🇼 대만 (3위)</span>
+    </div>
+  </div>
+</div>
+
+<div class="main">
+  <div class="legend">
+    <div class="legend-item"><div class="dot" style="background:var(--top)"></div> Top 10</div>
+    <div class="legend-item"><div class="dot" style="background:var(--mid)"></div> 11~30위</div>
+    <div class="legend-item"><div class="dot" style="background:var(--low)"></div> 31위+</div>
+    <div class="legend-item"><div class="dot" style="background:var(--free)"></div> FREE TO PLAY</div>
+    <div class="legend-item"><div class="dot" style="background:var(--disc)"></div> 할인 중</div>
+  </div>
+
+  <div class="grid" style="margin-top:16px">
+    
+    <div class="country-card">
+      <div class="country-header">
+        <span class="country-name">🇰🇷 한국</span>
+        <span class="rank-badge rank-top">붉은사막 4위</span>
+        <span class="rival-count">3개 경쟁</span>
+      </div>
+      
+      <div class="rivals-wrap">
+        <table class="rivals-table">
+          <thead><tr>
+            <th>순위</th><th>게임</th><th>가격</th><th>할인</th>
+          </tr></thead>
+          <tbody>
+        <tr class="free-row">
+          <td class="rank-num">#1</td>
+          <td class="game-name">
+            <a href="https://store.steampowered.com/app/570" target="_blank">Dota 2</a>
+          </td>
+          <td><span class="badge free">FREE</span></td>
+          <td></td>
+        </tr>
+        <tr class="free-row">
+          <td class="rank-num">#2</td>
+          <td class="game-name">
+            <a href="https://store.steampowered.com/app/2767030" target="_blank">Marvel Rivals</a>
+          </td>
+          <td><span class="badge free">FREE</span></td>
+          <td></td>
+        </tr>
+        <tr class="disc-row">
+          <td class="rank-num">#3</td>
+          <td class="game-name">
+            <a href="https://store.steampowered.com/app/1174180" target="_blank">Red Dead Redemption 2</a>
+          </td>
+          <td><span class="price-orig">KRW 79000</span> <span class="price-final">KRW 15800</span></td>
+          <td><span class="badge disc" style="background:#ff4444">-80%</span></td>
+        </tr></tbody>
+        </table>
+      </div>
+    </div>
+
+    <div class="country-card">
+      <div class="country-header">
+        <span class="country-name">🇺🇸 미국</span>
+        <span class="rank-badge rank-top">붉은사막 7위</span>
+        <span class="rival-count">4개 경쟁</span>
+      </div>
+      
+      <div class="rivals-wrap">
+        <table class="rivals-table">
+          <thead><tr>
+            <th>순위</th><th>게임</th><th>가격</th><th>할인</th>
+          </tr></thead>
+          <tbody>
+        <tr class="free-row">
+          <td class="rank-num">#1</td>
+          <td class="game-name">
+            <a href="https://store.steampowered.com/app/2767030" target="_blank">Marvel Rivals</a>
+          </td>
+          <td><span class="badge free">FREE</span></td>
+          <td></td>
+        </tr>
+        <tr class="disc-row">
+          <td class="rank-num">#3</td>
+          <td class="game-name">
+            <a href="https://store.steampowered.com/app/1245620" target="_blank">Elden Ring</a>
+          </td>
+          <td><span class="price-orig">USD 59.99</span> <span class="price-final">USD 29.99</span></td>
+          <td><span class="badge disc" style="background:#ff8800">-50%</span></td>
+        </tr>
+        <tr class="free-row">
+          <td class="rank-num">#5</td>
+          <td class="game-name">
+            <a href="https://store.steampowered.com/app/730" target="_blank">Counter-Strike 2</a>
+          </td>
+          <td><span class="badge free">FREE</span></td>
+          <td></td>
+        </tr>
+        <tr class="disc-row">
+          <td class="rank-num">#6</td>
+          <td class="game-name">
+            <a href="https://store.steampowered.com/app/1091500" target="_blank">Cyberpunk 2077</a>
+          </td>
+          <td><span class="price-orig">USD 59.99</span> <span class="price-final">USD 17.99</span></td>
+          <td><span class="badge disc" style="background:#ff8800">-70%</span></td>
+        </tr></tbody>
+        </table>
+      </div>
+    </div>
+
+    <div class="country-card">
+      <div class="country-header">
+        <span class="country-name">🇯🇵 일본</span>
+        <span class="rank-badge rank-top">붉은사막 5위</span>
+        <span class="rival-count">3개 경쟁</span>
+      </div>
+      
+      <div class="rivals-wrap">
+        <table class="rivals-table">
+          <thead><tr>
+            <th>순위</th><th>게임</th><th>가격</th><th>할인</th>
+          </tr></thead>
+          <tbody>
+        <tr class="free-row">
+          <td class="rank-num">#1</td>
+          <td class="game-name">
+            <a href="https://store.steampowered.com/app/2767030" target="_blank">Marvel Rivals</a>
+          </td>
+          <td><span class="badge free">FREE</span></td>
+          <td></td>
+        </tr>
+        <tr class="free-row">
+          <td class="rank-num">#2</td>
+          <td class="game-name">
+            <a href="https://store.steampowered.com/app/1172470" target="_blank">Apex Legends</a>
+          </td>
+          <td><span class="badge free">FREE</span></td>
+          <td></td>
+        </tr>
+        <tr class="disc-row">
+          <td class="rank-num">#4</td>
+          <td class="game-name">
+            <a href="https://store.steampowered.com/app/1245620" target="_blank">Elden Ring</a>
+          </td>
+          <td><span class="price-orig">JPY 7980</span> <span class="price-final">JPY 3990</span></td>
+          <td><span class="badge disc" style="background:#ff8800">-50%</span></td>
+        </tr></tbody>
+        </table>
+      </div>
+    </div>
+
+    <div class="country-card">
+      <div class="country-header">
+        <span class="country-name">🇬🇧 영국</span>
+        <span class="rank-badge rank-mid">붉은사막 12위</span>
+        <span class="rival-count">6개 경쟁</span>
+      </div>
+      
+      <div class="rivals-wrap">
+        <table class="rivals-table">
+          <thead><tr>
+            <th>순위</th><th>게임</th><th>가격</th><th>할인</th>
+          </tr></thead>
+          <tbody>
+        <tr class="free-row">
+          <td class="rank-num">#1</td>
+          <td class="game-name">
+            <a href="https://store.steampowered.com/app/730" target="_blank">Counter-Strike 2</a>
+          </td>
+          <td><span class="badge free">FREE</span></td>
+          <td></td>
+        </tr>
+        <tr class="free-row">
+          <td class="rank-num">#2</td>
+          <td class="game-name">
+            <a href="https://store.steampowered.com/app/2767030" target="_blank">Marvel Rivals</a>
+          </td>
+          <td><span class="badge free">FREE</span></td>
+          <td></td>
+        </tr>
+        <tr class="disc-row">
+          <td class="rank-num">#5</td>
+          <td class="game-name">
+            <a href="https://store.steampowered.com/app/1091500" target="_blank">Cyberpunk 2077</a>
+          </td>
+          <td><span class="price-orig">GBP 54.99</span> <span class="price-final">GBP 16.49</span></td>
+          <td><span class="badge disc" style="background:#ff8800">-70%</span></td>
+        </tr>
+        <tr class="disc-row">
+          <td class="rank-num">#8</td>
+          <td class="game-name">
+            <a href="https://store.steampowered.com/app/1245620" target="_blank">Elden Ring</a>
+          </td>
+          <td><span class="price-orig">GBP 54.99</span> <span class="price-final">GBP 27.49</span></td>
+          <td><span class="badge disc" style="background:#ff8800">-50%</span></td>
+        </tr>
+        <tr class="free-row">
+          <td class="rank-num">#10</td>
+          <td class="game-name">
+            <a href="https://store.steampowered.com/app/1172470" target="_blank">Apex Legends</a>
+          </td>
+          <td><span class="badge free">FREE</span></td>
+          <td></td>
+        </tr>
+        <tr class="disc-row">
+          <td class="rank-num">#11</td>
+          <td class="game-name">
+            <a href="https://store.steampowered.com/app/292030" target="_blank">The Witcher 3</a>
+          </td>
+          <td><span class="price-orig">GBP 34.99</span> <span class="price-final">GBP 8.74</span></td>
+          <td><span class="badge disc" style="background:#ff4444">-75%</span></td>
+        </tr></tbody>
+        </table>
+      </div>
+    </div>
+
+    <div class="country-card">
+      <div class="country-header">
+        <span class="country-name">🇩🇪 독일</span>
+        <span class="rank-badge rank-top">붉은사막 9위</span>
+        <span class="rival-count">4개 경쟁</span>
+      </div>
+      
+      <div class="rivals-wrap">
+        <table class="rivals-table">
+          <thead><tr>
+            <th>순위</th><th>게임</th><th>가격</th><th>할인</th>
+          </tr></thead>
+          <tbody>
+        <tr class="free-row">
+          <td class="rank-num">#1</td>
+          <td class="game-name">
+            <a href="https://store.steampowered.com/app/730" target="_blank">Counter-Strike 2</a>
+          </td>
+          <td><span class="badge free">FREE</span></td>
+          <td></td>
+        </tr>
+        <tr class="free-row">
+          <td class="rank-num">#3</td>
+          <td class="game-name">
+            <a href="https://store.steampowered.com/app/2767030" target="_blank">Marvel Rivals</a>
+          </td>
+          <td><span class="badge free">FREE</span></td>
+          <td></td>
+        </tr>
+        <tr class="disc-row">
+          <td class="rank-num">#5</td>
+          <td class="game-name">
+            <a href="https://store.steampowered.com/app/1091500" target="_blank">Cyberpunk 2077</a>
+          </td>
+          <td><span class="price-orig">EUR 59.99</span> <span class="price-final">EUR 17.99</span></td>
+          <td><span class="badge disc" style="background:#ff8800">-70%</span></td>
+        </tr>
+        <tr class="disc-row">
+          <td class="rank-num">#7</td>
+          <td class="game-name">
+            <a href="https://store.steampowered.com/app/292030" target="_blank">The Witcher 3</a>
+          </td>
+          <td><span class="price-orig">EUR 39.99</span> <span class="price-final">EUR 9.99</span></td>
+          <td><span class="badge disc" style="background:#ff4444">-75%</span></td>
+        </tr></tbody>
+        </table>
+      </div>
+    </div>
+
+    <div class="country-card">
+      <div class="country-header">
+        <span class="country-name">🇨🇳 중국</span>
+        <span class="rank-badge rank-mid">붉은사막 18위</span>
+        <span class="rival-count">6개 경쟁</span>
+      </div>
+      
+      <div class="rivals-wrap">
+        <table class="rivals-table">
+          <thead><tr>
+            <th>순위</th><th>게임</th><th>가격</th><th>할인</th>
+          </tr></thead>
+          <tbody>
+        <tr class="free-row">
+          <td class="rank-num">#1</td>
+          <td class="game-name">
+            <a href="https://store.steampowered.com/app/570" target="_blank">Dota 2</a>
+          </td>
+          <td><span class="badge free">FREE</span></td>
+          <td></td>
+        </tr>
+        <tr class="free-row">
+          <td class="rank-num">#2</td>
+          <td class="game-name">
+            <a href="https://store.steampowered.com/app/730" target="_blank">Counter-Strike 2</a>
+          </td>
+          <td><span class="badge free">FREE</span></td>
+          <td></td>
+        </tr>
+        <tr class="free-row">
+          <td class="rank-num">#4</td>
+          <td class="game-name">
+            <a href="https://store.steampowered.com/app/1172470" target="_blank">Apex Legends</a>
+          </td>
+          <td><span class="badge free">FREE</span></td>
+          <td></td>
+        </tr>
+        <tr class="disc-row">
+          <td class="rank-num">#8</td>
+          <td class="game-name">
+            <a href="https://store.steampowered.com/app/1245620" target="_blank">Elden Ring</a>
+          </td>
+          <td><span class="price-orig">CNY 298</span> <span class="price-final">CNY 149</span></td>
+          <td><span class="badge disc" style="background:#ff8800">-50%</span></td>
+        </tr>
+        <tr class="disc-row">
+          <td class="rank-num">#12</td>
+          <td class="game-name">
+            <a href="https://store.steampowered.com/app/1091500" target="_blank">Cyberpunk 2077</a>
+          </td>
+          <td><span class="price-orig">CNY 298</span> <span class="price-final">CNY 89.4</span></td>
+          <td><span class="badge disc" style="background:#ff8800">-70%</span></td>
+        </tr>
+        <tr class="disc-row">
+          <td class="rank-num">#15</td>
+          <td class="game-name">
+            <a href="https://store.steampowered.com/app/292030" target="_blank">The Witcher 3</a>
+          </td>
+          <td><span class="price-orig">CNY 198</span> <span class="price-final">CNY 49.5</span></td>
+          <td><span class="badge disc" style="background:#ff4444">-75%</span></td>
+        </tr></tbody>
+        </table>
+      </div>
+    </div>
+
+        <div class="country-card charted-no">
+          <div class="country-header">
+            <span class="country-name">🇷🇺 러시아</span>
+            <span class="rank-badge none">순위권 밖</span>
+          </div>
+        </div>
+
+    <div class="country-card">
+      <div class="country-header">
+        <span class="country-name">🇧🇷 브라질</span>
+        <span class="rank-badge rank-mid">붉은사막 22위</span>
+        <span class="rival-count">3개 경쟁</span>
+      </div>
+      
+      <div class="rivals-wrap">
+        <table class="rivals-table">
+          <thead><tr>
+            <th>순위</th><th>게임</th><th>가격</th><th>할인</th>
+          </tr></thead>
+          <tbody>
+        <tr class="free-row">
+          <td class="rank-num">#1</td>
+          <td class="game-name">
+            <a href="https://store.steampowered.com/app/730" target="_blank">Counter-Strike 2</a>
+          </td>
+          <td><span class="badge free">FREE</span></td>
+          <td></td>
+        </tr>
+        <tr class="free-row">
+          <td class="rank-num">#3</td>
+          <td class="game-name">
+            <a href="https://store.steampowered.com/app/2767030" target="_blank">Marvel Rivals</a>
+          </td>
+          <td><span class="badge free">FREE</span></td>
+          <td></td>
+        </tr>
+        <tr class="disc-row">
+          <td class="rank-num">#7</td>
+          <td class="game-name">
+            <a href="https://store.steampowered.com/app/1091500" target="_blank">Cyberpunk 2077</a>
+          </td>
+          <td><span class="price-orig">BRL 179.99</span> <span class="price-final">BRL 53.99</span></td>
+          <td><span class="badge disc" style="background:#ff8800">-70%</span></td>
+        </tr></tbody>
+        </table>
+      </div>
+    </div>
+
+    <div class="country-card">
+      <div class="country-header">
+        <span class="country-name">🇦🇺 호주</span>
+        <span class="rank-badge rank-mid">붉은사막 15위</span>
+        <span class="rival-count">3개 경쟁</span>
+      </div>
+      
+      <div class="rivals-wrap">
+        <table class="rivals-table">
+          <thead><tr>
+            <th>순위</th><th>게임</th><th>가격</th><th>할인</th>
+          </tr></thead>
+          <tbody>
+        <tr class="free-row">
+          <td class="rank-num">#2</td>
+          <td class="game-name">
+            <a href="https://store.steampowered.com/app/2767030" target="_blank">Marvel Rivals</a>
+          </td>
+          <td><span class="badge free">FREE</span></td>
+          <td></td>
+        </tr>
+        <tr class="disc-row">
+          <td class="rank-num">#6</td>
+          <td class="game-name">
+            <a href="https://store.steampowered.com/app/1245620" target="_blank">Elden Ring</a>
+          </td>
+          <td><span class="price-orig">AUD 89.95</span> <span class="price-final">AUD 44.97</span></td>
+          <td><span class="badge disc" style="background:#ff8800">-50%</span></td>
+        </tr>
+        <tr class="disc-row">
+          <td class="rank-num">#11</td>
+          <td class="game-name">
+            <a href="https://store.steampowered.com/app/1091500" target="_blank">Cyberpunk 2077</a>
+          </td>
+          <td><span class="price-orig">AUD 89.95</span> <span class="price-final">AUD 26.98</span></td>
+          <td><span class="badge disc" style="background:#ff8800">-70%</span></td>
+        </tr></tbody>
+        </table>
+      </div>
+    </div>
+
+    <div class="country-card">
+      <div class="country-header">
+        <span class="country-name">🇫🇷 프랑스</span>
+        <span class="rank-badge rank-mid">붉은사막 11위</span>
+        <span class="rival-count">4개 경쟁</span>
+      </div>
+      
+      <div class="rivals-wrap">
+        <table class="rivals-table">
+          <thead><tr>
+            <th>순위</th><th>게임</th><th>가격</th><th>할인</th>
+          </tr></thead>
+          <tbody>
+        <tr class="free-row">
+          <td class="rank-num">#1</td>
+          <td class="game-name">
+            <a href="https://store.steampowered.com/app/730" target="_blank">Counter-Strike 2</a>
+          </td>
+          <td><span class="badge free">FREE</span></td>
+          <td></td>
+        </tr>
+        <tr class="free-row">
+          <td class="rank-num">#4</td>
+          <td class="game-name">
+            <a href="https://store.steampowered.com/app/2767030" target="_blank">Marvel Rivals</a>
+          </td>
+          <td><span class="badge free">FREE</span></td>
+          <td></td>
+        </tr>
+        <tr class="disc-row">
+          <td class="rank-num">#7</td>
+          <td class="game-name">
+            <a href="https://store.steampowered.com/app/1091500" target="_blank">Cyberpunk 2077</a>
+          </td>
+          <td><span class="price-orig">EUR 59.99</span> <span class="price-final">EUR 17.99</span></td>
+          <td><span class="badge disc" style="background:#ff8800">-70%</span></td>
+        </tr>
+        <tr class="disc-row">
+          <td class="rank-num">#9</td>
+          <td class="game-name">
+            <a href="https://store.steampowered.com/app/292030" target="_blank">The Witcher 3</a>
+          </td>
+          <td><span class="price-orig">EUR 39.99</span> <span class="price-final">EUR 9.99</span></td>
+          <td><span class="badge disc" style="background:#ff4444">-75%</span></td>
+        </tr></tbody>
+        </table>
+      </div>
+    </div>
+
+    <div class="country-card">
+      <div class="country-header">
+        <span class="country-name">🇨🇦 캐나다</span>
+        <span class="rank-badge rank-top">붉은사막 8위</span>
+        <span class="rival-count">3개 경쟁</span>
+      </div>
+      
+      <div class="rivals-wrap">
+        <table class="rivals-table">
+          <thead><tr>
+            <th>순위</th><th>게임</th><th>가격</th><th>할인</th>
+          </tr></thead>
+          <tbody>
+        <tr class="free-row">
+          <td class="rank-num">#1</td>
+          <td class="game-name">
+            <a href="https://store.steampowered.com/app/2767030" target="_blank">Marvel Rivals</a>
+          </td>
+          <td><span class="badge free">FREE</span></td>
+          <td></td>
+        </tr>
+        <tr class="disc-row">
+          <td class="rank-num">#3</td>
+          <td class="game-name">
+            <a href="https://store.steampowered.com/app/1245620" target="_blank">Elden Ring</a>
+          </td>
+          <td><span class="price-orig">CAD 79.99</span> <span class="price-final">CAD 39.99</span></td>
+          <td><span class="badge disc" style="background:#ff8800">-50%</span></td>
+        </tr>
+        <tr class="free-row">
+          <td class="rank-num">#5</td>
+          <td class="game-name">
+            <a href="https://store.steampowered.com/app/730" target="_blank">Counter-Strike 2</a>
+          </td>
+          <td><span class="badge free">FREE</span></td>
+          <td></td>
+        </tr></tbody>
+        </table>
+      </div>
+    </div>
+
+    <div class="country-card">
+      <div class="country-header">
+        <span class="country-name">🇸🇬 싱가포르</span>
+        <span class="rank-badge rank-top">붉은사막 6위</span>
+        <span class="rival-count">4개 경쟁</span>
+      </div>
+      
+      <div class="rivals-wrap">
+        <table class="rivals-table">
+          <thead><tr>
+            <th>순위</th><th>게임</th><th>가격</th><th>할인</th>
+          </tr></thead>
+          <tbody>
+        <tr class="free-row">
+          <td class="rank-num">#1</td>
+          <td class="game-name">
+            <a href="https://store.steampowered.com/app/2767030" target="_blank">Marvel Rivals</a>
+          </td>
+          <td><span class="badge free">FREE</span></td>
+          <td></td>
+        </tr>
+        <tr class="free-row">
+          <td class="rank-num">#2</td>
+          <td class="game-name">
+            <a href="https://store.steampowered.com/app/1172470" target="_blank">Apex Legends</a>
+          </td>
+          <td><span class="badge free">FREE</span></td>
+          <td></td>
+        </tr>
+        <tr class="disc-row">
+          <td class="rank-num">#4</td>
+          <td class="game-name">
+            <a href="https://store.steampowered.com/app/1245620" target="_blank">Elden Ring</a>
+          </td>
+          <td><span class="price-orig">SGD 69.99</span> <span class="price-final">SGD 34.99</span></td>
+          <td><span class="badge disc" style="background:#ff8800">-50%</span></td>
+        </tr>
+        <tr class="free-row">
+          <td class="rank-num">#5</td>
+          <td class="game-name">
+            <a href="https://store.steampowered.com/app/730" target="_blank">Counter-Strike 2</a>
+          </td>
+          <td><span class="badge free">FREE</span></td>
+          <td></td>
+        </tr></tbody>
+        </table>
+      </div>
+    </div>
+
+    <div class="country-card">
+      <div class="country-header">
+        <span class="country-name">🇹🇼 대만</span>
+        <span class="rank-badge rank-top">붉은사막 3위</span>
+        <span class="rival-count">2개 경쟁</span>
+      </div>
+      
+      <div class="rivals-wrap">
+        <table class="rivals-table">
+          <thead><tr>
+            <th>순위</th><th>게임</th><th>가격</th><th>할인</th>
+          </tr></thead>
+          <tbody>
+        <tr class="free-row">
+          <td class="rank-num">#1</td>
+          <td class="game-name">
+            <a href="https://store.steampowered.com/app/2767030" target="_blank">Marvel Rivals</a>
+          </td>
+          <td><span class="badge free">FREE</span></td>
+          <td></td>
+        </tr>
+        <tr class="free-row">
+          <td class="rank-num">#2</td>
+          <td class="game-name">
+            <a href="https://store.steampowered.com/app/1172470" target="_blank">Apex Legends</a>
+          </td>
+          <td><span class="badge free">FREE</span></td>
+          <td></td>
+        </tr></tbody>
+        </table>
+      </div>
+    </div>
+
+        <div class="country-card charted-no">
+          <div class="country-header">
+            <span class="country-name">🇲🇽 멕시코</span>
+            <span class="rank-badge none">순위권 밖</span>
+          </div>
+        </div>
+
+    <div class="country-card">
+      <div class="country-header">
+        <span class="country-name">🇵🇱 폴란드</span>
+        <span class="rank-badge rank-mid">붉은사막 14위</span>
+        <span class="rival-count">4개 경쟁</span>
+      </div>
+      
+      <div class="rivals-wrap">
+        <table class="rivals-table">
+          <thead><tr>
+            <th>순위</th><th>게임</th><th>가격</th><th>할인</th>
+          </tr></thead>
+          <tbody>
+        <tr class="free-row">
+          <td class="rank-num">#1</td>
+          <td class="game-name">
+            <a href="https://store.steampowered.com/app/730" target="_blank">Counter-Strike 2</a>
+          </td>
+          <td><span class="badge free">FREE</span></td>
+          <td></td>
+        </tr>
+        <tr class="disc-row">
+          <td class="rank-num">#5</td>
+          <td class="game-name">
+            <a href="https://store.steampowered.com/app/292030" target="_blank">The Witcher 3</a>
+          </td>
+          <td><span class="price-orig">PLN 159.99</span> <span class="price-final">PLN 39.99</span></td>
+          <td><span class="badge disc" style="background:#ff4444">-75%</span></td>
+        </tr>
+        <tr class="disc-row">
+          <td class="rank-num">#8</td>
+          <td class="game-name">
+            <a href="https://store.steampowered.com/app/1091500" target="_blank">Cyberpunk 2077</a>
+          </td>
+          <td><span class="price-orig">PLN 239.99</span> <span class="price-final">PLN 71.99</span></td>
+          <td><span class="badge disc" style="background:#ff8800">-70%</span></td>
+        </tr>
+        <tr class="free-row">
+          <td class="rank-num">#12</td>
+          <td class="game-name">
+            <a href="https://store.steampowered.com/app/2767030" target="_blank">Marvel Rivals</a>
+          </td>
+          <td><span class="badge free">FREE</span></td>
+          <td></td>
+        </tr></tbody>
+        </table>
+      </div>
+    </div>
+
+        <div class="country-card charted-no">
+          <div class="country-header">
+            <span class="country-name">🇹🇷 터키</span>
+            <span class="rank-badge none">순위권 밖</span>
+          </div>
+        </div>
+
+        <div class="country-card charted-no">
+          <div class="country-header">
+            <span class="country-name">🇦🇷 아르헨티나</span>
+            <span class="rank-badge none">순위권 밖</span>
+          </div>
+        </div>
+
+        <div class="country-card charted-no">
+          <div class="country-header">
+            <span class="country-name">🇮🇳 인도</span>
+            <span class="rank-badge none">순위권 밖</span>
+          </div>
+        </div>
+
+    <div class="country-card">
+      <div class="country-header">
+        <span class="country-name">🇮🇩 인도네시아</span>
+        <span class="rank-badge rank-mid">붉은사막 19위</span>
+        <span class="rival-count">3개 경쟁</span>
+      </div>
+      
+      <div class="rivals-wrap">
+        <table class="rivals-table">
+          <thead><tr>
+            <th>순위</th><th>게임</th><th>가격</th><th>할인</th>
+          </tr></thead>
+          <tbody>
+        <tr class="free-row">
+          <td class="rank-num">#1</td>
+          <td class="game-name">
+            <a href="https://store.steampowered.com/app/730" target="_blank">Counter-Strike 2</a>
+          </td>
+          <td><span class="badge free">FREE</span></td>
+          <td></td>
+        </tr>
+        <tr class="free-row">
+          <td class="rank-num">#3</td>
+          <td class="game-name">
+            <a href="https://store.steampowered.com/app/2767030" target="_blank">Marvel Rivals</a>
+          </td>
+          <td><span class="badge free">FREE</span></td>
+          <td></td>
+        </tr>
+        <tr class="disc-row">
+          <td class="rank-num">#9</td>
+          <td class="game-name">
+            <a href="https://store.steampowered.com/app/1245620" target="_blank">Elden Ring</a>
+          </td>
+          <td><span class="price-orig">IDR 499000</span> <span class="price-final">IDR 249500</span></td>
+          <td><span class="badge disc" style="background:#ff8800">-50%</span></td>
+        </tr></tbody>
+        </table>
+      </div>
+    </div>
+
+    <div class="country-card">
+      <div class="country-header">
+        <span class="country-name">🇹🇭 태국</span>
+        <span class="rank-badge rank-top">붉은사막 10위</span>
+        <span class="rival-count">5개 경쟁</span>
+      </div>
+      
+      <div class="rivals-wrap">
+        <table class="rivals-table">
+          <thead><tr>
+            <th>순위</th><th>게임</th><th>가격</th><th>할인</th>
+          </tr></thead>
+          <tbody>
+        <tr class="free-row">
+          <td class="rank-num">#1</td>
+          <td class="game-name">
+            <a href="https://store.steampowered.com/app/2767030" target="_blank">Marvel Rivals</a>
+          </td>
+          <td><span class="badge free">FREE</span></td>
+          <td></td>
+        </tr>
+        <tr class="free-row">
+          <td class="rank-num">#2</td>
+          <td class="game-name">
+            <a href="https://store.steampowered.com/app/730" target="_blank">Counter-Strike 2</a>
+          </td>
+          <td><span class="badge free">FREE</span></td>
+          <td></td>
+        </tr>
+        <tr class="disc-row">
+          <td class="rank-num">#5</td>
+          <td class="game-name">
+            <a href="https://store.steampowered.com/app/1245620" target="_blank">Elden Ring</a>
+          </td>
+          <td><span class="price-orig">THB 1599</span> <span class="price-final">THB 799.5</span></td>
+          <td><span class="badge disc" style="background:#ff8800">-50%</span></td>
+        </tr>
+        <tr class="free-row">
+          <td class="rank-num">#7</td>
+          <td class="game-name">
+            <a href="https://store.steampowered.com/app/1172470" target="_blank">Apex Legends</a>
+          </td>
+          <td><span class="badge free">FREE</span></td>
+          <td></td>
+        </tr>
+        <tr class="disc-row">
+          <td class="rank-num">#9</td>
+          <td class="game-name">
+            <a href="https://store.steampowered.com/app/1091500" target="_blank">Cyberpunk 2077</a>
+          </td>
+          <td><span class="price-orig">THB 1799</span> <span class="price-final">THB 539.7</span></td>
+          <td><span class="badge disc" style="background:#ff8800">-70%</span></td>
+        </tr></tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</div>
+
+<footer>
+  Steam Top Sellers API 기반 · Crimson Desert App ID: 1143720 · 데이터는 Steam 정책상 지연될 수 있음
+</footer>
+
+</body>
+</html>
