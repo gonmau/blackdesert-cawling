@@ -29,7 +29,6 @@ def get_history():
     return {}
 
 def extract_appid_from_logo(logo_url):
-    """logo URL에서 app_id 추출: .../apps/730/... -> '730'"""
     m = re.search(r"/apps/(\d+)/", logo_url or "")
     return m.group(1) if m else ""
 
@@ -56,7 +55,7 @@ def fetch_topsellers(cc, start=0, count=100):
     return None
 
 def get_price_info(appid, cc):
-    """Steam appdetails API로 가격/무료/할인 정보 조회"""
+    """가격/무료/할인 정보 조회 — F2P 포함"""
     try:
         url = f"https://store.steampowered.com/api/appdetails?appids={appid}&cc={cc}&filters=price_overview,basic_info"
         res = requests.get(url, headers=HEADERS, timeout=10)
@@ -65,9 +64,17 @@ def get_price_info(appid, cc):
         if not data.get("success"):
             return {"is_free": False, "is_discounted": False, "discount_pct": 0}
         app_data = data.get("data", {})
+
+        # F2P 감지: is_free=true 이거나 price_overview 자체가 없으면 무료
         is_free = app_data.get("is_free", False)
-        price = app_data.get("price_overview", {})
-        discount_pct = price.get("discount_percent", 0)
+        price = app_data.get("price_overview")
+        if price is None and not is_free:
+            # price_overview 없는데 is_free도 false → 앱 유형에 따라 무료일 수 있음
+            # type이 'game'인데 price 없으면 F2P로 간주
+            if app_data.get("type") == "game":
+                is_free = True
+
+        discount_pct = price.get("discount_percent", 0) if price else 0
         return {
             "is_free": is_free,
             "is_discounted": discount_pct > 0 and not is_free,
@@ -83,7 +90,8 @@ def analyze_country(cc, name, history, idx, total):
     crimson_rank = None
     crimson_rank_diff = 0
 
-    for start in [0, 100]:
+    # 최대 300개까지 탐색 (start=0, 100, 200)
+    for start in [0, 100, 200]:
         data = fetch_topsellers(cc, start=start, count=100)
         if not data:
             print(f"    ❌ 응답 없음 (start={start})")
@@ -97,14 +105,13 @@ def analyze_country(cc, name, history, idx, total):
             logo = item.get("logo", "")
             appid = extract_appid_from_logo(logo)
             name_game = item.get("name", "Unknown")
-
             current_rank = len(all_items) + 1
             prev_rank = history.get(cc, {}).get(appid, current_rank)
 
             all_items.append({
                 "app_id": appid,
                 "name": name_game,
-                "is_free": False,       # 나중에 채움
+                "is_free": False,
                 "is_discounted": False,
                 "discount_pct": 0,
                 "rank": current_rank,
@@ -121,24 +128,28 @@ def analyze_country(cc, name, history, idx, total):
 
         time.sleep(REQUEST_DELAY)
 
-    # 붉은사막 앞 순위 게임들만 가격 조회 (API 호출 최소화)
+    # 붉은사막 못 찾으면 rivals 없음 — 엉뚱한 게임 넣지 않음
+    if crimson_rank is None:
+        print(f"         ⚠️  300위 밖 (붉은사막 미발견)")
+        return (
+            {"crimson_desert_rank": None, "rank_diff": 0, "rivals": []},
+            {i["app_id"]: i["rank"] for i in all_items},
+        )
+
+    # 붉은사막 앞 순위만 가격 조회
     rivals = []
-    limit = crimson_rank or len(all_items)
-    for item in all_items[:limit]:
+    for item in all_items[:crimson_rank - 1]:
         if not item["app_id"]:
             continue
         price = get_price_info(item["app_id"], cc)
         item.update(price)
         if item["is_free"] or item["is_discounted"]:
             rivals.append(item)
-        time.sleep(0.3)  # 가격 API 딜레이
+        time.sleep(0.3)
 
-    if crimson_rank:
-        diff_str = (f" (▲{crimson_rank_diff})" if crimson_rank_diff > 0
-                    else f" (▼{abs(crimson_rank_diff)})" if crimson_rank_diff < 0 else "")
-        print(f"         ✅ {crimson_rank}위{diff_str}, 경쟁작 {len(rivals)}개")
-    else:
-        print(f"         ⚠️  150위 밖")
+    diff_str = (f" (▲{crimson_rank_diff})" if crimson_rank_diff > 0
+                else f" (▼{abs(crimson_rank_diff)})" if crimson_rank_diff < 0 else "")
+    print(f"         ✅ {crimson_rank}위{diff_str}, 경쟁작 {len(rivals)}개")
 
     return (
         {"crimson_desert_rank": crimson_rank, "rank_diff": crimson_rank_diff, "rivals": rivals},
