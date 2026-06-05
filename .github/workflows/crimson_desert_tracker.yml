@@ -31,6 +31,7 @@ jobs:
 
       - name: 의존성 설치
         run: pip install requests
+        run: pip install requests beautifulsoup4
 
       - name: "[디버그] item 구조 덤프"
         if: github.event.inputs.debug == 'yes'
