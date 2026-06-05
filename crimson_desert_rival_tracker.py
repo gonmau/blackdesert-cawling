@@ -55,29 +55,28 @@ def fetch_topsellers(cc, start=0, count=100):
     return None
 
 def get_price_info(appid, cc):
-    """가격/무료/할인 정보 조회 — F2P 포함"""
+    """가격/무료/할인 정보 조회"""
     try:
-        url = f"https://store.steampowered.com/api/appdetails?appids={appid}&cc={cc}&filters=price_overview,basic_info"
+        url = f"https://store.steampowered.com/api/appdetails?appids={appid}&cc={cc}"
         res = requests.get(url, headers=HEADERS, timeout=10)
         res.raise_for_status()
         data = res.json().get(str(appid), {})
         if not data.get("success"):
             return {"is_free": False, "is_discounted": False, "discount_pct": 0}
+
         app_data = data.get("data", {})
 
-        # F2P 감지: is_free=true 이거나 price_overview 자체가 없으면 무료
-        is_free = app_data.get("is_free", False)
-        price = app_data.get("price_overview")
-        if price is None and not is_free:
-            # price_overview 없는데 is_free도 false → 앱 유형에 따라 무료일 수 있음
-            # type이 'game'인데 price 없으면 F2P로 간주
-            if app_data.get("type") == "game":
-                is_free = True
+        # is_free 필드만 신뢰 — True면 F2P
+        is_free = bool(app_data.get("is_free", False))
 
-        discount_pct = price.get("discount_percent", 0) if price else 0
+        # 할인: price_overview 있고 discount_percent > 0
+        price = app_data.get("price_overview") or {}
+        discount_pct = price.get("discount_percent", 0)
+        is_discounted = discount_pct > 0 and not is_free
+
         return {
             "is_free": is_free,
-            "is_discounted": discount_pct > 0 and not is_free,
+            "is_discounted": is_discounted,
             "discount_pct": discount_pct,
         }
     except:
@@ -90,7 +89,6 @@ def analyze_country(cc, name, history, idx, total):
     crimson_rank = None
     crimson_rank_diff = 0
 
-    # 최대 300개까지 탐색 (start=0, 100, 200)
     for start in [0, 100, 200]:
         data = fetch_topsellers(cc, start=start, count=100)
         if not data:
@@ -128,7 +126,7 @@ def analyze_country(cc, name, history, idx, total):
 
         time.sleep(REQUEST_DELAY)
 
-    # 붉은사막 못 찾으면 rivals 없음 — 엉뚱한 게임 넣지 않음
+    # 붉은사막 못 찾으면 종료
     if crimson_rank is None:
         print(f"         ⚠️  300위 밖 (붉은사막 미발견)")
         return (
@@ -136,7 +134,7 @@ def analyze_country(cc, name, history, idx, total):
             {i["app_id"]: i["rank"] for i in all_items},
         )
 
-    # 붉은사막 앞 순위만 가격 조회
+    # 붉은사막 앞 순위 게임만 가격 조회
     rivals = []
     for item in all_items[:crimson_rank - 1]:
         if not item["app_id"]:
