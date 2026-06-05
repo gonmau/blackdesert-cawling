@@ -32,20 +32,10 @@ jobs:
       - name: 의존성 설치
         run: pip install requests
 
-      - name: "[디버그] JSON API 응답 구조 확인"
-        run: |
-          python -c "
-import requests, json
-url = 'https://store.steampowered.com/search/results/?query&start=0&count=10&filter=topsellers&cc=us&json=1'
-headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'}
-res = requests.get(url, headers=headers)
-print('status:', res.status_code)
-data = res.json()
-print('keys:', list(data.keys()))
-print(json.dumps(data, indent=2, ensure_ascii=False)[:3000])
-"
+      - name: JSON API 응답 구조 확인
+        run: python -u debug_api.py
 
-      - name: "[디버그] item 구조 덤프"
+      - name: 디버그 item 구조 덤프
         if: github.event.inputs.debug == 'yes'
         run: python -u debug_item_structure.py
 
