@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-import json, time, requests, sys
+import json, time, requests, sys, re
 from pathlib import Path
 from datetime import datetime, timezone, timedelta
 
@@ -28,6 +28,11 @@ def get_history():
             return json.load(f)
     return {}
 
+def extract_appid_from_logo(logo_url):
+    """logo URL에서 app_id 추출: .../apps/730/... -> '730'"""
+    m = re.search(r"/apps/(\d+)/", logo_url or "")
+    return m.group(1) if m else ""
+
 def fetch_topsellers(cc, start=0, count=100):
     url = (
         f"https://store.steampowered.com/search/results/"
@@ -50,52 +55,26 @@ def fetch_topsellers(cc, start=0, count=100):
             wait *= 2
     return None
 
-def parse_item(item, rank, cc, history):
-    """응답 item에서 필요한 정보 추출 — 필드명 유연하게 처리"""
-    # app_id
-    appid = str(
-        item.get("app_id") or
-        item.get("appid") or
-        item.get("id") or
-        item.get("data-ds-appid") or ""
-    )
-
-    # 게임명
-    name_game = (
-        item.get("name") or
-        item.get("title") or
-        item.get("app_name") or
-        "Unknown"
-    )
-
-    # 무료 여부
-    is_free = bool(
-        item.get("is_free_game") or
-        item.get("is_free") or
-        (item.get("price") == 0) or
-        (isinstance(item.get("price"), dict) and item["price"].get("original", 1) == 0)
-    )
-
-    # 할인 여부
-    discount_pct = 0
-    price = item.get("price") or {}
-    if isinstance(price, dict):
-        discount_pct = price.get("discount_pct", 0) or price.get("discount", 0) or 0
-    elif item.get("discount_pct"):
-        discount_pct = item.get("discount_pct", 0)
-    is_discounted = discount_pct > 0 and not is_free
-
-    prev_rank = history.get(cc, {}).get(appid, rank)
-
-    return {
-        "app_id": appid,
-        "name": name_game,
-        "is_free": is_free,
-        "is_discounted": is_discounted,
-        "discount_pct": discount_pct,
-        "rank": rank,
-        "rank_diff": prev_rank - rank,
-    }
+def get_price_info(appid, cc):
+    """Steam appdetails API로 가격/무료/할인 정보 조회"""
+    try:
+        url = f"https://store.steampowered.com/api/appdetails?appids={appid}&cc={cc}&filters=price_overview,basic_info"
+        res = requests.get(url, headers=HEADERS, timeout=10)
+        res.raise_for_status()
+        data = res.json().get(str(appid), {})
+        if not data.get("success"):
+            return {"is_free": False, "is_discounted": False, "discount_pct": 0}
+        app_data = data.get("data", {})
+        is_free = app_data.get("is_free", False)
+        price = app_data.get("price_overview", {})
+        discount_pct = price.get("discount_percent", 0)
+        return {
+            "is_free": is_free,
+            "is_discounted": discount_pct > 0 and not is_free,
+            "discount_pct": discount_pct,
+        }
+    except:
+        return {"is_free": False, "is_discounted": False, "discount_pct": 0}
 
 def analyze_country(cc, name, history, idx, total):
     print(f"[{idx:02d}/{total}] 🔍 {name} ({cc})")
@@ -110,26 +89,31 @@ def analyze_country(cc, name, history, idx, total):
             print(f"    ❌ 응답 없음 (start={start})")
             break
 
-        # items 키 유연하게 탐색
-        items = (
-            data.get("items") or
-            data.get("results") or
-            data.get("games") or
-            []
-        )
-
+        items = data.get("items", [])
         if not items:
-            print(f"    ⚠️  items 없음 — 응답 키: {list(data.keys())}")
             break
 
         for item in items:
-            current_rank = len(all_items) + 1
-            parsed = parse_item(item, current_rank, cc, history)
-            all_items.append(parsed)
+            logo = item.get("logo", "")
+            appid = extract_appid_from_logo(logo)
+            name_game = item.get("name", "Unknown")
 
-            if parsed["app_id"] == CRIMSON_DESERT_APPID:
+            current_rank = len(all_items) + 1
+            prev_rank = history.get(cc, {}).get(appid, current_rank)
+
+            all_items.append({
+                "app_id": appid,
+                "name": name_game,
+                "is_free": False,       # 나중에 채움
+                "is_discounted": False,
+                "discount_pct": 0,
+                "rank": current_rank,
+                "rank_diff": prev_rank - current_rank,
+            })
+
+            if appid == CRIMSON_DESERT_APPID:
                 crimson_rank = current_rank
-                crimson_rank_diff = parsed["rank_diff"]
+                crimson_rank_diff = prev_rank - current_rank
                 break
 
         if crimson_rank:
@@ -137,11 +121,17 @@ def analyze_country(cc, name, history, idx, total):
 
         time.sleep(REQUEST_DELAY)
 
-    rivals = [
-        i for i in all_items
-        if i["rank"] < (crimson_rank or 9999)
-        and (i["is_free"] or i["is_discounted"])
-    ]
+    # 붉은사막 앞 순위 게임들만 가격 조회 (API 호출 최소화)
+    rivals = []
+    limit = crimson_rank or len(all_items)
+    for item in all_items[:limit]:
+        if not item["app_id"]:
+            continue
+        price = get_price_info(item["app_id"], cc)
+        item.update(price)
+        if item["is_free"] or item["is_discounted"]:
+            rivals.append(item)
+        time.sleep(0.3)  # 가격 API 딜레이
 
     if crimson_rank:
         diff_str = (f" (▲{crimson_rank_diff})" if crimson_rank_diff > 0
