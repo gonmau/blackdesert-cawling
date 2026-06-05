@@ -36,11 +36,11 @@ jobs:
         run: python -u debug_api.py
 
       - name: 디버그 item 구조 덤프
-        if: github.event.inputs.debug == 'yes'
+        if: ${{ github.event.inputs.debug == 'yes' }}
         run: python -u debug_item_structure.py
 
       - name: 트래커 실행
-        if: github.event.inputs.debug != 'yes'
+        if: ${{ github.event.inputs.debug != 'yes' }}
         run: |
           if [ -n "${{ github.event.inputs.countries }}" ]; then
             python -u crimson_desert_rival_tracker.py ${{ github.event.inputs.countries }}
@@ -49,7 +49,7 @@ jobs:
           fi
 
       - name: 히스토리 아카이브
-        if: github.event.inputs.debug != 'yes'
+        if: ${{ github.event.inputs.debug != 'yes' }}
         run: |
           mkdir -p data/history
           TIMESTAMP=$(date -u +"%Y%m%d_%H%M%S")
@@ -57,7 +57,7 @@ jobs:
           ls -t data/history/rivals_*.json | tail -n +101 | xargs -r rm
 
       - name: 대시보드 생성
-        if: github.event.inputs.debug != 'yes'
+        if: ${{ github.event.inputs.debug != 'yes' }}
         run: python -u generate_dashboard.py
 
       - name: 변경사항 커밋 & 푸시
