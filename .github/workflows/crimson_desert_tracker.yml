@@ -39,6 +39,9 @@ jobs:
         if: ${{ github.event.inputs.debug == 'yes' }}
         run: python -u debug_item_structure.py
 
+      - name: 가격 API 구조 확인
+        run: python -u debug_price.py
+        
       - name: 트래커 실행
         if: ${{ github.event.inputs.debug != 'yes' }}
         run: |
@@ -47,7 +50,7 @@ jobs:
           else
             python -u crimson_desert_rival_tracker.py
           fi
-
+     
       - name: 히스토리 아카이브
         if: ${{ github.event.inputs.debug != 'yes' }}
         run: |
