@@ -1,512 +1,367 @@
 <!DOCTYPE html>
-<html lang="ko">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>붉은사막 Steam 경쟁 트래커</title>
-<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Noto+Sans+KR:wght@400;600;700&display=swap" rel="stylesheet">
-<style>
-  :root {
-    --bg: #0a0c10;
-    --surface: #111520;
-    --border: #1e2535;
-    --accent: #c84b31;
-    --accent2: #e8a020;
-    --text: #dce4f0;
-    --muted: #6a7a90;
-    --free: #22bb88;
-    --disc: #e8a020;
-    --top: #c84b31;
-    --mid: #e8a020;
-    --low: #4488cc;
-  }
-  * { box-sizing: border-box; margin: 0; padding: 0; }
-  body {
-    background: var(--bg);
-    color: var(--text);
-    font-family: 'Noto Sans KR', sans-serif;
-    min-height: 100vh;
-  }
-
-  /* ── 헤더 ── */
-  header {
-    background: linear-gradient(135deg, #0d0f18 0%, #1a0a08 100%);
-    border-bottom: 1px solid var(--border);
-    padding: 28px 32px 24px;
-    position: relative;
-    overflow: hidden;
-  }
-  header::before {
-    content: '';
-    position: absolute; inset: 0;
-    background: radial-gradient(ellipse 60% 80% at 80% 50%, rgba(200,75,49,.12) 0%, transparent 70%);
-  }
-  .header-inner { position: relative; max-width: 1400px; margin: 0 auto; }
-  .site-title {
-    font-family: 'Bebas Neue', sans-serif;
-    font-size: 2.4rem;
-    letter-spacing: .05em;
-    color: #fff;
-    display: flex;
-    align-items: center;
-    gap: 12px;
-  }
-  .site-title span { color: var(--accent); }
-  .subtitle {
-    color: var(--muted);
-    font-size: .85rem;
-    margin-top: 4px;
-  }
-  .updated { 
-    position: absolute; right: 0; top: 4px;
-    font-size: .75rem; color: var(--muted);
-    background: rgba(255,255,255,.04);
-    border: 1px solid var(--border);
-    padding: 4px 10px; border-radius: 4px;
-  }
-
-  /* ── 통계 바 ── */
-  .stats-bar {
-    background: var(--surface);
-    border-bottom: 1px solid var(--border);
-    padding: 16px 32px;
-  }
-  .stats-inner {
-    max-width: 1400px; margin: 0 auto;
-    display: flex; gap: 32px; flex-wrap: wrap;
-  }
-  .stat-item {
-    display: flex; flex-direction: column; gap: 2px;
-  }
-  .stat-label { font-size: .72rem; color: var(--muted); text-transform: uppercase; letter-spacing: .06em; }
-  .stat-value { font-size: 1.3rem; font-weight: 700; color: var(--accent2); }
-
-  /* ── 메인 그리드 ── */
-  .main { max-width: 1400px; margin: 0 auto; padding: 28px 32px; }
-  .grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
-    gap: 16px;
-  }
-
-  /* ── 국가 카드 ── */
-  .country-card {
-    background: var(--surface);
-    border: 1px solid var(--border);
-    border-radius: 8px;
-    overflow: hidden;
-    transition: border-color .2s;
-  }
-  .country-card:hover { border-color: rgba(200,75,49,.4); }
-  .country-card.charted-no {
-    opacity: .5;
-  }
-
-  .country-header {
-    padding: 12px 16px;
-    background: rgba(255,255,255,.03);
-    border-bottom: 1px solid var(--border);
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    flex-wrap: wrap;
-  }
-  .country-name { font-weight: 700; font-size: .95rem; flex: 1; }
-  .rank-badge {
-    font-size: .72rem; font-weight: 700;
-    padding: 3px 8px; border-radius: 4px;
-  }
-  .rank-badge.rank-top  { background: rgba(200,75,49,.2); color: var(--top); border: 1px solid rgba(200,75,49,.3); }
-  .rank-badge.rank-mid  { background: rgba(232,160,32,.15); color: var(--mid); border: 1px solid rgba(232,160,32,.25); }
-  .rank-badge.rank-low  { background: rgba(68,136,204,.15); color: var(--low); border: 1px solid rgba(68,136,204,.25); }
-  .rank-badge.none      { background: rgba(255,255,255,.05); color: var(--muted); border: 1px solid var(--border); }
-  .rival-count { font-size: .72rem; color: var(--muted); }
-
-  /* ── 테이블 ── */
-  .rivals-wrap { max-height: 300px; overflow-y: auto; }
-  .rivals-wrap::-webkit-scrollbar { width: 4px; }
-  .rivals-wrap::-webkit-scrollbar-track { background: transparent; }
-  .rivals-wrap::-webkit-scrollbar-thumb { background: var(--border); border-radius: 2px; }
-
-  .rivals-table {
-    width: 100%; border-collapse: collapse; font-size: .82rem;
-  }
-  .rivals-table thead tr {
-    background: rgba(255,255,255,.04);
-    position: sticky; top: 0; z-index: 1;
-  }
-  .rivals-table th {
-    padding: 6px 10px;
-    text-align: left;
-    font-size: .7rem;
-    color: var(--muted);
-    text-transform: uppercase;
-    letter-spacing: .04em;
-  }
-  .rivals-table td { padding: 7px 10px; border-bottom: 1px solid rgba(255,255,255,.04); }
-  .rivals-table tr:last-child td { border-bottom: none; }
-  .rivals-table tr.free-row { background: rgba(34,187,136,.04); }
-  .rivals-table tr.disc-row { background: rgba(232,160,32,.03); }
-  .rivals-table tr:hover td { background: rgba(255,255,255,.04); }
-
-  .rank-num { color: var(--muted); font-variant-numeric: tabular-nums; white-space: nowrap; }
-  .game-name a {
-    color: var(--text);
-    text-decoration: none;
-    display: -webkit-box;
-    -webkit-line-clamp: 1;
-    -webkit-box-orient: vertical;
-    overflow: hidden;
-  }
-  .game-name a:hover { color: var(--accent2); }
-
-  .badge {
-    display: inline-block;
-    padding: 2px 7px; border-radius: 3px;
-    font-size: .7rem; font-weight: 700; white-space: nowrap;
-  }
-  .badge.free { background: rgba(34,187,136,.2); color: var(--free); border: 1px solid rgba(34,187,136,.25); }
-  .badge.disc { color: #fff; }
-  .price-orig { color: var(--muted); text-decoration: line-through; font-size: .78rem; margin-right: 4px; }
-  .price-final { color: var(--accent2); font-weight: 600; }
-
-  .no-rival { padding: 14px 16px; color: var(--muted); font-size: .82rem; }
-
-  /* ── 범례 ── */
-  .legend {
-    display: flex; gap: 20px; flex-wrap: wrap;
-    padding: 12px 0 0;
-    font-size: .78rem; color: var(--muted);
-  }
-  .legend-item { display: flex; align-items: center; gap: 6px; }
-  .dot { width: 10px; height: 10px; border-radius: 50%; }
-
-  footer {
-    text-align: center;
-    padding: 28px;
-    color: var(--muted);
-    font-size: .78rem;
-    border-top: 1px solid var(--border);
-    margin-top: 16px;
-  }
-
-  @media (max-width: 600px) {
-    header { padding: 20px 16px; }
-    .main { padding: 16px; }
-    .stats-bar { padding: 12px 16px; }
-    .grid { grid-template-columns: 1fr; }
-    .site-title { font-size: 1.8rem; }
-  }
-</style>
+<html><head>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
 </head>
-<body>
-
-<header>
-  <div class="header-inner">
-    <div class="site-title">🗡️ <span>붉은사막</span>&nbsp;Steam 경쟁 트래커</div>
-    <div class="subtitle">각국 Top Sellers 기준 · 붉은사막보다 높은 순위의 무료/할인 게임 실시간 추적</div>
-    <div class="updated">🕐 2026-06-05T04:55:40.858613+09:00</div>
-  </div>
-</header>
-
-<div class="stats-bar">
-  <div class="stats-inner">
-    <div class="stat-item">
-      <span class="stat-label">순위권 국가</span>
-      <span class="stat-value">29개국</span>
+<body style="background:#0a0c10; color:#eee; font-family:sans-serif; padding:20px;">
+    <h1 style="text-align:center;">Steam Global Rival Tracker</h1>
+    <div style="text-align:center; margin-bottom:20px;">
+        <button onclick="saveDashboard()" style="padding:10px 20px; background:#c84b31; color:white; border:none; cursor:pointer; border-radius:5px;">📸 대시보드 전체 캡처 저장</button>
     </div>
-    <div class="stat-item">
-      <span class="stat-label">전체 경쟁 게임</span>
-      <span class="stat-value">0개</span>
+    <div id="capture-area" style="background:#0a0c10;">
+        <div style="background:#111520; padding:20px; border-radius:8px; margin:20px auto; max-width:900px; border:1px solid #222;">
+            <h3>경쟁작 순위 분포 (붉은사막: <span style="color:#c84b31;">■</span>)</h3>
+            
+        <div style="margin:12px 0;">
+            <div style="font-size:0.9rem; margin-bottom:5px;"><strong>한국</strong> <span style="font-size:0.75rem; color:#aaa;">(무료:2 / 할인:0)</span></div>
+            <div style="display:flex; flex-wrap:wrap; max-width:900px;"><div style="background:#222; border:1px solid #111; width:22px; height:22px;"></div><div title="2위: PUBG: BATTLEGROUNDS" style="background:#22bb88; border:1px solid #000; width:22px; height:22px; font-size:10px; text-align:center; line-height:22px; color:black; cursor:help;">2</div><div style="background:#222; border:1px solid #111; width:22px; height:22px;"></div><div style="background:#222; border:1px solid #111; width:22px; height:22px;"></div><div style="background:#222; border:1px solid #111; width:22px; height:22px;"></div><div style="background:#222; border:1px solid #111; width:22px; height:22px;"></div><div style="background:#222; border:1px solid #111; width:22px; height:22px;"></div><div style="background:#222; border:1px solid #111; width:22px; height:22px;"></div><div style="background:#222; border:1px solid #111; width:22px; height:22px;"></div><div style="background:#222; border:1px solid #111; width:22px; height:22px;"></div><div style="background:#222; border:1px solid #111; width:22px; height:22px;"></div><div style="background:#222; border:1px solid #111; width:22px; height:22px;"></div><div style="background:#222; border:1px solid #111; width:22px; height:22px;"></div><div style="background:#222; border:1px solid #111; width:22px; height:22px;"></div><div title="15위: Apex Legends™" style="background:#22bb88; border:1px solid #000; width:22px; height:22px; font-size:10px; text-align:center; line-height:22px; color:black; cursor:help;">15</div><div style="background:#222; border:1px solid #111; width:22px; height:22px;"></div><div style="background:#222; border:1px solid #111; width:22px; height:22px;"></div><div style="background:#222; border:1px solid #111; width:22px; height:22px;"></div><div style="background:#222; border:1px solid #111; width:22px; height:22px;"></div><div style="background:#222; border:1px solid #111; width:22px; height:22px;"></div><div title="붉은사막: 21위" style="background:#c84b31; color:white; border:1px solid #000; width:22px; height:22px; font-size:10px; text-align:center; line-height:22px; font-weight:bold;">21</div></div>
+        </div>
+        <div style="margin:12px 0;">
+            <div style="font-size:0.9rem; margin-bottom:5px;"><strong>덴마크</strong> <span style="font-size:0.75rem; color:#aaa;">(무료:1 / 할인:3)</span></div>
+            <div style="display:flex; flex-wrap:wrap; max-width:900px;"><div title="1위: Counter-Strike 2" style="background:#22bb88; border:1px solid #000; width:22px; height:22px; font-size:10px; text-align:center; line-height:22px; color:black; cursor:help;">1</div><div style="background:#222; border:1px solid #111; width:22px; height:22px;"></div><div style="background:#222; border:1px solid #111; width:22px; height:22px;"></div><div style="background:#222; border:1px solid #111; width:22px; height:22px;"></div><div style="background:#222; border:1px solid #111; width:22px; height:22px;"></div><div style="background:#222; border:1px solid #111; width:22px; height:22px;"></div><div style="background:#222; border:1px solid #111; width:22px; height:22px;"></div><div style="background:#222; border:1px solid #111; width:22px; height:22px;"></div><div style="background:#222; border:1px solid #111; width:22px; height:22px;"></div><div style="background:#222; border:1px solid #111; width:22px; height:22px;"></div><div style="background:#222; border:1px solid #111; width:22px; height:22px;"></div><div style="background:#222; border:1px solid #111; width:22px; height:22px;"></div><div style="background:#222; border:1px solid #111; width:22px; height:22px;"></div><div style="background:#222; border:1px solid #111; width:22px; height:22px;"></div><div style="background:#222; border:1px solid #111; width:22px; height:22px;"></div><div style="background:#222; border:1px solid #111; width:22px; height:22px;"></div><div style="background:#222; border:1px solid #111; width:22px; height:22px;"></div><div style="background:#222; border:1px solid #111; width:22px; height:22px;"></div><div title="19위: House Flipper Remastered Collection" style="background:#e8a020; border:1px solid #000; width:22px; height:22px; font-size:10px; text-align:center; line-height:22px; color:black; cursor:help;">19</div><div style="background:#222; border:1px solid #111; width:22px; height:22px;"></div><div title="21위: Resident Evil Requiem" style="background:#e8a020; border:1px solid #000; width:22px; height:22px; font-size:10px; text-align:center; line-height:22px; color:black; cursor:help;">21</div><div style="background:#222; border:1px solid #111; width:22px; height:22px;"></div><div style="background:#222; border:1px solid #111; width:22px; height:22px;"></div><div style="background:#222; border:1px solid #111; width:22px; height:22px;"></div><div style="background:#222; border:1px solid #111; width:22px; height:22px;"></div><div style="background:#222; border:1px solid #111; width:22px; height:22px;"></div><div style="background:#222; border:1px solid #111; width:22px; height:22px;"></div><div style="background:#222; border:1px solid #111; width:22px; height:22px;"></div><div style="background:#222; border:1px solid #111; width:22px; height:22px;"></div><div style="background:#222; border:1px solid #111; width:22px; height:22px;"></div><div title="31위: Grand Theft Auto V Enhanced" style="background:#e8a020; border:1px solid #000; width:22px; height:22px; font-size:10px; text-align:center; line-height:22px; color:black; cursor:help;">31</div><div style="background:#222; border:1px solid #111; width:22px; height:22px;"></div><div style="background:#222; border:1px solid #111; width:22px; height:22px;"></div><div style="background:#222; border:1px solid #111; width:22px; height:22px;"></div><div title="붉은사막: 35위" style="background:#c84b31; color:white; border:1px solid #000; width:22px; height:22px; font-size:10px; text-align:center; line-height:22px; font-weight:bold;">35</div></div>
+        </div>
+        <div style="margin:12px 0;">
+            <div style="font-size:0.9rem; margin-bottom:5px;"><strong>오스트리아</strong> <span style="font-size:0.75rem; color:#aaa;">(무료:5 / 할인:8)</span></div>
+            <div style="display:flex; flex-wrap:wrap; max-width:900px;"><div style="background:#222; border:1px solid #111; width:22px; height:22px;"></div><div style="background:#222; border:1px solid #111; width:22px; height:22px;"></div><div style="background:#222; border:1px solid #111; width:22px; height:22px;"></div><div style="background:#222; border:1px solid #111; width:22px; height:22px;"></div><div style="background:#222; border:1px solid #111; width:22px; height:22px;"></div><div style="background:#222; border:1px solid #111; width:22px; height:22px;"></div><div style="background:#222; border:1px solid #111; width:22px; height:22px;"></div><div title="8위: Fatekeeper" style="background:#e8a020; border:1px solid #000; width:22px; height:22px; font-size:10px; text-align:center; line-height:22px; color:black; cursor:help;">8</div><div style="background:#222; border:1px solid #111; width:22px; height:22px;"></div><div style="background:#222; border:1px solid #111; width:22px; height:22px;"></div><div style="background:#222; border:1px solid #111; width:22px; height:22px;"></div><div style="background:#222; border:1px solid #111; width:22px; height:22px;"></div><div style="background:#222; border:1px solid #111; width:22px; height:22px;"></div><div style="background:#222; border:1px solid #111; width:22px; height:22px;"></div><div style="background:#222; border:1px solid #111; width:22px; height:22px;"></div><div style="background:#222; border:1px solid #111; width:22px; height:22px;"></div><div title="17위: Tom Clancy's Rainbow Six Siege" style="background:#22bb88; border:1px solid #000; width:22px; height:22px; font-size:10px; text-align:center; line-height:22px; color:black; cursor:help;">17</div><div style="background:#222; border:1px solid #111; width:22px; height:22px;"></div><div style="background:#222; border:1px solid #111; width:22px; height:22px;"></div><div style="background:#222; border:1px solid #111; width:22px; height:22px;"></div><div title="21위: War Thunder" style="background:#22bb88; border:1px solid #000; width:22px; height:22px; font-size:10px; text-align:center; line-height:22px; color:black; cursor:help;">21</div><div style="background:#222; border:1px solid #111; width:22px; height:22px;"></div><div style="background:#222; border:1px solid #111; width:22px; height:22px;"></div><div style="background:#222; border:1px solid #111; width:22px; height:22px;"></div><div style="background:#222; border:1px solid #111; width:22px; height:22px;"></div><div style="background:#222; border:1px solid #111; width:22px; height:22px;"></div><div style="background:#222; border:1px solid #111; width:22px; height:22px;"></div><div style="background:#222; border:1px solid #111; width:22px; height:22px;"></div><div style="background:#222; border:1px solid #111; width:22px; height:22px;"></div><div style="background:#222; border:1px solid #111; width:22px; height:22px;"></div><div style="background:#222; border:1px solid #111; width:22px; height:22px;"></div><div style="background:#222; border:1px solid #111; width:22px; height:22px;"></div><div style="background:#222; border:1px solid #111; width:22px; height:22px;"></div><div style="background:#222; border:1px solid #111; width:22px; height:22px;"></div><div title="35위: Grand Theft Auto V Enhanced" style="background:#e8a020; border:1px solid #000; width:22px; height:22px; font-size:10px; text-align:center; line-height:22px; color:black; cursor:help;">35</div><div title="36위: Disney Dreamlight Valley" style="background:#e8a020; border:1px solid #000; width:22px; height:22px; font-size:10px; text-align:center; line-height:22px; color:black; cursor:help;">36</div><div title="37위: Monster Hunter Wilds" style="background:#e8a020; border:1px solid #000; width:22px; height:22px; font-size:10px; text-align:center; line-height:22px; color:black; cursor:help;">37</div><div title="38위: Satisfactory" style="background:#e8a020; border:1px solid #000; width:22px; height:22px; font-size:10px; text-align:center; line-height:22px; color:black; cursor:help;">38</div><div title="39위: Umamusume: Pretty Derby" style="background:#22bb88; border:1px solid #000; width:22px; height:22px; font-size:10px; text-align:center; line-height:22px; color:black; cursor:help;">39</div><div style="background:#222; border:1px solid #111; width:22px; height:22px;"></div><div title="41위: The Sims™ 4" style="background:#22bb88; border:1px solid #000; width:22px; height:22px; font-size:10px; text-align:center; line-height:22px; color:black; cursor:help;">41</div><div style="background:#222; border:1px solid #111; width:22px; height:22px;"></div><div style="background:#222; border:1px solid #111; width:22px; height:22px;"></div><div style="background:#222; border:1px solid #111; width:22px; height:22px;"></div><div style="background:#222; border:1px solid #111; width:22px; height:22px;"></div><div style="background:#222; border:1px solid #111; width:22px; height:22px;"></div><div style="background:#222; border:1px solid #111; width:22px; height:22px;"></div><div style="background:#222; border:1px solid #111; width:22px; height:22px;"></div><div title="49위: Backrooms: Escape Together" style="background:#e8a020; border:1px solid #000; width:22px; height:22px; font-size:10px; text-align:center; line-height:22px; color:black; cursor:help;">49</div><div title="50위: Car Dealer Simulator - Up 2 You DLC" style="background:#e8a020; border:1px solid #000; width:22px; height:22px; font-size:10px; text-align:center; line-height:22px; color:black; cursor:help;">50</div><div title="51위: GOALS" style="background:#22bb88; border:1px solid #000; width:22px; height:22px; font-size:10px; text-align:center; line-height:22px; color:black; cursor:help;">51</div><div style="background:#222; border:1px solid #111; width:22px; height:22px;"></div><div style="background:#222; border:1px solid #111; width:22px; height:22px;"></div><div title="54위: Cloudheim" style="background:#e8a020; border:1px solid #000; width:22px; height:22px; font-size:10px; text-align:center; line-height:22px; color:black; cursor:help;">54</div><div style="background:#222; border:1px solid #111; width:22px; height:22px;"></div><div title="붉은사막: 56위" style="background:#c84b31; color:white; border:1px solid #000; width:22px; height:22px; font-size:10px; text-align:center; line-height:22px; font-weight:bold;">56</div></div>
+        </div>
+        <div style="margin:12px 0;">
+            <div style="font-size:0.9rem; margin-bottom:5px;"><strong>스위스</strong> <span style="font-size:0.75rem; color:#aaa;">(무료:2 / 할인:1)</span></div>
+            <div style="display:flex; flex-wrap:wrap; max-width:900px;"><div title="1위: Counter-Strike 2" style="background:#22bb88; border:1px solid #000; width:22px; height:22px; font-size:10px; text-align:center; line-height:22px; color:black; cursor:help;">1</div><div style="background:#222; border:1px solid #111; width:22px; height:22px;"></div><div style="background:#222; border:1px solid #111; width:22px; height:22px;"></div><div style="background:#222; border:1px solid #111; width:22px; height:22px;"></div><div style="background:#222; border:1px solid #111; width:22px; height:22px;"></div><div style="background:#222; border:1px solid #111; width:22px; height:22px;"></div><div style="background:#222; border:1px solid #111; width:22px; height:22px;"></div><div style="background:#222; border:1px solid #111; width:22px; height:22px;"></div><div style="background:#222; border:1px solid #111; width:22px; height:22px;"></div><div style="background:#222; border:1px solid #111; width:22px; height:22px;"></div><div style="background:#222; border:1px solid #111; width:22px; height:22px;"></div><div style="background:#222; border:1px solid #111; width:22px; height:22px;"></div><div style="background:#222; border:1px solid #111; width:22px; height:22px;"></div><div style="background:#222; border:1px solid #111; width:22px; height:22px;"></div><div style="background:#222; border:1px solid #111; width:22px; height:22px;"></div><div style="background:#222; border:1px solid #111; width:22px; height:22px;"></div><div title="17위: Tom Clancy's Rainbow Six Siege" style="background:#22bb88; border:1px solid #000; width:22px; height:22px; font-size:10px; text-align:center; line-height:22px; color:black; cursor:help;">17</div><div title="18위: EA SPORTS FC™ 26" style="background:#e8a020; border:1px solid #000; width:22px; height:22px; font-size:10px; text-align:center; line-height:22px; color:black; cursor:help;">18</div><div style="background:#222; border:1px solid #111; width:22px; height:22px;"></div><div title="붉은사막: 20위" style="background:#c84b31; color:white; border:1px solid #000; width:22px; height:22px; font-size:10px; text-align:center; line-height:22px; font-weight:bold;">20</div></div>
+        </div>
+        <div style="margin:12px 0;">
+            <div style="font-size:0.9rem; margin-bottom:5px;"><strong>싱가포르</strong> <span style="font-size:0.75rem; color:#aaa;">(무료:7 / 할인:8)</span></div>
+            <div style="display:flex; flex-wrap:wrap; max-width:900px;"><div style="background:#222; border:1px solid #111; width:22px; height:22px;"></div><div title="2위: Path of Exile 2" style="background:#e8a020; border:1px solid #000; width:22px; height:22px; font-size:10px; text-align:center; line-height:22px; color:black; cursor:help;">2</div><div style="background:#222; border:1px solid #111; width:22px; height:22px;"></div><div style="background:#222; border:1px solid #111; width:22px; height:22px;"></div><div style="background:#222; border:1px solid #111; width:22px; height:22px;"></div><div style="background:#222; border:1px solid #111; width:22px; height:22px;"></div><div style="background:#222; border:1px solid #111; width:22px; height:22px;"></div><div style="background:#222; border:1px solid #111; width:22px; height:22px;"></div><div style="background:#222; border:1px solid #111; width:22px; height:22px;"></div><div style="background:#222; border:1px solid #111; width:22px; height:22px;"></div><div style="background:#222; border:1px solid #111; width:22px; height:22px;"></div><div style="background:#222; border:1px solid #111; width:22px; height:22px;"></div><div title="13위: Dota 2" style="background:#22bb88; border:1px solid #000; width:22px; height:22px; font-size:10px; text-align:center; line-height:22px; color:black; cursor:help;">13</div><div title="14위: Warframe" style="background:#22bb88; border:1px solid #000; width:22px; height:22px; font-size:10px; text-align:center; line-height:22px; color:black; cursor:help;">14</div><div style="background:#222; border:1px solid #111; width:22px; height:22px;"></div><div style="background:#222; border:1px solid #111; width:22px; height:22px;"></div><div title="17위: Resident Evil 4" style="background:#e8a020; border:1px solid #000; width:22px; height:22px; font-size:10px; text-align:center; line-height:22px; color:black; cursor:help;">17</div><div title="18위: EA SPORTS FC™ 26" style="background:#e8a020; border:1px solid #000; width:22px; height:22px; font-size:10px; text-align:center; line-height:22px; color:black; cursor:help;">18</div><div title="19위: Tom Clancy's Rainbow Six Siege" style="background:#22bb88; border:1px solid #000; width:22px; height:22px; font-size:10px; text-align:center; line-height:22px; color:black; cursor:help;">19</div><div style="background:#222; border:1px solid #111; width:22px; height:22px;"></div><div style="background:#222; border:1px solid #111; width:22px; height:22px;"></div><div style="background:#222; border:1px solid #111; width:22px; height:22px;"></div><div style="background:#222; border:1px solid #111; width:22px; height:22px;"></div><div style="background:#222; border:1px solid #111; width:22px; height:22px;"></div><div style="background:#222; border:1px solid #111; width:22px; height:22px;"></div><div style="background:#222; border:1px solid #111; width:22px; height:22px;"></div><div title="27위: Marvel Rivals" style="background:#22bb88; border:1px solid #000; width:22px; height:22px; font-size:10px; text-align:center; line-height:22px; color:black; cursor:help;">27</div><div style="background:#222; border:1px solid #111; width:22px; height:22px;"></div><div title="29위: Wuthering Waves" style="background:#22bb88; border:1px solid #000; width:22px; height:22px; font-size:10px; text-align:center; line-height:22px; color:black; cursor:help;">29</div><div title="30위: Resident Evil 7 Biohazard" style="background:#e8a020; border:1px solid #000; width:22px; height:22px; font-size:10px; text-align:center; line-height:22px; color:black; cursor:help;">30</div><div title="31위: Wizardry Variants Daphne" style="background:#22bb88; border:1px solid #000; width:22px; height:22px; font-size:10px; text-align:center; line-height:22px; color:black; cursor:help;">31</div><div title="32위: Monster Hunter Wilds" style="background:#e8a020; border:1px solid #000; width:22px; height:22px; font-size:10px; text-align:center; line-height:22px; color:black; cursor:help;">32</div><div title="33위: Hogwarts Legacy" style="background:#e8a020; border:1px solid #000; width:22px; height:22px; font-size:10px; text-align:center; line-height:22px; color:black; cursor:help;">33</div><div style="background:#222; border:1px solid #111; width:22px; height:22px;"></div><div style="background:#222; border:1px solid #111; width:22px; height:22px;"></div><div title="36위: End of Zoe" style="background:#e8a020; border:1px solid #000; width:22px; height:22px; font-size:10px; text-align:center; line-height:22px; color:black; cursor:help;">36</div><div title="37위: War Thunder" style="background:#22bb88; border:1px solid #000; width:22px; height:22px; font-size:10px; text-align:center; line-height:22px; color:black; cursor:help;">37</div><div style="background:#222; border:1px solid #111; width:22px; height:22px;"></div><div style="background:#222; border:1px solid #111; width:22px; height:22px;"></div><div title="40위: Fatekeeper" style="background:#e8a020; border:1px solid #000; width:22px; height:22px; font-size:10px; text-align:center; line-height:22px; color:black; cursor:help;">40</div><div title="붉은사막: 41위" style="background:#c84b31; color:white; border:1px solid #000; width:22px; height:22px; font-size:10px; text-align:center; line-height:22px; font-weight:bold;">41</div></div>
+        </div>
+        <div style="margin:12px 0;">
+            <div style="font-size:0.9rem; margin-bottom:5px;"><strong>홍콩</strong> <span style="font-size:0.75rem; color:#aaa;">(무료:7 / 할인:5)</span></div>
+            <div style="display:flex; flex-wrap:wrap; max-width:900px;"><div style="background:#222; border:1px solid #111; width:22px; height:22px;"></div><div style="background:#222; border:1px solid #111; width:22px; height:22px;"></div><div style="background:#222; border:1px solid #111; width:22px; height:22px;"></div><div style="background:#222; border:1px solid #111; width:22px; height:22px;"></div><div style="background:#222; border:1px solid #111; width:22px; height:22px;"></div><div style="background:#222; border:1px solid #111; width:22px; height:22px;"></div><div style="background:#222; border:1px solid #111; width:22px; height:22px;"></div><div style="background:#222; border:1px solid #111; width:22px; height:22px;"></div><div style="background:#222; border:1px solid #111; width:22px; height:22px;"></div><div style="background:#222; border:1px solid #111; width:22px; height:22px;"></div><div style="background:#222; border:1px solid #111; width:22px; height:22px;"></div><div style="background:#222; border:1px solid #111; width:22px; height:22px;"></div><div title="13위: Resident Evil 4" style="background:#e8a020; border:1px solid #000; width:22px; height:22px; font-size:10px; text-align:center; line-height:22px; color:black; cursor:help;">13</div><div style="background:#222; border:1px solid #111; width:22px; height:22px;"></div><div title="15위: Street Fighter™ 6" style="background:#e8a020; border:1px solid #000; width:22px; height:22px; font-size:10px; text-align:center; line-height:22px; color:black; cursor:help;">15</div><div title="16위: Wizardry Variants Daphne" style="background:#22bb88; border:1px solid #000; width:22px; height:22px; font-size:10px; text-align:center; line-height:22px; color:black; cursor:help;">16</div><div style="background:#222; border:1px solid #111; width:22px; height:22px;"></div><div title="18위: Grand Theft Auto V Enhanced" style="background:#e8a020; border:1px solid #000; width:22px; height:22px; font-size:10px; text-align:center; line-height:22px; color:black; cursor:help;">18</div><div style="background:#222; border:1px solid #111; width:22px; height:22px;"></div><div style="background:#222; border:1px solid #111; width:22px; height:22px;"></div><div style="background:#222; border:1px solid #111; width:22px; height:22px;"></div><div style="background:#222; border:1px solid #111; width:22px; height:22px;"></div><div title="23위: World of Warships" style="background:#22bb88; border:1px solid #000; width:22px; height:22px; font-size:10px; text-align:center; line-height:22px; color:black; cursor:help;">23</div><div style="background:#222; border:1px solid #111; width:22px; height:22px;"></div><div style="background:#222; border:1px solid #111; width:22px; height:22px;"></div><div title="26위: The Seven Deadly Sins: Origin" style="background:#22bb88; border:1px solid #000; width:22px; height:22px; font-size:10px; text-align:center; line-height:22px; color:black; cursor:help;">26</div><div title="27위: Tom Clancy's Rainbow Six Siege" style="background:#22bb88; border:1px solid #000; width:22px; height:22px; font-size:10px; text-align:center; line-height:22px; color:black; cursor:help;">27</div><div style="background:#222; border:1px solid #111; width:22px; height:22px;"></div><div title="29위: Romestead" style="background:#e8a020; border:1px solid #000; width:22px; height:22px; font-size:10px; text-align:center; line-height:22px; color:black; cursor:help;">29</div><div style="background:#222; border:1px solid #111; width:22px; height:22px;"></div><div style="background:#222; border:1px solid #111; width:22px; height:22px;"></div><div title="32위: TBH: Task Bar Hero" style="background:#22bb88; border:1px solid #000; width:22px; height:22px; font-size:10px; text-align:center; line-height:22px; color:black; cursor:help;">32</div><div title="33위: VRChat" style="background:#22bb88; border:1px solid #000; width:22px; height:22px; font-size:10px; text-align:center; line-height:22px; color:black; cursor:help;">33</div><div title="34위: Limbus Company" style="background:#22bb88; border:1px solid #000; width:22px; height:22px; font-size:10px; text-align:center; line-height:22px; color:black; cursor:help;">34</div><div title="35위: EA SPORTS FC™ 26" style="background:#e8a020; border:1px solid #000; width:22px; height:22px; font-size:10px; text-align:center; line-height:22px; color:black; cursor:help;">35</div><div title="붉은사막: 36위" style="background:#c84b31; color:white; border:1px solid #000; width:22px; height:22px; font-size:10px; text-align:center; line-height:22px; font-weight:bold;">36</div></div>
+        </div>
+        <div style="margin:12px 0;">
+            <div style="font-size:0.9rem; margin-bottom:5px;"><strong>뉴질랜드</strong> <span style="font-size:0.75rem; color:#aaa;">(무료:7 / 할인:8)</span></div>
+            <div style="display:flex; flex-wrap:wrap; max-width:900px;"><div style="background:#222; border:1px solid #111; width:22px; height:22px;"></div><div title="2위: Counter-Strike 2" style="background:#22bb88; border:1px solid #000; width:22px; height:22px; font-size:10px; text-align:center; line-height:22px; color:black; cursor:help;">2</div><div title="3위: Path of Exile 2" style="background:#e8a020; border:1px solid #000; width:22px; height:22px; font-size:10px; text-align:center; line-height:22px; color:black; cursor:help;">3</div><div style="background:#222; border:1px solid #111; width:22px; height:22px;"></div><div style="background:#222; border:1px solid #111; width:22px; height:22px;"></div><div style="background:#222; border:1px solid #111; width:22px; height:22px;"></div><div title="7위: Resident Evil 4" style="background:#e8a020; border:1px solid #000; width:22px; height:22px; font-size:10px; text-align:center; line-height:22px; color:black; cursor:help;">7</div><div style="background:#222; border:1px solid #111; width:22px; height:22px;"></div><div style="background:#222; border:1px solid #111; width:22px; height:22px;"></div><div style="background:#222; border:1px solid #111; width:22px; height:22px;"></div><div style="background:#222; border:1px solid #111; width:22px; height:22px;"></div><div style="background:#222; border:1px solid #111; width:22px; height:22px;"></div><div title="13위: Warframe" style="background:#22bb88; border:1px solid #000; width:22px; height:22px; font-size:10px; text-align:center; line-height:22px; color:black; cursor:help;">13</div><div title="14위: Tom Clancy's Rainbow Six Siege" style="background:#22bb88; border:1px solid #000; width:22px; height:22px; font-size:10px; text-align:center; line-height:22px; color:black; cursor:help;">14</div><div title="15위: Sons Of The Forest" style="background:#e8a020; border:1px solid #000; width:22px; height:22px; font-size:10px; text-align:center; line-height:22px; color:black; cursor:help;">15</div><div title="16위: Resident Evil Requiem" style="background:#e8a020; border:1px solid #000; width:22px; height:22px; font-size:10px; text-align:center; line-height:22px; color:black; cursor:help;">16</div><div style="background:#222; border:1px solid #111; width:22px; height:22px;"></div><div title="18위: Team Fortress 2" style="background:#22bb88; border:1px solid #000; width:22px; height:22px; font-size:10px; text-align:center; line-height:22px; color:black; cursor:help;">18</div><div title="19위: Marvel Rivals" style="background:#22bb88; border:1px solid #000; width:22px; height:22px; font-size:10px; text-align:center; line-height:22px; color:black; cursor:help;">19</div><div title="20위: ARC Raiders" style="background:#e8a020; border:1px solid #000; width:22px; height:22px; font-size:10px; text-align:center; line-height:22px; color:black; cursor:help;">20</div><div style="background:#222; border:1px solid #111; width:22px; height:22px;"></div><div title="22위: Apex Legends™" style="background:#22bb88; border:1px solid #000; width:22px; height:22px; font-size:10px; text-align:center; line-height:22px; color:black; cursor:help;">22</div><div title="23위: House Flipper Remastered Collection" style="background:#e8a020; border:1px solid #000; width:22px; height:22px; font-size:10px; text-align:center; line-height:22px; color:black; cursor:help;">23</div><div style="background:#222; border:1px solid #111; width:22px; height:22px;"></div><div style="background:#222; border:1px solid #111; width:22px; height:22px;"></div><div title="26위: Satisfactory" style="background:#e8a020; border:1px solid #000; width:22px; height:22px; font-size:10px; text-align:center; line-height:22px; color:black; cursor:help;">26</div><div style="background:#222; border:1px solid #111; width:22px; height:22px;"></div><div style="background:#222; border:1px solid #111; width:22px; height:22px;"></div><div title="29위: Spyro™ Reignited Trilogy" style="background:#e8a020; border:1px solid #000; width:22px; height:22px; font-size:10px; text-align:center; line-height:22px; color:black; cursor:help;">29</div><div title="30위: War Thunder" style="background:#22bb88; border:1px solid #000; width:22px; height:22px; font-size:10px; text-align:center; line-height:22px; color:black; cursor:help;">30</div><div style="background:#222; border:1px solid #111; width:22px; height:22px;"></div><div style="background:#222; border:1px solid #111; width:22px; height:22px;"></div><div style="background:#222; border:1px solid #111; width:22px; height:22px;"></div><div style="background:#222; border:1px solid #111; width:22px; height:22px;"></div><div style="background:#222; border:1px solid #111; width:22px; height:22px;"></div><div style="background:#222; border:1px solid #111; width:22px; height:22px;"></div><div style="background:#222; border:1px solid #111; width:22px; height:22px;"></div><div title="붉은사막: 38위" style="background:#c84b31; color:white; border:1px solid #000; width:22px; height:22px; font-size:10px; text-align:center; line-height:22px; font-weight:bold;">38</div></div>
+        </div>
+        </div>
+        <div style="display:grid; grid-template-columns:repeat(auto-fill, minmax(320px, 1fr)); gap:15px;">
+        <div class="card" style="background:#111520; padding:15px; border-radius:8px; border:1px solid #222; min-width:300px;">
+            <div style="font-weight:bold; margin-bottom:10px;">한국 🔗</div>
+            <table style="width:100%; border-collapse:collapse;"><tr style="border-bottom:2px solid #c84b31;">
+            <td style="padding:4px; color:#c84b31;">#21 0</td>
+            <td style="padding:4px; font-weight:bold; color:#fff;">붉은사막 (Crimson Desert)</td>
+            <td style="padding:4px;"><span style="border:1px solid #c84b31; color:#c84b31; border-radius:4px; padding:1px 4px; font-size:0.7rem; white-space:nowrap;">MAIN</span></td>
+        </tr><tr style="border-bottom:1px solid #222;">
+                <td style="padding:4px; color:#777;">#2 </td>
+                <td style="padding:4px; font-weight:600; color:#22bb88;">PUBG: BATTLEGROUNDS</td>
+                <td style="padding:4px;"><span style="border:1px solid #22bb88; color:#22bb88; border-radius:4px; padding:1px 4px; font-size:0.7rem; white-space:nowrap; display:inline-block;">FREE</span></td>
+            </tr><tr style="border-bottom:1px solid #222;">
+                <td style="padding:4px; color:#777;">#15 </td>
+                <td style="padding:4px; font-weight:600; color:#22bb88;">Apex Legends™</td>
+                <td style="padding:4px;"><span style="border:1px solid #22bb88; color:#22bb88; border-radius:4px; padding:1px 4px; font-size:0.7rem; white-space:nowrap; display:inline-block;">FREE</span></td>
+            </tr></table>
+        </div>
+        <div class="card" style="background:#111520; padding:15px; border-radius:8px; border:1px solid #222; min-width:300px;">
+            <div style="font-weight:bold; margin-bottom:10px;">덴마크 🔗</div>
+            <table style="width:100%; border-collapse:collapse;"><tr style="border-bottom:2px solid #c84b31;">
+            <td style="padding:4px; color:#c84b31;">#35 0</td>
+            <td style="padding:4px; font-weight:bold; color:#fff;">붉은사막 (Crimson Desert)</td>
+            <td style="padding:4px;"><span style="border:1px solid #c84b31; color:#c84b31; border-radius:4px; padding:1px 4px; font-size:0.7rem; white-space:nowrap;">MAIN</span></td>
+        </tr><tr style="border-bottom:1px solid #222;">
+                <td style="padding:4px; color:#777;">#1 </td>
+                <td style="padding:4px; font-weight:600; color:#22bb88;">Counter-Strike 2</td>
+                <td style="padding:4px;"><span style="border:1px solid #22bb88; color:#22bb88; border-radius:4px; padding:1px 4px; font-size:0.7rem; white-space:nowrap; display:inline-block;">FREE</span></td>
+            </tr><tr style="border-bottom:1px solid #222;">
+                <td style="padding:4px; color:#777;">#19 </td>
+                <td style="padding:4px; font-weight:600; color:#e8a020;">House Flipper Remastered Collection</td>
+                <td style="padding:4px;"><span style="border:1px solid #e8a020; color:#e8a020; border-radius:4px; padding:1px 4px; font-size:0.7rem; white-space:nowrap; display:inline-block;">할인중</span></td>
+            </tr><tr style="border-bottom:1px solid #222;">
+                <td style="padding:4px; color:#777;">#21 </td>
+                <td style="padding:4px; font-weight:600; color:#e8a020;">Resident Evil Requiem</td>
+                <td style="padding:4px;"><span style="border:1px solid #e8a020; color:#e8a020; border-radius:4px; padding:1px 4px; font-size:0.7rem; white-space:nowrap; display:inline-block;">할인중</span></td>
+            </tr><tr style="border-bottom:1px solid #222;">
+                <td style="padding:4px; color:#777;">#31 </td>
+                <td style="padding:4px; font-weight:600; color:#e8a020;">Grand Theft Auto V Enhanced</td>
+                <td style="padding:4px;"><span style="border:1px solid #e8a020; color:#e8a020; border-radius:4px; padding:1px 4px; font-size:0.7rem; white-space:nowrap; display:inline-block;">할인중</span></td>
+            </tr></table>
+        </div>
+        <div class="card" style="background:#111520; padding:15px; border-radius:8px; border:1px solid #222; min-width:300px;">
+            <div style="font-weight:bold; margin-bottom:10px;">오스트리아 🔗</div>
+            <table style="width:100%; border-collapse:collapse;"><tr style="border-bottom:2px solid #c84b31;">
+            <td style="padding:4px; color:#c84b31;">#56 0</td>
+            <td style="padding:4px; font-weight:bold; color:#fff;">붉은사막 (Crimson Desert)</td>
+            <td style="padding:4px;"><span style="border:1px solid #c84b31; color:#c84b31; border-radius:4px; padding:1px 4px; font-size:0.7rem; white-space:nowrap;">MAIN</span></td>
+        </tr><tr style="border-bottom:1px solid #222;">
+                <td style="padding:4px; color:#777;">#8 </td>
+                <td style="padding:4px; font-weight:600; color:#e8a020;">Fatekeeper</td>
+                <td style="padding:4px;"><span style="border:1px solid #e8a020; color:#e8a020; border-radius:4px; padding:1px 4px; font-size:0.7rem; white-space:nowrap; display:inline-block;">할인중</span></td>
+            </tr><tr style="border-bottom:1px solid #222;">
+                <td style="padding:4px; color:#777;">#17 </td>
+                <td style="padding:4px; font-weight:600; color:#22bb88;">Tom Clancy's Rainbow Six Siege</td>
+                <td style="padding:4px;"><span style="border:1px solid #22bb88; color:#22bb88; border-radius:4px; padding:1px 4px; font-size:0.7rem; white-space:nowrap; display:inline-block;">FREE</span></td>
+            </tr><tr style="border-bottom:1px solid #222;">
+                <td style="padding:4px; color:#777;">#21 </td>
+                <td style="padding:4px; font-weight:600; color:#22bb88;">War Thunder</td>
+                <td style="padding:4px;"><span style="border:1px solid #22bb88; color:#22bb88; border-radius:4px; padding:1px 4px; font-size:0.7rem; white-space:nowrap; display:inline-block;">FREE</span></td>
+            </tr><tr style="border-bottom:1px solid #222;">
+                <td style="padding:4px; color:#777;">#35 </td>
+                <td style="padding:4px; font-weight:600; color:#e8a020;">Grand Theft Auto V Enhanced</td>
+                <td style="padding:4px;"><span style="border:1px solid #e8a020; color:#e8a020; border-radius:4px; padding:1px 4px; font-size:0.7rem; white-space:nowrap; display:inline-block;">할인중</span></td>
+            </tr><tr style="border-bottom:1px solid #222;">
+                <td style="padding:4px; color:#777;">#36 </td>
+                <td style="padding:4px; font-weight:600; color:#e8a020;">Disney Dreamlight Valley</td>
+                <td style="padding:4px;"><span style="border:1px solid #e8a020; color:#e8a020; border-radius:4px; padding:1px 4px; font-size:0.7rem; white-space:nowrap; display:inline-block;">할인중</span></td>
+            </tr><tr style="border-bottom:1px solid #222;">
+                <td style="padding:4px; color:#777;">#37 </td>
+                <td style="padding:4px; font-weight:600; color:#e8a020;">Monster Hunter Wilds</td>
+                <td style="padding:4px;"><span style="border:1px solid #e8a020; color:#e8a020; border-radius:4px; padding:1px 4px; font-size:0.7rem; white-space:nowrap; display:inline-block;">할인중</span></td>
+            </tr><tr style="border-bottom:1px solid #222;">
+                <td style="padding:4px; color:#777;">#38 </td>
+                <td style="padding:4px; font-weight:600; color:#e8a020;">Satisfactory</td>
+                <td style="padding:4px;"><span style="border:1px solid #e8a020; color:#e8a020; border-radius:4px; padding:1px 4px; font-size:0.7rem; white-space:nowrap; display:inline-block;">할인중</span></td>
+            </tr><tr style="border-bottom:1px solid #222;">
+                <td style="padding:4px; color:#777;">#39 </td>
+                <td style="padding:4px; font-weight:600; color:#22bb88;">Umamusume: Pretty Derby</td>
+                <td style="padding:4px;"><span style="border:1px solid #22bb88; color:#22bb88; border-radius:4px; padding:1px 4px; font-size:0.7rem; white-space:nowrap; display:inline-block;">FREE</span></td>
+            </tr><tr style="border-bottom:1px solid #222;">
+                <td style="padding:4px; color:#777;">#41 </td>
+                <td style="padding:4px; font-weight:600; color:#22bb88;">The Sims™ 4</td>
+                <td style="padding:4px;"><span style="border:1px solid #22bb88; color:#22bb88; border-radius:4px; padding:1px 4px; font-size:0.7rem; white-space:nowrap; display:inline-block;">FREE</span></td>
+            </tr><tr style="border-bottom:1px solid #222;">
+                <td style="padding:4px; color:#777;">#49 </td>
+                <td style="padding:4px; font-weight:600; color:#e8a020;">Backrooms: Escape Together</td>
+                <td style="padding:4px;"><span style="border:1px solid #e8a020; color:#e8a020; border-radius:4px; padding:1px 4px; font-size:0.7rem; white-space:nowrap; display:inline-block;">할인중</span></td>
+            </tr><tr style="border-bottom:1px solid #222;">
+                <td style="padding:4px; color:#777;">#50 </td>
+                <td style="padding:4px; font-weight:600; color:#e8a020;">Car Dealer Simulator - Up 2 You DLC</td>
+                <td style="padding:4px;"><span style="border:1px solid #e8a020; color:#e8a020; border-radius:4px; padding:1px 4px; font-size:0.7rem; white-space:nowrap; display:inline-block;">할인중</span></td>
+            </tr><tr style="border-bottom:1px solid #222;">
+                <td style="padding:4px; color:#777;">#51 </td>
+                <td style="padding:4px; font-weight:600; color:#22bb88;">GOALS</td>
+                <td style="padding:4px;"><span style="border:1px solid #22bb88; color:#22bb88; border-radius:4px; padding:1px 4px; font-size:0.7rem; white-space:nowrap; display:inline-block;">FREE</span></td>
+            </tr><tr style="border-bottom:1px solid #222;">
+                <td style="padding:4px; color:#777;">#54 </td>
+                <td style="padding:4px; font-weight:600; color:#e8a020;">Cloudheim</td>
+                <td style="padding:4px;"><span style="border:1px solid #e8a020; color:#e8a020; border-radius:4px; padding:1px 4px; font-size:0.7rem; white-space:nowrap; display:inline-block;">할인중</span></td>
+            </tr></table>
+        </div>
+        <div class="card" style="background:#111520; padding:15px; border-radius:8px; border:1px solid #222; min-width:300px;">
+            <div style="font-weight:bold; margin-bottom:10px;">스위스 🔗</div>
+            <table style="width:100%; border-collapse:collapse;"><tr style="border-bottom:2px solid #c84b31;">
+            <td style="padding:4px; color:#c84b31;">#20 0</td>
+            <td style="padding:4px; font-weight:bold; color:#fff;">붉은사막 (Crimson Desert)</td>
+            <td style="padding:4px;"><span style="border:1px solid #c84b31; color:#c84b31; border-radius:4px; padding:1px 4px; font-size:0.7rem; white-space:nowrap;">MAIN</span></td>
+        </tr><tr style="border-bottom:1px solid #222;">
+                <td style="padding:4px; color:#777;">#1 </td>
+                <td style="padding:4px; font-weight:600; color:#22bb88;">Counter-Strike 2</td>
+                <td style="padding:4px;"><span style="border:1px solid #22bb88; color:#22bb88; border-radius:4px; padding:1px 4px; font-size:0.7rem; white-space:nowrap; display:inline-block;">FREE</span></td>
+            </tr><tr style="border-bottom:1px solid #222;">
+                <td style="padding:4px; color:#777;">#17 </td>
+                <td style="padding:4px; font-weight:600; color:#22bb88;">Tom Clancy's Rainbow Six Siege</td>
+                <td style="padding:4px;"><span style="border:1px solid #22bb88; color:#22bb88; border-radius:4px; padding:1px 4px; font-size:0.7rem; white-space:nowrap; display:inline-block;">FREE</span></td>
+            </tr><tr style="border-bottom:1px solid #222;">
+                <td style="padding:4px; color:#777;">#18 </td>
+                <td style="padding:4px; font-weight:600; color:#e8a020;">EA SPORTS FC™ 26</td>
+                <td style="padding:4px;"><span style="border:1px solid #e8a020; color:#e8a020; border-radius:4px; padding:1px 4px; font-size:0.7rem; white-space:nowrap; display:inline-block;">할인중</span></td>
+            </tr></table>
+        </div>
+        <div class="card" style="background:#111520; padding:15px; border-radius:8px; border:1px solid #222; min-width:300px;">
+            <div style="font-weight:bold; margin-bottom:10px;">싱가포르 🔗</div>
+            <table style="width:100%; border-collapse:collapse;"><tr style="border-bottom:2px solid #c84b31;">
+            <td style="padding:4px; color:#c84b31;">#41 0</td>
+            <td style="padding:4px; font-weight:bold; color:#fff;">붉은사막 (Crimson Desert)</td>
+            <td style="padding:4px;"><span style="border:1px solid #c84b31; color:#c84b31; border-radius:4px; padding:1px 4px; font-size:0.7rem; white-space:nowrap;">MAIN</span></td>
+        </tr><tr style="border-bottom:1px solid #222;">
+                <td style="padding:4px; color:#777;">#2 </td>
+                <td style="padding:4px; font-weight:600; color:#e8a020;">Path of Exile 2</td>
+                <td style="padding:4px;"><span style="border:1px solid #e8a020; color:#e8a020; border-radius:4px; padding:1px 4px; font-size:0.7rem; white-space:nowrap; display:inline-block;">할인중</span></td>
+            </tr><tr style="border-bottom:1px solid #222;">
+                <td style="padding:4px; color:#777;">#13 </td>
+                <td style="padding:4px; font-weight:600; color:#22bb88;">Dota 2</td>
+                <td style="padding:4px;"><span style="border:1px solid #22bb88; color:#22bb88; border-radius:4px; padding:1px 4px; font-size:0.7rem; white-space:nowrap; display:inline-block;">FREE</span></td>
+            </tr><tr style="border-bottom:1px solid #222;">
+                <td style="padding:4px; color:#777;">#14 </td>
+                <td style="padding:4px; font-weight:600; color:#22bb88;">Warframe</td>
+                <td style="padding:4px;"><span style="border:1px solid #22bb88; color:#22bb88; border-radius:4px; padding:1px 4px; font-size:0.7rem; white-space:nowrap; display:inline-block;">FREE</span></td>
+            </tr><tr style="border-bottom:1px solid #222;">
+                <td style="padding:4px; color:#777;">#17 </td>
+                <td style="padding:4px; font-weight:600; color:#e8a020;">Resident Evil 4</td>
+                <td style="padding:4px;"><span style="border:1px solid #e8a020; color:#e8a020; border-radius:4px; padding:1px 4px; font-size:0.7rem; white-space:nowrap; display:inline-block;">할인중</span></td>
+            </tr><tr style="border-bottom:1px solid #222;">
+                <td style="padding:4px; color:#777;">#18 </td>
+                <td style="padding:4px; font-weight:600; color:#e8a020;">EA SPORTS FC™ 26</td>
+                <td style="padding:4px;"><span style="border:1px solid #e8a020; color:#e8a020; border-radius:4px; padding:1px 4px; font-size:0.7rem; white-space:nowrap; display:inline-block;">할인중</span></td>
+            </tr><tr style="border-bottom:1px solid #222;">
+                <td style="padding:4px; color:#777;">#19 </td>
+                <td style="padding:4px; font-weight:600; color:#22bb88;">Tom Clancy's Rainbow Six Siege</td>
+                <td style="padding:4px;"><span style="border:1px solid #22bb88; color:#22bb88; border-radius:4px; padding:1px 4px; font-size:0.7rem; white-space:nowrap; display:inline-block;">FREE</span></td>
+            </tr><tr style="border-bottom:1px solid #222;">
+                <td style="padding:4px; color:#777;">#27 </td>
+                <td style="padding:4px; font-weight:600; color:#22bb88;">Marvel Rivals</td>
+                <td style="padding:4px;"><span style="border:1px solid #22bb88; color:#22bb88; border-radius:4px; padding:1px 4px; font-size:0.7rem; white-space:nowrap; display:inline-block;">FREE</span></td>
+            </tr><tr style="border-bottom:1px solid #222;">
+                <td style="padding:4px; color:#777;">#29 </td>
+                <td style="padding:4px; font-weight:600; color:#22bb88;">Wuthering Waves</td>
+                <td style="padding:4px;"><span style="border:1px solid #22bb88; color:#22bb88; border-radius:4px; padding:1px 4px; font-size:0.7rem; white-space:nowrap; display:inline-block;">FREE</span></td>
+            </tr><tr style="border-bottom:1px solid #222;">
+                <td style="padding:4px; color:#777;">#30 </td>
+                <td style="padding:4px; font-weight:600; color:#e8a020;">Resident Evil 7 Biohazard</td>
+                <td style="padding:4px;"><span style="border:1px solid #e8a020; color:#e8a020; border-radius:4px; padding:1px 4px; font-size:0.7rem; white-space:nowrap; display:inline-block;">할인중</span></td>
+            </tr><tr style="border-bottom:1px solid #222;">
+                <td style="padding:4px; color:#777;">#31 </td>
+                <td style="padding:4px; font-weight:600; color:#22bb88;">Wizardry Variants Daphne</td>
+                <td style="padding:4px;"><span style="border:1px solid #22bb88; color:#22bb88; border-radius:4px; padding:1px 4px; font-size:0.7rem; white-space:nowrap; display:inline-block;">FREE</span></td>
+            </tr><tr style="border-bottom:1px solid #222;">
+                <td style="padding:4px; color:#777;">#32 </td>
+                <td style="padding:4px; font-weight:600; color:#e8a020;">Monster Hunter Wilds</td>
+                <td style="padding:4px;"><span style="border:1px solid #e8a020; color:#e8a020; border-radius:4px; padding:1px 4px; font-size:0.7rem; white-space:nowrap; display:inline-block;">할인중</span></td>
+            </tr><tr style="border-bottom:1px solid #222;">
+                <td style="padding:4px; color:#777;">#33 </td>
+                <td style="padding:4px; font-weight:600; color:#e8a020;">Hogwarts Legacy</td>
+                <td style="padding:4px;"><span style="border:1px solid #e8a020; color:#e8a020; border-radius:4px; padding:1px 4px; font-size:0.7rem; white-space:nowrap; display:inline-block;">할인중</span></td>
+            </tr><tr style="border-bottom:1px solid #222;">
+                <td style="padding:4px; color:#777;">#36 </td>
+                <td style="padding:4px; font-weight:600; color:#e8a020;">End of Zoe</td>
+                <td style="padding:4px;"><span style="border:1px solid #e8a020; color:#e8a020; border-radius:4px; padding:1px 4px; font-size:0.7rem; white-space:nowrap; display:inline-block;">할인중</span></td>
+            </tr><tr style="border-bottom:1px solid #222;">
+                <td style="padding:4px; color:#777;">#37 </td>
+                <td style="padding:4px; font-weight:600; color:#22bb88;">War Thunder</td>
+                <td style="padding:4px;"><span style="border:1px solid #22bb88; color:#22bb88; border-radius:4px; padding:1px 4px; font-size:0.7rem; white-space:nowrap; display:inline-block;">FREE</span></td>
+            </tr><tr style="border-bottom:1px solid #222;">
+                <td style="padding:4px; color:#777;">#40 </td>
+                <td style="padding:4px; font-weight:600; color:#e8a020;">Fatekeeper</td>
+                <td style="padding:4px;"><span style="border:1px solid #e8a020; color:#e8a020; border-radius:4px; padding:1px 4px; font-size:0.7rem; white-space:nowrap; display:inline-block;">할인중</span></td>
+            </tr></table>
+        </div>
+        <div class="card" style="background:#111520; padding:15px; border-radius:8px; border:1px solid #222; min-width:300px;">
+            <div style="font-weight:bold; margin-bottom:10px;">홍콩 🔗</div>
+            <table style="width:100%; border-collapse:collapse;"><tr style="border-bottom:2px solid #c84b31;">
+            <td style="padding:4px; color:#c84b31;">#36 0</td>
+            <td style="padding:4px; font-weight:bold; color:#fff;">붉은사막 (Crimson Desert)</td>
+            <td style="padding:4px;"><span style="border:1px solid #c84b31; color:#c84b31; border-radius:4px; padding:1px 4px; font-size:0.7rem; white-space:nowrap;">MAIN</span></td>
+        </tr><tr style="border-bottom:1px solid #222;">
+                <td style="padding:4px; color:#777;">#13 </td>
+                <td style="padding:4px; font-weight:600; color:#e8a020;">Resident Evil 4</td>
+                <td style="padding:4px;"><span style="border:1px solid #e8a020; color:#e8a020; border-radius:4px; padding:1px 4px; font-size:0.7rem; white-space:nowrap; display:inline-block;">할인중</span></td>
+            </tr><tr style="border-bottom:1px solid #222;">
+                <td style="padding:4px; color:#777;">#15 </td>
+                <td style="padding:4px; font-weight:600; color:#e8a020;">Street Fighter™ 6</td>
+                <td style="padding:4px;"><span style="border:1px solid #e8a020; color:#e8a020; border-radius:4px; padding:1px 4px; font-size:0.7rem; white-space:nowrap; display:inline-block;">할인중</span></td>
+            </tr><tr style="border-bottom:1px solid #222;">
+                <td style="padding:4px; color:#777;">#16 </td>
+                <td style="padding:4px; font-weight:600; color:#22bb88;">Wizardry Variants Daphne</td>
+                <td style="padding:4px;"><span style="border:1px solid #22bb88; color:#22bb88; border-radius:4px; padding:1px 4px; font-size:0.7rem; white-space:nowrap; display:inline-block;">FREE</span></td>
+            </tr><tr style="border-bottom:1px solid #222;">
+                <td style="padding:4px; color:#777;">#18 </td>
+                <td style="padding:4px; font-weight:600; color:#e8a020;">Grand Theft Auto V Enhanced</td>
+                <td style="padding:4px;"><span style="border:1px solid #e8a020; color:#e8a020; border-radius:4px; padding:1px 4px; font-size:0.7rem; white-space:nowrap; display:inline-block;">할인중</span></td>
+            </tr><tr style="border-bottom:1px solid #222;">
+                <td style="padding:4px; color:#777;">#23 </td>
+                <td style="padding:4px; font-weight:600; color:#22bb88;">World of Warships</td>
+                <td style="padding:4px;"><span style="border:1px solid #22bb88; color:#22bb88; border-radius:4px; padding:1px 4px; font-size:0.7rem; white-space:nowrap; display:inline-block;">FREE</span></td>
+            </tr><tr style="border-bottom:1px solid #222;">
+                <td style="padding:4px; color:#777;">#26 </td>
+                <td style="padding:4px; font-weight:600; color:#22bb88;">The Seven Deadly Sins: Origin</td>
+                <td style="padding:4px;"><span style="border:1px solid #22bb88; color:#22bb88; border-radius:4px; padding:1px 4px; font-size:0.7rem; white-space:nowrap; display:inline-block;">FREE</span></td>
+            </tr><tr style="border-bottom:1px solid #222;">
+                <td style="padding:4px; color:#777;">#27 </td>
+                <td style="padding:4px; font-weight:600; color:#22bb88;">Tom Clancy's Rainbow Six Siege</td>
+                <td style="padding:4px;"><span style="border:1px solid #22bb88; color:#22bb88; border-radius:4px; padding:1px 4px; font-size:0.7rem; white-space:nowrap; display:inline-block;">FREE</span></td>
+            </tr><tr style="border-bottom:1px solid #222;">
+                <td style="padding:4px; color:#777;">#29 </td>
+                <td style="padding:4px; font-weight:600; color:#e8a020;">Romestead</td>
+                <td style="padding:4px;"><span style="border:1px solid #e8a020; color:#e8a020; border-radius:4px; padding:1px 4px; font-size:0.7rem; white-space:nowrap; display:inline-block;">할인중</span></td>
+            </tr><tr style="border-bottom:1px solid #222;">
+                <td style="padding:4px; color:#777;">#32 </td>
+                <td style="padding:4px; font-weight:600; color:#22bb88;">TBH: Task Bar Hero</td>
+                <td style="padding:4px;"><span style="border:1px solid #22bb88; color:#22bb88; border-radius:4px; padding:1px 4px; font-size:0.7rem; white-space:nowrap; display:inline-block;">FREE</span></td>
+            </tr><tr style="border-bottom:1px solid #222;">
+                <td style="padding:4px; color:#777;">#33 </td>
+                <td style="padding:4px; font-weight:600; color:#22bb88;">VRChat</td>
+                <td style="padding:4px;"><span style="border:1px solid #22bb88; color:#22bb88; border-radius:4px; padding:1px 4px; font-size:0.7rem; white-space:nowrap; display:inline-block;">FREE</span></td>
+            </tr><tr style="border-bottom:1px solid #222;">
+                <td style="padding:4px; color:#777;">#34 </td>
+                <td style="padding:4px; font-weight:600; color:#22bb88;">Limbus Company</td>
+                <td style="padding:4px;"><span style="border:1px solid #22bb88; color:#22bb88; border-radius:4px; padding:1px 4px; font-size:0.7rem; white-space:nowrap; display:inline-block;">FREE</span></td>
+            </tr><tr style="border-bottom:1px solid #222;">
+                <td style="padding:4px; color:#777;">#35 </td>
+                <td style="padding:4px; font-weight:600; color:#e8a020;">EA SPORTS FC™ 26</td>
+                <td style="padding:4px;"><span style="border:1px solid #e8a020; color:#e8a020; border-radius:4px; padding:1px 4px; font-size:0.7rem; white-space:nowrap; display:inline-block;">할인중</span></td>
+            </tr></table>
+        </div>
+        <div class="card" style="background:#111520; padding:15px; border-radius:8px; border:1px solid #222; min-width:300px;">
+            <div style="font-weight:bold; margin-bottom:10px;">뉴질랜드 🔗</div>
+            <table style="width:100%; border-collapse:collapse;"><tr style="border-bottom:2px solid #c84b31;">
+            <td style="padding:4px; color:#c84b31;">#38 0</td>
+            <td style="padding:4px; font-weight:bold; color:#fff;">붉은사막 (Crimson Desert)</td>
+            <td style="padding:4px;"><span style="border:1px solid #c84b31; color:#c84b31; border-radius:4px; padding:1px 4px; font-size:0.7rem; white-space:nowrap;">MAIN</span></td>
+        </tr><tr style="border-bottom:1px solid #222;">
+                <td style="padding:4px; color:#777;">#2 </td>
+                <td style="padding:4px; font-weight:600; color:#22bb88;">Counter-Strike 2</td>
+                <td style="padding:4px;"><span style="border:1px solid #22bb88; color:#22bb88; border-radius:4px; padding:1px 4px; font-size:0.7rem; white-space:nowrap; display:inline-block;">FREE</span></td>
+            </tr><tr style="border-bottom:1px solid #222;">
+                <td style="padding:4px; color:#777;">#3 </td>
+                <td style="padding:4px; font-weight:600; color:#e8a020;">Path of Exile 2</td>
+                <td style="padding:4px;"><span style="border:1px solid #e8a020; color:#e8a020; border-radius:4px; padding:1px 4px; font-size:0.7rem; white-space:nowrap; display:inline-block;">할인중</span></td>
+            </tr><tr style="border-bottom:1px solid #222;">
+                <td style="padding:4px; color:#777;">#7 </td>
+                <td style="padding:4px; font-weight:600; color:#e8a020;">Resident Evil 4</td>
+                <td style="padding:4px;"><span style="border:1px solid #e8a020; color:#e8a020; border-radius:4px; padding:1px 4px; font-size:0.7rem; white-space:nowrap; display:inline-block;">할인중</span></td>
+            </tr><tr style="border-bottom:1px solid #222;">
+                <td style="padding:4px; color:#777;">#13 </td>
+                <td style="padding:4px; font-weight:600; color:#22bb88;">Warframe</td>
+                <td style="padding:4px;"><span style="border:1px solid #22bb88; color:#22bb88; border-radius:4px; padding:1px 4px; font-size:0.7rem; white-space:nowrap; display:inline-block;">FREE</span></td>
+            </tr><tr style="border-bottom:1px solid #222;">
+                <td style="padding:4px; color:#777;">#14 </td>
+                <td style="padding:4px; font-weight:600; color:#22bb88;">Tom Clancy's Rainbow Six Siege</td>
+                <td style="padding:4px;"><span style="border:1px solid #22bb88; color:#22bb88; border-radius:4px; padding:1px 4px; font-size:0.7rem; white-space:nowrap; display:inline-block;">FREE</span></td>
+            </tr><tr style="border-bottom:1px solid #222;">
+                <td style="padding:4px; color:#777;">#15 </td>
+                <td style="padding:4px; font-weight:600; color:#e8a020;">Sons Of The Forest</td>
+                <td style="padding:4px;"><span style="border:1px solid #e8a020; color:#e8a020; border-radius:4px; padding:1px 4px; font-size:0.7rem; white-space:nowrap; display:inline-block;">할인중</span></td>
+            </tr><tr style="border-bottom:1px solid #222;">
+                <td style="padding:4px; color:#777;">#16 </td>
+                <td style="padding:4px; font-weight:600; color:#e8a020;">Resident Evil Requiem</td>
+                <td style="padding:4px;"><span style="border:1px solid #e8a020; color:#e8a020; border-radius:4px; padding:1px 4px; font-size:0.7rem; white-space:nowrap; display:inline-block;">할인중</span></td>
+            </tr><tr style="border-bottom:1px solid #222;">
+                <td style="padding:4px; color:#777;">#18 </td>
+                <td style="padding:4px; font-weight:600; color:#22bb88;">Team Fortress 2</td>
+                <td style="padding:4px;"><span style="border:1px solid #22bb88; color:#22bb88; border-radius:4px; padding:1px 4px; font-size:0.7rem; white-space:nowrap; display:inline-block;">FREE</span></td>
+            </tr><tr style="border-bottom:1px solid #222;">
+                <td style="padding:4px; color:#777;">#19 </td>
+                <td style="padding:4px; font-weight:600; color:#22bb88;">Marvel Rivals</td>
+                <td style="padding:4px;"><span style="border:1px solid #22bb88; color:#22bb88; border-radius:4px; padding:1px 4px; font-size:0.7rem; white-space:nowrap; display:inline-block;">FREE</span></td>
+            </tr><tr style="border-bottom:1px solid #222;">
+                <td style="padding:4px; color:#777;">#20 </td>
+                <td style="padding:4px; font-weight:600; color:#e8a020;">ARC Raiders</td>
+                <td style="padding:4px;"><span style="border:1px solid #e8a020; color:#e8a020; border-radius:4px; padding:1px 4px; font-size:0.7rem; white-space:nowrap; display:inline-block;">할인중</span></td>
+            </tr><tr style="border-bottom:1px solid #222;">
+                <td style="padding:4px; color:#777;">#22 </td>
+                <td style="padding:4px; font-weight:600; color:#22bb88;">Apex Legends™</td>
+                <td style="padding:4px;"><span style="border:1px solid #22bb88; color:#22bb88; border-radius:4px; padding:1px 4px; font-size:0.7rem; white-space:nowrap; display:inline-block;">FREE</span></td>
+            </tr><tr style="border-bottom:1px solid #222;">
+                <td style="padding:4px; color:#777;">#23 </td>
+                <td style="padding:4px; font-weight:600; color:#e8a020;">House Flipper Remastered Collection</td>
+                <td style="padding:4px;"><span style="border:1px solid #e8a020; color:#e8a020; border-radius:4px; padding:1px 4px; font-size:0.7rem; white-space:nowrap; display:inline-block;">할인중</span></td>
+            </tr><tr style="border-bottom:1px solid #222;">
+                <td style="padding:4px; color:#777;">#26 </td>
+                <td style="padding:4px; font-weight:600; color:#e8a020;">Satisfactory</td>
+                <td style="padding:4px;"><span style="border:1px solid #e8a020; color:#e8a020; border-radius:4px; padding:1px 4px; font-size:0.7rem; white-space:nowrap; display:inline-block;">할인중</span></td>
+            </tr><tr style="border-bottom:1px solid #222;">
+                <td style="padding:4px; color:#777;">#29 </td>
+                <td style="padding:4px; font-weight:600; color:#e8a020;">Spyro™ Reignited Trilogy</td>
+                <td style="padding:4px;"><span style="border:1px solid #e8a020; color:#e8a020; border-radius:4px; padding:1px 4px; font-size:0.7rem; white-space:nowrap; display:inline-block;">할인중</span></td>
+            </tr><tr style="border-bottom:1px solid #222;">
+                <td style="padding:4px; color:#777;">#30 </td>
+                <td style="padding:4px; font-weight:600; color:#22bb88;">War Thunder</td>
+                <td style="padding:4px;"><span style="border:1px solid #22bb88; color:#22bb88; border-radius:4px; padding:1px 4px; font-size:0.7rem; white-space:nowrap; display:inline-block;">FREE</span></td>
+            </tr></table>
+        </div></div>
     </div>
-    <div class="stat-item">
-      <span class="stat-label">평균 순위</span>
-      <span class="stat-value">67.8위</span>
-    </div>
-    <div class="stat-item">
-      <span class="stat-label">최고 순위 국가</span>
-      <span class="stat-value" style="font-size:1rem">🇰🇷 한국 (18위)</span>
-    </div>
-  </div>
-</div>
-
-<div class="main">
-  <div class="legend">
-    <div class="legend-item"><div class="dot" style="background:var(--top)"></div> Top 10</div>
-    <div class="legend-item"><div class="dot" style="background:var(--mid)"></div> 11~30위</div>
-    <div class="legend-item"><div class="dot" style="background:var(--low)"></div> 31위+</div>
-    <div class="legend-item"><div class="dot" style="background:var(--free)"></div> FREE TO PLAY</div>
-    <div class="legend-item"><div class="dot" style="background:var(--disc)"></div> 할인 중</div>
-  </div>
-
-  <div class="grid" style="margin-top:16px">
-    
-    <div class="country-card">
-      <div class="country-header">
-        <span class="country-name">🇺🇸 미국</span>
-        <span class="rank-badge rank-low">붉은사막 53위</span>
-        <span class="rival-count">0개 경쟁</span>
-      </div>
-      <p class="no-rival">상위 순위에 무료/할인 게임 없음</p>
-    </div>
-
-    <div class="country-card">
-      <div class="country-header">
-        <span class="country-name">🇬🇧 영국</span>
-        <span class="rank-badge rank-low">붉은사막 88위</span>
-        <span class="rival-count">0개 경쟁</span>
-      </div>
-      <p class="no-rival">상위 순위에 무료/할인 게임 없음</p>
-    </div>
-
-    <div class="country-card">
-      <div class="country-header">
-        <span class="country-name">🇩🇪 독일</span>
-        <span class="rank-badge rank-low">붉은사막 136위</span>
-        <span class="rival-count">0개 경쟁</span>
-      </div>
-      <p class="no-rival">상위 순위에 무료/할인 게임 없음</p>
-    </div>
-
-    <div class="country-card">
-      <div class="country-header">
-        <span class="country-name">🇫🇷 프랑스</span>
-        <span class="rank-badge rank-low">붉은사막 66위</span>
-        <span class="rival-count">0개 경쟁</span>
-      </div>
-      <p class="no-rival">상위 순위에 무료/할인 게임 없음</p>
-    </div>
-
-    <div class="country-card">
-      <div class="country-header">
-        <span class="country-name">🇨🇦 캐나다</span>
-        <span class="rank-badge rank-low">붉은사막 58위</span>
-        <span class="rival-count">0개 경쟁</span>
-      </div>
-      <p class="no-rival">상위 순위에 무료/할인 게임 없음</p>
-    </div>
-
-    <div class="country-card">
-      <div class="country-header">
-        <span class="country-name">🇧🇷 브라질</span>
-        <span class="rank-badge rank-low">붉은사막 97위</span>
-        <span class="rival-count">0개 경쟁</span>
-      </div>
-      <p class="no-rival">상위 순위에 무료/할인 게임 없음</p>
-    </div>
-
-    <div class="country-card">
-      <div class="country-header">
-        <span class="country-name">🇯🇵 일본</span>
-        <span class="rank-badge rank-low">붉은사막 176위</span>
-        <span class="rival-count">0개 경쟁</span>
-      </div>
-      <p class="no-rival">상위 순위에 무료/할인 게임 없음</p>
-    </div>
-
-    <div class="country-card">
-      <div class="country-header">
-        <span class="country-name">🇰🇷 한국</span>
-        <span class="rank-badge rank-mid">붉은사막 18위</span>
-        <span class="rival-count">0개 경쟁</span>
-      </div>
-      <p class="no-rival">상위 순위에 무료/할인 게임 없음</p>
-    </div>
-
-    <div class="country-card">
-      <div class="country-header">
-        <span class="country-name">🇨🇳 중국</span>
-        <span class="rank-badge rank-mid">붉은사막 28위</span>
-        <span class="rival-count">0개 경쟁</span>
-      </div>
-      <p class="no-rival">상위 순위에 무료/할인 게임 없음</p>
-    </div>
-
-    <div class="country-card">
-      <div class="country-header">
-        <span class="country-name">🇷🇺 러시아</span>
-        <span class="rank-badge rank-low">붉은사막 37위</span>
-        <span class="rival-count">0개 경쟁</span>
-      </div>
-      <p class="no-rival">상위 순위에 무료/할인 게임 없음</p>
-    </div>
-
-    <div class="country-card">
-      <div class="country-header">
-        <span class="country-name">🇦🇺 호주</span>
-        <span class="rank-badge rank-low">붉은사막 55위</span>
-        <span class="rival-count">0개 경쟁</span>
-      </div>
-      <p class="no-rival">상위 순위에 무료/할인 게임 없음</p>
-    </div>
-
-    <div class="country-card">
-      <div class="country-header">
-        <span class="country-name">🇪🇸 스페인</span>
-        <span class="rank-badge rank-low">붉은사막 89위</span>
-        <span class="rival-count">0개 경쟁</span>
-      </div>
-      <p class="no-rival">상위 순위에 무료/할인 게임 없음</p>
-    </div>
-
-    <div class="country-card">
-      <div class="country-header">
-        <span class="country-name">🇮🇹 이탈리아</span>
-        <span class="rank-badge rank-low">붉은사막 46위</span>
-        <span class="rival-count">0개 경쟁</span>
-      </div>
-      <p class="no-rival">상위 순위에 무료/할인 게임 없음</p>
-    </div>
-
-    <div class="country-card">
-      <div class="country-header">
-        <span class="country-name">🇵🇱 폴란드</span>
-        <span class="rank-badge rank-low">붉은사막 50위</span>
-        <span class="rival-count">0개 경쟁</span>
-      </div>
-      <p class="no-rival">상위 순위에 무료/할인 게임 없음</p>
-    </div>
-
-    <div class="country-card">
-      <div class="country-header">
-        <span class="country-name">🇹🇷 터키</span>
-        <span class="rank-badge rank-low">붉은사막 79위</span>
-        <span class="rival-count">0개 경쟁</span>
-      </div>
-      <p class="no-rival">상위 순위에 무료/할인 게임 없음</p>
-    </div>
-
-    <div class="country-card">
-      <div class="country-header">
-        <span class="country-name">🇳🇱 네덜란드</span>
-        <span class="rank-badge rank-low">붉은사막 41위</span>
-        <span class="rival-count">0개 경쟁</span>
-      </div>
-      <p class="no-rival">상위 순위에 무료/할인 게임 없음</p>
-    </div>
-
-    <div class="country-card">
-      <div class="country-header">
-        <span class="country-name">🇸🇪 스웨덴</span>
-        <span class="rank-badge rank-low">붉은사막 73위</span>
-        <span class="rival-count">0개 경쟁</span>
-      </div>
-      <p class="no-rival">상위 순위에 무료/할인 게임 없음</p>
-    </div>
-
-    <div class="country-card">
-      <div class="country-header">
-        <span class="country-name">🇳🇴 노르웨이</span>
-        <span class="rank-badge rank-low">붉은사막 74위</span>
-        <span class="rival-count">0개 경쟁</span>
-      </div>
-      <p class="no-rival">상위 순위에 무료/할인 게임 없음</p>
-    </div>
-
-    <div class="country-card">
-      <div class="country-header">
-        <span class="country-name">🇩🇰 덴마크</span>
-        <span class="rank-badge rank-low">붉은사막 37위</span>
-        <span class="rival-count">0개 경쟁</span>
-      </div>
-      <p class="no-rival">상위 순위에 무료/할인 게임 없음</p>
-    </div>
-
-    <div class="country-card">
-      <div class="country-header">
-        <span class="country-name">🇫🇮 핀란드</span>
-        <span class="rank-badge rank-low">붉은사막 73위</span>
-        <span class="rival-count">0개 경쟁</span>
-      </div>
-      <p class="no-rival">상위 순위에 무료/할인 게임 없음</p>
-    </div>
-
-    <div class="country-card">
-      <div class="country-header">
-        <span class="country-name">🇦🇹 오스트리아</span>
-        <span class="rank-badge rank-low">붉은사막 48위</span>
-        <span class="rival-count">0개 경쟁</span>
-      </div>
-      <p class="no-rival">상위 순위에 무료/할인 게임 없음</p>
-    </div>
-
-    <div class="country-card">
-      <div class="country-header">
-        <span class="country-name">🇨🇭 스위스</span>
-        <span class="rank-badge rank-mid">붉은사막 21위</span>
-        <span class="rival-count">0개 경쟁</span>
-      </div>
-      <p class="no-rival">상위 순위에 무료/할인 게임 없음</p>
-    </div>
-
-    <div class="country-card">
-      <div class="country-header">
-        <span class="country-name">🇨🇿 체코</span>
-        <span class="rank-badge rank-low">붉은사막 58위</span>
-        <span class="rival-count">0개 경쟁</span>
-      </div>
-      <p class="no-rival">상위 순위에 무료/할인 게임 없음</p>
-    </div>
-
-    <div class="country-card">
-      <div class="country-header">
-        <span class="country-name">🇸🇬 싱가포르</span>
-        <span class="rank-badge rank-low">붉은사막 51위</span>
-        <span class="rival-count">0개 경쟁</span>
-      </div>
-      <p class="no-rival">상위 순위에 무료/할인 게임 없음</p>
-    </div>
-
-    <div class="country-card">
-      <div class="country-header">
-        <span class="country-name">🇧🇪 벨기에</span>
-        <span class="rank-badge rank-low">붉은사막 165위</span>
-        <span class="rival-count">0개 경쟁</span>
-      </div>
-      <p class="no-rival">상위 순위에 무료/할인 게임 없음</p>
-    </div>
-
-    <div class="country-card">
-      <div class="country-header">
-        <span class="country-name">🇭🇰 홍콩</span>
-        <span class="rank-badge rank-low">붉은사막 43위</span>
-        <span class="rival-count">0개 경쟁</span>
-      </div>
-      <p class="no-rival">상위 순위에 무료/할인 게임 없음</p>
-    </div>
-
-    <div class="country-card">
-      <div class="country-header">
-        <span class="country-name">🇳🇿 뉴질랜드</span>
-        <span class="rank-badge rank-low">붉은사막 43위</span>
-        <span class="rival-count">0개 경쟁</span>
-      </div>
-      <p class="no-rival">상위 순위에 무료/할인 게임 없음</p>
-    </div>
-
-    <div class="country-card">
-      <div class="country-header">
-        <span class="country-name">🇹🇼 대만</span>
-        <span class="rank-badge rank-low">붉은사막 121위</span>
-        <span class="rival-count">0개 경쟁</span>
-      </div>
-      <p class="no-rival">상위 순위에 무료/할인 게임 없음</p>
-    </div>
-
-    <div class="country-card">
-      <div class="country-header">
-        <span class="country-name">🇹🇭 태국</span>
-        <span class="rank-badge rank-low">붉은사막 42위</span>
-        <span class="rival-count">0개 경쟁</span>
-      </div>
-      <p class="no-rival">상위 순위에 무료/할인 게임 없음</p>
-    </div>
-  </div>
-</div>
-
-<footer>
-  Steam Top Sellers API 기반 · Crimson Desert App ID: 1143720 · 데이터는 Steam 정책상 지연될 수 있음
-</footer>
-
-</body>
-</html>
+    <script>
+        function saveDashboard(){
+            html2canvas(document.querySelector("#capture-area")).then(canvas => {
+                const link = document.createElement("a");
+                link.download = "dashboard_20260605.png";
+                link.href = canvas.toDataURL("image/png");
+                link.click();
+            });
+        }
+    </script>
+</body></html>
