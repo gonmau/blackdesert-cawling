@@ -29,7 +29,6 @@ def get_history():
     return {}
 
 def fetch_topsellers(cc, start=0, count=100):
-    """JSON API 엔드포인트 사용 — HTML 파싱 불필요"""
     url = (
         f"https://store.steampowered.com/search/results/"
         f"?query&start={start}&count={count}&filter=topsellers&cc={cc}&json=1"
@@ -51,6 +50,53 @@ def fetch_topsellers(cc, start=0, count=100):
             wait *= 2
     return None
 
+def parse_item(item, rank, cc, history):
+    """응답 item에서 필요한 정보 추출 — 필드명 유연하게 처리"""
+    # app_id
+    appid = str(
+        item.get("app_id") or
+        item.get("appid") or
+        item.get("id") or
+        item.get("data-ds-appid") or ""
+    )
+
+    # 게임명
+    name_game = (
+        item.get("name") or
+        item.get("title") or
+        item.get("app_name") or
+        "Unknown"
+    )
+
+    # 무료 여부
+    is_free = bool(
+        item.get("is_free_game") or
+        item.get("is_free") or
+        (item.get("price") == 0) or
+        (isinstance(item.get("price"), dict) and item["price"].get("original", 1) == 0)
+    )
+
+    # 할인 여부
+    discount_pct = 0
+    price = item.get("price") or {}
+    if isinstance(price, dict):
+        discount_pct = price.get("discount_pct", 0) or price.get("discount", 0) or 0
+    elif item.get("discount_pct"):
+        discount_pct = item.get("discount_pct", 0)
+    is_discounted = discount_pct > 0 and not is_free
+
+    prev_rank = history.get(cc, {}).get(appid, rank)
+
+    return {
+        "app_id": appid,
+        "name": name_game,
+        "is_free": is_free,
+        "is_discounted": is_discounted,
+        "discount_pct": discount_pct,
+        "rank": rank,
+        "rank_diff": prev_rank - rank,
+    }
+
 def analyze_country(cc, name, history, idx, total):
     print(f"[{idx:02d}/{total}] 🔍 {name} ({cc})")
 
@@ -58,42 +104,32 @@ def analyze_country(cc, name, history, idx, total):
     crimson_rank = None
     crimson_rank_diff = 0
 
-    # 최대 150개 (start=0, start=100)
     for start in [0, 100]:
         data = fetch_topsellers(cc, start=start, count=100)
         if not data:
+            print(f"    ❌ 응답 없음 (start={start})")
             break
 
-        items = data.get("items", [])
+        # items 키 유연하게 탐색
+        items = (
+            data.get("items") or
+            data.get("results") or
+            data.get("games") or
+            []
+        )
+
         if not items:
+            print(f"    ⚠️  items 없음 — 응답 키: {list(data.keys())}")
             break
 
         for item in items:
-            appid = str(item.get("app_id") or item.get("id") or "")
-            name_game = item.get("name", "Unknown")
-
-            # 가격 정보 파싱
-            price = item.get("price") or {}
-            is_free = item.get("is_free_game", False) or price.get("original", 0) == 0
-            discount_pct = price.get("discount_pct", 0) or 0
-            is_discounted = discount_pct > 0 and not is_free
-
             current_rank = len(all_items) + 1
-            prev_rank = history.get(cc, {}).get(appid, current_rank)
+            parsed = parse_item(item, current_rank, cc, history)
+            all_items.append(parsed)
 
-            all_items.append({
-                "app_id": appid,
-                "name": name_game,
-                "is_free": bool(is_free),
-                "is_discounted": bool(is_discounted),
-                "discount_pct": discount_pct,
-                "rank": current_rank,
-                "rank_diff": prev_rank - current_rank,
-            })
-
-            if appid == CRIMSON_DESERT_APPID:
+            if parsed["app_id"] == CRIMSON_DESERT_APPID:
                 crimson_rank = current_rank
-                crimson_rank_diff = prev_rank - current_rank
+                crimson_rank_diff = parsed["rank_diff"]
                 break
 
         if crimson_rank:
