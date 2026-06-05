@@ -30,7 +30,20 @@ jobs:
           python-version: "3.11"
 
       - name: 의존성 설치
-        run: pip install requests beautifulsoup4
+        run: pip install requests
+
+      - name: "[디버그] JSON API 응답 구조 확인"
+        run: |
+          python -c "
+import requests, json
+url = 'https://store.steampowered.com/search/results/?query&start=0&count=10&filter=topsellers&cc=us&json=1'
+headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'}
+res = requests.get(url, headers=headers)
+print('status:', res.status_code)
+data = res.json()
+print('keys:', list(data.keys()))
+print(json.dumps(data, indent=2, ensure_ascii=False)[:3000])
+"
 
       - name: "[디버그] item 구조 덤프"
         if: github.event.inputs.debug == 'yes'
@@ -62,6 +75,5 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add data/ index.html 2>/dev/null || true
-          git add data/debug_item_*.json 2>/dev/null || true
           git diff --staged --quiet || git commit -m "📊 트래커 업데이트 $(date -u +'%Y-%m-%d %H:%M UTC')"
           git push
