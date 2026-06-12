@@ -3,7 +3,7 @@ name: Global Rival Tracker
 on:
   schedule:
   - cron: "0 * * * *"   # 매시간 0분에 실행 (KST 기준 00/01/02/.../23시)
-workflow_dispatch:        # 수동 실행
+  workflow_dispatch:        # 수동 실행
 
 jobs:
   track:
