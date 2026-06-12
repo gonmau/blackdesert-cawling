@@ -10,14 +10,14 @@ from datetime import datetime, timezone, timedelta
 
 CRIMSON_DESERT_APPID = "3321460"
 DATA_DIR = Path("data")
-OUTPUT_FILE = DATA_DIR / "global_rivals.json"
-HISTORY_FILE = DATA_DIR / "global_history.json"
-RANK_HISTORY_FILE = DATA_DIR / "global_rank_history.json"   # 순위 시계열
+OUTPUT_FILE       = DATA_DIR / "global_rivals.json"
+HISTORY_FILE      = DATA_DIR / "global_history.json"
+RANK_HISTORY_FILE = DATA_DIR / "global_rank_history.json"
 HEADERS = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"}
 
 MAX_RETRIES = 3
 REQUEST_DELAY = 1.5
-MAX_RANK_HISTORY = 180   # 최대 180포인트 보관 (6h 간격 → 약 45일)
+MAX_RANK_HISTORY = 180   # 6h 간격 × 180 ≈ 45일
 
 
 def get_history():
@@ -85,10 +85,11 @@ def run():
     history = get_history()
     rank_history = get_rank_history()
 
-    all_items = []
-    crimson_rank = None
-
     print("🔍 Steam Global Top Sellers 수집 중...")
+
+    # ── 1단계: 전체 목록 수집 (붉은사막 발견까지) ──────────────────
+    raw_items = []   # API에서 받은 순서 그대로
+    crimson_idx = None  # raw_items 내 0-based index
 
     for start in [0, 100, 200]:
         data = fetch_globaltopsellers(start=start, count=100)
@@ -102,65 +103,67 @@ def run():
 
         for item in items:
             appid = extract_appid(item.get("logo", ""))
-            current_rank = len(all_items) + 1
-            prev_rank = history.get(appid, current_rank)
-
-            all_items.append({
-                "app_id": appid,
-                "name": item.get("name", "Unknown"),
-                "rank": current_rank,
-                "rank_diff": prev_rank - current_rank,
-                "is_free": False,
-                "is_discounted": False,
-                "discount_pct": 0,
-            })
-
+            raw_items.append({"app_id": appid, "name": item.get("name", "Unknown")})
             if appid == CRIMSON_DESERT_APPID:
-                crimson_rank = current_rank
+                crimson_idx = len(raw_items) - 1
                 break
 
-        if crimson_rank:
+        if crimson_idx is not None:
             break
         time.sleep(REQUEST_DELAY)
 
     now_str = datetime.now(timezone(timedelta(hours=9))).isoformat()
 
-    if crimson_rank is None:
+    # ── 2단계: 순위 계산 (index + 1 이 곧 순위) ────────────────────
+    if crimson_idx is None:
         print("⚠️  300위 안에 붉은사막 없음")
-        result = {"crimson_desert_rank": None, "rank_diff": 0, "rivals": []}
+        output = {"generated_at": now_str, "crimson_desert_rank": None, "rank_diff": 0, "rivals": []}
     else:
+        crimson_rank = crimson_idx + 1   # 1-based 순위
         prev_cd_rank = history.get(CRIMSON_DESERT_APPID, crimson_rank)
         crimson_rank_diff = prev_cd_rank - crimson_rank
         diff_str = (f" (▲{crimson_rank_diff})" if crimson_rank_diff > 0
                     else f" (▼{abs(crimson_rank_diff)})" if crimson_rank_diff < 0 else "")
         print(f"✅ 붉은사막 글로벌 {crimson_rank}위{diff_str}")
 
+        # ── 3단계: 붉은사막 앞 게임들 가격 조회 ───────────────────
         rivals = []
         print(f"💰 상위 {crimson_rank - 1}개 게임 가격 조회 중...")
-        for item in all_items[:crimson_rank - 1]:
-            if not item["app_id"]:
+        for idx, item in enumerate(raw_items[:crimson_idx]):   # 붉은사막 앞까지만
+            appid = item["app_id"]
+            rank = idx + 1
+            prev_rank = history.get(appid, rank)
+
+            if not appid:
                 continue
-            price = get_price_info(item["app_id"])
-            item.update(price)
-            if item["is_free"] or item["is_discounted"]:
-                rivals.append(item)
+
+            price = get_price_info(appid)
+            if price["is_free"] or price["is_discounted"]:
+                rivals.append({
+                    "app_id": appid,
+                    "name": item["name"],
+                    "rank": rank,
+                    "rank_diff": prev_rank - rank,
+                    **price,
+                })
             time.sleep(0.3)
 
         print(f"📊 경쟁작(무료/할인): {len(rivals)}개")
-        result = {
+
+        # 순위 시계열 누적
+        rank_history.append({"t": now_str, "rank": crimson_rank})
+        if len(rank_history) > MAX_RANK_HISTORY:
+            rank_history = rank_history[-MAX_RANK_HISTORY:]
+
+        output = {
+            "generated_at": now_str,
             "crimson_desert_rank": crimson_rank,
             "rank_diff": crimson_rank_diff,
             "rivals": rivals,
         }
 
-        # 순위 시계열 추가
-        rank_history.append({"t": now_str, "rank": crimson_rank})
-        if len(rank_history) > MAX_RANK_HISTORY:
-            rank_history = rank_history[-MAX_RANK_HISTORY:]
-
-    new_history = {item["app_id"]: item["rank"] for item in all_items}
-
-    output = {"generated_at": now_str, **result}
+    # ── 4단계: 저장 ────────────────────────────────────────────────
+    new_history = {item["app_id"]: (i + 1) for i, item in enumerate(raw_items) if item["app_id"]}
 
     with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
         json.dump(output, f, ensure_ascii=False, indent=2)
