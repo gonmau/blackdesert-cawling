@@ -12,10 +12,12 @@ CRIMSON_DESERT_APPID = "3321460"
 DATA_DIR = Path("data")
 OUTPUT_FILE = DATA_DIR / "global_rivals.json"
 HISTORY_FILE = DATA_DIR / "global_history.json"
+RANK_HISTORY_FILE = DATA_DIR / "global_rank_history.json"   # 순위 시계열
 HEADERS = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"}
 
 MAX_RETRIES = 3
 REQUEST_DELAY = 1.5
+MAX_RANK_HISTORY = 180   # 최대 180포인트 보관 (6h 간격 → 약 45일)
 
 
 def get_history():
@@ -23,6 +25,13 @@ def get_history():
         with open(HISTORY_FILE, "r", encoding="utf-8") as f:
             return json.load(f)
     return {}
+
+
+def get_rank_history():
+    if RANK_HISTORY_FILE.exists():
+        with open(RANK_HISTORY_FILE, "r", encoding="utf-8") as f:
+            return json.load(f)
+    return []
 
 
 def extract_appid(logo_url):
@@ -74,6 +83,7 @@ def get_price_info(appid):
 def run():
     DATA_DIR.mkdir(exist_ok=True)
     history = get_history()
+    rank_history = get_rank_history()
 
     all_items = []
     crimson_rank = None
@@ -113,6 +123,8 @@ def run():
             break
         time.sleep(REQUEST_DELAY)
 
+    now_str = datetime.now(timezone(timedelta(hours=9))).isoformat()
+
     if crimson_rank is None:
         print("⚠️  300위 안에 붉은사막 없음")
         result = {"crimson_desert_rank": None, "rank_diff": 0, "rivals": []}
@@ -141,17 +153,21 @@ def run():
             "rivals": rivals,
         }
 
+        # 순위 시계열 추가
+        rank_history.append({"t": now_str, "rank": crimson_rank})
+        if len(rank_history) > MAX_RANK_HISTORY:
+            rank_history = rank_history[-MAX_RANK_HISTORY:]
+
     new_history = {item["app_id"]: item["rank"] for item in all_items}
 
-    output = {
-        "generated_at": datetime.now(timezone(timedelta(hours=9))).isoformat(),
-        **result,
-    }
+    output = {"generated_at": now_str, **result}
 
     with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
         json.dump(output, f, ensure_ascii=False, indent=2)
     with open(HISTORY_FILE, "w", encoding="utf-8") as f:
         json.dump(new_history, f, ensure_ascii=False, indent=2)
+    with open(RANK_HISTORY_FILE, "w", encoding="utf-8") as f:
+        json.dump(rank_history, f, ensure_ascii=False, indent=2)
 
     print(f"💾 저장 완료: {OUTPUT_FILE}")
 
