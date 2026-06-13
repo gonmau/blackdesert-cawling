@@ -1,0 +1,394 @@
+{
+  "generated_at": "2026-06-13T10:58:28.777573+09:00",
+  "crimson_desert_rank": 61,
+  "rank_diff": 0,
+  "rivals": [
+    {
+      "app_id": "730",
+      "name": "",
+      "rank": 1,
+      "is_free": true,
+      "is_discounted": false,
+      "discount_pct": 0,
+      "rank_diff": 0
+    },
+    {
+      "app_id": "2767030",
+      "name": "",
+      "rank": 2,
+      "is_free": true,
+      "is_discounted": false,
+      "discount_pct": 0,
+      "rank_diff": 0
+    },
+    {
+      "app_id": "4704690",
+      "name": "",
+      "rank": 3,
+      "is_free": false,
+      "is_discounted": true,
+      "discount_pct": 20,
+      "rank_diff": 0
+    },
+    {
+      "app_id": "3405690",
+      "name": "",
+      "rank": 4,
+      "is_free": false,
+      "is_discounted": true,
+      "discount_pct": 80,
+      "rank_diff": 0
+    },
+    {
+      "app_id": "1085660",
+      "name": "",
+      "rank": 5,
+      "is_free": true,
+      "is_discounted": false,
+      "discount_pct": 0,
+      "rank_diff": 0
+    },
+    {
+      "app_id": "1462040",
+      "name": "",
+      "rank": 6,
+      "is_free": false,
+      "is_discounted": true,
+      "discount_pct": 65,
+      "rank_diff": 0
+    },
+    {
+      "app_id": "252490",
+      "name": "",
+      "rank": 10,
+      "is_free": false,
+      "is_discounted": true,
+      "discount_pct": 50,
+      "rank_diff": 0
+    },
+    {
+      "app_id": "394360",
+      "name": "",
+      "rank": 11,
+      "is_free": false,
+      "is_discounted": true,
+      "discount_pct": 80,
+      "rank_diff": 0
+    },
+    {
+      "app_id": "2909400",
+      "name": "",
+      "rank": 12,
+      "is_free": false,
+      "is_discounted": true,
+      "discount_pct": 60,
+      "rank_diff": 0
+    },
+    {
+      "app_id": "3186540",
+      "name": "",
+      "rank": 15,
+      "is_free": false,
+      "is_discounted": true,
+      "discount_pct": 70,
+      "rank_diff": 0
+    },
+    {
+      "app_id": "3844970",
+      "name": "",
+      "rank": 16,
+      "is_free": false,
+      "is_discounted": true,
+      "discount_pct": 10,
+      "rank_diff": 0
+    },
+    {
+      "app_id": "1172470",
+      "name": "",
+      "rank": 17,
+      "is_free": true,
+      "is_discounted": false,
+      "discount_pct": 0,
+      "rank_diff": 0
+    },
+    {
+      "app_id": "3513350",
+      "name": "",
+      "rank": 18,
+      "is_free": true,
+      "is_discounted": false,
+      "discount_pct": 0,
+      "rank_diff": 0
+    },
+    {
+      "app_id": "230410",
+      "name": "",
+      "rank": 19,
+      "is_free": true,
+      "is_discounted": false,
+      "discount_pct": 0,
+      "rank_diff": 0
+    },
+    {
+      "app_id": "1868140",
+      "name": "",
+      "rank": 20,
+      "is_free": false,
+      "is_discounted": true,
+      "discount_pct": 50,
+      "rank_diff": 0
+    },
+    {
+      "app_id": "457140",
+      "name": "",
+      "rank": 21,
+      "is_free": false,
+      "is_discounted": true,
+      "discount_pct": 70,
+      "rank_diff": 0
+    },
+    {
+      "app_id": "322330",
+      "name": "",
+      "rank": 24,
+      "is_free": false,
+      "is_discounted": true,
+      "discount_pct": 90,
+      "rank_diff": 0
+    },
+    {
+      "app_id": "359550",
+      "name": "",
+      "rank": 25,
+      "is_free": true,
+      "is_discounted": false,
+      "discount_pct": 0,
+      "rank_diff": 0
+    },
+    {
+      "app_id": "2050650",
+      "name": "",
+      "rank": 27,
+      "is_free": false,
+      "is_discounted": true,
+      "discount_pct": 75,
+      "rank_diff": 0
+    },
+    {
+      "app_id": "3472040",
+      "name": "",
+      "rank": 29,
+      "is_free": false,
+      "is_discounted": true,
+      "discount_pct": 20,
+      "rank_diff": 0
+    },
+    {
+      "app_id": "3186490",
+      "name": "",
+      "rank": 31,
+      "is_free": false,
+      "is_discounted": true,
+      "discount_pct": 80,
+      "rank_diff": 0
+    },
+    {
+      "app_id": "1903340",
+      "name": "",
+      "rank": 32,
+      "is_free": false,
+      "is_discounted": true,
+      "discount_pct": 20,
+      "rank_diff": 0
+    },
+    {
+      "app_id": "3337380",
+      "name": "",
+      "rank": 33,
+      "is_free": false,
+      "is_discounted": true,
+      "discount_pct": 25,
+      "rank_diff": 0
+    },
+    {
+      "app_id": "570",
+      "name": "",
+      "rank": 34,
+      "is_free": true,
+      "is_discounted": false,
+      "discount_pct": 0,
+      "rank_diff": 0
+    },
+    {
+      "app_id": "4148240",
+      "name": "",
+      "rank": 35,
+      "is_free": false,
+      "is_discounted": true,
+      "discount_pct": 20,
+      "rank_diff": 0
+    },
+    {
+      "app_id": "2679100",
+      "name": "",
+      "rank": 36,
+      "is_free": false,
+      "is_discounted": true,
+      "discount_pct": 15,
+      "rank_diff": 0
+    },
+    {
+      "app_id": "3892270",
+      "name": "",
+      "rank": 37,
+      "is_free": false,
+      "is_discounted": true,
+      "discount_pct": 20,
+      "rank_diff": 0
+    },
+    {
+      "app_id": "578080",
+      "name": "",
+      "rank": 38,
+      "is_free": true,
+      "is_discounted": false,
+      "discount_pct": 0,
+      "rank_diff": 0
+    },
+    {
+      "app_id": "2004680",
+      "name": "",
+      "rank": 39,
+      "is_free": false,
+      "is_discounted": true,
+      "discount_pct": 10,
+      "rank_diff": 0
+    },
+    {
+      "app_id": "3764200",
+      "name": "",
+      "rank": 40,
+      "is_free": false,
+      "is_discounted": true,
+      "discount_pct": 20,
+      "rank_diff": 0
+    },
+    {
+      "app_id": "2246340",
+      "name": "",
+      "rank": 41,
+      "is_free": false,
+      "is_discounted": true,
+      "discount_pct": 58,
+      "rank_diff": 0
+    },
+    {
+      "app_id": "1364780",
+      "name": "",
+      "rank": 43,
+      "is_free": false,
+      "is_discounted": true,
+      "discount_pct": 50,
+      "rank_diff": 0
+    },
+    {
+      "app_id": "3276050",
+      "name": "",
+      "rank": 44,
+      "is_free": false,
+      "is_discounted": true,
+      "discount_pct": 10,
+      "rank_diff": 0
+    },
+    {
+      "app_id": "236390",
+      "name": "",
+      "rank": 45,
+      "is_free": true,
+      "is_discounted": false,
+      "discount_pct": 0,
+      "rank_diff": 0
+    },
+    {
+      "app_id": "3241660",
+      "name": "",
+      "rank": 46,
+      "is_free": false,
+      "is_discounted": true,
+      "discount_pct": 30,
+      "rank_diff": 0
+    },
+    {
+      "app_id": "1466060",
+      "name": "",
+      "rank": 48,
+      "is_free": false,
+      "is_discounted": true,
+      "discount_pct": 40,
+      "rank_diff": 0
+    },
+    {
+      "app_id": "1313140",
+      "name": "",
+      "rank": 49,
+      "is_free": false,
+      "is_discounted": true,
+      "discount_pct": 50,
+      "rank_diff": 0
+    },
+    {
+      "app_id": "4394810",
+      "name": "",
+      "rank": 50,
+      "is_free": false,
+      "is_discounted": true,
+      "discount_pct": 10,
+      "rank_diff": 0
+    },
+    {
+      "app_id": "2515020",
+      "name": "",
+      "rank": 51,
+      "is_free": false,
+      "is_discounted": true,
+      "discount_pct": 60,
+      "rank_diff": 0
+    },
+    {
+      "app_id": "2958130",
+      "name": "",
+      "rank": 52,
+      "is_free": false,
+      "is_discounted": true,
+      "discount_pct": 33,
+      "rank_diff": 0
+    },
+    {
+      "app_id": "3065800",
+      "name": "",
+      "rank": 56,
+      "is_free": false,
+      "is_discounted": true,
+      "discount_pct": 30,
+      "rank_diff": 0
+    },
+    {
+      "app_id": "3564740",
+      "name": "",
+      "rank": 57,
+      "is_free": true,
+      "is_discounted": false,
+      "discount_pct": 0,
+      "rank_diff": 0
+    },
+    {
+      "app_id": "534380",
+      "name": "",
+      "rank": 60,
+      "is_free": false,
+      "is_discounted": true,
+      "discount_pct": 80,
+      "rank_diff": 0
+    }
+  ]
+}
