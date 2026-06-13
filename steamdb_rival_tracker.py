@@ -2,24 +2,20 @@
 # -*- coding: utf-8 -*-
 """
 SteamDB Global Top Sellers - 붉은사막 경쟁작 추적기 (실시간 매출 기준)
-Playwright + stealth로 steamdb.info 스크래핑
+undetected-chromedriver로 steamdb.info 스크래핑 (로컬 PC 전용)
 """
 import json, time, re, sys
 from pathlib import Path
 from datetime import datetime, timezone, timedelta
 
 try:
-    from playwright.sync_api import sync_playwright
+    import undetected_chromedriver as uc
+    from selenium.webdriver.common.by import By
+    from selenium.webdriver.support.ui import WebDriverWait
+    from selenium.webdriver.support import expected_conditions as EC
 except ImportError:
-    print("❌ playwright 미설치: pip install playwright && playwright install chromium")
+    print("❌ 미설치: pip install undetected-chromedriver selenium")
     sys.exit(1)
-
-try:
-    from playwright_stealth import Stealth
-    HAS_STEALTH = True
-except ImportError:
-    HAS_STEALTH = False
-    print("⚠️  playwright-stealth 미설치 — 봇 감지 우회 없이 진행")
 
 CRIMSON_DESERT_APPID = "3321460"
 DATA_DIR = Path("data")
@@ -46,110 +42,78 @@ def get_rank_history():
 
 
 def scrape_steamdb():
+    options = uc.ChromeOptions()
+    # headless 대신 화면 밖으로 밀어서 백그라운드처럼 실행
+    options.add_argument("--window-position=-2000,0")
+    options.add_argument("--window-size=1280,800")
+    options.add_argument("--lang=en-US")
+    options.add_argument("--no-sandbox")
+    options.add_argument("--disable-dev-shm-usage")
+
+    driver = uc.Chrome(options=options)
     items = []
 
-    with sync_playwright() as p:
-        browser = p.chromium.launch(
-            headless=True,
-            args=[
-                "--no-sandbox",
-                "--disable-blink-features=AutomationControlled",
-                "--disable-dev-shm-usage",
-                "--disable-infobars",
-            ]
-        )
-        ctx = browser.new_context(
-            user_agent=(
-                "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
-                "AppleWebKit/537.36 (KHTML, like Gecko) "
-                "Chrome/125.0.0.0 Safari/537.36"
-            ),
-            viewport={"width": 1280, "height": 800},
-            locale="en-US",
-            extra_http_headers={
-                "Accept-Language": "en-US,en;q=0.9",
-                "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8",
-                "sec-ch-ua": '"Chromium";v="125", "Not.A/Brand";v="24"',
-                "sec-ch-ua-mobile": "?0",
-                "sec-ch-ua-platform": '"Windows"',
-            }
-        )
-        page = ctx.new_page()
-
-        # stealth 적용
-        if HAS_STEALTH:
-            Stealth().apply_stealth_sync(page)
-            print("  🛡️ stealth 적용됨")
-
+    try:
         print("  🌐 steamdb 페이지 로딩...")
-        try:
-            page.goto(STEAMDB_URL, wait_until="networkidle", timeout=45000)
-        except Exception:
-            page.goto(STEAMDB_URL, wait_until="domcontentloaded", timeout=45000)
-            time.sleep(8)
+        driver.get(STEAMDB_URL)
 
-        html = page.content()
+        # 테이블 링크 대기 (최대 30초)
+        WebDriverWait(driver, 30).until(
+            EC.presence_of_element_located((By.CSS_SELECTOR, "a[href*='/app/']"))
+        )
+        time.sleep(2)  # 추가 렌더링 여유
 
-        # Cloudflare challenge 감지
-        if "just a moment" in html.lower() or "enable javascript" in html.lower():
-            print("  ⚠️  Cloudflare challenge 감지 — 5초 추가 대기")
-            time.sleep(5)
-            html = page.content()
-
-        # 테이블 대기
-        try:
-            page.wait_for_selector("a[href*='/app/']", timeout=15000)
-        except Exception:
-            pass
-
-        # /app/ 링크 기반 파싱 (테이블 selector에 의존하지 않음)
-        rows = page.query_selector_all("tr")
-        print(f"  📋 tr 수: {len(rows)}")
+        rows = driver.find_elements(By.CSS_SELECTOR, "tr")
+        print(f"  📋 {len(rows)}행 발견")
 
         for row in rows:
             try:
-                # 순위: 첫 번째 td 텍스트
-                first_td = row.query_selector("td:first-child")
-                if not first_td:
+                cells = row.find_elements(By.CSS_SELECTOR, "td")
+                if not cells:
                     continue
-                rank_txt = first_td.inner_text().strip().rstrip('.')
+
+                # 순위
+                rank_txt = cells[0].text.strip().rstrip('.')
                 if not rank_txt.isdigit():
                     continue
                 rank = int(rank_txt)
 
                 # 게임명 + appid
-                link_el = row.query_selector("a[href*='/app/']")
-                if not link_el:
-                    continue
-                name = link_el.inner_text().strip()
+                link_el = row.find_element(By.CSS_SELECTOR, "a[href*='/app/']")
+                # td[2]에 게임명, 링크 text는 첫번째가 빈 이미지링크라 td 사용
+                name = cells[2].text.strip() if len(cells) > 2 else link_el.text.strip()
                 href = link_el.get_attribute("href") or ""
                 m = re.search(r"/app/(\d+)/", href)
                 if not m:
                     continue
                 appid = m.group(1)
 
-                # 가격/할인: td 전체 텍스트에서 추출
-                row_text = row.inner_text()
+                # 가격/할인: 행 전체 텍스트에서 추출
+                row_text = row.text
                 is_free = bool(re.search(r'\bfree\b', row_text, re.IGNORECASE))
                 disc_match = re.search(r'-(\d+)%', row_text)
                 discount_pct = int(disc_match.group(1)) if disc_match and not is_free else 0
-                is_discounted = discount_pct > 0
 
                 items.append({
                     "app_id": appid,
                     "name": name,
                     "rank": rank,
                     "is_free": is_free,
-                    "is_discounted": is_discounted,
+                    "is_discounted": discount_pct > 0,
                     "discount_pct": discount_pct,
                 })
 
             except Exception:
                 continue
 
-        browser.close()
+    except Exception as e:
+        print(f"  ❌ 스크래핑 오류: {e}")
+    finally:
+        try:
+            driver.quit()
+        except Exception:
+            pass
 
-    # rank 기준 정렬
     items.sort(key=lambda x: x["rank"])
     return items
 
@@ -169,7 +133,7 @@ def run():
         return
 
     if not raw_items:
-        print("❌ 데이터 없음 (Cloudflare 차단 또는 구조 변경 가능성)")
+        print("❌ 데이터 없음")
         return
 
     print(f"✅ {len(raw_items)}개 게임 수집")
