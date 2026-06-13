@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 SteamDB Global Top Sellers - 붉은사막 경쟁작 추적기 (실시간 매출 기준)
-Playwright로 steamdb.info 스크래핑
+Playwright + stealth로 steamdb.info 스크래핑
 """
 import json, time, re, sys
 from pathlib import Path
@@ -14,6 +14,13 @@ except ImportError:
     print("❌ playwright 미설치: pip install playwright && playwright install chromium")
     sys.exit(1)
 
+try:
+    from playwright_stealth import Stealth
+    HAS_STEALTH = True
+except ImportError:
+    HAS_STEALTH = False
+    print("⚠️  playwright-stealth 미설치 — 봇 감지 우회 없이 진행")
+
 CRIMSON_DESERT_APPID = "3321460"
 DATA_DIR = Path("data")
 OUTPUT_FILE       = DATA_DIR / "steamdb_rivals.json"
@@ -21,7 +28,7 @@ HISTORY_FILE      = DATA_DIR / "steamdb_history.json"
 RANK_HISTORY_FILE = DATA_DIR / "steamdb_rank_history.json"
 
 STEAMDB_URL = "https://steamdb.info/stats/globaltopsellers/"
-MAX_RANK_HISTORY = 180   # 6h × 180 = 45일
+MAX_RANK_HISTORY = 180
 
 
 def get_history():
@@ -39,44 +46,73 @@ def get_rank_history():
 
 
 def scrape_steamdb():
-    """steamdb 순위 스크래핑 → [{rank, app_id, name, is_free, discount_pct}, ...]"""
     items = []
 
     with sync_playwright() as p:
-        browser = p.chromium.launch(headless=True)
+        browser = p.chromium.launch(
+            headless=True,
+            args=[
+                "--no-sandbox",
+                "--disable-blink-features=AutomationControlled",
+                "--disable-dev-shm-usage",
+                "--disable-infobars",
+            ]
+        )
         ctx = browser.new_context(
-            user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
-                       "Chrome/125.0.0.0 Safari/537.36",
+            user_agent=(
+                "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+                "AppleWebKit/537.36 (KHTML, like Gecko) "
+                "Chrome/125.0.0.0 Safari/537.36"
+            ),
             viewport={"width": 1280, "height": 800},
             locale="en-US",
+            extra_http_headers={
+                "Accept-Language": "en-US,en;q=0.9",
+                "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8",
+                "sec-ch-ua": '"Chromium";v="125", "Not.A/Brand";v="24"',
+                "sec-ch-ua-mobile": "?0",
+                "sec-ch-ua-platform": '"Windows"',
+            }
         )
         page = ctx.new_page()
+
+        # stealth 적용
+        if HAS_STEALTH:
+            Stealth().apply_stealth_sync(page)
+            print("  🛡️ stealth 적용됨")
 
         print("  🌐 steamdb 페이지 로딩...")
         try:
             page.goto(STEAMDB_URL, wait_until="networkidle", timeout=45000)
         except Exception:
             page.goto(STEAMDB_URL, wait_until="domcontentloaded", timeout=45000)
-
-        # 테이블 렌더링 대기 (JS로 채워짐)
-        try:
-            page.wait_for_selector("table.table-products tbody tr", timeout=20000)
-        except Exception:
-            # fallback: 그냥 기다리기
             time.sleep(8)
 
-        rows = page.query_selector_all("table.table-products tbody tr")
-        if not rows:
-            # selector 변경 대응
-            rows = page.query_selector_all("tbody tr")
+        html = page.content()
 
-        print(f"  📋 {len(rows)}행 발견")
+        # Cloudflare challenge 감지
+        if "just a moment" in html.lower() or "enable javascript" in html.lower():
+            print("  ⚠️  Cloudflare challenge 감지 — 5초 추가 대기")
+            time.sleep(5)
+            html = page.content()
+
+        # 테이블 대기
+        try:
+            page.wait_for_selector("a[href*='/app/']", timeout=15000)
+        except Exception:
+            pass
+
+        # /app/ 링크 기반 파싱 (테이블 selector에 의존하지 않음)
+        rows = page.query_selector_all("tr")
+        print(f"  📋 tr 수: {len(rows)}")
 
         for row in rows:
             try:
-                # 순위
-                rank_el = row.query_selector("td:nth-child(1)")
-                rank_txt = rank_el.inner_text().strip().rstrip('.') if rank_el else ""
+                # 순위: 첫 번째 td 텍스트
+                first_td = row.query_selector("td:first-child")
+                if not first_td:
+                    continue
+                rank_txt = first_td.inner_text().strip().rstrip('.')
                 if not rank_txt.isdigit():
                     continue
                 rank = int(rank_txt)
@@ -92,27 +128,19 @@ def scrape_steamdb():
                     continue
                 appid = m.group(1)
 
-                # 할인율
-                disc_el = row.query_selector("[data-discount], .discount, td:nth-child(4)")
-                discount_pct = 0
-                is_free = False
-
-                price_el = row.query_selector("td[data-price], .td-price")
-                if price_el:
-                    price_txt = price_el.inner_text().strip().lower()
-                    if price_txt in ("free", "free to play", ""):
-                        is_free = True
-                    else:
-                        disc_match = re.search(r"-(\d+)%", price_txt)
-                        if disc_match:
-                            discount_pct = int(disc_match.group(1))
+                # 가격/할인: td 전체 텍스트에서 추출
+                row_text = row.inner_text()
+                is_free = bool(re.search(r'\bfree\b', row_text, re.IGNORECASE))
+                disc_match = re.search(r'-(\d+)%', row_text)
+                discount_pct = int(disc_match.group(1)) if disc_match and not is_free else 0
+                is_discounted = discount_pct > 0
 
                 items.append({
                     "app_id": appid,
                     "name": name,
                     "rank": rank,
                     "is_free": is_free,
-                    "is_discounted": discount_pct > 0 and not is_free,
+                    "is_discounted": is_discounted,
                     "discount_pct": discount_pct,
                 })
 
@@ -121,6 +149,8 @@ def scrape_steamdb():
 
         browser.close()
 
+    # rank 기준 정렬
+    items.sort(key=lambda x: x["rank"])
     return items
 
 
@@ -136,7 +166,6 @@ def run():
         raw_items = scrape_steamdb()
     except Exception as e:
         print(f"❌ 스크래핑 실패: {e}")
-        # 실패해도 기존 데이터 유지 (파일 덮어쓰지 않음)
         return
 
     if not raw_items:
@@ -145,7 +174,6 @@ def run():
 
     print(f"✅ {len(raw_items)}개 게임 수집")
 
-    # 붉은사막 찾기
     crimson_item = next((i for i in raw_items if i["app_id"] == CRIMSON_DESERT_APPID), None)
 
     if crimson_item is None:
@@ -159,7 +187,6 @@ def run():
                     else f" (▼{abs(rank_diff)})" if rank_diff < 0 else "")
         print(f"✅ 붉은사막 SteamDB {crimson_rank}위{diff_str}")
 
-        # 붉은사막 앞에서 무료/할인만
         rivals = []
         for item in raw_items:
             if item["rank"] >= crimson_rank:
