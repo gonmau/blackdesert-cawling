@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-06-13T10:58:28.777573+09:00",
+  "generated_at": "2026-06-13T11:20:24.494334+09:00",
   "crimson_desert_rank": 61,
   "rank_diff": 0,
   "rivals": [
     {
       "app_id": "730",
-      "name": "",
+      "name": "Counter-Strike 2",
       "rank": 1,
       "is_free": true,
       "is_discounted": false,
@@ -14,7 +14,7 @@
     },
     {
       "app_id": "2767030",
-      "name": "",
+      "name": "Marvel Rivals",
       "rank": 2,
       "is_free": true,
       "is_discounted": false,
@@ -23,7 +23,7 @@
     },
     {
       "app_id": "4704690",
-      "name": "",
+      "name": "MECCHA CHAMELEON",
       "rank": 3,
       "is_free": false,
       "is_discounted": true,
@@ -32,7 +32,7 @@
     },
     {
       "app_id": "3405690",
-      "name": "",
+      "name": "EA SPORTS FC™ 26",
       "rank": 4,
       "is_free": false,
       "is_discounted": true,
@@ -41,7 +41,7 @@
     },
     {
       "app_id": "1085660",
-      "name": "",
+      "name": "Destiny 2",
       "rank": 5,
       "is_free": true,
       "is_discounted": false,
@@ -50,7 +50,7 @@
     },
     {
       "app_id": "1462040",
-      "name": "",
+      "name": "FINAL FANTASY VII REMAKE INTERGRADE",
       "rank": 6,
       "is_free": false,
       "is_discounted": true,
@@ -59,7 +59,7 @@
     },
     {
       "app_id": "252490",
-      "name": "",
+      "name": "Rust",
       "rank": 10,
       "is_free": false,
       "is_discounted": true,
@@ -68,7 +68,7 @@
     },
     {
       "app_id": "394360",
-      "name": "",
+      "name": "Hearts of Iron IV",
       "rank": 11,
       "is_free": false,
       "is_discounted": true,
@@ -77,7 +77,7 @@
     },
     {
       "app_id": "2909400",
-      "name": "",
+      "name": "FINAL FANTASY VII REBIRTH",
       "rank": 12,
       "is_free": false,
       "is_discounted": true,
@@ -86,7 +86,7 @@
     },
     {
       "app_id": "3186540",
-      "name": "",
+      "name": "Destiny 2: Renegades\nDLC",
       "rank": 15,
       "is_free": false,
       "is_discounted": true,
@@ -95,7 +95,7 @@
     },
     {
       "app_id": "3844970",
-      "name": "",
+      "name": "Burglin' Gnomes",
       "rank": 16,
       "is_free": false,
       "is_discounted": true,
@@ -104,7 +104,7 @@
     },
     {
       "app_id": "1172470",
-      "name": "",
+      "name": "Apex Legends™",
       "rank": 17,
       "is_free": true,
       "is_discounted": false,
@@ -113,7 +113,7 @@
     },
     {
       "app_id": "3513350",
-      "name": "",
+      "name": "Wuthering Waves",
       "rank": 18,
       "is_free": true,
       "is_discounted": false,
@@ -122,7 +122,7 @@
     },
     {
       "app_id": "230410",
-      "name": "",
+      "name": "Warframe",
       "rank": 19,
       "is_free": true,
       "is_discounted": false,
@@ -131,7 +131,7 @@
     },
     {
       "app_id": "1868140",
-      "name": "",
+      "name": "DAVE THE DIVER",
       "rank": 20,
       "is_free": false,
       "is_discounted": true,
@@ -140,7 +140,7 @@
     },
     {
       "app_id": "457140",
-      "name": "",
+      "name": "Oxygen Not Included",
       "rank": 21,
       "is_free": false,
       "is_discounted": true,
@@ -149,7 +149,7 @@
     },
     {
       "app_id": "322330",
-      "name": "",
+      "name": "Don't Starve Together",
       "rank": 24,
       "is_free": false,
       "is_discounted": true,
@@ -158,7 +158,7 @@
     },
     {
       "app_id": "359550",
-      "name": "",
+      "name": "Tom Clancy's Rainbow Six Siege",
       "rank": 25,
       "is_free": true,
       "is_discounted": false,
@@ -167,7 +167,7 @@
     },
     {
       "app_id": "2050650",
-      "name": "",
+      "name": "Resident Evil 4",
       "rank": 27,
       "is_free": false,
       "is_discounted": true,
@@ -176,7 +176,7 @@
     },
     {
       "app_id": "3472040",
-      "name": "",
+      "name": "NBA 2K26",
       "rank": 29,
       "is_free": false,
       "is_discounted": true,
@@ -185,7 +185,7 @@
     },
     {
       "app_id": "3186490",
-      "name": "",
+      "name": "Destiny 2: The Edge of Fate\nDLC",
       "rank": 31,
       "is_free": false,
       "is_discounted": true,
@@ -194,7 +194,7 @@
     },
     {
       "app_id": "1903340",
-      "name": "",
+      "name": "Clair Obscur: Expedition 33",
       "rank": 32,
       "is_free": false,
       "is_discounted": true,
@@ -203,7 +203,7 @@
     },
     {
       "app_id": "3337380",
-      "name": "",
+      "name": "Tabletop Tavern",
       "rank": 33,
       "is_free": false,
       "is_discounted": true,
@@ -212,7 +212,7 @@
     },
     {
       "app_id": "570",
-      "name": "",
+      "name": "Dota 2",
       "rank": 34,
       "is_free": true,
       "is_discounted": false,
@@ -221,7 +221,7 @@
     },
     {
       "app_id": "4148240",
-      "name": "",
+      "name": "Road to Empress Ⅱ",
       "rank": 35,
       "is_free": false,
       "is_discounted": true,
@@ -230,7 +230,7 @@
     },
     {
       "app_id": "2679100",
-      "name": "",
+      "name": "Witchspire",
       "rank": 36,
       "is_free": false,
       "is_discounted": true,
@@ -239,7 +239,7 @@
     },
     {
       "app_id": "3892270",
-      "name": "",
+      "name": "Gamble With Your Friends",
       "rank": 37,
       "is_free": false,
       "is_discounted": true,
@@ -248,7 +248,7 @@
     },
     {
       "app_id": "578080",
-      "name": "",
+      "name": "PUBG: BATTLEGROUNDS",
       "rank": 38,
       "is_free": true,
       "is_discounted": false,
@@ -257,7 +257,7 @@
     },
     {
       "app_id": "2004680",
-      "name": "",
+      "name": "Voidling Bound",
       "rank": 39,
       "is_free": false,
       "is_discounted": true,
@@ -266,7 +266,7 @@
     },
     {
       "app_id": "3764200",
-      "name": "",
+      "name": "Resident Evil Requiem",
       "rank": 40,
       "is_free": false,
       "is_discounted": true,
@@ -275,7 +275,7 @@
     },
     {
       "app_id": "2246340",
-      "name": "",
+      "name": "Monster Hunter Wilds",
       "rank": 41,
       "is_free": false,
       "is_discounted": true,
@@ -284,7 +284,7 @@
     },
     {
       "app_id": "1364780",
-      "name": "",
+      "name": "Street Fighter™ 6",
       "rank": 43,
       "is_free": false,
       "is_discounted": true,
@@ -293,7 +293,7 @@
     },
     {
       "app_id": "3276050",
-      "name": "",
+      "name": "SpaceCraft",
       "rank": 44,
       "is_free": false,
       "is_discounted": true,
@@ -302,7 +302,7 @@
     },
     {
       "app_id": "236390",
-      "name": "",
+      "name": "War Thunder",
       "rank": 45,
       "is_free": true,
       "is_discounted": false,
@@ -311,7 +311,7 @@
     },
     {
       "app_id": "3241660",
-      "name": "",
+      "name": "R.E.P.O.",
       "rank": 46,
       "is_free": false,
       "is_discounted": true,
@@ -320,7 +320,7 @@
     },
     {
       "app_id": "1466060",
-      "name": "",
+      "name": "Tainted Grail: The Fall of Avalon",
       "rank": 48,
       "is_free": false,
       "is_discounted": true,
@@ -329,7 +329,7 @@
     },
     {
       "app_id": "1313140",
-      "name": "",
+      "name": "Cult of the Lamb",
       "rank": 49,
       "is_free": false,
       "is_discounted": true,
@@ -338,7 +338,7 @@
     },
     {
       "app_id": "4394810",
-      "name": "",
+      "name": "DAVE THE DIVER - In the Jungle Content Pack\nDLC",
       "rank": 50,
       "is_free": false,
       "is_discounted": true,
@@ -347,7 +347,7 @@
     },
     {
       "app_id": "2515020",
-      "name": "",
+      "name": "FINAL FANTASY XVI",
       "rank": 51,
       "is_free": false,
       "is_discounted": true,
@@ -356,7 +356,7 @@
     },
     {
       "app_id": "2958130",
-      "name": "",
+      "name": "Jurassic World Evolution 3",
       "rank": 52,
       "is_free": false,
       "is_discounted": true,
@@ -365,7 +365,7 @@
     },
     {
       "app_id": "3065800",
-      "name": "",
+      "name": "Marathon",
       "rank": 56,
       "is_free": false,
       "is_discounted": true,
@@ -374,7 +374,7 @@
     },
     {
       "app_id": "3564740",
-      "name": "",
+      "name": "Where Winds Meet",
       "rank": 57,
       "is_free": true,
       "is_discounted": false,
@@ -383,7 +383,7 @@
     },
     {
       "app_id": "534380",
-      "name": "",
+      "name": "Dying Light 2 Stay Human: Reloaded Edition",
       "rank": 60,
       "is_free": false,
       "is_discounted": true,
