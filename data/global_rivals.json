@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-06-14T08:01:38.784293+09:00",
-  "crimson_desert_rank": 48,
-  "rank_diff": 2,
+  "generated_at": "2026-06-14T09:34:03.193423+09:00",
+  "crimson_desert_rank": 47,
+  "rank_diff": 1,
   "rivals": [
     {
       "app_id": "730",
@@ -25,7 +25,7 @@
       "app_id": "1085660",
       "name": "Destiny 2",
       "rank": 3,
-      "rank_diff": 1,
+      "rank_diff": 0,
       "is_free": true,
       "is_discounted": false,
       "discount_pct": 0
@@ -33,7 +33,7 @@
     {
       "app_id": "2767030",
       "name": "Marvel Rivals",
-      "rank": 4,
+      "rank": 5,
       "rank_diff": -1,
       "is_free": true,
       "is_discounted": false,
@@ -43,7 +43,7 @@
       "app_id": "3513350",
       "name": "Wuthering Waves",
       "rank": 6,
-      "rank_diff": 1,
+      "rank_diff": 0,
       "is_free": true,
       "is_discounted": false,
       "discount_pct": 0
@@ -52,7 +52,7 @@
       "app_id": "3405690",
       "name": "EA SPORTS FC™ 26",
       "rank": 7,
-      "rank_diff": -1,
+      "rank_diff": 0,
       "is_free": false,
       "is_discounted": true,
       "discount_pct": 80
@@ -61,7 +61,7 @@
       "app_id": "1462040",
       "name": "FINAL FANTASY VII REMAKE INTERGRADE",
       "rank": 10,
-      "rank_diff": -1,
+      "rank_diff": 0,
       "is_free": false,
       "is_discounted": true,
       "discount_pct": 65
@@ -69,8 +69,8 @@
     {
       "app_id": "1172470",
       "name": "Apex Legends™",
-      "rank": 13,
-      "rank_diff": 0,
+      "rank": 12,
+      "rank_diff": 1,
       "is_free": true,
       "is_discounted": false,
       "discount_pct": 0
@@ -88,7 +88,7 @@
       "app_id": "3844970",
       "name": "Burglin' Gnomes",
       "rank": 15,
-      "rank_diff": 1,
+      "rank_diff": 0,
       "is_free": false,
       "is_discounted": true,
       "discount_pct": 10
@@ -97,7 +97,7 @@
       "app_id": "3186540",
       "name": "Destiny 2: Renegades",
       "rank": 16,
-      "rank_diff": 1,
+      "rank_diff": 0,
       "is_free": false,
       "is_discounted": true,
       "discount_pct": 70
@@ -106,7 +106,7 @@
       "app_id": "394360",
       "name": "Hearts of Iron IV",
       "rank": 17,
-      "rank_diff": -2,
+      "rank_diff": 0,
       "is_free": false,
       "is_discounted": true,
       "discount_pct": 80
@@ -121,28 +121,19 @@
       "discount_pct": 0
     },
     {
-      "app_id": "570",
-      "name": "Dota 2",
-      "rank": 22,
-      "rank_diff": -1,
-      "is_free": true,
-      "is_discounted": false,
-      "discount_pct": 0
-    },
-    {
       "app_id": "2050650",
       "name": "Resident Evil 4",
-      "rank": 23,
+      "rank": 22,
       "rank_diff": 1,
       "is_free": false,
       "is_discounted": true,
       "discount_pct": 75
     },
     {
-      "app_id": "359550",
-      "name": "Tom Clancy's Rainbow Six Siege",
-      "rank": 24,
-      "rank_diff": 4,
+      "app_id": "570",
+      "name": "Dota 2",
+      "rank": 23,
+      "rank_diff": -1,
       "is_free": true,
       "is_discounted": false,
       "discount_pct": 0
@@ -150,17 +141,17 @@
     {
       "app_id": "2909400",
       "name": "FINAL FANTASY VII REBIRTH",
-      "rank": 25,
-      "rank_diff": 0,
+      "rank": 24,
+      "rank_diff": 1,
       "is_free": false,
       "is_discounted": true,
       "discount_pct": 60
     },
     {
-      "app_id": "578080",
-      "name": "PUBG: BATTLEGROUNDS",
-      "rank": 26,
-      "rank_diff": 0,
+      "app_id": "359550",
+      "name": "Tom Clancy's Rainbow Six Siege",
+      "rank": 25,
+      "rank_diff": -1,
       "is_free": true,
       "is_discounted": false,
       "discount_pct": 0
@@ -168,62 +159,62 @@
     {
       "app_id": "1868140",
       "name": "DAVE THE DIVER",
-      "rank": 27,
-      "rank_diff": 0,
+      "rank": 26,
+      "rank_diff": 1,
       "is_free": false,
       "is_discounted": true,
       "discount_pct": 50
     },
     {
-      "app_id": "3892270",
-      "name": "Gamble With Your Friends",
+      "app_id": "578080",
+      "name": "PUBG: BATTLEGROUNDS",
+      "rank": 28,
+      "rank_diff": -2,
+      "is_free": true,
+      "is_discounted": false,
+      "discount_pct": 0
+    },
+    {
+      "app_id": "3472040",
+      "name": "NBA 2K26",
       "rank": 29,
       "rank_diff": 2,
+      "is_free": false,
+      "is_discounted": true,
+      "discount_pct": 80
+    },
+    {
+      "app_id": "3892270",
+      "name": "Gamble With Your Friends",
+      "rank": 30,
+      "rank_diff": -1,
       "is_free": false,
       "is_discounted": true,
       "discount_pct": 20
     },
     {
-      "app_id": "3105440",
-      "name": "Heroes of Might and Magic: Olden Era",
-      "rank": 30,
-      "rank_diff": -8,
-      "is_free": false,
-      "is_discounted": true,
-      "discount_pct": 25
-    },
-    {
-      "app_id": "3472040",
-      "name": "NBA 2K26",
-      "rank": 31,
-      "rank_diff": -1,
-      "is_free": false,
-      "is_discounted": true,
-      "discount_pct": 80
-    },
-    {
       "app_id": "3186490",
       "name": "Destiny 2: The Edge of Fate",
-      "rank": 32,
+      "rank": 31,
       "rank_diff": 1,
       "is_free": false,
       "is_discounted": true,
       "discount_pct": 80
+    },
+    {
+      "app_id": "4148240",
+      "name": "Road to Empress Ⅱ",
+      "rank": 32,
+      "rank_diff": 5,
+      "is_free": false,
+      "is_discounted": true,
+      "discount_pct": 20
     },
     {
       "app_id": "1903340",
       "name": "Clair Obscur: Expedition 33",
       "rank": 33,
-      "rank_diff": -1,
-      "is_free": false,
-      "is_discounted": true,
-      "discount_pct": 20
-    },
-    {
-      "app_id": "3764200",
-      "name": "Resident Evil Requiem",
-      "rank": 34,
-      "rank_diff": 1,
+      "rank_diff": 0,
       "is_free": false,
       "is_discounted": true,
       "discount_pct": 20
@@ -231,34 +222,34 @@
     {
       "app_id": "2679100",
       "name": "Witchspire",
-      "rank": 35,
-      "rank_diff": -1,
+      "rank": 34,
+      "rank_diff": 1,
       "is_free": false,
       "is_discounted": true,
       "discount_pct": 15
     },
     {
-      "app_id": "2004680",
-      "name": "Voidling Bound",
-      "rank": 36,
-      "rank_diff": 1,
-      "is_free": false,
-      "is_discounted": true,
-      "discount_pct": 10
-    },
-    {
-      "app_id": "4148240",
-      "name": "Road to Empress Ⅱ",
-      "rank": 37,
-      "rank_diff": 1,
+      "app_id": "3764200",
+      "name": "Resident Evil Requiem",
+      "rank": 35,
+      "rank_diff": -1,
       "is_free": false,
       "is_discounted": true,
       "discount_pct": 20
     },
     {
+      "app_id": "2004680",
+      "name": "Voidling Bound",
+      "rank": 36,
+      "rank_diff": 0,
+      "is_free": false,
+      "is_discounted": true,
+      "discount_pct": 10
+    },
+    {
       "app_id": "2246340",
       "name": "Monster Hunter Wilds",
-      "rank": 38,
+      "rank": 37,
       "rank_diff": 1,
       "is_free": false,
       "is_discounted": true,
@@ -267,11 +258,20 @@
     {
       "app_id": "457140",
       "name": "Oxygen Not Included",
-      "rank": 40,
-      "rank_diff": -4,
+      "rank": 38,
+      "rank_diff": 2,
       "is_free": false,
       "is_discounted": true,
       "discount_pct": 70
+    },
+    {
+      "app_id": "3105440",
+      "name": "Heroes of Might and Magic: Olden Era",
+      "rank": 39,
+      "rank_diff": -9,
+      "is_free": false,
+      "is_discounted": true,
+      "discount_pct": 25
     },
     {
       "app_id": "1364780",
@@ -303,8 +303,8 @@
     {
       "app_id": "3241660",
       "name": "R.E.P.O.",
-      "rank": 45,
-      "rank_diff": 0,
+      "rank": 44,
+      "rank_diff": 1,
       "is_free": false,
       "is_discounted": true,
       "discount_pct": 30
