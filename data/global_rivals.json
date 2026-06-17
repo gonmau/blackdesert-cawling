@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-06-17T07:52:17.921195+09:00",
-  "crimson_desert_rank": 64,
-  "rank_diff": 0,
+  "generated_at": "2026-06-17T09:13:39.104496+09:00",
+  "crimson_desert_rank": 66,
+  "rank_diff": -2,
   "rivals": [
     {
       "app_id": "730",
@@ -85,22 +85,22 @@
       "discount_pct": 0
     },
     {
-      "app_id": "1462040",
-      "name": "FINAL FANTASY VII REMAKE INTERGRADE",
-      "rank": 16,
-      "rank_diff": 0,
-      "is_free": false,
-      "is_discounted": true,
-      "discount_pct": 65
-    },
-    {
       "app_id": "1172470",
       "name": "Apex Legends™",
-      "rank": 17,
-      "rank_diff": 0,
+      "rank": 16,
+      "rank_diff": 1,
       "is_free": true,
       "is_discounted": false,
       "discount_pct": 0
+    },
+    {
+      "app_id": "1462040",
+      "name": "FINAL FANTASY VII REMAKE INTERGRADE",
+      "rank": 17,
+      "rank_diff": -1,
+      "is_free": false,
+      "is_discounted": true,
+      "discount_pct": 65
     },
     {
       "app_id": "2001120",
@@ -121,22 +121,22 @@
       "discount_pct": 0
     },
     {
-      "app_id": "252490",
-      "name": "Rust",
-      "rank": 20,
-      "rank_diff": 0,
-      "is_free": false,
-      "is_discounted": true,
-      "discount_pct": 50
-    },
-    {
       "app_id": "2050650",
       "name": "Resident Evil 4",
-      "rank": 21,
-      "rank_diff": 0,
+      "rank": 20,
+      "rank_diff": 1,
       "is_free": false,
       "is_discounted": true,
       "discount_pct": 75
+    },
+    {
+      "app_id": "252490",
+      "name": "Rust",
+      "rank": 21,
+      "rank_diff": -1,
+      "is_free": false,
+      "is_discounted": true,
+      "discount_pct": 50
     },
     {
       "app_id": "534380",
@@ -148,19 +148,10 @@
       "discount_pct": 80
     },
     {
-      "app_id": "570",
-      "name": "Dota 2",
-      "rank": 26,
-      "rank_diff": 0,
-      "is_free": true,
-      "is_discounted": false,
-      "discount_pct": 0
-    },
-    {
       "app_id": "1476970",
       "name": "IdleOn",
-      "rank": 27,
-      "rank_diff": 0,
+      "rank": 26,
+      "rank_diff": 1,
       "is_free": true,
       "is_discounted": false,
       "discount_pct": 0
@@ -168,26 +159,26 @@
     {
       "app_id": "578080",
       "name": "PUBG: BATTLEGROUNDS",
-      "rank": 29,
-      "rank_diff": 0,
+      "rank": 27,
+      "rank_diff": 2,
       "is_free": true,
       "is_discounted": false,
       "discount_pct": 0
     },
     {
-      "app_id": "394360",
-      "name": "Hearts of Iron IV",
-      "rank": 30,
-      "rank_diff": 0,
-      "is_free": false,
-      "is_discounted": true,
-      "discount_pct": 80
+      "app_id": "570",
+      "name": "Dota 2",
+      "rank": 28,
+      "rank_diff": -2,
+      "is_free": true,
+      "is_discounted": false,
+      "discount_pct": 0
     },
     {
       "app_id": "3844970",
       "name": "Burglin' Gnomes",
-      "rank": 31,
-      "rank_diff": 0,
+      "rank": 29,
+      "rank_diff": 2,
       "is_free": false,
       "is_discounted": true,
       "discount_pct": 10
@@ -195,11 +186,20 @@
     {
       "app_id": "1868140",
       "name": "DAVE THE DIVER",
-      "rank": 34,
-      "rank_diff": 0,
+      "rank": 32,
+      "rank_diff": 2,
       "is_free": false,
       "is_discounted": true,
       "discount_pct": 50
+    },
+    {
+      "app_id": "394360",
+      "name": "Hearts of Iron IV",
+      "rank": 33,
+      "rank_diff": -3,
+      "is_free": false,
+      "is_discounted": true,
+      "discount_pct": 80
     },
     {
       "app_id": "3764200",
@@ -211,19 +211,10 @@
       "discount_pct": 20
     },
     {
-      "app_id": "949230",
-      "name": "Cities: Skylines II",
-      "rank": 38,
-      "rank_diff": 0,
-      "is_free": false,
-      "is_discounted": true,
-      "discount_pct": 30
-    },
-    {
       "app_id": "2246340",
       "name": "Monster Hunter Wilds",
-      "rank": 39,
-      "rank_diff": 0,
+      "rank": 38,
+      "rank_diff": 1,
       "is_free": false,
       "is_discounted": true,
       "discount_pct": 58
@@ -231,8 +222,8 @@
     {
       "app_id": "4148240",
       "name": "Road to Empress Ⅱ",
-      "rank": 42,
-      "rank_diff": 0,
+      "rank": 39,
+      "rank_diff": 3,
       "is_free": false,
       "is_discounted": true,
       "discount_pct": 20
@@ -240,11 +231,20 @@
     {
       "app_id": "3472040",
       "name": "NBA 2K26",
-      "rank": 43,
-      "rank_diff": 0,
+      "rank": 41,
+      "rank_diff": 2,
       "is_free": false,
       "is_discounted": true,
       "discount_pct": 80
+    },
+    {
+      "app_id": "949230",
+      "name": "Cities: Skylines II",
+      "rank": 42,
+      "rank_diff": -4,
+      "is_free": false,
+      "is_discounted": true,
+      "discount_pct": 30
     },
     {
       "app_id": "236390",
@@ -256,46 +256,46 @@
       "discount_pct": 0
     },
     {
-      "app_id": "359550",
-      "name": "Tom Clancy's Rainbow Six Siege",
-      "rank": 45,
-      "rank_diff": 0,
-      "is_free": true,
-      "is_discounted": false,
-      "discount_pct": 0
-    },
-    {
       "app_id": "1364780",
       "name": "Street Fighter™ 6",
-      "rank": 46,
-      "rank_diff": 0,
+      "rank": 45,
+      "rank_diff": 1,
       "is_free": false,
       "is_discounted": true,
       "discount_pct": 50
     },
     {
-      "app_id": "3241660",
-      "name": "R.E.P.O.",
-      "rank": 47,
-      "rank_diff": 0,
-      "is_free": false,
-      "is_discounted": true,
-      "discount_pct": 30
+      "app_id": "359550",
+      "name": "Tom Clancy's Rainbow Six Siege",
+      "rank": 46,
+      "rank_diff": -1,
+      "is_free": true,
+      "is_discounted": false,
+      "discount_pct": 0
     },
     {
       "app_id": "322330",
       "name": "Don't Starve Together",
-      "rank": 50,
-      "rank_diff": 0,
+      "rank": 49,
+      "rank_diff": 1,
       "is_free": false,
       "is_discounted": true,
       "discount_pct": 90
     },
     {
+      "app_id": "3241660",
+      "name": "R.E.P.O.",
+      "rank": 50,
+      "rank_diff": -3,
+      "is_free": false,
+      "is_discounted": true,
+      "discount_pct": 30
+    },
+    {
       "app_id": "2909400",
       "name": "FINAL FANTASY VII REBIRTH",
-      "rank": 54,
-      "rank_diff": 0,
+      "rank": 53,
+      "rank_diff": 1,
       "is_free": false,
       "is_discounted": true,
       "discount_pct": 60
@@ -303,47 +303,65 @@
     {
       "app_id": "1669000",
       "name": "Age of Wonders 4",
-      "rank": 55,
-      "rank_diff": 0,
+      "rank": 56,
+      "rank_diff": -1,
       "is_free": false,
       "is_discounted": true,
       "discount_pct": 50
     },
     {
-      "app_id": "3105440",
-      "name": "Heroes of Might and Magic: Olden Era",
+      "app_id": "440",
+      "name": "Team Fortress 2",
       "rank": 57,
-      "rank_diff": 0,
-      "is_free": false,
-      "is_discounted": true,
-      "discount_pct": 25
+      "rank_diff": 3,
+      "is_free": true,
+      "is_discounted": false,
+      "discount_pct": 0
     },
     {
       "app_id": "1162750",
       "name": "Songs of Syx",
-      "rank": 58,
-      "rank_diff": 0,
+      "rank": 60,
+      "rank_diff": -2,
       "is_free": false,
       "is_discounted": true,
       "discount_pct": 25
     },
     {
-      "app_id": "440",
-      "name": "Team Fortress 2",
-      "rank": 60,
+      "app_id": "216150",
+      "name": "MapleStory",
+      "rank": 61,
       "rank_diff": 0,
       "is_free": true,
       "is_discounted": false,
       "discount_pct": 0
     },
     {
+      "app_id": "3105440",
+      "name": "Heroes of Might and Magic: Olden Era",
+      "rank": 62,
+      "rank_diff": -5,
+      "is_free": false,
+      "is_discounted": true,
+      "discount_pct": 25
+    },
+    {
       "app_id": "1903340",
       "name": "Clair Obscur: Expedition 33",
-      "rank": 61,
-      "rank_diff": 0,
+      "rank": 63,
+      "rank_diff": -2,
       "is_free": false,
       "is_discounted": true,
       "discount_pct": 20
+    },
+    {
+      "app_id": "3564740",
+      "name": "Where Winds Meet",
+      "rank": 65,
+      "rank_diff": 0,
+      "is_free": true,
+      "is_discounted": false,
+      "discount_pct": 0
     }
   ]
 }
