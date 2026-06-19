@@ -96,12 +96,78 @@
   .updated { font-size: 0.73rem; color: #444; margin-top: 18px; }
   .error   { color: #f44336; padding: 20px; }
   .loading { color: #888; padding: 20px; }
+
+  /* 실행 버튼 */
+  .run-bar {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+  }
+  .run-btn {
+    background: #1a3a1a;
+    color: #81c784;
+    border: 1px solid #2e5e2e;
+    border-radius: 8px;
+    padding: 9px 18px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    gap: 7px;
+    transition: background 0.15s, opacity 0.15s;
+  }
+  .run-btn:hover  { background: #1e4a1e; }
+  .run-btn:active { opacity: 0.8; }
+  .run-btn:disabled {
+    background: #1a1f2e; color: #555; border-color: #2a3050;
+    cursor: default;
+  }
+  .run-btn .spin {
+    width: 12px; height: 12px;
+    border: 2px solid #81c78455;
+    border-top-color: #81c784;
+    border-radius: 50%;
+    animation: spin 0.7s linear infinite;
+    display: none;
+  }
+  .run-btn.loading .spin { display: inline-block; }
+  @keyframes spin { to { transform: rotate(360deg); } }
+
+  .run-status {
+    font-size: 0.78rem;
+    color: #888;
+  }
+  .run-status.ok   { color: #66bb6a; }
+  .run-status.fail { color: #f44336; }
+
+  .token-reset {
+    font-size: 0.72rem;
+    color: #555;
+    background: none;
+    border: none;
+    text-decoration: underline;
+    cursor: pointer;
+    padding: 0;
+  }
+  .token-reset:hover { color: #888; }
 </style>
 </head>
 <body>
 
 <h1>🌐 붉은사막 글로벌 경쟁작 트래커</h1>
 <p class="subtitle">Steam Global Top Sellers 기준 — 붉은사막 상위 무료/할인 게임</p>
+
+<div class="run-bar">
+  <button id="runBtn" class="run-btn" onclick="runWorkflow()">
+    <span class="spin"></span>
+    <span id="runBtnLabel">🔄 지금 갱신</span>
+  </button>
+  <span id="runStatus" class="run-status"></span>
+  <button id="tokenResetBtn" class="token-reset" style="display:none" onclick="resetToken()">토큰 재설정</button>
+</div>
 
 <div id="app"><p class="loading">데이터 로딩 중...</p></div>
 
@@ -258,6 +324,144 @@ async function load() {
   } catch (e) {
     app.innerHTML = `<p class="error">❌ 데이터 로드 실패: ${e.message}<br>먼저 global_rival_tracker.py를 실행하세요.</p>`;
   }
+}
+
+/* ===== GitHub Actions 실행 버튼 ===== */
+const GH_OWNER     = 'gonmau';
+const GH_REPO      = 'blackdesert-cawling';
+const GH_WORKFLOW  = 'global_rival_tracker.yml';
+const GH_BRANCH    = 'main';
+const TOKEN_KEY    = 'gh_pat_blackdesert_cawling';
+
+function getToken() {
+  let t = sessionStorage.getItem(TOKEN_KEY);
+  if (!t) {
+    t = prompt('GitHub Personal Access Token을 입력하세요.\n(Actions: write 권한 필요, 이 브라우저 탭에만 임시 저장됩니다)');
+    if (t) sessionStorage.setItem(TOKEN_KEY, t.trim());
+  }
+  return t ? t.trim() : null;
+}
+
+function resetToken() {
+  sessionStorage.removeItem(TOKEN_KEY);
+  document.getElementById('tokenResetBtn').style.display = 'none';
+  setStatus('토큰을 삭제했습니다. 다음 실행 시 다시 입력하세요.', '');
+}
+
+function setStatus(msg, cls) {
+  const el = document.getElementById('runStatus');
+  el.textContent = msg;
+  el.className = 'run-status' + (cls ? ' ' + cls : '');
+}
+
+function setBtnLoading(isLoading, label) {
+  const btn = document.getElementById('runBtn');
+  const lbl = document.getElementById('runBtnLabel');
+  btn.disabled = isLoading;
+  btn.classList.toggle('loading', isLoading);
+  if (label) lbl.textContent = label;
+}
+
+async function ghApi(path, token, opts = {}) {
+  const res = await fetch(`https://api.github.com/repos/${GH_OWNER}/${GH_REPO}${path}`, {
+    ...opts,
+    headers: {
+      'Accept': 'application/vnd.github+json',
+      'Authorization': `Bearer ${token}`,
+      'X-GitHub-Api-Version': '2022-11-28',
+      ...(opts.headers || {}),
+    },
+  });
+  return res;
+}
+
+async function runWorkflow() {
+  const token = getToken();
+  if (!token) return;
+
+  document.getElementById('tokenResetBtn').style.display = 'inline';
+  setBtnLoading(true, '실행 요청 중...');
+  setStatus('');
+
+  try {
+    const dispatchTime = new Date();
+
+    const dispatchRes = await ghApi(`/actions/workflows/${GH_WORKFLOW}/dispatches`, token, {
+      method: 'POST',
+      body: JSON.stringify({ ref: GH_BRANCH }),
+    });
+
+    if (dispatchRes.status === 401 || dispatchRes.status === 403) {
+      sessionStorage.removeItem(TOKEN_KEY);
+      throw new Error('토큰이 유효하지 않거나 권한이 없습니다 (Actions: write 필요)');
+    }
+    if (!dispatchRes.ok) {
+      throw new Error(`실행 요청 실패 (HTTP ${dispatchRes.status})`);
+    }
+
+    setBtnLoading(true, '실행 대기 중...');
+    setStatus('워크플로우 실행을 요청했습니다. 진행 상황을 확인하는 중...');
+
+    // 새로 생성된 run을 찾을 때까지 폴링
+    let run = null;
+    for (let i = 0; i < 10 && !run; i++) {
+      await sleep(2500);
+      const runsRes = await ghApi(
+        `/actions/workflows/${GH_WORKFLOW}/runs?event=workflow_dispatch&per_page=5`,
+        token
+      );
+      if (!runsRes.ok) continue;
+      const runsData = await runsRes.json();
+      run = (runsData.workflow_runs || []).find(
+        r => new Date(r.created_at) >= new Date(dispatchTime.getTime() - 5000)
+      );
+    }
+
+    if (!run) {
+      setStatus('실행은 요청되었지만 상태 확인에 실패했습니다. GitHub Actions 탭에서 확인하세요.', '');
+      setBtnLoading(false, '🔄 지금 갱신');
+      return;
+    }
+
+    setStatus('워크플로우 실행 중...', '');
+
+    // 완료될 때까지 폴링 (최대 ~5분)
+    for (let i = 0; i < 60; i++) {
+      const runRes = await ghApi(`/actions/runs/${run.id}`, token);
+      if (runRes.ok) {
+        run = await runRes.json();
+        if (run.status === 'completed') break;
+      }
+      setBtnLoading(true, `실행 중... (${run.status})`);
+      await sleep(5000);
+    }
+
+    if (run.status !== 'completed') {
+      setStatus('실행이 아직 끝나지 않았습니다. 잠시 후 새로고침 해주세요.', '');
+      setBtnLoading(false, '🔄 지금 갱신');
+      return;
+    }
+
+    if (run.conclusion === 'success') {
+      setStatus('✅ 갱신 완료! 데이터를 불러옵니다...', 'ok');
+      setBtnLoading(false, '🔄 지금 갱신');
+      await sleep(800);
+      load();
+    } else {
+      setStatus(`❌ 워크플로우 실패 (${run.conclusion})`, 'fail');
+      setBtnLoading(false, '🔄 지금 갱신');
+    }
+
+  } catch (e) {
+    setStatus(`❌ ${e.message}`, 'fail');
+    setBtnLoading(false, '🔄 지금 갱신');
+  }
+}
+
+function sleep(ms) { return new Promise(r => setTimeout(r, ms)); }
+
+if (sessionStorage.getItem(TOKEN_KEY)) {
+  document.getElementById('tokenResetBtn').style.display = 'inline';
 }
 
 load();
