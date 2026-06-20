@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-06-20T23:58:47.428834+09:00",
-  "crimson_desert_rank": 53,
-  "rank_diff": -4,
+  "generated_at": "2026-06-21T00:44:44.448093+09:00",
+  "crimson_desert_rank": 55,
+  "rank_diff": -2,
   "rivals": [
     {
       "app_id": "578080",
@@ -43,7 +43,7 @@
       "app_id": "381210",
       "name": "Dead by Daylight",
       "rank": 8,
-      "rank_diff": 1,
+      "rank_diff": 0,
       "is_free": false,
       "is_discounted": true,
       "discount_pct": 60
@@ -52,7 +52,7 @@
       "app_id": "2138330",
       "name": "Cyberpunk 2077: Phantom Liberty",
       "rank": 9,
-      "rank_diff": -2,
+      "rank_diff": 0,
       "is_free": false,
       "is_discounted": true,
       "discount_pct": 40
@@ -79,7 +79,7 @@
       "app_id": "1868140",
       "name": "DAVE THE DIVER",
       "rank": 13,
-      "rank_diff": 1,
+      "rank_diff": 0,
       "is_free": false,
       "is_discounted": true,
       "discount_pct": 50
@@ -88,7 +88,7 @@
       "app_id": "292030",
       "name": "The Witcher 3: Wild Hunt",
       "rank": 14,
-      "rank_diff": -1,
+      "rank_diff": 0,
       "is_free": false,
       "is_discounted": true,
       "discount_pct": 90
@@ -115,7 +115,7 @@
       "app_id": "1172470",
       "name": "Apex Legends™",
       "rank": 17,
-      "rank_diff": 1,
+      "rank_diff": 0,
       "is_free": true,
       "is_discounted": false,
       "discount_pct": 0
@@ -124,7 +124,7 @@
       "app_id": "281990",
       "name": "Stellaris",
       "rank": 18,
-      "rank_diff": -1,
+      "rank_diff": 0,
       "is_free": false,
       "is_discounted": true,
       "discount_pct": 70
@@ -168,20 +168,20 @@
     {
       "app_id": "570",
       "name": "Dota 2",
-      "rank": 24,
-      "rank_diff": 0,
+      "rank": 25,
+      "rank_diff": -1,
       "is_free": true,
       "is_discounted": false,
       "discount_pct": 0
     },
     {
-      "app_id": "3472040",
-      "name": "NBA 2K26",
+      "app_id": "1222670",
+      "name": "The Sims™ 4",
       "rank": 26,
-      "rank_diff": 2,
-      "is_free": false,
-      "is_discounted": true,
-      "discount_pct": 80
+      "rank_diff": 4,
+      "is_free": true,
+      "is_discounted": false,
+      "discount_pct": 0
     },
     {
       "app_id": "2357570",
@@ -193,19 +193,19 @@
       "discount_pct": 0
     },
     {
-      "app_id": "1222670",
-      "name": "The Sims™ 4",
-      "rank": 30,
-      "rank_diff": -1,
-      "is_free": true,
-      "is_discounted": false,
-      "discount_pct": 0
+      "app_id": "3472040",
+      "name": "NBA 2K26",
+      "rank": 28,
+      "rank_diff": -2,
+      "is_free": false,
+      "is_discounted": true,
+      "discount_pct": 80
     },
     {
       "app_id": "1693980",
       "name": "Dead Space",
       "rank": 31,
-      "rank_diff": -1,
+      "rank_diff": 0,
       "is_free": false,
       "is_discounted": true,
       "discount_pct": 90
@@ -268,7 +268,7 @@
       "app_id": "949230",
       "name": "Cities: Skylines II",
       "rank": 39,
-      "rank_diff": 5,
+      "rank_diff": 0,
       "is_free": false,
       "is_discounted": true,
       "discount_pct": 30
@@ -277,34 +277,34 @@
       "app_id": "1426210",
       "name": "It Takes Two",
       "rank": 43,
-      "rank_diff": -3,
+      "rank_diff": 0,
       "is_free": false,
       "is_discounted": true,
       "discount_pct": 70
     },
     {
-      "app_id": "359550",
-      "name": "Tom Clancy's Rainbow Six Siege",
-      "rank": 44,
-      "rank_diff": 2,
-      "is_free": true,
-      "is_discounted": false,
-      "discount_pct": 0
-    },
-    {
       "app_id": "221100",
       "name": "DayZ",
-      "rank": 45,
-      "rank_diff": -2,
+      "rank": 44,
+      "rank_diff": 1,
       "is_free": false,
       "is_discounted": true,
       "discount_pct": 55
     },
     {
+      "app_id": "359550",
+      "name": "Tom Clancy's Rainbow Six Siege",
+      "rank": 45,
+      "rank_diff": -1,
+      "is_free": true,
+      "is_discounted": false,
+      "discount_pct": 0
+    },
+    {
       "app_id": "3241660",
       "name": "R.E.P.O.",
-      "rank": 48,
-      "rank_diff": -1,
+      "rank": 47,
+      "rank_diff": 1,
       "is_free": false,
       "is_discounted": true,
       "discount_pct": 30
@@ -328,13 +328,31 @@
       "discount_pct": 90
     },
     {
-      "app_id": "838350",
-      "name": "The Scroll of Taiwu : Beyond The Dome",
-      "rank": 51,
+      "app_id": "801800",
+      "name": "Atomfall",
+      "rank": 52,
       "rank_diff": 0,
       "is_free": false,
       "is_discounted": true,
+      "discount_pct": 60
+    },
+    {
+      "app_id": "838350",
+      "name": "The Scroll of Taiwu : Beyond The Dome",
+      "rank": 53,
+      "rank_diff": -2,
+      "is_free": false,
+      "is_discounted": true,
       "discount_pct": 20
+    },
+    {
+      "app_id": "1874880",
+      "name": "Arma Reforger",
+      "rank": 54,
+      "rank_diff": 0,
+      "is_free": false,
+      "is_discounted": true,
+      "discount_pct": 30
     }
   ]
 }
