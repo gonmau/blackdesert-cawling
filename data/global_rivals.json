@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-20T15:24:23.846894+09:00",
+  "generated_at": "2026-06-20T15:26:32.788530+09:00",
   "crimson_desert_rank": 66,
   "rank_diff": 0,
   "rivals": [
@@ -61,7 +61,7 @@
       "app_id": "230410",
       "name": "Warframe",
       "rank": 9,
-      "rank_diff": 1,
+      "rank_diff": 0,
       "is_free": true,
       "is_discounted": false,
       "discount_pct": 0
@@ -97,7 +97,7 @@
       "app_id": "3513350",
       "name": "Wuthering Waves",
       "rank": 15,
-      "rank_diff": 1,
+      "rank_diff": 0,
       "is_free": true,
       "is_discounted": false,
       "discount_pct": 0
@@ -106,7 +106,7 @@
       "app_id": "1172470",
       "name": "Apex Legends™",
       "rank": 16,
-      "rank_diff": 2,
+      "rank_diff": 0,
       "is_free": true,
       "is_discounted": false,
       "discount_pct": 0
@@ -115,7 +115,7 @@
       "app_id": "1085660",
       "name": "Destiny 2",
       "rank": 17,
-      "rank_diff": -2,
+      "rank_diff": 0,
       "is_free": true,
       "is_discounted": false,
       "discount_pct": 0
@@ -124,7 +124,7 @@
       "app_id": "2807960",
       "name": "Battlefield™ 6",
       "rank": 18,
-      "rank_diff": -1,
+      "rank_diff": 0,
       "is_free": false,
       "is_discounted": true,
       "discount_pct": 50
@@ -187,7 +187,7 @@
       "app_id": "3472040",
       "name": "NBA 2K26",
       "rank": 26,
-      "rank_diff": 1,
+      "rank_diff": 0,
       "is_free": false,
       "is_discounted": true,
       "discount_pct": 80
@@ -196,7 +196,7 @@
       "app_id": "570",
       "name": "Dota 2",
       "rank": 28,
-      "rank_diff": 1,
+      "rank_diff": 0,
       "is_free": true,
       "is_discounted": false,
       "discount_pct": 0
@@ -205,7 +205,7 @@
       "app_id": "216150",
       "name": "MapleStory",
       "rank": 29,
-      "rank_diff": 1,
+      "rank_diff": 0,
       "is_free": true,
       "is_discounted": false,
       "discount_pct": 0
@@ -241,7 +241,7 @@
       "app_id": "359550",
       "name": "Tom Clancy's Rainbow Six Siege",
       "rank": 36,
-      "rank_diff": 2,
+      "rank_diff": 0,
       "is_free": true,
       "is_discounted": false,
       "discount_pct": 0
@@ -259,7 +259,7 @@
       "app_id": "4148240",
       "name": "Road to Empress Ⅱ",
       "rank": 39,
-      "rank_diff": 3,
+      "rank_diff": 0,
       "is_free": false,
       "is_discounted": true,
       "discount_pct": 20
@@ -268,7 +268,7 @@
       "app_id": "1426210",
       "name": "It Takes Two",
       "rank": 40,
-      "rank_diff": 3,
+      "rank_diff": 0,
       "is_free": false,
       "is_discounted": true,
       "discount_pct": 70
@@ -286,7 +286,7 @@
       "app_id": "221100",
       "name": "DayZ",
       "rank": 43,
-      "rank_diff": -4,
+      "rank_diff": 0,
       "is_free": false,
       "is_discounted": true,
       "discount_pct": 55
@@ -295,7 +295,7 @@
       "app_id": "838350",
       "name": "The Scroll of Taiwu : Beyond The Dome",
       "rank": 47,
-      "rank_diff": 4,
+      "rank_diff": 0,
       "is_free": false,
       "is_discounted": true,
       "discount_pct": 20
@@ -304,7 +304,7 @@
       "app_id": "2486820",
       "name": "Sonic Racing: CrossWorlds",
       "rank": 48,
-      "rank_diff": -4,
+      "rank_diff": 0,
       "is_free": false,
       "is_discounted": true,
       "discount_pct": 50
@@ -313,7 +313,7 @@
       "app_id": "552990",
       "name": "World of Warships",
       "rank": 49,
-      "rank_diff": 1,
+      "rank_diff": 0,
       "is_free": true,
       "is_discounted": false,
       "discount_pct": 0
@@ -322,7 +322,7 @@
       "app_id": "438100",
       "name": "VRChat",
       "rank": 52,
-      "rank_diff": 6,
+      "rank_diff": 0,
       "is_free": true,
       "is_discounted": false,
       "discount_pct": 0
@@ -331,7 +331,7 @@
       "app_id": "3241660",
       "name": "R.E.P.O.",
       "rank": 53,
-      "rank_diff": 4,
+      "rank_diff": 0,
       "is_free": false,
       "is_discounted": true,
       "discount_pct": 30
@@ -340,7 +340,7 @@
       "app_id": "1874880",
       "name": "Arma Reforger",
       "rank": 54,
-      "rank_diff": -1,
+      "rank_diff": 0,
       "is_free": false,
       "is_discounted": true,
       "discount_pct": 30
@@ -358,7 +358,7 @@
       "app_id": "322330",
       "name": "Don't Starve Together",
       "rank": 56,
-      "rank_diff": 8,
+      "rank_diff": 0,
       "is_free": false,
       "is_discounted": true,
       "discount_pct": 90
@@ -367,7 +367,7 @@
       "app_id": "236390",
       "name": "War Thunder",
       "rank": 58,
-      "rank_diff": 1,
+      "rank_diff": 0,
       "is_free": true,
       "is_discounted": false,
       "discount_pct": 0
@@ -385,7 +385,7 @@
       "app_id": "3404260",
       "name": "Dead as Disco",
       "rank": 61,
-      "rank_diff": -7,
+      "rank_diff": 0,
       "is_free": false,
       "is_discounted": true,
       "discount_pct": 20
@@ -394,7 +394,7 @@
       "app_id": "2909400",
       "name": "FINAL FANTASY VII REBIRTH",
       "rank": 63,
-      "rank_diff": 2,
+      "rank_diff": 0,
       "is_free": false,
       "is_discounted": true,
       "discount_pct": 60
@@ -403,7 +403,7 @@
       "app_id": "440",
       "name": "Team Fortress 2",
       "rank": 64,
-      "rank_diff": -3,
+      "rank_diff": 0,
       "is_free": true,
       "is_discounted": false,
       "discount_pct": 0
