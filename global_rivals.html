@@ -334,16 +334,16 @@ const GH_BRANCH    = 'main';
 const TOKEN_KEY    = 'gh_pat_blackdesert_cawling';
 
 function getToken() {
-  let t = sessionStorage.getItem(TOKEN_KEY);
+  let t = localStorage.getItem(TOKEN_KEY);
   if (!t) {
-    t = prompt('GitHub Personal Access Token을 입력하세요.\n(Actions: write 권한 필요, 이 브라우저 탭에만 임시 저장됩니다)');
-    if (t) sessionStorage.setItem(TOKEN_KEY, t.trim());
+    t = prompt('GitHub Personal Access Token을 입력하세요.\n(Actions: write 권한 필요, 이 PC 브라우저에 저장됩니다)');
+    if (t) localStorage.setItem(TOKEN_KEY, t.trim());
   }
   return t ? t.trim() : null;
 }
 
 function resetToken() {
-  sessionStorage.removeItem(TOKEN_KEY);
+  localStorage.removeItem(TOKEN_KEY);
   document.getElementById('tokenResetBtn').style.display = 'none';
   setStatus('토큰을 삭제했습니다. 다음 실행 시 다시 입력하세요.', '');
 }
@@ -460,7 +460,7 @@ async function runWorkflow() {
 
 function sleep(ms) { return new Promise(r => setTimeout(r, ms)); }
 
-if (sessionStorage.getItem(TOKEN_KEY)) {
+if (localStorage.getItem(TOKEN_KEY)) {
   document.getElementById('tokenResetBtn').style.display = 'inline';
 }
 
