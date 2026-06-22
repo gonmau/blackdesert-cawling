@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-06-22T21:22:04.803051+09:00",
-  "crimson_desert_rank": 55,
-  "rank_diff": 0,
+  "generated_at": "2026-06-22T21:47:28.864184+09:00",
+  "crimson_desert_rank": 53,
+  "rank_diff": 2,
   "rivals": [
     {
       "app_id": "730",
@@ -49,22 +49,22 @@
       "discount_pct": 0
     },
     {
-      "app_id": "3405690",
-      "name": "EA SPORTS FC™ 26",
-      "rank": 10,
-      "rank_diff": 0,
-      "is_free": false,
-      "is_discounted": true,
-      "discount_pct": 80
-    },
-    {
       "app_id": "2138330",
       "name": "Cyberpunk 2077: Phantom Liberty",
-      "rank": 11,
-      "rank_diff": 0,
+      "rank": 10,
+      "rank_diff": 1,
       "is_free": false,
       "is_discounted": true,
       "discount_pct": 40
+    },
+    {
+      "app_id": "3405690",
+      "name": "EA SPORTS FC™ 26",
+      "rank": 11,
+      "rank_diff": -1,
+      "is_free": false,
+      "is_discounted": true,
+      "discount_pct": 80
     },
     {
       "app_id": "230410",
@@ -121,13 +121,13 @@
       "discount_pct": 0
     },
     {
-      "app_id": "281990",
-      "name": "Stellaris",
+      "app_id": "292030",
+      "name": "The Witcher 3: Wild Hunt",
       "rank": 18,
-      "rank_diff": 0,
+      "rank_diff": 2,
       "is_free": false,
       "is_discounted": true,
-      "discount_pct": 70
+      "discount_pct": 90
     },
     {
       "app_id": "2807960",
@@ -139,28 +139,28 @@
       "discount_pct": 50
     },
     {
-      "app_id": "292030",
-      "name": "The Witcher 3: Wild Hunt",
+      "app_id": "281990",
+      "name": "Stellaris",
       "rank": 20,
-      "rank_diff": 0,
+      "rank_diff": -2,
       "is_free": false,
       "is_discounted": true,
-      "discount_pct": 90
+      "discount_pct": 70
     },
     {
-      "app_id": "1085660",
-      "name": "Destiny 2",
+      "app_id": "570",
+      "name": "Dota 2",
       "rank": 21,
-      "rank_diff": 0,
+      "rank_diff": 1,
       "is_free": true,
       "is_discounted": false,
       "discount_pct": 0
     },
     {
-      "app_id": "570",
-      "name": "Dota 2",
+      "app_id": "1085660",
+      "name": "Destiny 2",
       "rank": 22,
-      "rank_diff": 0,
+      "rank_diff": -1,
       "is_free": true,
       "is_discounted": false,
       "discount_pct": 0
@@ -168,8 +168,8 @@
     {
       "app_id": "252490",
       "name": "Rust",
-      "rank": 24,
-      "rank_diff": 0,
+      "rank": 23,
+      "rank_diff": 1,
       "is_free": false,
       "is_discounted": true,
       "discount_pct": 50
@@ -222,8 +222,8 @@
     {
       "app_id": "4148240",
       "name": "Road to Empress Ⅱ",
-      "rank": 34,
-      "rank_diff": 0,
+      "rank": 33,
+      "rank_diff": 1,
       "is_free": false,
       "is_discounted": true,
       "discount_pct": 20
@@ -247,28 +247,46 @@
       "discount_pct": 33
     },
     {
-      "app_id": "1693980",
-      "name": "Dead Space",
+      "app_id": "1665460",
+      "name": "eFootball™",
       "rank": 39,
-      "rank_diff": 0,
+      "rank_diff": 7,
+      "is_free": true,
+      "is_discounted": false,
+      "discount_pct": 0
+    },
+    {
+      "app_id": "3472040",
+      "name": "NBA 2K26",
+      "rank": 40,
+      "rank_diff": 3,
       "is_free": false,
       "is_discounted": true,
-      "discount_pct": 90
+      "discount_pct": 80
     },
     {
       "app_id": "949230",
       "name": "Cities: Skylines II",
-      "rank": 40,
-      "rank_diff": 0,
+      "rank": 41,
+      "rank_diff": -1,
       "is_free": false,
       "is_discounted": true,
       "discount_pct": 30
     },
     {
+      "app_id": "1693980",
+      "name": "Dead Space",
+      "rank": 42,
+      "rank_diff": -3,
+      "is_free": false,
+      "is_discounted": true,
+      "discount_pct": 90
+    },
+    {
       "app_id": "359550",
       "name": "Tom Clancy's Rainbow Six Siege",
-      "rank": 41,
-      "rank_diff": 0,
+      "rank": 43,
+      "rank_diff": -2,
       "is_free": true,
       "is_discounted": false,
       "discount_pct": 0
@@ -276,35 +294,26 @@
     {
       "app_id": "3241660",
       "name": "R.E.P.O.",
-      "rank": 42,
-      "rank_diff": 0,
+      "rank": 44,
+      "rank_diff": -2,
       "is_free": false,
       "is_discounted": true,
       "discount_pct": 30
     },
     {
-      "app_id": "3472040",
-      "name": "NBA 2K26",
-      "rank": 43,
-      "rank_diff": 0,
-      "is_free": false,
-      "is_discounted": true,
-      "discount_pct": 80
-    },
-    {
       "app_id": "322330",
       "name": "Don't Starve Together",
-      "rank": 44,
-      "rank_diff": 0,
+      "rank": 45,
+      "rank_diff": -1,
       "is_free": false,
       "is_discounted": true,
       "discount_pct": 90
     },
     {
-      "app_id": "1665460",
-      "name": "eFootball™",
+      "app_id": "216150",
+      "name": "MapleStory",
       "rank": 46,
-      "rank_diff": 0,
+      "rank_diff": 2,
       "is_free": true,
       "is_discounted": false,
       "discount_pct": 0
@@ -312,38 +321,20 @@
     {
       "app_id": "221100",
       "name": "DayZ",
-      "rank": 47,
-      "rank_diff": 0,
+      "rank": 48,
+      "rank_diff": -1,
       "is_free": false,
       "is_discounted": true,
       "discount_pct": 55
     },
     {
-      "app_id": "216150",
-      "name": "MapleStory",
-      "rank": 48,
-      "rank_diff": 0,
-      "is_free": true,
-      "is_discounted": false,
-      "discount_pct": 0
-    },
-    {
       "app_id": "236390",
       "name": "War Thunder",
-      "rank": 51,
-      "rank_diff": 0,
+      "rank": 50,
+      "rank_diff": 1,
       "is_free": true,
       "is_discounted": false,
       "discount_pct": 0
-    },
-    {
-      "app_id": "3156770",
-      "name": "Witchfire",
-      "rank": 53,
-      "rank_diff": 0,
-      "is_free": false,
-      "is_discounted": true,
-      "discount_pct": 20
     }
   ]
 }
