@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-21T06:08:41.700790+09:00",
-  "crimson_desert_rank": 96,
-  "rank_diff": -16,
+  "generated_at": "2026-07-21T07:56:40.084041+09:00",
+  "crimson_desert_rank": 88,
+  "rank_diff": 8,
   "rivals": [
     {
       "app_id": "730",
@@ -33,16 +33,7 @@
     {
       "app_id": "1172470",
       "name": "Apex Legends™",
-      "rank": 7,
-      "rank_diff": -1,
-      "is_free": true,
-      "is_discounted": false,
-      "discount_pct": 0
-    },
-    {
-      "app_id": "578080",
-      "name": "PUBG: BATTLEGROUNDS",
-      "rank": 9,
+      "rank": 8,
       "rank_diff": -1,
       "is_free": true,
       "is_discounted": false,
@@ -67,28 +58,28 @@
       "discount_pct": 0
     },
     {
-      "app_id": "230410",
-      "name": "Warframe",
+      "app_id": "578080",
+      "name": "PUBG: BATTLEGROUNDS",
       "rank": 12,
-      "rank_diff": 0,
+      "rank_diff": -3,
       "is_free": true,
       "is_discounted": false,
       "discount_pct": 0
     },
     {
-      "app_id": "1605850",
-      "name": "ZeroSpace",
+      "app_id": "230410",
+      "name": "Warframe",
       "rank": 14,
-      "rank_diff": 2,
-      "is_free": false,
-      "is_discounted": true,
-      "discount_pct": 10
+      "rank_diff": -2,
+      "is_free": true,
+      "is_discounted": false,
+      "discount_pct": 0
     },
     {
       "app_id": "3240220",
       "name": "Grand Theft Auto V Enhanced",
       "rank": 15,
-      "rank_diff": -1,
+      "rank_diff": 0,
       "is_free": false,
       "is_discounted": true,
       "discount_pct": 50
@@ -106,19 +97,19 @@
       "app_id": "2569760",
       "name": "The Mound: Omen of Cthulhu",
       "rank": 18,
-      "rank_diff": -3,
+      "rank_diff": 0,
       "is_free": false,
       "is_discounted": true,
       "discount_pct": 20
     },
     {
-      "app_id": "1174180",
-      "name": "Red Dead Redemption 2",
-      "rank": 20,
-      "rank_diff": 0,
+      "app_id": "1605850",
+      "name": "ZeroSpace",
+      "rank": 19,
+      "rank_diff": -5,
       "is_free": false,
       "is_discounted": true,
-      "discount_pct": 75
+      "discount_pct": 10
     },
     {
       "app_id": "1466060",
@@ -130,10 +121,19 @@
       "discount_pct": 50
     },
     {
+      "app_id": "1174180",
+      "name": "Red Dead Redemption 2",
+      "rank": 22,
+      "rank_diff": -2,
+      "is_free": false,
+      "is_discounted": true,
+      "discount_pct": 75
+    },
+    {
       "app_id": "1665460",
       "name": "eFootball™",
-      "rank": 22,
-      "rank_diff": 2,
+      "rank": 23,
+      "rank_diff": -1,
       "is_free": true,
       "is_discounted": false,
       "discount_pct": 0
@@ -141,8 +141,8 @@
     {
       "app_id": "2183900",
       "name": "Warhammer 40,000: Space Marine 2",
-      "rank": 23,
-      "rank_diff": 3,
+      "rank": 24,
+      "rank_diff": -1,
       "is_free": false,
       "is_discounted": true,
       "discount_pct": 70
@@ -150,8 +150,8 @@
     {
       "app_id": "1974050",
       "name": "Torchlight: Infinite",
-      "rank": 24,
-      "rank_diff": 1,
+      "rank": 25,
+      "rank_diff": -1,
       "is_free": true,
       "is_discounted": false,
       "discount_pct": 0
@@ -166,55 +166,64 @@
       "discount_pct": 0
     },
     {
-      "app_id": "2936290",
-      "name": "The Life and Suffering of Prince Jerian",
-      "rank": 28,
-      "rank_diff": -5,
-      "is_free": false,
-      "is_discounted": true,
-      "discount_pct": 15
-    },
-    {
       "app_id": "3513350",
       "name": "Wuthering Waves",
       "rank": 29,
-      "rank_diff": 1,
-      "is_free": true,
-      "is_discounted": false,
-      "discount_pct": 0
-    },
-    {
-      "app_id": "440",
-      "name": "Team Fortress 2",
-      "rank": 30,
-      "rank_diff": 8,
-      "is_free": true,
-      "is_discounted": false,
-      "discount_pct": 0
-    },
-    {
-      "app_id": "2399830",
-      "name": "ARK: Survival Ascended",
-      "rank": 31,
       "rank_diff": 0,
-      "is_free": false,
-      "is_discounted": true,
-      "discount_pct": 75
+      "is_free": true,
+      "is_discounted": false,
+      "discount_pct": 0
     },
     {
       "app_id": "1304930",
       "name": "The Outlast Trials",
-      "rank": 32,
-      "rank_diff": 1,
+      "rank": 30,
+      "rank_diff": 2,
       "is_free": false,
       "is_discounted": true,
       "discount_pct": 70
     },
     {
+      "app_id": "2936290",
+      "name": "The Life and Suffering of Prince Jerian",
+      "rank": 31,
+      "rank_diff": -3,
+      "is_free": false,
+      "is_discounted": true,
+      "discount_pct": 15
+    },
+    {
+      "app_id": "2399830",
+      "name": "ARK: Survival Ascended",
+      "rank": 32,
+      "rank_diff": -1,
+      "is_free": false,
+      "is_discounted": true,
+      "discount_pct": 75
+    },
+    {
+      "app_id": "440",
+      "name": "Team Fortress 2",
+      "rank": 35,
+      "rank_diff": -5,
+      "is_free": true,
+      "is_discounted": false,
+      "discount_pct": 0
+    },
+    {
       "app_id": "236390",
       "name": "War Thunder",
-      "rank": 35,
+      "rank": 36,
       "rank_diff": -1,
+      "is_free": true,
+      "is_discounted": false,
+      "discount_pct": 0
+    },
+    {
+      "app_id": "1973530",
+      "name": "Limbus Company",
+      "rank": 37,
+      "rank_diff": 1,
       "is_free": true,
       "is_discounted": false,
       "discount_pct": 0
@@ -222,35 +231,17 @@
     {
       "app_id": "1361210",
       "name": "Warhammer 40,000: Darktide",
-      "rank": 37,
-      "rank_diff": 0,
+      "rank": 40,
+      "rank_diff": -3,
       "is_free": false,
       "is_discounted": true,
       "discount_pct": 75
     },
     {
-      "app_id": "1973530",
-      "name": "Limbus Company",
-      "rank": 38,
-      "rank_diff": -2,
-      "is_free": true,
-      "is_discounted": false,
-      "discount_pct": 0
-    },
-    {
-      "app_id": "4380490",
-      "name": "Cat Mail Co.",
-      "rank": 41,
-      "rank_diff": 3,
-      "is_free": false,
-      "is_discounted": true,
-      "discount_pct": 15
-    },
-    {
       "app_id": "1085660",
       "name": "Destiny 2",
-      "rank": 43,
-      "rank_diff": 3,
+      "rank": 42,
+      "rank_diff": 1,
       "is_free": true,
       "is_discounted": false,
       "discount_pct": 0
@@ -259,34 +250,61 @@
       "app_id": "359550",
       "name": "Tom Clancy's Rainbow Six Siege",
       "rank": 44,
-      "rank_diff": 8,
+      "rank_diff": 0,
       "is_free": true,
       "is_discounted": false,
       "discount_pct": 0
     },
     {
+      "app_id": "4380490",
+      "name": "Cat Mail Co.",
+      "rank": 45,
+      "rank_diff": -4,
+      "is_free": false,
+      "is_discounted": true,
+      "discount_pct": 15
+    },
+    {
       "app_id": "2968420",
       "name": "PowerWash Simulator 2",
-      "rank": 46,
-      "rank_diff": -3,
+      "rank": 47,
+      "rank_diff": -1,
       "is_free": false,
       "is_discounted": true,
       "discount_pct": 25
     },
     {
-      "app_id": "3564740",
-      "name": "Where Winds Meet",
-      "rank": 47,
-      "rank_diff": 2,
+      "app_id": "3892270",
+      "name": "Gamble With Your Friends",
+      "rank": 49,
+      "rank_diff": 3,
+      "is_free": false,
+      "is_discounted": true,
+      "discount_pct": 38
+    },
+    {
+      "app_id": "2524850",
+      "name": "Denshattack!",
+      "rank": 52,
+      "rank_diff": 5,
+      "is_free": false,
+      "is_discounted": true,
+      "discount_pct": 10
+    },
+    {
+      "app_id": "2507950",
+      "name": "Delta Force",
+      "rank": 53,
+      "rank_diff": -5,
       "is_free": true,
       "is_discounted": false,
       "discount_pct": 0
     },
     {
-      "app_id": "2507950",
-      "name": "Delta Force",
-      "rank": 48,
-      "rank_diff": -8,
+      "app_id": "3564740",
+      "name": "Where Winds Meet",
+      "rank": 54,
+      "rank_diff": -7,
       "is_free": true,
       "is_discounted": false,
       "discount_pct": 0
@@ -294,80 +312,62 @@
     {
       "app_id": "3808690",
       "name": "Pathogenic",
-      "rank": 51,
-      "rank_diff": -1,
+      "rank": 55,
+      "rank_diff": -4,
       "is_free": false,
       "is_discounted": true,
       "discount_pct": 20
     },
     {
-      "app_id": "3892270",
-      "name": "Gamble With Your Friends",
-      "rank": 52,
-      "rank_diff": 3,
-      "is_free": false,
-      "is_discounted": true,
-      "discount_pct": 38
-    },
-    {
-      "app_id": "2139460",
-      "name": "Once Human",
-      "rank": 53,
-      "rank_diff": -6,
-      "is_free": true,
-      "is_discounted": false,
-      "discount_pct": 0
-    },
-    {
-      "app_id": "2524850",
-      "name": "Denshattack!",
-      "rank": 57,
-      "rank_diff": 0,
-      "is_free": false,
-      "is_discounted": true,
-      "discount_pct": 10
-    },
-    {
       "app_id": "3656800",
       "name": "Train Sim World® 6",
-      "rank": 59,
-      "rank_diff": 0,
+      "rank": 56,
+      "rank_diff": 3,
       "is_free": false,
       "is_discounted": true,
       "discount_pct": 80
     },
     {
-      "app_id": "1285190",
-      "name": "Borderlands 4",
-      "rank": 60,
-      "rank_diff": -2,
-      "is_free": false,
-      "is_discounted": true,
-      "discount_pct": 50
-    },
-    {
-      "app_id": "2141910",
-      "name": "Magic: The Gathering Arena",
-      "rank": 61,
-      "rank_diff": 8,
+      "app_id": "2139460",
+      "name": "Once Human",
+      "rank": 57,
+      "rank_diff": -4,
       "is_free": true,
       "is_discounted": false,
       "discount_pct": 0
     },
     {
-      "app_id": "4210580",
-      "name": "Ore Factory Squad ⛏️",
-      "rank": 62,
-      "rank_diff": -3,
+      "app_id": "2141910",
+      "name": "Magic: The Gathering Arena",
+      "rank": 58,
+      "rank_diff": 3,
+      "is_free": true,
+      "is_discounted": false,
+      "discount_pct": 0
+    },
+    {
+      "app_id": "1285190",
+      "name": "Borderlands 4",
+      "rank": 60,
+      "rank_diff": 0,
       "is_free": false,
       "is_discounted": true,
-      "discount_pct": 25
+      "discount_pct": 50
+    },
+    {
+      "app_id": "3472040",
+      "name": "NBA 2K26",
+      "rank": 61,
+      "rank_diff": 4,
+      "is_free": false,
+      "is_discounted": true,
+      "discount_pct": 86
     },
     {
       "app_id": "739630",
       "name": "Phasmophobia",
-      "rank": 63,
-      "rank_diff": 2,
+      "rank": 65,
+      "rank_diff": -2,
       "is_free": false,
       "is_discounted": true,
       "discount_pct": 30
@@ -375,26 +375,35 @@
     {
       "app_id": "526870",
       "name": "Satisfactory",
-      "rank": 64,
-      "rank_diff": -3,
+      "rank": 66,
+      "rank_diff": -2,
       "is_free": false,
       "is_discounted": true,
       "discount_pct": 30
     },
     {
-      "app_id": "3472040",
-      "name": "NBA 2K26",
-      "rank": 65,
-      "rank_diff": -17,
+      "app_id": "2050650",
+      "name": "Resident Evil 4",
+      "rank": 67,
+      "rank_diff": 18,
       "is_free": false,
       "is_discounted": true,
-      "discount_pct": 86
+      "discount_pct": 75
+    },
+    {
+      "app_id": "2246340",
+      "name": "Monster Hunter Wilds",
+      "rank": 68,
+      "rank_diff": 18,
+      "is_free": false,
+      "is_discounted": true,
+      "discount_pct": 58
     },
     {
       "app_id": "1203220",
       "name": "NARAKA: BLADEPOINT",
-      "rank": 68,
-      "rank_diff": -17,
+      "rank": 69,
+      "rank_diff": -1,
       "is_free": true,
       "is_discounted": false,
       "discount_pct": 0
@@ -402,25 +411,61 @@
     {
       "app_id": "2073620",
       "name": "Arena Breakout: Infinite",
-      "rank": 69,
+      "rank": 71,
       "rank_diff": -2,
       "is_free": true,
       "is_discounted": false,
       "discount_pct": 0
     },
     {
+      "app_id": "1364780",
+      "name": "Street Fighter™ 6",
+      "rank": 73,
+      "rank_diff": 15,
+      "is_free": false,
+      "is_discounted": true,
+      "discount_pct": 50
+    },
+    {
+      "app_id": "4210580",
+      "name": "Ore Factory Squad ⛏️",
+      "rank": 76,
+      "rank_diff": -14,
+      "is_free": false,
+      "is_discounted": true,
+      "discount_pct": 25
+    },
+    {
+      "app_id": "3764200",
+      "name": "Resident Evil Requiem",
+      "rank": 78,
+      "rank_diff": 4,
+      "is_free": false,
+      "is_discounted": true,
+      "discount_pct": 20
+    },
+    {
       "app_id": "2073850",
       "name": "THE FINALS",
-      "rank": 78,
-      "rank_diff": 0,
+      "rank": 81,
+      "rank_diff": -3,
       "is_free": true,
       "is_discounted": false,
       "discount_pct": 0
     },
     {
-      "app_id": "3844970",
-      "name": "Burglin' Gnomes",
-      "rank": 80,
+      "app_id": "588030",
+      "name": "Derail Valley",
+      "rank": 82,
+      "rank_diff": 5,
+      "is_free": false,
+      "is_discounted": true,
+      "discount_pct": 25
+    },
+    {
+      "app_id": "2592160",
+      "name": "Dispatch",
+      "rank": 83,
       "rank_diff": 0,
       "is_free": false,
       "is_discounted": true,
@@ -429,119 +474,29 @@
     {
       "app_id": "552990",
       "name": "World of Warships",
-      "rank": 81,
-      "rank_diff": -11,
+      "rank": 84,
+      "rank_diff": -3,
       "is_free": true,
       "is_discounted": false,
       "discount_pct": 0
-    },
-    {
-      "app_id": "3764200",
-      "name": "Resident Evil Requiem",
-      "rank": 82,
-      "rank_diff": 0,
-      "is_free": false,
-      "is_discounted": true,
-      "discount_pct": 20
-    },
-    {
-      "app_id": "3059520",
-      "name": "F1® 25",
-      "rank": 83,
-      "rank_diff": -8,
-      "is_free": false,
-      "is_discounted": true,
-      "discount_pct": 20
     },
     {
       "app_id": "216150",
       "name": "MapleStory",
-      "rank": 84,
-      "rank_diff": -5,
-      "is_free": true,
-      "is_discounted": false,
-      "discount_pct": 0
-    },
-    {
-      "app_id": "2050650",
-      "name": "Resident Evil 4",
-      "rank": 85,
-      "rank_diff": 0,
-      "is_free": false,
-      "is_discounted": true,
-      "discount_pct": 75
-    },
-    {
-      "app_id": "2246340",
-      "name": "Monster Hunter Wilds",
       "rank": 86,
-      "rank_diff": 0,
-      "is_free": false,
-      "is_discounted": true,
-      "discount_pct": 58
+      "rank_diff": -2,
+      "is_free": true,
+      "is_discounted": false,
+      "discount_pct": 0
     },
     {
-      "app_id": "588030",
-      "name": "Derail Valley",
+      "app_id": "3844970",
+      "name": "Burglin' Gnomes",
       "rank": 87,
-      "rank_diff": 0,
+      "rank_diff": -7,
       "is_free": false,
       "is_discounted": true,
-      "discount_pct": 25
-    },
-    {
-      "app_id": "1364780",
-      "name": "Street Fighter™ 6",
-      "rank": 88,
-      "rank_diff": 0,
-      "is_free": false,
-      "is_discounted": true,
-      "discount_pct": 50
-    },
-    {
-      "app_id": "892970",
-      "name": "Valheim",
-      "rank": 91,
-      "rank_diff": 0,
-      "is_free": false,
-      "is_discounted": true,
-      "discount_pct": 50
-    },
-    {
-      "app_id": "1222670",
-      "name": "The Sims™ 4",
-      "rank": 92,
-      "rank_diff": 0,
-      "is_free": true,
-      "is_discounted": false,
-      "discount_pct": 0
-    },
-    {
-      "app_id": "513710",
-      "name": "SCUM",
-      "rank": 93,
-      "rank_diff": -36,
-      "is_free": false,
-      "is_discounted": true,
-      "discount_pct": 60
-    },
-    {
-      "app_id": "4025700",
-      "name": "Heartopia",
-      "rank": 94,
-      "rank_diff": 0,
-      "is_free": true,
-      "is_discounted": false,
-      "discount_pct": 0
-    },
-    {
-      "app_id": "4069520",
-      "name": "Super Battle Golf",
-      "rank": 95,
-      "rank_diff": 0,
-      "is_free": false,
-      "is_discounted": true,
-      "discount_pct": 30
+      "discount_pct": 20
     }
   ]
 }
