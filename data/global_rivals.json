@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-17T07:16:14.001736+09:00",
+  "generated_at": "2026-08-17T08:15:27.187588+09:00",
   "crimson_desert_rank": 79,
-  "rank_diff": -1,
+  "rank_diff": 0,
   "rivals": [
     {
       "app_id": "730",
@@ -78,8 +78,8 @@
     {
       "app_id": "1142710",
       "name": "Total War: WARHAMMER III",
-      "rank": 11,
-      "rank_diff": 0,
+      "rank": 12,
+      "rank_diff": -1,
       "is_free": false,
       "is_discounted": true,
       "discount_pct": 85
@@ -97,7 +97,7 @@
       "app_id": "578080",
       "name": "PUBG: BATTLEGROUNDS",
       "rank": 18,
-      "rank_diff": -2,
+      "rank_diff": 0,
       "is_free": true,
       "is_discounted": false,
       "discount_pct": 0
@@ -124,7 +124,7 @@
       "app_id": "2141910",
       "name": "Magic: The Gathering Arena",
       "rank": 24,
-      "rank_diff": 1,
+      "rank_diff": 0,
       "is_free": true,
       "is_discounted": false,
       "discount_pct": 0
@@ -132,8 +132,8 @@
     {
       "app_id": "2950790",
       "name": "IRON NEST: Heavy Turret Simulator",
-      "rank": 25,
-      "rank_diff": -1,
+      "rank": 27,
+      "rank_diff": -2,
       "is_free": false,
       "is_discounted": true,
       "discount_pct": 25
@@ -141,8 +141,8 @@
     {
       "app_id": "1313140",
       "name": "Cult of the Lamb",
-      "rank": 27,
-      "rank_diff": 1,
+      "rank": 28,
+      "rank_diff": -1,
       "is_free": false,
       "is_discounted": true,
       "discount_pct": 60
@@ -166,13 +166,13 @@
       "discount_pct": 10
     },
     {
-      "app_id": "1158310",
-      "name": "Crusader Kings III",
+      "app_id": "359550",
+      "name": "Tom Clancy's Rainbow Six Siege",
       "rank": 34,
-      "rank_diff": 0,
-      "is_free": false,
-      "is_discounted": true,
-      "discount_pct": 70
+      "rank_diff": 2,
+      "is_free": true,
+      "is_discounted": false,
+      "discount_pct": 0
     },
     {
       "app_id": "236390",
@@ -184,19 +184,19 @@
       "discount_pct": 0
     },
     {
-      "app_id": "359550",
-      "name": "Tom Clancy's Rainbow Six Siege",
+      "app_id": "1158310",
+      "name": "Crusader Kings III",
       "rank": 36,
-      "rank_diff": 2,
-      "is_free": true,
-      "is_discounted": false,
-      "discount_pct": 0
+      "rank_diff": -2,
+      "is_free": false,
+      "is_discounted": true,
+      "discount_pct": 70
     },
     {
       "app_id": "3595270",
       "name": "Call of Duty®: Modern Warfare® III",
-      "rank": 40,
-      "rank_diff": -1,
+      "rank": 38,
+      "rank_diff": 2,
       "is_free": false,
       "is_discounted": true,
       "discount_pct": 75
@@ -205,25 +205,16 @@
       "app_id": "3812600",
       "name": "ReStory: Chill Electronics Repairs",
       "rank": 42,
-      "rank_diff": -1,
+      "rank_diff": 0,
       "is_free": false,
       "is_discounted": true,
       "discount_pct": 10
     },
     {
-      "app_id": "1067360",
-      "name": "Pax Autocratica",
-      "rank": 46,
-      "rank_diff": 0,
-      "is_free": false,
-      "is_discounted": true,
-      "discount_pct": 17
-    },
-    {
       "app_id": "3513350",
       "name": "Wuthering Waves",
-      "rank": 47,
-      "rank_diff": 0,
+      "rank": 46,
+      "rank_diff": 1,
       "is_free": true,
       "is_discounted": false,
       "discount_pct": 0
@@ -231,29 +222,38 @@
     {
       "app_id": "2507950",
       "name": "Delta Force",
-      "rank": 48,
+      "rank": 47,
       "rank_diff": 1,
       "is_free": true,
       "is_discounted": false,
       "discount_pct": 0
     },
     {
-      "app_id": "1941540",
-      "name": "Mafia: The Old Country",
-      "rank": 51,
-      "rank_diff": -1,
-      "is_free": false,
-      "is_discounted": true,
-      "discount_pct": 40
-    },
-    {
       "app_id": "3564740",
       "name": "Where Winds Meet",
-      "rank": 53,
-      "rank_diff": 3,
+      "rank": 48,
+      "rank_diff": 5,
       "is_free": true,
       "is_discounted": false,
       "discount_pct": 0
+    },
+    {
+      "app_id": "1067360",
+      "name": "Pax Autocratica",
+      "rank": 50,
+      "rank_diff": -4,
+      "is_free": false,
+      "is_discounted": true,
+      "discount_pct": 17
+    },
+    {
+      "app_id": "1941540",
+      "name": "Mafia: The Old Country",
+      "rank": 54,
+      "rank_diff": -3,
+      "is_free": false,
+      "is_discounted": true,
+      "discount_pct": 40
     },
     {
       "app_id": "2764460",
@@ -265,17 +265,17 @@
       "discount_pct": 35
     },
     {
-      "app_id": "2073620",
-      "name": "Arena Breakout: Infinite",
-      "rank": 59,
-      "rank_diff": 1,
+      "app_id": "440",
+      "name": "Team Fortress 2",
+      "rank": 60,
+      "rank_diff": 3,
       "is_free": true,
       "is_discounted": false,
       "discount_pct": 0
     },
     {
-      "app_id": "4025700",
-      "name": "Heartopia",
+      "app_id": "2073620",
+      "name": "Arena Breakout: Infinite",
       "rank": 61,
       "rank_diff": -2,
       "is_free": true,
@@ -283,18 +283,9 @@
       "discount_pct": 0
     },
     {
-      "app_id": "2958130",
-      "name": "Jurassic World Evolution 3",
+      "app_id": "4025700",
+      "name": "Heartopia",
       "rank": 62,
-      "rank_diff": 1,
-      "is_free": false,
-      "is_discounted": true,
-      "discount_pct": 33
-    },
-    {
-      "app_id": "440",
-      "name": "Team Fortress 2",
-      "rank": 63,
       "rank_diff": -1,
       "is_free": true,
       "is_discounted": false,
@@ -303,11 +294,20 @@
     {
       "app_id": "812140",
       "name": "Assassin's Creed® Odyssey",
-      "rank": 64,
-      "rank_diff": 0,
+      "rank": 63,
+      "rank_diff": 1,
       "is_free": false,
       "is_discounted": true,
       "discount_pct": 80
+    },
+    {
+      "app_id": "2958130",
+      "name": "Jurassic World Evolution 3",
+      "rank": 64,
+      "rank_diff": -2,
+      "is_free": false,
+      "is_discounted": true,
+      "discount_pct": 33
     },
     {
       "app_id": "594570",
@@ -321,20 +321,11 @@
     {
       "app_id": "2186680",
       "name": "Warhammer 40,000: Rogue Trader",
-      "rank": 66,
-      "rank_diff": 1,
+      "rank": 67,
+      "rank_diff": -1,
       "is_free": false,
       "is_discounted": true,
       "discount_pct": 60
-    },
-    {
-      "app_id": "3167920",
-      "name": "Low-Budget Repairs",
-      "rank": 70,
-      "rank_diff": 0,
-      "is_free": false,
-      "is_discounted": true,
-      "discount_pct": 25
     },
     {
       "app_id": "2161700",
@@ -348,17 +339,35 @@
     {
       "app_id": "2139460",
       "name": "Once Human",
-      "rank": 74,
-      "rank_diff": 0,
+      "rank": 73,
+      "rank_diff": 1,
       "is_free": true,
       "is_discounted": false,
       "discount_pct": 0
     },
     {
+      "app_id": "3167920",
+      "name": "Low-Budget Repairs",
+      "rank": 74,
+      "rank_diff": -4,
+      "is_free": false,
+      "is_discounted": true,
+      "discount_pct": 25
+    },
+    {
+      "app_id": "541570",
+      "name": "Sally Face - Episode One",
+      "rank": 75,
+      "rank_diff": 0,
+      "is_free": false,
+      "is_discounted": true,
+      "discount_pct": 67
+    },
+    {
       "app_id": "4162040",
       "name": "Zenless Zone Zero",
       "rank": 76,
-      "rank_diff": 1,
+      "rank_diff": 0,
       "is_free": true,
       "is_discounted": false,
       "discount_pct": 0
