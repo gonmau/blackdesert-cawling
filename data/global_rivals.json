@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-25T15:11:54.761346+09:00",
-  "crimson_desert_rank": 14,
-  "rank_diff": 1,
+  "generated_at": "2026-08-25T15:39:35.102186+09:00",
+  "crimson_desert_rank": 9,
+  "rank_diff": 5,
   "rivals": [
     {
       "app_id": "4001890",
@@ -47,24 +47,6 @@
       "is_free": false,
       "is_discounted": true,
       "discount_pct": 30
-    },
-    {
-      "app_id": "292000",
-      "name": "No More Room in Hell 2",
-      "rank": 9,
-      "rank_diff": 0,
-      "is_free": false,
-      "is_discounted": true,
-      "discount_pct": 35
-    },
-    {
-      "app_id": "2139460",
-      "name": "Once Human",
-      "rank": 11,
-      "rank_diff": 0,
-      "is_free": true,
-      "is_discounted": false,
-      "discount_pct": 0
     }
   ]
 }
