@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-26T04:27:52.198938+09:00",
+  "generated_at": "2026-08-26T05:23:40.071726+09:00",
   "crimson_desert_rank": 9,
   "rank_diff": 0,
   "rivals": [
@@ -7,7 +7,7 @@
       "app_id": "4001890",
       "name": "How to Fish",
       "rank": 1,
-      "rank_diff": 1,
+      "rank_diff": 0,
       "is_free": false,
       "is_discounted": true,
       "discount_pct": 38
@@ -16,7 +16,7 @@
       "app_id": "730",
       "name": "Counter-Strike 2",
       "rank": 2,
-      "rank_diff": 1,
+      "rank_diff": 0,
       "is_free": true,
       "is_discounted": false,
       "discount_pct": 0
@@ -25,7 +25,7 @@
       "app_id": "570",
       "name": "Dota 2",
       "rank": 4,
-      "rank_diff": 1,
+      "rank_diff": 0,
       "is_free": true,
       "is_discounted": false,
       "discount_pct": 0
