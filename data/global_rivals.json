@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-26T06:23:19.277967+09:00",
+  "generated_at": "2026-08-26T06:44:51.064775+09:00",
   "crimson_desert_rank": 9,
   "rank_diff": 0,
   "rivals": [
@@ -16,7 +16,7 @@
       "app_id": "730",
       "name": "Counter-Strike 2",
       "rank": 3,
-      "rank_diff": -1,
+      "rank_diff": 0,
       "is_free": true,
       "is_discounted": false,
       "discount_pct": 0
@@ -43,7 +43,7 @@
       "app_id": "1172470",
       "name": "Apex Legends™",
       "rank": 8,
-      "rank_diff": -1,
+      "rank_diff": 0,
       "is_free": true,
       "is_discounted": false,
       "discount_pct": 0
