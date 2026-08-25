@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-25T14:08:07.114041+09:00",
-  "crimson_desert_rank": 22,
-  "rank_diff": 5,
+  "generated_at": "2026-08-25T14:27:35.729514+09:00",
+  "crimson_desert_rank": 20,
+  "rank_diff": 2,
   "rivals": [
     {
       "app_id": "4001890",
@@ -24,8 +24,8 @@
     {
       "app_id": "570",
       "name": "Dota 2",
-      "rank": 3,
-      "rank_diff": 0,
+      "rank": 4,
+      "rank_diff": -1,
       "is_free": true,
       "is_discounted": false,
       "discount_pct": 0
@@ -60,7 +60,7 @@
     {
       "app_id": "2139460",
       "name": "Once Human",
-      "rank": 12,
+      "rank": 11,
       "rank_diff": 1,
       "is_free": true,
       "is_discounted": false,
@@ -88,19 +88,10 @@
       "app_id": "3240220",
       "name": "Grand Theft Auto V Enhanced",
       "rank": 18,
-      "rank_diff": 1,
-      "is_free": false,
-      "is_discounted": true,
-      "discount_pct": 56
-    },
-    {
-      "app_id": "1643320",
-      "name": "S.T.A.L.K.E.R. 2: Heart of Chornobyl",
-      "rank": 21,
       "rank_diff": 0,
       "is_free": false,
       "is_discounted": true,
-      "discount_pct": 30
+      "discount_pct": 56
     }
   ]
 }
