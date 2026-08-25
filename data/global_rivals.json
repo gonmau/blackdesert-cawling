@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-25T13:34:32.438594+09:00",
-  "crimson_desert_rank": 27,
-  "rank_diff": 2,
+  "generated_at": "2026-08-25T14:08:07.114041+09:00",
+  "crimson_desert_rank": 22,
+  "rank_diff": 5,
   "rivals": [
     {
       "app_id": "4001890",
@@ -43,7 +43,7 @@
       "app_id": "2358720",
       "name": "Black Myth: Wukong",
       "rank": 8,
-      "rank_diff": 1,
+      "rank_diff": 0,
       "is_free": false,
       "is_discounted": true,
       "discount_pct": 30
@@ -60,8 +60,8 @@
     {
       "app_id": "2139460",
       "name": "Once Human",
-      "rank": 13,
-      "rank_diff": 0,
+      "rank": 12,
+      "rank_diff": 1,
       "is_free": true,
       "is_discounted": false,
       "discount_pct": 0
@@ -79,7 +79,7 @@
       "app_id": "230410",
       "name": "Warframe",
       "rank": 17,
-      "rank_diff": -1,
+      "rank_diff": 0,
       "is_free": true,
       "is_discounted": false,
       "discount_pct": 0
@@ -87,8 +87,8 @@
     {
       "app_id": "3240220",
       "name": "Grand Theft Auto V Enhanced",
-      "rank": 19,
-      "rank_diff": 0,
+      "rank": 18,
+      "rank_diff": 1,
       "is_free": false,
       "is_discounted": true,
       "discount_pct": 56
@@ -101,33 +101,6 @@
       "is_free": false,
       "is_discounted": true,
       "discount_pct": 30
-    },
-    {
-      "app_id": "1142710",
-      "name": "Total War: WARHAMMER III",
-      "rank": 22,
-      "rank_diff": 0,
-      "is_free": false,
-      "is_discounted": true,
-      "discount_pct": 85
-    },
-    {
-      "app_id": "578080",
-      "name": "PUBG: BATTLEGROUNDS",
-      "rank": 23,
-      "rank_diff": 0,
-      "is_free": true,
-      "is_discounted": false,
-      "discount_pct": 0
-    },
-    {
-      "app_id": "2399830",
-      "name": "ARK: Survival Ascended",
-      "rank": 26,
-      "rank_diff": 0,
-      "is_free": false,
-      "is_discounted": true,
-      "discount_pct": 75
     }
   ]
 }
