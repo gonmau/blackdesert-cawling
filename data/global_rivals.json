@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-25T14:27:35.729514+09:00",
-  "crimson_desert_rank": 20,
-  "rank_diff": 2,
+  "generated_at": "2026-08-25T14:52:38.488222+09:00",
+  "crimson_desert_rank": 15,
+  "rank_diff": 5,
   "rivals": [
     {
       "app_id": "4001890",
@@ -25,7 +25,7 @@
       "app_id": "570",
       "name": "Dota 2",
       "rank": 4,
-      "rank_diff": -1,
+      "rank_diff": 0,
       "is_free": true,
       "is_discounted": false,
       "discount_pct": 0
@@ -51,8 +51,8 @@
     {
       "app_id": "292000",
       "name": "No More Room in Hell 2",
-      "rank": 10,
-      "rank_diff": 0,
+      "rank": 9,
+      "rank_diff": 1,
       "is_free": false,
       "is_discounted": true,
       "discount_pct": 35
@@ -61,37 +61,10 @@
       "app_id": "2139460",
       "name": "Once Human",
       "rank": 11,
-      "rank_diff": 1,
-      "is_free": true,
-      "is_discounted": false,
-      "discount_pct": 0
-    },
-    {
-      "app_id": "2767030",
-      "name": "Marvel Rivals",
-      "rank": 15,
       "rank_diff": 0,
       "is_free": true,
       "is_discounted": false,
       "discount_pct": 0
-    },
-    {
-      "app_id": "230410",
-      "name": "Warframe",
-      "rank": 17,
-      "rank_diff": 0,
-      "is_free": true,
-      "is_discounted": false,
-      "discount_pct": 0
-    },
-    {
-      "app_id": "3240220",
-      "name": "Grand Theft Auto V Enhanced",
-      "rank": 18,
-      "rank_diff": 0,
-      "is_free": false,
-      "is_discounted": true,
-      "discount_pct": 56
     }
   ]
 }
