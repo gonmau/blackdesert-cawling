@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-25T10:53:29.140219+09:00",
+  "generated_at": "2026-08-25T10:57:44.445855+09:00",
   "crimson_desert_rank": 51,
-  "rank_diff": 27,
+  "rank_diff": 0,
   "rivals": [
     {
       "app_id": "4001890",
@@ -43,7 +43,7 @@
       "app_id": "2358720",
       "name": "Black Myth: Wukong",
       "rank": 10,
-      "rank_diff": 1,
+      "rank_diff": 0,
       "is_free": false,
       "is_discounted": true,
       "discount_pct": 30
@@ -52,7 +52,7 @@
       "app_id": "292000",
       "name": "No More Room in Hell 2",
       "rank": 11,
-      "rank_diff": 1,
+      "rank_diff": 0,
       "is_free": false,
       "is_discounted": true,
       "discount_pct": 35
@@ -88,7 +88,7 @@
       "app_id": "3240220",
       "name": "Grand Theft Auto V Enhanced",
       "rank": 20,
-      "rank_diff": 1,
+      "rank_diff": 0,
       "is_free": false,
       "is_discounted": true,
       "discount_pct": 56
@@ -97,7 +97,7 @@
       "app_id": "1142710",
       "name": "Total War: WARHAMMER III",
       "rank": 21,
-      "rank_diff": -1,
+      "rank_diff": 0,
       "is_free": false,
       "is_discounted": true,
       "discount_pct": 85
@@ -124,7 +124,7 @@
       "app_id": "578080",
       "name": "PUBG: BATTLEGROUNDS",
       "rank": 25,
-      "rank_diff": -1,
+      "rank_diff": 0,
       "is_free": true,
       "is_discounted": false,
       "discount_pct": 0
@@ -133,7 +133,7 @@
       "app_id": "227300",
       "name": "Euro Truck Simulator 2",
       "rank": 27,
-      "rank_diff": -2,
+      "rank_diff": 0,
       "is_free": false,
       "is_discounted": true,
       "discount_pct": 75
@@ -142,7 +142,7 @@
       "app_id": "3595270",
       "name": "Call of Duty®: Modern Warfare® III",
       "rank": 30,
-      "rank_diff": -2,
+      "rank_diff": 0,
       "is_free": false,
       "is_discounted": true,
       "discount_pct": 75
@@ -151,7 +151,7 @@
       "app_id": "2399830",
       "name": "ARK: Survival Ascended",
       "rank": 31,
-      "rank_diff": 2,
+      "rank_diff": 0,
       "is_free": false,
       "is_discounted": true,
       "discount_pct": 75
@@ -160,7 +160,7 @@
       "app_id": "2357570",
       "name": "Overwatch®",
       "rank": 34,
-      "rank_diff": -2,
+      "rank_diff": 0,
       "is_free": true,
       "is_discounted": false,
       "discount_pct": 0
@@ -169,7 +169,7 @@
       "app_id": "359550",
       "name": "Tom Clancy's Rainbow Six Siege",
       "rank": 35,
-      "rank_diff": -1,
+      "rank_diff": 0,
       "is_free": true,
       "is_discounted": false,
       "discount_pct": 0
@@ -178,7 +178,7 @@
       "app_id": "3513350",
       "name": "Wuthering Waves",
       "rank": 38,
-      "rank_diff": -1,
+      "rank_diff": 0,
       "is_free": true,
       "is_discounted": false,
       "discount_pct": 0
@@ -187,7 +187,7 @@
       "app_id": "2537590",
       "name": "Microsoft Flight Simulator 2024",
       "rank": 39,
-      "rank_diff": 1,
+      "rank_diff": 0,
       "is_free": false,
       "is_discounted": true,
       "discount_pct": 30
@@ -196,7 +196,7 @@
       "app_id": "236390",
       "name": "War Thunder",
       "rank": 41,
-      "rank_diff": 1,
+      "rank_diff": 0,
       "is_free": true,
       "is_discounted": false,
       "discount_pct": 0
@@ -205,7 +205,7 @@
       "app_id": "4212480",
       "name": "Ragnarok: The New World",
       "rank": 42,
-      "rank_diff": -3,
+      "rank_diff": 0,
       "is_free": true,
       "is_discounted": false,
       "discount_pct": 0
@@ -214,7 +214,7 @@
       "app_id": "2074920",
       "name": "The First Descendant",
       "rank": 44,
-      "rank_diff": 1,
+      "rank_diff": 0,
       "is_free": true,
       "is_discounted": false,
       "discount_pct": 0
@@ -223,7 +223,7 @@
       "app_id": "3564740",
       "name": "Where Winds Meet",
       "rank": 46,
-      "rank_diff": -5,
+      "rank_diff": 0,
       "is_free": true,
       "is_discounted": false,
       "discount_pct": 0
