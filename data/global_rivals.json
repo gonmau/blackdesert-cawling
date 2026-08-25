@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-25T11:54:22.230822+09:00",
-  "crimson_desert_rank": 35,
-  "rank_diff": 16,
+  "generated_at": "2026-08-25T12:07:43.244212+09:00",
+  "crimson_desert_rank": 33,
+  "rank_diff": 2,
   "rivals": [
     {
       "app_id": "4001890",
@@ -43,7 +43,7 @@
       "app_id": "2358720",
       "name": "Black Myth: Wukong",
       "rank": 9,
-      "rank_diff": 1,
+      "rank_diff": 0,
       "is_free": false,
       "is_discounted": true,
       "discount_pct": 30
@@ -52,7 +52,7 @@
       "app_id": "292000",
       "name": "No More Room in Hell 2",
       "rank": 10,
-      "rank_diff": 1,
+      "rank_diff": 0,
       "is_free": false,
       "is_discounted": true,
       "discount_pct": 35
@@ -61,7 +61,7 @@
       "app_id": "230410",
       "name": "Warframe",
       "rank": 14,
-      "rank_diff": 2,
+      "rank_diff": 0,
       "is_free": true,
       "is_discounted": false,
       "discount_pct": 0
@@ -69,8 +69,8 @@
     {
       "app_id": "2767030",
       "name": "Marvel Rivals",
-      "rank": 16,
-      "rank_diff": -2,
+      "rank": 15,
+      "rank_diff": 1,
       "is_free": true,
       "is_discounted": false,
       "discount_pct": 0
@@ -78,8 +78,8 @@
     {
       "app_id": "2139460",
       "name": "Once Human",
-      "rank": 18,
-      "rank_diff": 4,
+      "rank": 16,
+      "rank_diff": 2,
       "is_free": true,
       "is_discounted": false,
       "discount_pct": 0
@@ -88,7 +88,7 @@
       "app_id": "1643320",
       "name": "S.T.A.L.K.E.R. 2: Heart of Chornobyl",
       "rank": 20,
-      "rank_diff": -1,
+      "rank_diff": 0,
       "is_free": false,
       "is_discounted": true,
       "discount_pct": 30
@@ -97,7 +97,7 @@
       "app_id": "3240220",
       "name": "Grand Theft Auto V Enhanced",
       "rank": 21,
-      "rank_diff": -1,
+      "rank_diff": 0,
       "is_free": false,
       "is_discounted": true,
       "discount_pct": 56
@@ -106,7 +106,7 @@
       "app_id": "1142710",
       "name": "Total War: WARHAMMER III",
       "rank": 22,
-      "rank_diff": -1,
+      "rank_diff": 0,
       "is_free": false,
       "is_discounted": true,
       "discount_pct": 85
@@ -115,7 +115,7 @@
       "app_id": "578080",
       "name": "PUBG: BATTLEGROUNDS",
       "rank": 23,
-      "rank_diff": 2,
+      "rank_diff": 0,
       "is_free": true,
       "is_discounted": false,
       "discount_pct": 0
@@ -123,26 +123,26 @@
     {
       "app_id": "1665460",
       "name": "eFootball™",
-      "rank": 25,
-      "rank_diff": -2,
+      "rank": 26,
+      "rank_diff": -1,
       "is_free": true,
       "is_discounted": false,
       "discount_pct": 0
     },
     {
-      "app_id": "227300",
-      "name": "Euro Truck Simulator 2",
+      "app_id": "2399830",
+      "name": "ARK: Survival Ascended",
       "rank": 28,
-      "rank_diff": -1,
+      "rank_diff": 1,
       "is_free": false,
       "is_discounted": true,
       "discount_pct": 75
     },
     {
-      "app_id": "2399830",
-      "name": "ARK: Survival Ascended",
+      "app_id": "227300",
+      "name": "Euro Truck Simulator 2",
       "rank": 29,
-      "rank_diff": 2,
+      "rank_diff": -1,
       "is_free": false,
       "is_discounted": true,
       "discount_pct": 75
@@ -150,8 +150,8 @@
     {
       "app_id": "3595270",
       "name": "Call of Duty®: Modern Warfare® III",
-      "rank": 31,
-      "rank_diff": -1,
+      "rank": 30,
+      "rank_diff": 1,
       "is_free": false,
       "is_discounted": true,
       "discount_pct": 75
@@ -160,7 +160,7 @@
       "app_id": "2357570",
       "name": "Overwatch®",
       "rank": 32,
-      "rank_diff": 2,
+      "rank_diff": 0,
       "is_free": true,
       "is_discounted": false,
       "discount_pct": 0
