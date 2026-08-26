@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-27T01:14:36.337222+09:00",
+  "generated_at": "2026-08-27T03:56:02.292950+09:00",
   "crimson_desert_rank": 9,
-  "rank_diff": 1,
+  "rank_diff": 0,
   "rivals": [
     {
       "app_id": "4001890",
@@ -15,8 +15,8 @@
     {
       "app_id": "730",
       "name": "Counter-Strike 2",
-      "rank": 2,
-      "rank_diff": 0,
+      "rank": 3,
+      "rank_diff": -1,
       "is_free": true,
       "is_discounted": false,
       "discount_pct": 0
@@ -24,8 +24,8 @@
     {
       "app_id": "570",
       "name": "Dota 2",
-      "rank": 5,
-      "rank_diff": 1,
+      "rank": 6,
+      "rank_diff": -1,
       "is_free": true,
       "is_discounted": false,
       "discount_pct": 0
