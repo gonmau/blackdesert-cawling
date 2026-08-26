@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-26T12:00:34.412662+09:00",
+  "generated_at": "2026-08-26T13:35:07.173241+09:00",
   "crimson_desert_rank": 7,
-  "rank_diff": 1,
+  "rank_diff": 0,
   "rivals": [
     {
       "app_id": "4001890",
@@ -16,7 +16,7 @@
       "app_id": "730",
       "name": "Counter-Strike 2",
       "rank": 2,
-      "rank_diff": 1,
+      "rank_diff": 0,
       "is_free": true,
       "is_discounted": false,
       "discount_pct": 0
