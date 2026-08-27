@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-27T11:51:37.275385+09:00",
+  "generated_at": "2026-08-27T22:42:16.050532+09:00",
   "crimson_desert_rank": 9,
   "rank_diff": 0,
   "rivals": [
@@ -7,7 +7,7 @@
       "app_id": "4001890",
       "name": "How to Fish",
       "rank": 2,
-      "rank_diff": 1,
+      "rank_diff": 0,
       "is_free": false,
       "is_discounted": true,
       "discount_pct": 38
@@ -16,7 +16,7 @@
       "app_id": "730",
       "name": "Counter-Strike 2",
       "rank": 3,
-      "rank_diff": -1,
+      "rank_diff": 0,
       "is_free": true,
       "is_discounted": false,
       "discount_pct": 0
@@ -34,19 +34,10 @@
       "app_id": "1172470",
       "name": "Apex Legends™",
       "rank": 6,
-      "rank_diff": 2,
+      "rank_diff": 0,
       "is_free": true,
       "is_discounted": false,
       "discount_pct": 0
-    },
-    {
-      "app_id": "381210",
-      "name": "Dead by Daylight",
-      "rank": 8,
-      "rank_diff": -1,
-      "is_free": false,
-      "is_discounted": true,
-      "discount_pct": 60
     }
   ]
 }
