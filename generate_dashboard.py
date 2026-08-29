@@ -36,7 +36,7 @@ def generate_dashboard():
             )
             for r in rivals
         }
-        all_rank_map = {r["rank"]: r["name"] for r in c.get("all_ranks", [])}
+        all_rank_map = {r["rank"]: (r["name"], r.get("rank_diff", 0)) for r in c.get("all_ranks", [])}
         cells = ""
         for i in range(1, rank + 1):
             if i == rank:
@@ -59,8 +59,10 @@ def generate_dashboard():
                     f'line-height:22px;color:black;cursor:help;">{i}</div>'
                 )
             elif i in all_rank_map:
+                name_g, diff = all_rank_map[i]
+                diff_str = f" ({'+' if diff>0 else ''}{diff})" if diff != 0 else ""
                 cells += (
-                    f'<div title="{i}위: {all_rank_map[i]}" '
+                    f'<div title="{i}위: {name_g}{diff_str}" '
                     f'style="background:#222;border:1px solid #111;'
                     f'width:22px;height:22px;cursor:help;"></div>'
                 )
@@ -88,19 +90,31 @@ def generate_dashboard():
             <td style="padding:4px;"><span style="border:1px solid #c84b31;color:#c84b31;border-radius:4px;padding:1px 4px;font-size:0.7rem;">MAIN</span></td>
         </tr>"""
 
-        for r in rivals:
-            color = "#22bb88" if r.get("is_free") else "#e8a020"
-            diff = r.get("rank_diff", 0)
-            dpct = r.get("discount_pct", 0)
-            label = "FREE" if r.get("is_free") else f"할인 -{dpct}%"
+        rival_by_rank = {r["rank"]: r for r in rivals}
+        general_by_rank = {r["rank"]: r for r in c.get("all_ranks", []) if r["rank"] not in rival_by_rank}
+        for rk in sorted(set(rival_by_rank) | set(general_by_rank)):
+            if rk in rival_by_rank:
+                r = rival_by_rank[rk]
+                color = "#22bb88" if r.get("is_free") else "#e8a020"
+                dpct = r.get("discount_pct", 0)
+                label = "FREE" if r.get("is_free") else f"할인 -{dpct}%"
+                name_display = r["name"]
+                diff = r.get("rank_diff", 0)
+            else:
+                r = general_by_rank[rk]
+                color = "#888"
+                label = "일반"
+                name_display = r["name"]
+                diff = r.get("rank_diff", 0)
+
             diff_text = (
                 f'<span style="font-size:0.7rem;color:#22bb88">▲{abs(diff)}</span>' if diff > 0
                 else f'<span style="font-size:0.7rem;color:#c84b31">▼{abs(diff)}</span>' if diff < 0
                 else ""
             )
             rows += f"""<tr style="border-bottom:1px solid #222;">
-                <td style="padding:4px;color:#777;">#{r['rank']} {diff_text}</td>
-                <td style="padding:4px;font-weight:600;color:{color};">{r['name']}</td>
+                <td style="padding:4px;color:#777;">#{rk} {diff_text}</td>
+                <td style="padding:4px;font-weight:600;color:{color};">{name_display}</td>
                 <td style="padding:4px;">
                     <span style="border:1px solid {color};color:{color};border-radius:4px;padding:1px 4px;font-size:0.7rem;white-space:nowrap;">{label}</span>
                 </td>

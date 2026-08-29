@@ -153,7 +153,7 @@ def analyze_country(cc, name, history, idx, total):
     rivals = []
     all_ranks = []
     for item in all_items[:crimson_rank - 1]:
-        all_ranks.append({"rank": item["rank"], "name": item["name"]})
+        all_ranks.append({"rank": item["rank"], "name": item["name"], "rank_diff": item.get("rank_diff", 0)})
         if not item["app_id"]:
             continue
         price = get_price_info(item["app_id"], cc)
