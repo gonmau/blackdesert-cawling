@@ -18,8 +18,7 @@ jobs:
           python-version: "3.11"
       - name: Install dependencies
         run: |
-          pip install requests playwright playwright-stealth
-          playwright install chromium --with-deps
+          pip install undetected-chromedriver selenium
       - name: Run tracker
         run: python steamdb_rival_tracker.py
       - name: Commit and push results
