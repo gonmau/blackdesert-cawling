@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-29T12:03:12.758682+09:00",
-  "crimson_desert_rank": 10,
-  "rank_diff": 0,
+  "generated_at": "2026-08-29T13:14:36.398061+09:00",
+  "crimson_desert_rank": 9,
+  "rank_diff": 1,
   "rivals": [
     {
       "app_id": "730",
@@ -25,7 +25,7 @@
       "app_id": "1172470",
       "name": "Apex Legends™",
       "rank": 6,
-      "rank_diff": 1,
+      "rank_diff": 0,
       "is_free": true,
       "is_discounted": false,
       "discount_pct": 0
