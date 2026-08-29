@@ -134,9 +134,11 @@ def analyze_country(cc, name, history, idx, total):
             {i["app_id"]: i["rank"] for i in all_items},
         )
 
-    # 붉은사막 앞 순위 게임만 가격 조회
+    # 붉은사막 앞 순위 게임만 가격 조회 + 전체 순위(이름) 별도 보관
     rivals = []
+    all_ranks = []
     for item in all_items[:crimson_rank - 1]:
+        all_ranks.append({"rank": item["rank"], "name": item["name"]})
         if not item["app_id"]:
             continue
         price = get_price_info(item["app_id"], cc)
@@ -150,7 +152,7 @@ def analyze_country(cc, name, history, idx, total):
     print(f"         ✅ {crimson_rank}위{diff_str}, 경쟁작 {len(rivals)}개")
 
     return (
-        {"crimson_desert_rank": crimson_rank, "rank_diff": crimson_rank_diff, "rivals": rivals},
+        {"crimson_desert_rank": crimson_rank, "rank_diff": crimson_rank_diff, "rivals": rivals, "all_ranks": all_ranks},
         {i["app_id"]: i["rank"] for i in all_items},
     )
 

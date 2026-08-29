@@ -36,6 +36,7 @@ def generate_dashboard():
             )
             for r in rivals
         }
+        all_rank_map = {r["rank"]: r["name"] for r in c.get("all_ranks", [])}
         cells = ""
         for i in range(1, rank + 1):
             if i == rank:
@@ -56,6 +57,12 @@ def generate_dashboard():
                     f'style="background:{color};border:1px solid #000;'
                     f'width:22px;height:22px;font-size:10px;text-align:center;'
                     f'line-height:22px;color:black;cursor:help;">{i}</div>'
+                )
+            elif i in all_rank_map:
+                cells += (
+                    f'<div title="{i}위: {all_rank_map[i]}" '
+                    f'style="background:#222;border:1px solid #111;'
+                    f'width:22px;height:22px;cursor:help;"></div>'
                 )
             else:
                 cells += '<div style="background:#222;border:1px solid #111;width:22px;height:22px;"></div>'
