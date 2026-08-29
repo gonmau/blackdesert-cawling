@@ -22,6 +22,17 @@ HEADERS = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/
 REQUEST_DELAY = 1.5
 MAX_RETRIES = 3
 
+# Valve 하드웨어(스팀덱/스팀머신 등)는 게임이 아니므로 순위 집계에서 제외
+EXCLUDED_HARDWARE_APPIDS = {"1675200", "4165910"}  # 스팀덱, 스팀머신
+EXCLUDED_HARDWARE_KEYWORDS = ["steam deck", "steam machine", "steam controller", "steam link", "valve index"]
+
+
+def is_hardware(appid, name):
+    if appid in EXCLUDED_HARDWARE_APPIDS:
+        return True
+    lname = (name or "").lower()
+    return any(kw in lname for kw in EXCLUDED_HARDWARE_KEYWORDS)
+
 def get_history():
     if HISTORY_FILE.exists():
         with open(HISTORY_FILE, "r", encoding="utf-8") as f:
@@ -103,6 +114,10 @@ def analyze_country(cc, name, history, idx, total):
             logo = item.get("logo", "")
             appid = extract_appid_from_logo(logo)
             name_game = item.get("name", "Unknown")
+
+            if is_hardware(appid, name_game):
+                continue
+
             current_rank = len(all_items) + 1
             prev_rank = history.get(cc, {}).get(appid, current_rank)
 

@@ -26,6 +26,17 @@ RANK_HISTORY_FILE = DATA_DIR / "steamdb_rank_history.json"
 STEAMDB_URL = "https://steamdb.info/stats/globaltopsellers/"
 MAX_RANK_HISTORY = 180
 
+# Valve 하드웨어(스팀덱/스팀머신 등)는 게임이 아니므로 순위 집계에서 제외
+EXCLUDED_HARDWARE_APPIDS = {"1675200", "4165910"}  # 스팀덱, 스팀머신
+EXCLUDED_HARDWARE_KEYWORDS = ["steam deck", "steam machine", "steam controller", "steam link", "valve index"]
+
+
+def is_hardware(appid, name):
+    if appid in EXCLUDED_HARDWARE_APPIDS:
+        return True
+    lname = (name or "").lower()
+    return any(kw in lname for kw in EXCLUDED_HARDWARE_KEYWORDS)
+
 
 def get_history():
     if HISTORY_FILE.exists():
@@ -115,6 +126,12 @@ def scrape_steamdb():
             pass
 
     items.sort(key=lambda x: x["rank"])
+
+    # 하드웨어(스팀덱/스팀머신 등) 제외 후 순위 재정렬
+    items = [i for i in items if not is_hardware(i["app_id"], i["name"])]
+    for idx, item in enumerate(items, 1):
+        item["rank"] = idx
+
     return items
 
 

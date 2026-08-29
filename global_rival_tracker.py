@@ -19,6 +19,17 @@ MAX_RETRIES = 3
 REQUEST_DELAY = 1.5
 MAX_RANK_HISTORY = 180   # 6h 간격 × 180 ≈ 45일
 
+# Valve 하드웨어(스팀덱/스팀머신 등)는 게임이 아니므로 순위 집계에서 제외
+EXCLUDED_HARDWARE_APPIDS = {"1675200", "4165910"}  # 스팀덱, 스팀머신
+EXCLUDED_HARDWARE_KEYWORDS = ["steam deck", "steam machine", "steam controller", "steam link", "valve index"]
+
+
+def is_hardware(appid, name):
+    if appid in EXCLUDED_HARDWARE_APPIDS:
+        return True
+    lname = (name or "").lower()
+    return any(kw in lname for kw in EXCLUDED_HARDWARE_KEYWORDS)
+
 
 def get_history():
     if HISTORY_FILE.exists():
@@ -103,7 +114,10 @@ def run():
 
         for item in items:
             appid = extract_appid(item.get("logo", ""))
-            raw_items.append({"app_id": appid, "name": item.get("name", "Unknown")})
+            name_g = item.get("name", "Unknown")
+            if is_hardware(appid, name_g):
+                continue
+            raw_items.append({"app_id": appid, "name": name_g})
             if appid == CRIMSON_DESERT_APPID:
                 crimson_idx = len(raw_items) - 1
                 break
