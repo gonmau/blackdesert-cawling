@@ -1,0 +1,86 @@
+name: 붉은사막 Steam 경쟁 트래커
+
+on:
+  schedule:
+    - cron: "0 0,6,12,18 * * *"
+  workflow_dispatch:
+    inputs:
+      countries:
+        description: "특정 국가 코드 (공백 구분, 비우면 전체). 예: kr us jp"
+        required: false
+        default: ""
+      debug:
+        description: "item 구조 디버그 덤프 실행 (yes/no)"
+        required: false
+        default: "no"
+
+jobs:
+  track:
+    runs-on: ubuntu-latest
+    concurrency:
+      group: sales-tracker-repo-push
+      cancel-in-progress: false
+    permissions:
+      contents: write
+
+    steps:
+      - name: 저장소 체크아웃
+        uses: actions/checkout@v4
+
+      - name: Python 설정
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: 의존성 설치
+        run: pip install requests
+
+      - name: JSON API 응답 구조 확인
+        run: python -u debug_api.py
+
+      - name: 디버그 item 구조 덤프
+        if: ${{ github.event.inputs.debug == 'yes' }}
+        run: python -u debug_item_structure.py
+
+      - name: 가격 API 구조 확인
+        run: python -u debug_price.py
+        
+      - name: 트래커 실행
+        if: ${{ github.event.inputs.debug != 'yes' }}
+        run: |
+          if [ -n "${{ github.event.inputs.countries }}" ]; then
+            python -u crimson_desert_rival_tracker.py ${{ github.event.inputs.countries }}
+          else
+            python -u crimson_desert_rival_tracker.py
+          fi
+     
+      - name: 히스토리 아카이브
+        if: ${{ github.event.inputs.debug != 'yes' }}
+        run: |
+          mkdir -p data/history
+          TIMESTAMP=$(date -u +"%Y%m%d_%H%M%S")
+          cp data/crimson_desert_rivals.json "data/history/rivals_${TIMESTAMP}.json"
+          ls -t data/history/rivals_*.json | tail -n +101 | xargs -r rm
+
+      - name: 대시보드 생성
+        if: ${{ github.event.inputs.debug != 'yes' }}
+        run: python -u generate_dashboard.py
+
+      - name: 변경사항 커밋 & 푸시
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/ index.html 2>/dev/null || true
+
+          if git diff --staged --quiet; then
+            echo "변경 사항 없음, 커밋 생략"
+            exit 0
+          fi
+
+          git commit -m "📊 트래커 업데이트 $(date -u +'%Y-%m-%d %H:%M UTC')"
+
+          for i in 1 2 3 4 5; do
+            git pull --rebase origin main && git push origin main && break
+            echo "push 실패, 재시도 ($i/5)..."
+            sleep $((RANDOM % 10 + 5))
+          done

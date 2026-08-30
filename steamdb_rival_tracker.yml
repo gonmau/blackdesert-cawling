@@ -1,0 +1,42 @@
+name: SteamDB Rival Tracker
+on:
+  schedule:
+    - cron: "30 */6 * * *"   # 6시간마다 (global_rival_tracker와 30분 엇갈리게)
+  workflow_dispatch:
+jobs:
+  track:
+    runs-on: ubuntu-latest
+    concurrency:
+      group: sales-tracker-repo-push
+      cancel-in-progress: false
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Install dependencies
+        run: |
+          pip install undetected-chromedriver selenium
+      - name: Run tracker
+        run: python steamdb_rival_tracker.py
+      - name: Commit and push results
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          ls -la data/ || echo "data/ 폴더 없음"
+          git add data/steamdb_rivals.json data/steamdb_history.json data/steamdb_rank_history.json 2>/dev/null || echo "추가할 파일 없음 (스크래핑 실패)"
+
+          if git diff --staged --quiet; then
+            echo "변경 사항 없음, 커밋 생략"
+            exit 0
+          fi
+
+          git commit -m "chore: update steamdb rivals $(date +'%Y-%m-%d %H:%M KST' -d '+9 hours')"
+
+          for i in 1 2 3 4 5; do
+            git pull --rebase origin main && git push origin main && break
+            echo "push 실패, 재시도 ($i/5)..."
+            sleep $((RANDOM % 10 + 5))
+          done

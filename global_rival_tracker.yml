@@ -1,0 +1,47 @@
+name: Global Rival Tracker
+
+on:
+  schedule:
+  - cron: "0 * * * *"   # 매시간 0분에 실행 (KST 기준 00/01/02/.../23시)
+  workflow_dispatch:        # 수동 실행
+
+jobs:
+  track:
+    runs-on: ubuntu-latest
+    concurrency:
+      group: sales-tracker-repo-push
+      cancel-in-progress: false
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Run tracker
+        run: python global_rival_tracker.py
+
+      - name: Commit results
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/global_rivals.json data/global_history.json data/global_rank_history.json
+
+          if git diff --staged --quiet; then
+            echo "변경 사항 없음, 커밋 생략"
+            exit 0
+          fi
+
+          git commit -m "chore: update global rivals $(date +'%Y-%m-%d %H:%M KST' -d '+9 hours')"
+
+          for i in 1 2 3 4 5; do
+            git pull --rebase origin main && git push origin main && break
+            echo "push 실패, 재시도 ($i/5)..."
+            sleep $((RANDOM % 10 + 5))
+          done
