@@ -144,7 +144,7 @@ def generate_dashboard():
 <body style="background:#0a0c10;color:#eee;font-family:sans-serif;padding:20px;">
     <h1 style="text-align:center;">🏜️ 붉은사막 Steam 경쟁 트래커</h1>
     <div style="text-align:center;color:#666;margin-bottom:20px;font-size:0.85rem;">마지막 업데이트: {time_str}</div>
-    <div style="text-align:center;margin-bottom:24px;">
+    <div id="dashboard-actions" style="text-align:center;margin-bottom:24px;display:flex;justify-content:center;align-items:center;gap:8px;flex-wrap:wrap;">
         <button onclick="saveDashboard()" style="padding:10px 20px;background:#c84b31;color:white;border:none;cursor:pointer;border-radius:5px;">📸 대시보드 캡처 저장</button>
     </div>
 
@@ -185,6 +185,7 @@ def generate_dashboard():
             }});
         }}
     </script>
+    <script src="dashboard-buttons.js"></script>
 </body>
 </html>"""
 
