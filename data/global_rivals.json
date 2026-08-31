@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-31T20:51:02.905974+09:00",
-  "crimson_desert_rank": 12,
-  "rank_diff": 0,
+  "generated_at": "2026-09-01T02:49:58.206073+09:00",
+  "crimson_desert_rank": 14,
+  "rank_diff": -2,
   "rivals": [
     {
       "app_id": "730",
@@ -24,17 +24,26 @@
     {
       "app_id": "1172470",
       "name": "Apex Legends™",
-      "rank": 5,
-      "rank_diff": 0,
+      "rank": 6,
+      "rank_diff": -1,
       "is_free": true,
       "is_discounted": false,
       "discount_pct": 0
     },
     {
+      "app_id": "2412960",
+      "name": "Breathedge 2",
+      "rank": 11,
+      "rank_diff": 0,
+      "is_free": false,
+      "is_discounted": true,
+      "discount_pct": 20
+    },
+    {
       "app_id": "1174180",
       "name": "Red Dead Redemption 2",
-      "rank": 10,
-      "rank_diff": 0,
+      "rank": 13,
+      "rank_diff": -3,
       "is_free": false,
       "is_discounted": true,
       "discount_pct": 75
