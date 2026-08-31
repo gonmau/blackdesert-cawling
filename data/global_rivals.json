@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-31T12:23:17.169886+09:00",
-  "crimson_desert_rank": 10,
-  "rank_diff": 0,
+  "generated_at": "2026-08-31T15:56:56.750035+09:00",
+  "crimson_desert_rank": 11,
+  "rank_diff": -1,
   "rivals": [
     {
       "app_id": "730",
@@ -13,22 +13,31 @@
       "discount_pct": 0
     },
     {
-      "app_id": "570",
-      "name": "Dota 2",
+      "app_id": "1172470",
+      "name": "Apex Legends™",
       "rank": 4,
-      "rank_diff": 0,
+      "rank_diff": 1,
       "is_free": true,
       "is_discounted": false,
       "discount_pct": 0
     },
     {
-      "app_id": "1172470",
-      "name": "Apex Legends™",
+      "app_id": "570",
+      "name": "Dota 2",
       "rank": 5,
-      "rank_diff": 0,
+      "rank_diff": -1,
       "is_free": true,
       "is_discounted": false,
       "discount_pct": 0
+    },
+    {
+      "app_id": "1174180",
+      "name": "Red Dead Redemption 2",
+      "rank": 10,
+      "rank_diff": 0,
+      "is_free": false,
+      "is_discounted": true,
+      "discount_pct": 75
     }
   ]
 }
