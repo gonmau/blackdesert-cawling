@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-31T19:27:28.564151+09:00",
+  "generated_at": "2026-08-31T20:49:10.395375+09:00",
   "crimson_desert_rank": 12,
-  "rank_diff": -1,
+  "rank_diff": 0,
   "rivals": [
     {
       "app_id": "730",
@@ -16,7 +16,7 @@
       "app_id": "570",
       "name": "Dota 2",
       "rank": 4,
-      "rank_diff": 1,
+      "rank_diff": 0,
       "is_free": true,
       "is_discounted": false,
       "discount_pct": 0
@@ -25,7 +25,7 @@
       "app_id": "1172470",
       "name": "Apex Legends™",
       "rank": 5,
-      "rank_diff": -1,
+      "rank_diff": 0,
       "is_free": true,
       "is_discounted": false,
       "discount_pct": 0
@@ -38,15 +38,6 @@
       "is_free": false,
       "is_discounted": true,
       "discount_pct": 75
-    },
-    {
-      "app_id": "3240220",
-      "name": "Grand Theft Auto V Enhanced",
-      "rank": 11,
-      "rank_diff": 0,
-      "is_free": false,
-      "is_discounted": true,
-      "discount_pct": 56
     }
   ]
 }
