@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-01T10:35:53.599316+09:00",
-  "crimson_desert_rank": 18,
-  "rank_diff": 0,
+  "generated_at": "2026-09-01T16:11:36.171581+09:00",
+  "crimson_desert_rank": 17,
+  "rank_diff": 1,
   "rivals": [
     {
       "app_id": "730",
@@ -15,8 +15,8 @@
     {
       "app_id": "570",
       "name": "Dota 2",
-      "rank": 5,
-      "rank_diff": 0,
+      "rank": 4,
+      "rank_diff": 1,
       "is_free": true,
       "is_discounted": false,
       "discount_pct": 0
@@ -24,7 +24,7 @@
     {
       "app_id": "1172470",
       "name": "Apex Legends™",
-      "rank": 6,
+      "rank": 5,
       "rank_diff": 1,
       "is_free": true,
       "is_discounted": false,
@@ -52,28 +52,28 @@
       "app_id": "108600",
       "name": "Project Zomboid",
       "rank": 14,
-      "rank_diff": 1,
+      "rank_diff": 0,
       "is_free": false,
       "is_discounted": true,
       "discount_pct": 33
     },
     {
+      "app_id": "3240220",
+      "name": "Grand Theft Auto V Enhanced",
+      "rank": 15,
+      "rank_diff": 1,
+      "is_free": false,
+      "is_discounted": true,
+      "discount_pct": 56
+    },
+    {
       "app_id": "1623730",
       "name": "Palworld",
-      "rank": 15,
+      "rank": 16,
       "rank_diff": -1,
       "is_free": false,
       "is_discounted": true,
       "discount_pct": 30
-    },
-    {
-      "app_id": "3240220",
-      "name": "Grand Theft Auto V Enhanced",
-      "rank": 16,
-      "rank_diff": 0,
-      "is_free": false,
-      "is_discounted": true,
-      "discount_pct": 56
     }
   ]
 }
