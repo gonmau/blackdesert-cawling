@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-09-03T06:33:20.753657+09:00",
-  "crimson_desert_rank": 25,
-  "rank_diff": -2,
+  "generated_at": "2026-09-03T08:49:39.440421+09:00",
+  "crimson_desert_rank": 24,
+  "rank_diff": 1,
   "rivals": [
     {
       "app_id": "1172470",
       "name": "Apex Legends™",
       "rank": 2,
-      "rank_diff": -1,
+      "rank_diff": 0,
       "is_free": true,
       "is_discounted": false,
       "discount_pct": 0
@@ -24,7 +24,7 @@
     {
       "app_id": "570",
       "name": "Dota 2",
-      "rank": 6,
+      "rank": 7,
       "rank_diff": -1,
       "is_free": true,
       "is_discounted": false,
@@ -33,7 +33,16 @@
     {
       "app_id": "359550",
       "name": "Tom Clancy's Rainbow Six Siege",
-      "rank": 10,
+      "rank": 12,
+      "rank_diff": -2,
+      "is_free": true,
+      "is_discounted": false,
+      "discount_pct": 0
+    },
+    {
+      "app_id": "3564740",
+      "name": "Where Winds Meet",
+      "rank": 13,
       "rank_diff": 0,
       "is_free": true,
       "is_discounted": false,
@@ -42,8 +51,8 @@
     {
       "app_id": "4656000",
       "name": "BOMBANANA!",
-      "rank": 13,
-      "rank_diff": 0,
+      "rank": 14,
+      "rank_diff": -1,
       "is_free": false,
       "is_discounted": true,
       "discount_pct": 38
@@ -51,8 +60,8 @@
     {
       "app_id": "3768760",
       "name": "007 First Light",
-      "rank": 14,
-      "rank_diff": -2,
+      "rank": 15,
+      "rank_diff": -1,
       "is_free": false,
       "is_discounted": true,
       "discount_pct": 20
@@ -60,8 +69,8 @@
     {
       "app_id": "1174180",
       "name": "Red Dead Redemption 2",
-      "rank": 15,
-      "rank_diff": 1,
+      "rank": 16,
+      "rank_diff": -1,
       "is_free": false,
       "is_discounted": true,
       "discount_pct": 75
@@ -69,62 +78,53 @@
     {
       "app_id": "108600",
       "name": "Project Zomboid",
-      "rank": 16,
-      "rank_diff": 2,
+      "rank": 17,
+      "rank_diff": -1,
       "is_free": false,
       "is_discounted": true,
       "discount_pct": 33
     },
     {
+      "app_id": "2483190",
+      "name": "Forza Horizon 6",
+      "rank": 18,
+      "rank_diff": 0,
+      "is_free": false,
+      "is_discounted": true,
+      "discount_pct": 15
+    },
+    {
+      "app_id": "1623730",
+      "name": "Palworld",
+      "rank": 19,
+      "rank_diff": 1,
+      "is_free": false,
+      "is_discounted": true,
+      "discount_pct": 30
+    },
+    {
       "app_id": "578080",
       "name": "PUBG: BATTLEGROUNDS",
-      "rank": 17,
+      "rank": 20,
       "rank_diff": -3,
       "is_free": true,
       "is_discounted": false,
       "discount_pct": 0
     },
     {
-      "app_id": "2483190",
-      "name": "Forza Horizon 6",
-      "rank": 18,
-      "rank_diff": 1,
-      "is_free": false,
-      "is_discounted": true,
-      "discount_pct": 15
-    },
-    {
       "app_id": "3240220",
       "name": "Grand Theft Auto V Enhanced",
-      "rank": 19,
-      "rank_diff": 2,
+      "rank": 21,
+      "rank_diff": -2,
       "is_free": false,
       "is_discounted": true,
       "discount_pct": 56
     },
     {
-      "app_id": "1623730",
-      "name": "Palworld",
-      "rank": 20,
-      "rank_diff": 0,
-      "is_free": false,
-      "is_discounted": true,
-      "discount_pct": 30
-    },
-    {
-      "app_id": "1326470",
-      "name": "Sons Of The Forest",
-      "rank": 22,
-      "rank_diff": 0,
-      "is_free": false,
-      "is_discounted": true,
-      "discount_pct": 70
-    },
-    {
       "app_id": "230410",
       "name": "Warframe",
-      "rank": 24,
-      "rank_diff": 0,
+      "rank": 23,
+      "rank_diff": 1,
       "is_free": true,
       "is_discounted": false,
       "discount_pct": 0
