@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-09-02T09:55:38.239982+09:00",
-  "crimson_desert_rank": 22,
-  "rank_diff": 1,
+  "generated_at": "2026-09-02T14:25:50.456879+09:00",
+  "crimson_desert_rank": 23,
+  "rank_diff": -1,
   "rivals": [
     {
       "app_id": "1172470",
       "name": "Apex Legends™",
       "rank": 1,
-      "rank_diff": 1,
+      "rank_diff": 0,
       "is_free": true,
       "is_discounted": false,
       "discount_pct": 0
@@ -16,7 +16,7 @@
       "app_id": "730",
       "name": "Counter-Strike 2",
       "rank": 2,
-      "rank_diff": -1,
+      "rank_diff": 0,
       "is_free": true,
       "is_discounted": false,
       "discount_pct": 0
@@ -25,7 +25,7 @@
       "app_id": "570",
       "name": "Dota 2",
       "rank": 5,
-      "rank_diff": -1,
+      "rank_diff": 0,
       "is_free": true,
       "is_discounted": false,
       "discount_pct": 0
@@ -33,8 +33,8 @@
     {
       "app_id": "359550",
       "name": "Tom Clancy's Rainbow Six Siege",
-      "rank": 8,
-      "rank_diff": 0,
+      "rank": 9,
+      "rank_diff": -1,
       "is_free": true,
       "is_discounted": false,
       "discount_pct": 0
@@ -58,46 +58,55 @@
       "discount_pct": 75
     },
     {
-      "app_id": "3768760",
-      "name": "007 First Light",
-      "rank": 16,
-      "rank_diff": 2,
-      "is_free": false,
-      "is_discounted": true,
-      "discount_pct": 20
-    },
-    {
-      "app_id": "1623730",
-      "name": "Palworld",
-      "rank": 17,
-      "rank_diff": -1,
-      "is_free": false,
-      "is_discounted": true,
-      "discount_pct": 30
-    },
-    {
-      "app_id": "1326470",
-      "name": "Sons Of The Forest",
-      "rank": 18,
-      "rank_diff": -3,
-      "is_free": false,
-      "is_discounted": true,
-      "discount_pct": 70
-    },
-    {
       "app_id": "3240220",
       "name": "Grand Theft Auto V Enhanced",
-      "rank": 19,
-      "rank_diff": 0,
+      "rank": 16,
+      "rank_diff": 3,
       "is_free": false,
       "is_discounted": true,
       "discount_pct": 56
     },
     {
+      "app_id": "1623730",
+      "name": "Palworld",
+      "rank": 17,
+      "rank_diff": 0,
+      "is_free": false,
+      "is_discounted": true,
+      "discount_pct": 30
+    },
+    {
+      "app_id": "2483190",
+      "name": "Forza Horizon 6",
+      "rank": 18,
+      "rank_diff": 0,
+      "is_free": false,
+      "is_discounted": true,
+      "discount_pct": 15
+    },
+    {
+      "app_id": "3768760",
+      "name": "007 First Light",
+      "rank": 19,
+      "rank_diff": -3,
+      "is_free": false,
+      "is_discounted": true,
+      "discount_pct": 20
+    },
+    {
+      "app_id": "1326470",
+      "name": "Sons Of The Forest",
+      "rank": 20,
+      "rank_diff": -2,
+      "is_free": false,
+      "is_discounted": true,
+      "discount_pct": 70
+    },
+    {
       "app_id": "230410",
       "name": "Warframe",
-      "rank": 21,
-      "rank_diff": 0,
+      "rank": 22,
+      "rank_diff": -1,
       "is_free": true,
       "is_discounted": false,
       "discount_pct": 0
