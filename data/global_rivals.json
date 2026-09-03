@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-04T02:46:49.582104+09:00",
-  "crimson_desert_rank": 15,
+  "generated_at": "2026-09-04T04:37:02.361347+09:00",
+  "crimson_desert_rank": 11,
   "rank_diff": 4,
   "rivals": [
     {
@@ -13,46 +13,28 @@
       "discount_pct": 0
     },
     {
-      "app_id": "1172470",
-      "name": "Apex Legends™",
-      "rank": 5,
-      "rank_diff": 0,
-      "is_free": true,
-      "is_discounted": false,
-      "discount_pct": 0
-    },
-    {
       "app_id": "2406770",
       "name": "Bodycam",
-      "rank": 6,
+      "rank": 5,
       "rank_diff": 1,
       "is_free": false,
       "is_discounted": true,
       "discount_pct": 20
     },
     {
+      "app_id": "1172470",
+      "name": "Apex Legends™",
+      "rank": 6,
+      "rank_diff": -1,
+      "is_free": true,
+      "is_discounted": false,
+      "discount_pct": 0
+    },
+    {
       "app_id": "570",
       "name": "Dota 2",
-      "rank": 8,
-      "rank_diff": 0,
-      "is_free": true,
-      "is_discounted": false,
-      "discount_pct": 0
-    },
-    {
-      "app_id": "1449850",
-      "name": "Yu-Gi-Oh! Master Duel",
-      "rank": 13,
-      "rank_diff": 0,
-      "is_free": true,
-      "is_discounted": false,
-      "discount_pct": 0
-    },
-    {
-      "app_id": "2139460",
-      "name": "Once Human",
-      "rank": 14,
-      "rank_diff": 0,
+      "rank": 7,
+      "rank_diff": 1,
       "is_free": true,
       "is_discounted": false,
       "discount_pct": 0
