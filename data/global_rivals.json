@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-04T07:06:30.457386+09:00",
+  "generated_at": "2026-09-04T07:13:31.533459+09:00",
   "crimson_desert_rank": 12,
   "rank_diff": 0,
   "rivals": [
@@ -16,7 +16,7 @@
       "app_id": "2406770",
       "name": "Bodycam",
       "rank": 5,
-      "rank_diff": -1,
+      "rank_diff": 0,
       "is_free": false,
       "is_discounted": true,
       "discount_pct": 20
