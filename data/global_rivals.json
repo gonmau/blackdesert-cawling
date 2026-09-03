@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-04T04:37:02.361347+09:00",
-  "crimson_desert_rank": 11,
-  "rank_diff": 4,
+  "generated_at": "2026-09-04T05:53:14.458833+09:00",
+  "crimson_desert_rank": 12,
+  "rank_diff": -1,
   "rivals": [
     {
       "app_id": "730",
@@ -15,7 +15,7 @@
     {
       "app_id": "2406770",
       "name": "Bodycam",
-      "rank": 5,
+      "rank": 4,
       "rank_diff": 1,
       "is_free": false,
       "is_discounted": true,
@@ -25,7 +25,7 @@
       "app_id": "1172470",
       "name": "Apex Legends™",
       "rank": 6,
-      "rank_diff": -1,
+      "rank_diff": 0,
       "is_free": true,
       "is_discounted": false,
       "discount_pct": 0
@@ -33,8 +33,8 @@
     {
       "app_id": "570",
       "name": "Dota 2",
-      "rank": 7,
-      "rank_diff": 1,
+      "rank": 8,
+      "rank_diff": -1,
       "is_free": true,
       "is_discounted": false,
       "discount_pct": 0
