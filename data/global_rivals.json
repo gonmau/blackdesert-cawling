@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-04T01:53:48.353977+09:00",
-  "crimson_desert_rank": 19,
+  "generated_at": "2026-09-04T02:46:49.582104+09:00",
+  "crimson_desert_rank": 15,
   "rank_diff": 4,
   "rivals": [
     {
@@ -16,16 +16,25 @@
       "app_id": "1172470",
       "name": "Apex Legends™",
       "rank": 5,
-      "rank_diff": -3,
+      "rank_diff": 0,
       "is_free": true,
       "is_discounted": false,
       "discount_pct": 0
     },
     {
+      "app_id": "2406770",
+      "name": "Bodycam",
+      "rank": 6,
+      "rank_diff": 1,
+      "is_free": false,
+      "is_discounted": true,
+      "discount_pct": 20
+    },
+    {
       "app_id": "570",
       "name": "Dota 2",
       "rank": 8,
-      "rank_diff": -1,
+      "rank_diff": 0,
       "is_free": true,
       "is_discounted": false,
       "discount_pct": 0
@@ -34,7 +43,7 @@
       "app_id": "1449850",
       "name": "Yu-Gi-Oh! Master Duel",
       "rank": 13,
-      "rank_diff": -2,
+      "rank_diff": 0,
       "is_free": true,
       "is_discounted": false,
       "discount_pct": 0
@@ -44,42 +53,6 @@
       "name": "Once Human",
       "rank": 14,
       "rank_diff": 0,
-      "is_free": true,
-      "is_discounted": false,
-      "discount_pct": 0
-    },
-    {
-      "app_id": "2483190",
-      "name": "Forza Horizon 6",
-      "rank": 15,
-      "rank_diff": 4,
-      "is_free": false,
-      "is_discounted": true,
-      "discount_pct": 15
-    },
-    {
-      "app_id": "4656000",
-      "name": "BOMBANANA!",
-      "rank": 16,
-      "rank_diff": -3,
-      "is_free": false,
-      "is_discounted": true,
-      "discount_pct": 38
-    },
-    {
-      "app_id": "1203220",
-      "name": "NARAKA: BLADEPOINT",
-      "rank": 17,
-      "rank_diff": -2,
-      "is_free": true,
-      "is_discounted": false,
-      "discount_pct": 0
-    },
-    {
-      "app_id": "3564740",
-      "name": "Where Winds Meet",
-      "rank": 18,
-      "rank_diff": -1,
       "is_free": true,
       "is_discounted": false,
       "discount_pct": 0
