@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-04T22:31:58.079829+09:00",
+  "generated_at": "2026-09-04T23:44:45.574449+09:00",
   "crimson_desert_rank": 11,
   "rank_diff": 0,
   "rivals": [
@@ -7,7 +7,7 @@
       "app_id": "2406770",
       "name": "Bodycam",
       "rank": 4,
-      "rank_diff": 1,
+      "rank_diff": 0,
       "is_free": false,
       "is_discounted": true,
       "discount_pct": 20
@@ -16,7 +16,7 @@
       "app_id": "730",
       "name": "Counter-Strike 2",
       "rank": 5,
-      "rank_diff": -1,
+      "rank_diff": 0,
       "is_free": true,
       "is_discounted": false,
       "discount_pct": 0
