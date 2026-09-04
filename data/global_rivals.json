@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-04T14:26:19.689326+09:00",
-  "crimson_desert_rank": 13,
-  "rank_diff": 0,
+  "generated_at": "2026-09-04T16:54:27.825250+09:00",
+  "crimson_desert_rank": 11,
+  "rank_diff": 2,
   "rivals": [
     {
       "app_id": "730",
@@ -33,16 +33,7 @@
     {
       "app_id": "570",
       "name": "Dota 2",
-      "rank": 10,
-      "rank_diff": 0,
-      "is_free": true,
-      "is_discounted": false,
-      "discount_pct": 0
-    },
-    {
-      "app_id": "2767030",
-      "name": "Marvel Rivals",
-      "rank": 11,
+      "rank": 9,
       "rank_diff": 1,
       "is_free": true,
       "is_discounted": false,
