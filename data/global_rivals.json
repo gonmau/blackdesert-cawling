@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-04T16:54:27.825250+09:00",
+  "generated_at": "2026-09-04T19:30:56.580906+09:00",
   "crimson_desert_rank": 11,
-  "rank_diff": 2,
+  "rank_diff": 0,
   "rivals": [
     {
       "app_id": "730",
@@ -34,7 +34,7 @@
       "app_id": "570",
       "name": "Dota 2",
       "rank": 9,
-      "rank_diff": 1,
+      "rank_diff": 0,
       "is_free": true,
       "is_discounted": false,
       "discount_pct": 0
