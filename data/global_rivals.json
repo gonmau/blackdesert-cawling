@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-09-05T20:35:18.148277+09:00",
+  "generated_at": "2026-09-05T23:30:20.449459+09:00",
   "crimson_desert_rank": 11,
-  "rank_diff": -1,
+  "rank_diff": 0,
   "rivals": [
     {
       "app_id": "730",
       "name": "Counter-Strike 2",
       "rank": 2,
-      "rank_diff": 2,
+      "rank_diff": 0,
       "is_free": true,
       "is_discounted": false,
       "discount_pct": 0
@@ -15,8 +15,8 @@
     {
       "app_id": "2406770",
       "name": "Bodycam",
-      "rank": 4,
-      "rank_diff": -2,
+      "rank": 3,
+      "rank_diff": 1,
       "is_free": false,
       "is_discounted": true,
       "discount_pct": 20
@@ -25,7 +25,7 @@
       "app_id": "1172470",
       "name": "Apex Legends™",
       "rank": 5,
-      "rank_diff": 3,
+      "rank_diff": 0,
       "is_free": true,
       "is_discounted": false,
       "discount_pct": 0
