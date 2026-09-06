@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-07T02:29:13.340640+09:00",
-  "crimson_desert_rank": 12,
+  "generated_at": "2026-09-07T04:56:54.206266+09:00",
+  "crimson_desert_rank": 13,
   "rank_diff": -1,
   "rivals": [
     {
@@ -16,7 +16,7 @@
       "app_id": "2406770",
       "name": "Bodycam",
       "rank": 3,
-      "rank_diff": -1,
+      "rank_diff": 0,
       "is_free": false,
       "is_discounted": true,
       "discount_pct": 20
@@ -25,7 +25,7 @@
       "app_id": "1172470",
       "name": "Apex Legends™",
       "rank": 6,
-      "rank_diff": -1,
+      "rank_diff": 0,
       "is_free": true,
       "is_discounted": false,
       "discount_pct": 0
@@ -34,10 +34,19 @@
       "app_id": "570",
       "name": "Dota 2",
       "rank": 7,
-      "rank_diff": 1,
+      "rank_diff": 0,
       "is_free": true,
       "is_discounted": false,
       "discount_pct": 0
+    },
+    {
+      "app_id": "2183900",
+      "name": "Warhammer 40,000: Space Marine 2",
+      "rank": 12,
+      "rank_diff": 0,
+      "is_free": false,
+      "is_discounted": true,
+      "discount_pct": 75
     }
   ]
 }
