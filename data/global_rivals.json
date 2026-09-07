@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-07T16:52:47.236967+09:00",
+  "generated_at": "2026-09-07T22:56:07.063561+09:00",
   "crimson_desert_rank": 11,
-  "rank_diff": 1,
+  "rank_diff": 0,
   "rivals": [
     {
       "app_id": "730",
@@ -24,7 +24,7 @@
     {
       "app_id": "1172470",
       "name": "Apex Legends™",
-      "rank": 5,
+      "rank": 4,
       "rank_diff": 1,
       "is_free": true,
       "is_discounted": false,
@@ -34,7 +34,7 @@
       "app_id": "570",
       "name": "Dota 2",
       "rank": 7,
-      "rank_diff": 2,
+      "rank_diff": 0,
       "is_free": true,
       "is_discounted": false,
       "discount_pct": 0
