@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-07T08:41:42.433520+09:00",
-  "crimson_desert_rank": 13,
-  "rank_diff": 0,
+  "generated_at": "2026-09-07T11:42:53.167458+09:00",
+  "crimson_desert_rank": 12,
+  "rank_diff": 1,
   "rivals": [
     {
       "app_id": "730",
@@ -38,15 +38,6 @@
       "is_free": true,
       "is_discounted": false,
       "discount_pct": 0
-    },
-    {
-      "app_id": "2183900",
-      "name": "Warhammer 40,000: Space Marine 2",
-      "rank": 12,
-      "rank_diff": 0,
-      "is_free": false,
-      "is_discounted": true,
-      "discount_pct": 75
     }
   ]
 }
