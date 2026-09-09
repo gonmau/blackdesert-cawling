@@ -1,21 +1,12 @@
 {
-  "generated_at": "2026-09-10T02:00:22.923043+09:00",
-  "crimson_desert_rank": 13,
-  "rank_diff": -2,
+  "generated_at": "2026-09-10T05:21:13.264200+09:00",
+  "crimson_desert_rank": 21,
+  "rank_diff": -8,
   "rivals": [
     {
       "app_id": "730",
       "name": "Counter-Strike 2",
-      "rank": 1,
-      "rank_diff": 0,
-      "is_free": true,
-      "is_discounted": false,
-      "discount_pct": 0
-    },
-    {
-      "app_id": "1172470",
-      "name": "Apex Legends™",
-      "rank": 5,
+      "rank": 2,
       "rank_diff": -1,
       "is_free": true,
       "is_discounted": false,
@@ -24,17 +15,26 @@
     {
       "app_id": "2406770",
       "name": "Bodycam",
-      "rank": 6,
-      "rank_diff": -1,
+      "rank": 4,
+      "rank_diff": 2,
       "is_free": false,
       "is_discounted": true,
       "discount_pct": 20
     },
     {
+      "app_id": "1172470",
+      "name": "Apex Legends™",
+      "rank": 5,
+      "rank_diff": 0,
+      "is_free": true,
+      "is_discounted": false,
+      "discount_pct": 0
+    },
+    {
       "app_id": "570",
       "name": "Dota 2",
       "rank": 7,
-      "rank_diff": -1,
+      "rank_diff": 0,
       "is_free": true,
       "is_discounted": false,
       "discount_pct": 0
@@ -42,8 +42,8 @@
     {
       "app_id": "3624140",
       "name": "Wanderburg",
-      "rank": 11,
-      "rank_diff": -2,
+      "rank": 10,
+      "rank_diff": 1,
       "is_free": false,
       "is_discounted": true,
       "discount_pct": 35
@@ -52,6 +52,51 @@
       "app_id": "2357570",
       "name": "Overwatch®",
       "rank": 12,
+      "rank_diff": 0,
+      "is_free": true,
+      "is_discounted": false,
+      "discount_pct": 0
+    },
+    {
+      "app_id": "1144200",
+      "name": "Ready or Not",
+      "rank": 15,
+      "rank_diff": 0,
+      "is_free": false,
+      "is_discounted": true,
+      "discount_pct": 50
+    },
+    {
+      "app_id": "4162040",
+      "name": "Zenless Zone Zero",
+      "rank": 16,
+      "rank_diff": 0,
+      "is_free": true,
+      "is_discounted": false,
+      "discount_pct": 0
+    },
+    {
+      "app_id": "594650",
+      "name": "Hunt: Showdown 1896",
+      "rank": 17,
+      "rank_diff": 0,
+      "is_free": false,
+      "is_discounted": true,
+      "discount_pct": 60
+    },
+    {
+      "app_id": "3240220",
+      "name": "Grand Theft Auto V Enhanced",
+      "rank": 18,
+      "rank_diff": 0,
+      "is_free": false,
+      "is_discounted": true,
+      "discount_pct": 50
+    },
+    {
+      "app_id": "2767030",
+      "name": "Marvel Rivals",
+      "rank": 20,
       "rank_diff": 0,
       "is_free": true,
       "is_discounted": false,
