@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-09T08:09:19.459314+09:00",
+  "generated_at": "2026-09-09T11:54:49.998818+09:00",
   "crimson_desert_rank": 14,
   "rank_diff": 0,
   "rivals": [
@@ -34,7 +34,7 @@
       "app_id": "570",
       "name": "Dota 2",
       "rank": 7,
-      "rank_diff": -1,
+      "rank_diff": 0,
       "is_free": true,
       "is_discounted": false,
       "discount_pct": 0
@@ -43,7 +43,7 @@
       "app_id": "2357570",
       "name": "Overwatch®",
       "rank": 10,
-      "rank_diff": 2,
+      "rank_diff": 0,
       "is_free": true,
       "is_discounted": false,
       "discount_pct": 0
@@ -52,7 +52,7 @@
       "app_id": "3624140",
       "name": "Wanderburg",
       "rank": 11,
-      "rank_diff": -1,
+      "rank_diff": 0,
       "is_free": false,
       "is_discounted": true,
       "discount_pct": 35
@@ -61,7 +61,7 @@
       "app_id": "594650",
       "name": "Hunt: Showdown 1896",
       "rank": 12,
-      "rank_diff": -1,
+      "rank_diff": 0,
       "is_free": false,
       "is_discounted": true,
       "discount_pct": 60
