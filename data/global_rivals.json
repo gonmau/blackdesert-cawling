@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-09-26T08:46:18.101826+09:00",
-  "crimson_desert_rank": 95,
-  "rank_diff": 5,
+  "generated_at": "2026-09-26T12:20:48.937706+09:00",
+  "crimson_desert_rank": 96,
+  "rank_diff": -1,
   "rivals": [
     {
       "app_id": "4126040",
       "name": "Aniimo",
       "rank": 6,
-      "rank_diff": 1,
+      "rank_diff": 0,
       "is_free": true,
       "is_discounted": false,
       "discount_pct": 0
@@ -33,17 +33,8 @@
     {
       "app_id": "570940",
       "name": "DARK SOULS™: REMASTERED",
-      "rank": 26,
-      "rank_diff": 0,
-      "is_free": false,
-      "is_discounted": true,
-      "discount_pct": 50
-    },
-    {
-      "app_id": "335300",
-      "name": "DARK SOULS™ II: Scholar of the First Sin",
-      "rank": 36,
-      "rank_diff": -1,
+      "rank": 29,
+      "rank_diff": -3,
       "is_free": false,
       "is_discounted": true,
       "discount_pct": 50
@@ -51,8 +42,17 @@
     {
       "app_id": "1973530",
       "name": "Limbus Company",
+      "rank": 35,
+      "rank_diff": 2,
+      "is_free": true,
+      "is_discounted": false,
+      "discount_pct": 0
+    },
+    {
+      "app_id": "4025700",
+      "name": "Heartopia",
       "rank": 37,
-      "rank_diff": 0,
+      "rank_diff": 28,
       "is_free": true,
       "is_discounted": false,
       "discount_pct": 0
@@ -61,16 +61,25 @@
       "app_id": "1687950",
       "name": "Persona 5 Royal",
       "rank": 40,
-      "rank_diff": -2,
+      "rank_diff": 0,
       "is_free": false,
       "is_discounted": true,
       "discount_pct": 70
     },
     {
+      "app_id": "335300",
+      "name": "DARK SOULS™ II: Scholar of the First Sin",
+      "rank": 42,
+      "rank_diff": -6,
+      "is_free": false,
+      "is_discounted": true,
+      "discount_pct": 50
+    },
+    {
       "app_id": "4259190",
       "name": "Kingdom Rush 6: Genesis TD",
-      "rank": 43,
-      "rank_diff": -4,
+      "rank": 45,
+      "rank_diff": -2,
       "is_free": false,
       "is_discounted": true,
       "discount_pct": 10
@@ -85,18 +94,9 @@
       "discount_pct": 70
     },
     {
-      "app_id": "4025700",
-      "name": "Heartopia",
-      "rank": 65,
-      "rank_diff": 23,
-      "is_free": true,
-      "is_discounted": false,
-      "discount_pct": 0
-    },
-    {
       "app_id": "2141910",
       "name": "Magic: The Gathering Arena",
-      "rank": 76,
+      "rank": 72,
       "rank_diff": 4,
       "is_free": true,
       "is_discounted": false,
@@ -106,10 +106,19 @@
       "app_id": "3513350",
       "name": "Wuthering Waves",
       "rank": 90,
-      "rank_diff": -8,
+      "rank_diff": 0,
       "is_free": true,
       "is_discounted": false,
       "discount_pct": 0
+    },
+    {
+      "app_id": "3527290",
+      "name": "PEAK",
+      "rank": 92,
+      "rank_diff": 0,
+      "is_free": false,
+      "is_discounted": true,
+      "discount_pct": 38
     }
   ]
 }
