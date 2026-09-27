@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-28T02:26:38.452792+09:00",
-  "crimson_desert_rank": 90,
-  "rank_diff": 5,
+  "generated_at": "2026-09-28T06:03:43.557719+09:00",
+  "crimson_desert_rank": 91,
+  "rank_diff": -1,
   "rivals": [
     {
       "app_id": "4126040",
@@ -16,7 +16,7 @@
       "app_id": "4019220",
       "name": "Dressmaker",
       "rank": 7,
-      "rank_diff": 4,
+      "rank_diff": 0,
       "is_free": false,
       "is_discounted": true,
       "discount_pct": 10
@@ -24,17 +24,26 @@
     {
       "app_id": "2531310",
       "name": "The Last of Us™ Part II Remastered",
-      "rank": 18,
-      "rank_diff": 0,
+      "rank": 19,
+      "rank_diff": -1,
       "is_free": false,
       "is_discounted": true,
       "discount_pct": 33
     },
     {
+      "app_id": "2552430",
+      "name": "KINGDOM HEARTS -HD 1.5+2.5 ReMIX-",
+      "rank": 47,
+      "rank_diff": 6,
+      "is_free": false,
+      "is_discounted": true,
+      "discount_pct": 70
+    },
+    {
       "app_id": "1687950",
       "name": "Persona 5 Royal",
-      "rank": 45,
-      "rank_diff": 1,
+      "rank": 48,
+      "rank_diff": -3,
       "is_free": false,
       "is_discounted": true,
       "discount_pct": 70
@@ -42,35 +51,35 @@
     {
       "app_id": "570940",
       "name": "DARK SOULS™: REMASTERED",
-      "rank": 52,
-      "rank_diff": 0,
+      "rank": 49,
+      "rank_diff": 3,
       "is_free": false,
       "is_discounted": true,
       "discount_pct": 50
     },
     {
-      "app_id": "2552430",
-      "name": "KINGDOM HEARTS -HD 1.5+2.5 ReMIX-",
-      "rank": 53,
+      "app_id": "2141910",
+      "name": "Magic: The Gathering Arena",
+      "rank": 52,
       "rank_diff": 11,
-      "is_free": false,
-      "is_discounted": true,
-      "discount_pct": 70
-    },
-    {
-      "app_id": "1973530",
-      "name": "Limbus Company",
-      "rank": 59,
-      "rank_diff": -8,
       "is_free": true,
       "is_discounted": false,
       "discount_pct": 0
     },
     {
-      "app_id": "2141910",
-      "name": "Magic: The Gathering Arena",
-      "rank": 63,
-      "rank_diff": 8,
+      "app_id": "1973530",
+      "name": "Limbus Company",
+      "rank": 65,
+      "rank_diff": -6,
+      "is_free": true,
+      "is_discounted": false,
+      "discount_pct": 0
+    },
+    {
+      "app_id": "3513350",
+      "name": "Wuthering Waves",
+      "rank": 68,
+      "rank_diff": 1,
       "is_free": true,
       "is_discounted": false,
       "discount_pct": 0
@@ -78,26 +87,8 @@
     {
       "app_id": "4025700",
       "name": "Heartopia",
-      "rank": 64,
-      "rank_diff": -22,
-      "is_free": true,
-      "is_discounted": false,
-      "discount_pct": 0
-    },
-    {
-      "app_id": "4259190",
-      "name": "Kingdom Rush 6: Genesis TD",
-      "rank": 68,
+      "rank": 72,
       "rank_diff": -8,
-      "is_free": false,
-      "is_discounted": true,
-      "discount_pct": 10
-    },
-    {
-      "app_id": "3513350",
-      "name": "Wuthering Waves",
-      "rank": 69,
-      "rank_diff": 5,
       "is_free": true,
       "is_discounted": false,
       "discount_pct": 0
@@ -105,8 +96,8 @@
     {
       "app_id": "335300",
       "name": "DARK SOULS™ II: Scholar of the First Sin",
-      "rank": 79,
-      "rank_diff": 0,
+      "rank": 73,
+      "rank_diff": 6,
       "is_free": false,
       "is_discounted": true,
       "discount_pct": 50
@@ -114,11 +105,20 @@
     {
       "app_id": "3527290",
       "name": "PEAK",
-      "rank": 80,
+      "rank": 78,
       "rank_diff": 2,
       "is_free": false,
       "is_discounted": true,
       "discount_pct": 38
+    },
+    {
+      "app_id": "4259190",
+      "name": "Kingdom Rush 6: Genesis TD",
+      "rank": 79,
+      "rank_diff": -11,
+      "is_free": false,
+      "is_discounted": true,
+      "discount_pct": 10
     }
   ]
 }
