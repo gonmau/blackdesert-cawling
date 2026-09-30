@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-30T22:06:14.987116+09:00",
-  "crimson_desert_rank": 95,
-  "rank_diff": 5,
+  "generated_at": "2026-09-30T23:33:57.467021+09:00",
+  "crimson_desert_rank": 97,
+  "rank_diff": -2,
   "rivals": [
     {
       "app_id": "3393110",
@@ -24,7 +24,7 @@
     {
       "app_id": "730",
       "name": "Counter-Strike 2",
-      "rank": 4,
+      "rank": 3,
       "rank_diff": 1,
       "is_free": true,
       "is_discounted": false,
@@ -52,15 +52,6 @@
       "app_id": "578080",
       "name": "PUBG: BATTLEGROUNDS",
       "rank": 12,
-      "rank_diff": 3,
-      "is_free": true,
-      "is_discounted": false,
-      "discount_pct": 0
-    },
-    {
-      "app_id": "570",
-      "name": "Dota 2",
-      "rank": 13,
       "rank_diff": 0,
       "is_free": true,
       "is_discounted": false,
@@ -69,8 +60,17 @@
     {
       "app_id": "1172470",
       "name": "Apex Legends™",
+      "rank": 13,
+      "rank_diff": 1,
+      "is_free": true,
+      "is_discounted": false,
+      "discount_pct": 0
+    },
+    {
+      "app_id": "570",
+      "name": "Dota 2",
       "rank": 14,
-      "rank_diff": 2,
+      "rank_diff": -1,
       "is_free": true,
       "is_discounted": false,
       "discount_pct": 0
@@ -79,7 +79,7 @@
       "app_id": "292030",
       "name": "The Witcher 3: Wild Hunt — Remastered",
       "rank": 15,
-      "rank_diff": -3,
+      "rank_diff": 0,
       "is_free": false,
       "is_discounted": true,
       "discount_pct": 50
@@ -88,7 +88,7 @@
       "app_id": "4126040",
       "name": "Aniimo",
       "rank": 16,
-      "rank_diff": -2,
+      "rank_diff": 0,
       "is_free": true,
       "is_discounted": false,
       "discount_pct": 0
@@ -96,8 +96,8 @@
     {
       "app_id": "4508340",
       "name": "NTE: Neverness to Everness",
-      "rank": 19,
-      "rank_diff": 3,
+      "rank": 20,
+      "rank_diff": -1,
       "is_free": true,
       "is_discounted": false,
       "discount_pct": 0
@@ -105,8 +105,8 @@
     {
       "app_id": "230410",
       "name": "Warframe",
-      "rank": 20,
-      "rank_diff": 0,
+      "rank": 21,
+      "rank_diff": -1,
       "is_free": true,
       "is_discounted": false,
       "discount_pct": 0
@@ -114,8 +114,8 @@
     {
       "app_id": "2139460",
       "name": "Once Human",
-      "rank": 21,
-      "rank_diff": -2,
+      "rank": 24,
+      "rank_diff": -3,
       "is_free": true,
       "is_discounted": false,
       "discount_pct": 0
@@ -123,7 +123,7 @@
     {
       "app_id": "359550",
       "name": "Tom Clancy's Rainbow Six Siege",
-      "rank": 23,
+      "rank": 25,
       "rank_diff": -2,
       "is_free": true,
       "is_discounted": false,
@@ -132,17 +132,8 @@
     {
       "app_id": "1607250",
       "name": "MY HERO ULTRA RUMBLE",
-      "rank": 27,
-      "rank_diff": 0,
-      "is_free": true,
-      "is_discounted": false,
-      "discount_pct": 0
-    },
-    {
-      "app_id": "2141910",
-      "name": "Magic: The Gathering Arena",
       "rank": 28,
-      "rank_diff": -2,
+      "rank_diff": -1,
       "is_free": true,
       "is_discounted": false,
       "discount_pct": 0
@@ -151,7 +142,7 @@
       "app_id": "374320",
       "name": "DARK SOULS™ III",
       "rank": 29,
-      "rank_diff": -1,
+      "rank_diff": 0,
       "is_free": false,
       "is_discounted": true,
       "discount_pct": 50
@@ -159,17 +150,17 @@
     {
       "app_id": "2161700",
       "name": "Persona 3 Reload",
-      "rank": 30,
-      "rank_diff": 0,
+      "rank": 31,
+      "rank_diff": -1,
       "is_free": false,
       "is_discounted": true,
       "discount_pct": 70
     },
     {
-      "app_id": "2767030",
-      "name": "Marvel Rivals",
+      "app_id": "2141910",
+      "name": "Magic: The Gathering Arena",
       "rank": 32,
-      "rank_diff": -5,
+      "rank_diff": -4,
       "is_free": true,
       "is_discounted": false,
       "discount_pct": 0
@@ -178,7 +169,7 @@
       "app_id": "227300",
       "name": "Euro Truck Simulator 2",
       "rank": 33,
-      "rank_diff": 7,
+      "rank_diff": 0,
       "is_free": false,
       "is_discounted": true,
       "discount_pct": 75
@@ -186,17 +177,26 @@
     {
       "app_id": "2531310",
       "name": "The Last of Us™ Part II Remastered",
-      "rank": 35,
-      "rank_diff": -3,
+      "rank": 34,
+      "rank_diff": 1,
       "is_free": false,
       "is_discounted": true,
       "discount_pct": 33
     },
     {
+      "app_id": "2767030",
+      "name": "Marvel Rivals",
+      "rank": 35,
+      "rank_diff": -3,
+      "is_free": true,
+      "is_discounted": false,
+      "discount_pct": 0
+    },
+    {
       "app_id": "1888930",
       "name": "The Last of Us™ Part I",
       "rank": 36,
-      "rank_diff": -1,
+      "rank_diff": 0,
       "is_free": false,
       "is_discounted": true,
       "discount_pct": 50
@@ -204,8 +204,8 @@
     {
       "app_id": "1771300",
       "name": "Kingdom Come: Deliverance II",
-      "rank": 37,
-      "rank_diff": 1,
+      "rank": 38,
+      "rank_diff": -1,
       "is_free": false,
       "is_discounted": true,
       "discount_pct": 60
@@ -214,25 +214,16 @@
       "app_id": "1486920",
       "name": "Tempest Rising",
       "rank": 39,
-      "rank_diff": 3,
+      "rank_diff": 0,
       "is_free": false,
       "is_discounted": true,
       "discount_pct": 50
     },
     {
-      "app_id": "2958130",
-      "name": "Jurassic World Evolution 3",
-      "rank": 40,
-      "rank_diff": 4,
-      "is_free": false,
-      "is_discounted": true,
-      "discount_pct": 33
-    },
-    {
       "app_id": "4162040",
       "name": "Zenless Zone Zero",
       "rank": 41,
-      "rank_diff": 29,
+      "rank_diff": 0,
       "is_free": true,
       "is_discounted": false,
       "discount_pct": 0
@@ -240,8 +231,8 @@
     {
       "app_id": "2507950",
       "name": "Delta Force",
-      "rank": 44,
-      "rank_diff": 6,
+      "rank": 42,
+      "rank_diff": 2,
       "is_free": true,
       "is_discounted": false,
       "discount_pct": 0
@@ -249,8 +240,8 @@
     {
       "app_id": "1057090",
       "name": "Ori and the Will of the Wisps",
-      "rank": 46,
-      "rank_diff": 1,
+      "rank": 44,
+      "rank_diff": 2,
       "is_free": false,
       "is_discounted": true,
       "discount_pct": 90
@@ -258,7 +249,7 @@
     {
       "app_id": "2138720",
       "name": "REMATCH",
-      "rank": 48,
+      "rank": 45,
       "rank_diff": 3,
       "is_free": false,
       "is_discounted": true,
@@ -267,17 +258,26 @@
     {
       "app_id": "236390",
       "name": "War Thunder",
-      "rank": 49,
-      "rank_diff": 7,
+      "rank": 48,
+      "rank_diff": 1,
       "is_free": true,
       "is_discounted": false,
       "discount_pct": 0
     },
     {
+      "app_id": "2958130",
+      "name": "Jurassic World Evolution 3",
+      "rank": 49,
+      "rank_diff": -9,
+      "is_free": false,
+      "is_discounted": true,
+      "discount_pct": 33
+    },
+    {
       "app_id": "1687950",
       "name": "Persona 5 Royal",
-      "rank": 51,
-      "rank_diff": 12,
+      "rank": 52,
+      "rank_diff": -1,
       "is_free": false,
       "is_discounted": true,
       "discount_pct": 70
@@ -285,8 +285,8 @@
     {
       "app_id": "1973530",
       "name": "Limbus Company",
-      "rank": 52,
-      "rank_diff": 12,
+      "rank": 54,
+      "rank_diff": -2,
       "is_free": true,
       "is_discounted": false,
       "discount_pct": 0
@@ -295,43 +295,43 @@
       "app_id": "1172710",
       "name": "Dune: Awakening",
       "rank": 55,
-      "rank_diff": 10,
+      "rank_diff": 0,
       "is_free": false,
       "is_discounted": true,
       "discount_pct": 50
     },
     {
+      "app_id": "570940",
+      "name": "DARK SOULS™: REMASTERED",
+      "rank": 58,
+      "rank_diff": 1,
+      "is_free": false,
+      "is_discounted": true,
+      "discount_pct": 50
+    },
+    {
+      "app_id": "1401590",
+      "name": "Disney Dreamlight Valley",
+      "rank": 59,
+      "rank_diff": 16,
+      "is_free": false,
+      "is_discounted": true,
+      "discount_pct": 40
+    },
+    {
       "app_id": "2552430",
       "name": "KINGDOM HEARTS -HD 1.5+2.5 ReMIX-",
-      "rank": 58,
-      "rank_diff": -4,
+      "rank": 61,
+      "rank_diff": -3,
       "is_free": false,
       "is_discounted": true,
       "discount_pct": 70
     },
     {
-      "app_id": "570940",
-      "name": "DARK SOULS™: REMASTERED",
-      "rank": 59,
-      "rank_diff": 7,
-      "is_free": false,
-      "is_discounted": true,
-      "discount_pct": 50
-    },
-    {
-      "app_id": "2357570",
-      "name": "Overwatch®",
-      "rank": 60,
-      "rank_diff": -14,
-      "is_free": true,
-      "is_discounted": false,
-      "discount_pct": 0
-    },
-    {
       "app_id": "1085660",
       "name": "Destiny 2",
-      "rank": 61,
-      "rank_diff": -8,
+      "rank": 62,
+      "rank_diff": -1,
       "is_free": true,
       "is_discounted": false,
       "discount_pct": 0
@@ -340,7 +340,7 @@
       "app_id": "2369390",
       "name": "Far Cry® 6",
       "rank": 63,
-      "rank_diff": 11,
+      "rank_diff": 0,
       "is_free": false,
       "is_discounted": true,
       "discount_pct": 90
@@ -348,8 +348,8 @@
     {
       "app_id": "281990",
       "name": "Stellaris",
-      "rank": 65,
-      "rank_diff": -10,
+      "rank": 66,
+      "rank_diff": -1,
       "is_free": false,
       "is_discounted": true,
       "discount_pct": 70
@@ -357,17 +357,17 @@
     {
       "app_id": "582660",
       "name": "Black Desert",
-      "rank": 68,
-      "rank_diff": 3,
+      "rank": 67,
+      "rank_diff": 1,
       "is_free": false,
       "is_discounted": true,
       "discount_pct": 90
     },
     {
-      "app_id": "4282500",
-      "name": "hololive Dreams",
-      "rank": 73,
-      "rank_diff": -13,
+      "app_id": "2357570",
+      "name": "Overwatch®",
+      "rank": 68,
+      "rank_diff": -8,
       "is_free": true,
       "is_discounted": false,
       "discount_pct": 0
@@ -375,26 +375,17 @@
     {
       "app_id": "2707930",
       "name": "Palia",
-      "rank": 74,
-      "rank_diff": 7,
+      "rank": 69,
+      "rank_diff": 5,
       "is_free": true,
       "is_discounted": false,
       "discount_pct": 0
     },
     {
-      "app_id": "1401590",
-      "name": "Disney Dreamlight Valley",
-      "rank": 75,
-      "rank_diff": 1,
-      "is_free": false,
-      "is_discounted": true,
-      "discount_pct": 40
-    },
-    {
       "app_id": "3564740",
       "name": "Where Winds Meet",
-      "rank": 76,
-      "rank_diff": -1,
+      "rank": 74,
+      "rank_diff": 2,
       "is_free": true,
       "is_discounted": false,
       "discount_pct": 0
@@ -402,8 +393,8 @@
     {
       "app_id": "4025700",
       "name": "Heartopia",
-      "rank": 77,
-      "rank_diff": 6,
+      "rank": 75,
+      "rank_diff": 2,
       "is_free": true,
       "is_discounted": false,
       "discount_pct": 0
@@ -411,53 +402,53 @@
     {
       "app_id": "2909400",
       "name": "FINAL FANTASY VII REBIRTH",
-      "rank": 79,
-      "rank_diff": 5,
+      "rank": 76,
+      "rank_diff": 3,
       "is_free": false,
       "is_discounted": true,
       "discount_pct": 70
     },
     {
-      "app_id": "526870",
-      "name": "Satisfactory",
-      "rank": 80,
-      "rank_diff": 12,
-      "is_free": false,
-      "is_discounted": true,
-      "discount_pct": 30
+      "app_id": "4282500",
+      "name": "hololive Dreams",
+      "rank": 81,
+      "rank_diff": -8,
+      "is_free": true,
+      "is_discounted": false,
+      "discount_pct": 0
     },
     {
-      "app_id": "2900640",
-      "name": "TOEM 2",
-      "rank": 84,
-      "rank_diff": 2,
+      "app_id": "3527290",
+      "name": "PEAK",
+      "rank": 82,
+      "rank_diff": 5,
       "is_free": false,
       "is_discounted": true,
-      "discount_pct": 15
+      "discount_pct": 38
     },
     {
       "app_id": "335300",
       "name": "DARK SOULS™ II: Scholar of the First Sin",
-      "rank": 86,
+      "rank": 84,
       "rank_diff": 2,
       "is_free": false,
       "is_discounted": true,
       "discount_pct": 50
     },
     {
-      "app_id": "3527290",
-      "name": "PEAK",
-      "rank": 87,
-      "rank_diff": 9,
+      "app_id": "526870",
+      "name": "Satisfactory",
+      "rank": 85,
+      "rank_diff": -5,
       "is_free": false,
       "is_discounted": true,
-      "discount_pct": 38
+      "discount_pct": 30
     },
     {
       "app_id": "440",
       "name": "Team Fortress 2",
       "rank": 88,
-      "rank_diff": -36,
+      "rank_diff": 0,
       "is_free": true,
       "is_discounted": false,
       "discount_pct": 0
@@ -465,29 +456,38 @@
     {
       "app_id": "2186680",
       "name": "Warhammer 40,000: Rogue Trader",
-      "rank": 92,
-      "rank_diff": -1,
+      "rank": 91,
+      "rank_diff": 1,
       "is_free": false,
       "is_discounted": true,
       "discount_pct": 70
     },
     {
-      "app_id": "2073620",
-      "name": "Arena Breakout: Infinite",
-      "rank": 93,
-      "rank_diff": 4,
-      "is_free": true,
-      "is_discounted": false,
-      "discount_pct": 0
-    },
-    {
       "app_id": "447040",
       "name": "Watch_Dogs® 2",
+      "rank": 92,
+      "rank_diff": 2,
+      "is_free": false,
+      "is_discounted": true,
+      "discount_pct": 95
+    },
+    {
+      "app_id": "4259190",
+      "name": "Kingdom Rush 6: Genesis TD",
       "rank": 94,
       "rank_diff": 0,
       "is_free": false,
       "is_discounted": true,
-      "discount_pct": 95
+      "discount_pct": 10
+    },
+    {
+      "app_id": "2073620",
+      "name": "Arena Breakout: Infinite",
+      "rank": 95,
+      "rank_diff": -2,
+      "is_free": true,
+      "is_discounted": false,
+      "discount_pct": 0
     }
   ]
 }
