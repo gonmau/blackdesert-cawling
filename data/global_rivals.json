@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-25T23:45:39.322797+09:00",
-  "crimson_desert_rank": 31,
-  "rank_diff": 3,
+  "generated_at": "2026-10-26T03:04:37.603996+09:00",
+  "crimson_desert_rank": 34,
+  "rank_diff": -3,
   "rivals": [
     {
       "app_id": "1091500",
@@ -31,17 +31,17 @@
       "discount_pct": 0
     },
     {
-      "app_id": "578080",
-      "name": "PUBG: BATTLEGROUNDS",
-      "rank": 6,
-      "rank_diff": -1,
+      "app_id": "3393110",
+      "name": "AION 2",
+      "rank": 5,
+      "rank_diff": 2,
       "is_free": true,
       "is_discounted": false,
       "discount_pct": 0
     },
     {
-      "app_id": "3393110",
-      "name": "AION 2",
+      "app_id": "578080",
+      "name": "PUBG: BATTLEGROUNDS",
       "rank": 7,
       "rank_diff": -1,
       "is_free": true,
@@ -58,13 +58,13 @@
       "discount_pct": 40
     },
     {
-      "app_id": "1172470",
-      "name": "Apex Legends™",
+      "app_id": "5335510",
+      "name": "Moon Sweepers",
       "rank": 11,
-      "rank_diff": 0,
-      "is_free": true,
-      "is_discounted": false,
-      "discount_pct": 0
+      "rank_diff": 2,
+      "is_free": false,
+      "is_discounted": true,
+      "discount_pct": 15
     },
     {
       "app_id": "1203620",
@@ -76,18 +76,18 @@
       "discount_pct": 10
     },
     {
-      "app_id": "5335510",
-      "name": "Moon Sweepers",
-      "rank": 13,
-      "rank_diff": 4,
-      "is_free": false,
-      "is_discounted": true,
-      "discount_pct": 15
+      "app_id": "1172470",
+      "name": "Apex Legends™",
+      "rank": 14,
+      "rank_diff": -3,
+      "is_free": true,
+      "is_discounted": false,
+      "discount_pct": 0
     },
     {
       "app_id": "381210",
       "name": "Dead by Daylight",
-      "rank": 14,
+      "rank": 15,
       "rank_diff": -1,
       "is_free": false,
       "is_discounted": true,
@@ -96,15 +96,6 @@
     {
       "app_id": "236390",
       "name": "War Thunder",
-      "rank": 15,
-      "rank_diff": -1,
-      "is_free": true,
-      "is_discounted": false,
-      "discount_pct": 0
-    },
-    {
-      "app_id": "230410",
-      "name": "Warframe",
       "rank": 16,
       "rank_diff": -1,
       "is_free": true,
@@ -121,10 +112,19 @@
       "discount_pct": 10
     },
     {
+      "app_id": "230410",
+      "name": "Warframe",
+      "rank": 19,
+      "rank_diff": -3,
+      "is_free": true,
+      "is_discounted": false,
+      "discount_pct": 0
+    },
+    {
       "app_id": "2139460",
       "name": "Once Human",
-      "rank": 20,
-      "rank_diff": 0,
+      "rank": 21,
+      "rank_diff": -1,
       "is_free": true,
       "is_discounted": false,
       "discount_pct": 0
@@ -133,7 +133,7 @@
       "app_id": "3240220",
       "name": "Grand Theft Auto V Enhanced",
       "rank": 22,
-      "rank_diff": -1,
+      "rank_diff": 0,
       "is_free": false,
       "is_discounted": true,
       "discount_pct": 50
@@ -142,7 +142,7 @@
       "app_id": "2767030",
       "name": "Marvel Rivals",
       "rank": 23,
-      "rank_diff": -1,
+      "rank_diff": 0,
       "is_free": true,
       "is_discounted": false,
       "discount_pct": 0
@@ -150,8 +150,8 @@
     {
       "app_id": "216150",
       "name": "MapleStory",
-      "rank": 25,
-      "rank_diff": -2,
+      "rank": 26,
+      "rank_diff": -1,
       "is_free": true,
       "is_discounted": false,
       "discount_pct": 0
@@ -159,8 +159,8 @@
     {
       "app_id": "2929250",
       "name": "over the hill",
-      "rank": 26,
-      "rank_diff": 1,
+      "rank": 27,
+      "rank_diff": -1,
       "is_free": false,
       "is_discounted": true,
       "discount_pct": 20
@@ -169,7 +169,7 @@
       "app_id": "4126040",
       "name": "Aniimo",
       "rank": 29,
-      "rank_diff": -1,
+      "rank_diff": 0,
       "is_free": true,
       "is_discounted": false,
       "discount_pct": 0
@@ -182,6 +182,24 @@
       "is_free": true,
       "is_discounted": false,
       "discount_pct": 0
+    },
+    {
+      "app_id": "359550",
+      "name": "Tom Clancy's Rainbow Six Siege",
+      "rank": 32,
+      "rank_diff": 0,
+      "is_free": true,
+      "is_discounted": false,
+      "discount_pct": 0
+    },
+    {
+      "app_id": "1374490",
+      "name": "RuneScape: Dragonwilds",
+      "rank": 33,
+      "rank_diff": 0,
+      "is_free": false,
+      "is_discounted": true,
+      "discount_pct": 30
     }
   ]
 }
