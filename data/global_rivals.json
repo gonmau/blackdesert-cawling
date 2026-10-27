@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-10-27T22:54:26.574167+09:00",
-  "crimson_desert_rank": 27,
-  "rank_diff": 5,
+  "generated_at": "2026-10-28T04:11:46.726377+09:00",
+  "crimson_desert_rank": 29,
+  "rank_diff": -2,
   "rivals": [
     {
-      "app_id": "730",
-      "name": "Counter-Strike 2",
+      "app_id": "570",
+      "name": "Dota 2",
       "rank": 3,
-      "rank_diff": 0,
+      "rank_diff": 1,
       "is_free": true,
       "is_discounted": false,
       "discount_pct": 0
     },
     {
-      "app_id": "570",
-      "name": "Dota 2",
+      "app_id": "730",
+      "name": "Counter-Strike 2",
       "rank": 4,
-      "rank_diff": 0,
+      "rank_diff": -1,
       "is_free": true,
       "is_discounted": false,
       "discount_pct": 0
@@ -34,7 +34,7 @@
       "app_id": "5335510",
       "name": "Moon Sweepers",
       "rank": 6,
-      "rank_diff": 2,
+      "rank_diff": 0,
       "is_free": false,
       "is_discounted": true,
       "discount_pct": 15
@@ -43,7 +43,7 @@
       "app_id": "578080",
       "name": "PUBG: BATTLEGROUNDS",
       "rank": 7,
-      "rank_diff": -1,
+      "rank_diff": 0,
       "is_free": true,
       "is_discounted": false,
       "discount_pct": 0
@@ -51,8 +51,8 @@
     {
       "app_id": "381210",
       "name": "Dead by Daylight",
-      "rank": 10,
-      "rank_diff": -1,
+      "rank": 8,
+      "rank_diff": 2,
       "is_free": false,
       "is_discounted": true,
       "discount_pct": 60
@@ -60,8 +60,26 @@
     {
       "app_id": "1172470",
       "name": "Apex Legends™",
-      "rank": 12,
+      "rank": 11,
+      "rank_diff": 1,
+      "is_free": true,
+      "is_discounted": false,
+      "discount_pct": 0
+    },
+    {
+      "app_id": "4922630",
+      "name": "The Long Dark: Iron Road",
+      "rank": 13,
       "rank_diff": 0,
+      "is_free": false,
+      "is_discounted": true,
+      "discount_pct": 10
+    },
+    {
+      "app_id": "216150",
+      "name": "MapleStory",
+      "rank": 14,
+      "rank_diff": 3,
       "is_free": true,
       "is_discounted": false,
       "discount_pct": 0
@@ -69,44 +87,44 @@
     {
       "app_id": "230410",
       "name": "Warframe",
-      "rank": 14,
-      "rank_diff": 2,
+      "rank": 15,
+      "rank_diff": -1,
       "is_free": true,
       "is_discounted": false,
       "discount_pct": 0
     },
     {
-      "app_id": "1203620",
-      "name": "Enshrouded",
-      "rank": 15,
-      "rank_diff": 3,
-      "is_free": false,
-      "is_discounted": true,
-      "discount_pct": 10
+      "app_id": "236390",
+      "name": "War Thunder",
+      "rank": 16,
+      "rank_diff": 5,
+      "is_free": true,
+      "is_discounted": false,
+      "discount_pct": 0
     },
     {
       "app_id": "4312190",
       "name": "CRACK",
-      "rank": 16,
-      "rank_diff": 4,
+      "rank": 17,
+      "rank_diff": -1,
       "is_free": false,
       "is_discounted": true,
       "discount_pct": 15
     },
     {
-      "app_id": "216150",
-      "name": "MapleStory",
-      "rank": 17,
-      "rank_diff": -2,
-      "is_free": true,
-      "is_discounted": false,
-      "discount_pct": 0
+      "app_id": "1203620",
+      "name": "Enshrouded",
+      "rank": 18,
+      "rank_diff": -3,
+      "is_free": false,
+      "is_discounted": true,
+      "discount_pct": 10
     },
     {
       "app_id": "1326470",
       "name": "Sons Of The Forest",
       "rank": 19,
-      "rank_diff": 12,
+      "rank_diff": 0,
       "is_free": false,
       "is_discounted": true,
       "discount_pct": 72
@@ -115,25 +133,43 @@
       "app_id": "4954910",
       "name": "Scam With Your Friends",
       "rank": 20,
-      "rank_diff": -1,
+      "rank_diff": 0,
       "is_free": false,
       "is_discounted": true,
       "discount_pct": 10
     },
     {
-      "app_id": "236390",
-      "name": "War Thunder",
+      "app_id": "252490",
+      "name": "Rust",
       "rank": 21,
-      "rank_diff": -4,
+      "rank_diff": 1,
+      "is_free": false,
+      "is_discounted": true,
+      "discount_pct": 50
+    },
+    {
+      "app_id": "4356430",
+      "name": "NBA 2K27",
+      "rank": 25,
+      "rank_diff": 1,
+      "is_free": false,
+      "is_discounted": true,
+      "discount_pct": 55
+    },
+    {
+      "app_id": "2139460",
+      "name": "Once Human",
+      "rank": 26,
+      "rank_diff": 0,
       "is_free": true,
       "is_discounted": false,
       "discount_pct": 0
     },
     {
-      "app_id": "252490",
-      "name": "Rust",
-      "rank": 22,
-      "rank_diff": 1,
+      "app_id": "221100",
+      "name": "DayZ",
+      "rank": 27,
+      "rank_diff": 0,
       "is_free": false,
       "is_discounted": true,
       "discount_pct": 50
@@ -141,29 +177,11 @@
     {
       "app_id": "3240220",
       "name": "Grand Theft Auto V Enhanced",
-      "rank": 24,
-      "rank_diff": 1,
+      "rank": 28,
+      "rank_diff": -4,
       "is_free": false,
       "is_discounted": true,
       "discount_pct": 50
-    },
-    {
-      "app_id": "2050650",
-      "name": "Resident Evil 4",
-      "rank": 25,
-      "rank_diff": 4,
-      "is_free": false,
-      "is_discounted": true,
-      "discount_pct": 75
-    },
-    {
-      "app_id": "4356430",
-      "name": "NBA 2K27",
-      "rank": 26,
-      "rank_diff": 2,
-      "is_free": false,
-      "is_discounted": true,
-      "discount_pct": 55
     }
   ]
 }
