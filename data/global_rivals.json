@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-10-29T01:57:23.876204+09:00",
-  "crimson_desert_rank": 20,
-  "rank_diff": 0,
+  "generated_at": "2026-10-29T06:31:23.038037+09:00",
+  "crimson_desert_rank": 13,
+  "rank_diff": 7,
   "rivals": [
     {
       "app_id": "3393110",
       "name": "AION 2",
-      "rank": 2,
-      "rank_diff": 4,
+      "rank": 3,
+      "rank_diff": -1,
       "is_free": true,
       "is_discounted": false,
       "discount_pct": 0
@@ -25,7 +25,7 @@
       "app_id": "730",
       "name": "Counter-Strike 2",
       "rank": 5,
-      "rank_diff": -2,
+      "rank_diff": 0,
       "is_free": true,
       "is_discounted": false,
       "discount_pct": 0
@@ -34,16 +34,7 @@
       "app_id": "570",
       "name": "Dota 2",
       "rank": 6,
-      "rank_diff": -2,
-      "is_free": true,
-      "is_discounted": false,
-      "discount_pct": 0
-    },
-    {
-      "app_id": "578080",
-      "name": "PUBG: BATTLEGROUNDS",
-      "rank": 7,
-      "rank_diff": -2,
+      "rank_diff": 0,
       "is_free": true,
       "is_discounted": false,
       "discount_pct": 0
@@ -51,71 +42,26 @@
     {
       "app_id": "5335510",
       "name": "Moon Sweepers",
-      "rank": 8,
-      "rank_diff": -1,
+      "rank": 7,
+      "rank_diff": 1,
       "is_free": false,
       "is_discounted": true,
       "discount_pct": 15
     },
     {
-      "app_id": "236390",
-      "name": "War Thunder",
-      "rank": 9,
-      "rank_diff": 7,
-      "is_free": true,
-      "is_discounted": false,
-      "discount_pct": 0
-    },
-    {
-      "app_id": "1172470",
-      "name": "Apex Legends™",
-      "rank": 10,
+      "app_id": "578080",
+      "name": "PUBG: BATTLEGROUNDS",
+      "rank": 8,
       "rank_diff": -1,
       "is_free": true,
       "is_discounted": false,
       "discount_pct": 0
     },
     {
-      "app_id": "216150",
-      "name": "MapleStory",
+      "app_id": "236390",
+      "name": "War Thunder",
       "rank": 11,
-      "rank_diff": -3,
-      "is_free": true,
-      "is_discounted": false,
-      "discount_pct": 0
-    },
-    {
-      "app_id": "381210",
-      "name": "Dead by Daylight",
-      "rank": 12,
       "rank_diff": -2,
-      "is_free": false,
-      "is_discounted": true,
-      "discount_pct": 60
-    },
-    {
-      "app_id": "4017880",
-      "name": "ANOMALITH",
-      "rank": 16,
-      "rank_diff": 0,
-      "is_free": false,
-      "is_discounted": true,
-      "discount_pct": 10
-    },
-    {
-      "app_id": "4922630",
-      "name": "The Long Dark: Iron Road",
-      "rank": 17,
-      "rank_diff": -3,
-      "is_free": false,
-      "is_discounted": true,
-      "discount_pct": 10
-    },
-    {
-      "app_id": "230410",
-      "name": "Warframe",
-      "rank": 19,
-      "rank_diff": -4,
       "is_free": true,
       "is_discounted": false,
       "discount_pct": 0
