@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-10-29T16:58:04.170736+09:00",
+  "generated_at": "2026-10-30T00:03:25.660708+09:00",
   "crimson_desert_rank": 11,
-  "rank_diff": 1,
+  "rank_diff": 0,
   "rivals": [
     {
       "app_id": "3393110",
       "name": "AION 2",
-      "rank": 2,
-      "rank_diff": 1,
+      "rank": 3,
+      "rank_diff": -1,
       "is_free": true,
       "is_discounted": false,
       "discount_pct": 0
@@ -40,10 +40,19 @@
       "discount_pct": 0
     },
     {
+      "app_id": "4126040",
+      "name": "Aniimo",
+      "rank": 7,
+      "rank_diff": 0,
+      "is_free": true,
+      "is_discounted": false,
+      "discount_pct": 0
+    },
+    {
       "app_id": "578080",
       "name": "PUBG: BATTLEGROUNDS",
-      "rank": 7,
-      "rank_diff": 1,
+      "rank": 8,
+      "rank_diff": -1,
       "is_free": true,
       "is_discounted": false,
       "discount_pct": 0
@@ -51,20 +60,11 @@
     {
       "app_id": "5335510",
       "name": "Moon Sweepers",
-      "rank": 8,
-      "rank_diff": -1,
+      "rank": 10,
+      "rank_diff": -2,
       "is_free": false,
       "is_discounted": true,
       "discount_pct": 15
-    },
-    {
-      "app_id": "236390",
-      "name": "War Thunder",
-      "rank": 10,
-      "rank_diff": 0,
-      "is_free": true,
-      "is_discounted": false,
-      "discount_pct": 0
     }
   ]
 }
