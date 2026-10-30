@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-10-30T09:33:54.894431+09:00",
+  "generated_at": "2026-10-30T15:44:51.646394+09:00",
   "crimson_desert_rank": 9,
-  "rank_diff": 3,
+  "rank_diff": 0,
   "rivals": [
     {
-      "app_id": "3393110",
-      "name": "AION 2",
+      "app_id": "4126040",
+      "name": "Aniimo",
       "rank": 4,
-      "rank_diff": -1,
+      "rank_diff": 1,
       "is_free": true,
       "is_discounted": false,
       "discount_pct": 0
     },
     {
-      "app_id": "4126040",
-      "name": "Aniimo",
+      "app_id": "3393110",
+      "name": "AION 2",
       "rank": 5,
-      "rank_diff": 1,
+      "rank_diff": -1,
       "is_free": true,
       "is_discounted": false,
       "discount_pct": 0
@@ -25,7 +25,7 @@
       "app_id": "730",
       "name": "Counter-Strike 2",
       "rank": 6,
-      "rank_diff": -1,
+      "rank_diff": 0,
       "is_free": true,
       "is_discounted": false,
       "discount_pct": 0
