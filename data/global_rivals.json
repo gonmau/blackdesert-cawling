@@ -1,22 +1,13 @@
 {
-  "generated_at": "2026-10-30T05:49:39.553245+09:00",
-  "crimson_desert_rank": 12,
-  "rank_diff": -1,
+  "generated_at": "2026-10-30T09:33:54.894431+09:00",
+  "crimson_desert_rank": 9,
+  "rank_diff": 3,
   "rivals": [
     {
       "app_id": "3393110",
       "name": "AION 2",
-      "rank": 3,
-      "rank_diff": 0,
-      "is_free": true,
-      "is_discounted": false,
-      "discount_pct": 0
-    },
-    {
-      "app_id": "730",
-      "name": "Counter-Strike 2",
-      "rank": 5,
-      "rank_diff": 0,
+      "rank": 4,
+      "rank_diff": -1,
       "is_free": true,
       "is_discounted": false,
       "discount_pct": 0
@@ -24,8 +15,17 @@
     {
       "app_id": "4126040",
       "name": "Aniimo",
-      "rank": 6,
+      "rank": 5,
       "rank_diff": 1,
+      "is_free": true,
+      "is_discounted": false,
+      "discount_pct": 0
+    },
+    {
+      "app_id": "730",
+      "name": "Counter-Strike 2",
+      "rank": 6,
+      "rank_diff": -1,
       "is_free": true,
       "is_discounted": false,
       "discount_pct": 0
@@ -34,7 +34,7 @@
       "app_id": "4348910",
       "name": "Probably Stolen - Cyberpunk Shopkeeper Sim",
       "rank": 7,
-      "rank_diff": -3,
+      "rank_diff": 0,
       "is_free": false,
       "is_discounted": true,
       "discount_pct": 10
@@ -43,34 +43,7 @@
       "app_id": "570",
       "name": "Dota 2",
       "rank": 8,
-      "rank_diff": -2,
-      "is_free": true,
-      "is_discounted": false,
-      "discount_pct": 0
-    },
-    {
-      "app_id": "4530370",
-      "name": "Football Manager 27",
-      "rank": 9,
       "rank_diff": 0,
-      "is_free": false,
-      "is_discounted": true,
-      "discount_pct": 10
-    },
-    {
-      "app_id": "5335510",
-      "name": "Moon Sweepers",
-      "rank": 10,
-      "rank_diff": 0,
-      "is_free": false,
-      "is_discounted": true,
-      "discount_pct": 15
-    },
-    {
-      "app_id": "578080",
-      "name": "PUBG: BATTLEGROUNDS",
-      "rank": 11,
-      "rank_diff": -3,
       "is_free": true,
       "is_discounted": false,
       "discount_pct": 0
