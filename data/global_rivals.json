@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-31T17:10:19.589309+09:00",
-  "crimson_desert_rank": 9,
-  "rank_diff": -2,
+  "generated_at": "2026-10-31T23:58:50.579568+09:00",
+  "crimson_desert_rank": 10,
+  "rank_diff": -1,
   "rivals": [
     {
       "app_id": "3393110",
@@ -42,7 +42,7 @@
     {
       "app_id": "4348910",
       "name": "Probably Stolen - Cyberpunk Shopkeeper Sim",
-      "rank": 7,
+      "rank": 8,
       "rank_diff": -1,
       "is_free": false,
       "is_discounted": true,
