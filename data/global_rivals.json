@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-11-01T20:38:22.371920+09:00",
-  "crimson_desert_rank": 8,
-  "rank_diff": 0,
+  "generated_at": "2026-11-02T02:35:28.126219+09:00",
+  "crimson_desert_rank": 9,
+  "rank_diff": -1,
   "rivals": [
     {
-      "app_id": "3393110",
-      "name": "AION 2",
+      "app_id": "730",
+      "name": "Counter-Strike 2",
       "rank": 3,
-      "rank_diff": 0,
+      "rank_diff": 1,
       "is_free": true,
       "is_discounted": false,
       "discount_pct": 0
     },
     {
-      "app_id": "730",
-      "name": "Counter-Strike 2",
+      "app_id": "3393110",
+      "name": "AION 2",
       "rank": 4,
-      "rank_diff": 0,
+      "rank_diff": -1,
       "is_free": true,
       "is_discounted": false,
       "discount_pct": 0
