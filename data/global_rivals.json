@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-11-04T02:29:35.346494+09:00",
-  "crimson_desert_rank": 21,
-  "rank_diff": -2,
+  "generated_at": "2026-11-04T07:50:57.469078+09:00",
+  "crimson_desert_rank": 24,
+  "rank_diff": -3,
   "rivals": [
     {
       "app_id": "4530370",
       "name": "Football Manager 27",
-      "rank": 3,
-      "rank_diff": 4,
+      "rank": 1,
+      "rank_diff": 2,
       "is_free": false,
       "is_discounted": true,
       "discount_pct": 10
@@ -16,6 +16,24 @@
       "app_id": "730",
       "name": "Counter-Strike 2",
       "rank": 4,
+      "rank_diff": 0,
+      "is_free": true,
+      "is_discounted": false,
+      "discount_pct": 0
+    },
+    {
+      "app_id": "1172470",
+      "name": "Apex Legends™",
+      "rank": 6,
+      "rank_diff": 6,
+      "is_free": true,
+      "is_discounted": false,
+      "discount_pct": 0
+    },
+    {
+      "app_id": "3393110",
+      "name": "AION 2",
+      "rank": 7,
       "rank_diff": -1,
       "is_free": true,
       "is_discounted": false,
@@ -24,62 +42,62 @@
     {
       "app_id": "570",
       "name": "Dota 2",
-      "rank": 5,
-      "rank_diff": 0,
-      "is_free": true,
-      "is_discounted": false,
-      "discount_pct": 0
-    },
-    {
-      "app_id": "3393110",
-      "name": "AION 2",
-      "rank": 6,
-      "rank_diff": -2,
-      "is_free": true,
-      "is_discounted": false,
-      "discount_pct": 0
-    },
-    {
-      "app_id": "578080",
-      "name": "PUBG: BATTLEGROUNDS",
       "rank": 8,
-      "rank_diff": -2,
-      "is_free": true,
-      "is_discounted": false,
-      "discount_pct": 0
-    },
-    {
-      "app_id": "4348910",
-      "name": "Probably Stolen - Cyberpunk Shopkeeper Sim",
-      "rank": 10,
-      "rank_diff": -2,
-      "is_free": false,
-      "is_discounted": true,
-      "discount_pct": 10
-    },
-    {
-      "app_id": "1172470",
-      "name": "Apex Legends™",
-      "rank": 12,
       "rank_diff": -3,
       "is_free": true,
       "is_discounted": false,
       "discount_pct": 0
     },
     {
-      "app_id": "1942280",
-      "name": "Brotato",
-      "rank": 13,
-      "rank_diff": 2,
+      "app_id": "2320980",
+      "name": "Loftia",
+      "rank": 10,
+      "rank_diff": 0,
       "is_free": false,
       "is_discounted": true,
-      "discount_pct": 50
+      "discount_pct": 17
+    },
+    {
+      "app_id": "4348910",
+      "name": "Probably Stolen - Cyberpunk Shopkeeper Sim",
+      "rank": 12,
+      "rank_diff": -2,
+      "is_free": false,
+      "is_discounted": true,
+      "discount_pct": 10
+    },
+    {
+      "app_id": "578080",
+      "name": "PUBG: BATTLEGROUNDS",
+      "rank": 13,
+      "rank_diff": -5,
+      "is_free": true,
+      "is_discounted": false,
+      "discount_pct": 0
+    },
+    {
+      "app_id": "2357570",
+      "name": "Overwatch®",
+      "rank": 14,
+      "rank_diff": 0,
+      "is_free": true,
+      "is_discounted": false,
+      "discount_pct": 0
+    },
+    {
+      "app_id": "3669870",
+      "name": "CONTROL Resonant",
+      "rank": 16,
+      "rank_diff": 0,
+      "is_free": false,
+      "is_discounted": true,
+      "discount_pct": 20
     },
     {
       "app_id": "230410",
       "name": "Warframe",
       "rank": 18,
-      "rank_diff": -4,
+      "rank_diff": 0,
       "is_free": true,
       "is_discounted": false,
       "discount_pct": 0
@@ -87,16 +105,34 @@
     {
       "app_id": "1285190",
       "name": "Borderlands 4",
-      "rank": 19,
-      "rank_diff": 0,
+      "rank": 20,
+      "rank_diff": -1,
       "is_free": false,
       "is_discounted": true,
       "discount_pct": 50
     },
     {
+      "app_id": "1942280",
+      "name": "Brotato",
+      "rank": 21,
+      "rank_diff": -8,
+      "is_free": false,
+      "is_discounted": true,
+      "discount_pct": 50
+    },
+    {
+      "app_id": "1669000",
+      "name": "Age of Wonders 4",
+      "rank": 22,
+      "rank_diff": 0,
+      "is_free": false,
+      "is_discounted": true,
+      "discount_pct": 60
+    },
+    {
       "app_id": "4126040",
       "name": "Aniimo",
-      "rank": 20,
+      "rank": 23,
       "rank_diff": -3,
       "is_free": true,
       "is_discounted": false,
