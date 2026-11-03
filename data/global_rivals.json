@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-11-03T04:06:57.500892+09:00",
-  "crimson_desert_rank": 14,
-  "rank_diff": -2,
+  "generated_at": "2026-11-03T10:58:12.942234+09:00",
+  "crimson_desert_rank": 15,
+  "rank_diff": -1,
   "rivals": [
     {
       "app_id": "730",
       "name": "Counter-Strike 2",
       "rank": 3,
-      "rank_diff": 1,
+      "rank_diff": 0,
       "is_free": true,
       "is_discounted": false,
       "discount_pct": 0
@@ -16,7 +16,7 @@
       "app_id": "3393110",
       "name": "AION 2",
       "rank": 4,
-      "rank_diff": -1,
+      "rank_diff": 0,
       "is_free": true,
       "is_discounted": false,
       "discount_pct": 0
@@ -34,7 +34,16 @@
       "app_id": "4530370",
       "name": "Football Manager 27",
       "rank": 6,
-      "rank_diff": 5,
+      "rank_diff": 0,
+      "is_free": false,
+      "is_discounted": true,
+      "discount_pct": 10
+    },
+    {
+      "app_id": "4348910",
+      "name": "Probably Stolen - Cyberpunk Shopkeeper Sim",
+      "rank": 7,
+      "rank_diff": 2,
       "is_free": false,
       "is_discounted": true,
       "discount_pct": 10
@@ -42,25 +51,25 @@
     {
       "app_id": "578080",
       "name": "PUBG: BATTLEGROUNDS",
-      "rank": 7,
+      "rank": 8,
       "rank_diff": -1,
       "is_free": true,
       "is_discounted": false,
       "discount_pct": 0
     },
     {
-      "app_id": "4348910",
-      "name": "Probably Stolen - Cyberpunk Shopkeeper Sim",
-      "rank": 9,
-      "rank_diff": -1,
-      "is_free": false,
-      "is_discounted": true,
-      "discount_pct": 10
-    },
-    {
       "app_id": "1172470",
       "name": "Apex Legends™",
       "rank": 13,
+      "rank_diff": 0,
+      "is_free": true,
+      "is_discounted": false,
+      "discount_pct": 0
+    },
+    {
+      "app_id": "230410",
+      "name": "Warframe",
+      "rank": 14,
       "rank_diff": 0,
       "is_free": true,
       "is_discounted": false,
