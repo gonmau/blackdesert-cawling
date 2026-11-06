@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-11-06T07:29:38.473869+09:00",
+  "generated_at": "2026-11-06T12:05:20.172272+09:00",
   "crimson_desert_rank": 31,
-  "rank_diff": -2,
+  "rank_diff": 0,
   "rivals": [
     {
       "app_id": "578080",
       "name": "PUBG: BATTLEGROUNDS",
       "rank": 2,
-      "rank_diff": -1,
+      "rank_diff": 0,
       "is_free": true,
       "is_discounted": false,
       "discount_pct": 0
@@ -15,8 +15,8 @@
     {
       "app_id": "730",
       "name": "Counter-Strike 2",
-      "rank": 3,
-      "rank_diff": 1,
+      "rank": 5,
+      "rank_diff": -2,
       "is_free": true,
       "is_discounted": false,
       "discount_pct": 0
@@ -40,28 +40,28 @@
       "discount_pct": 0
     },
     {
-      "app_id": "4530370",
-      "name": "Football Manager 27",
-      "rank": 8,
-      "rank_diff": 2,
-      "is_free": false,
-      "is_discounted": true,
-      "discount_pct": 10
-    },
-    {
       "app_id": "1449850",
       "name": "Yu-Gi-Oh! Master Duel",
-      "rank": 9,
-      "rank_diff": 3,
+      "rank": 8,
+      "rank_diff": 1,
       "is_free": true,
       "is_discounted": false,
       "discount_pct": 0
     },
     {
+      "app_id": "4530370",
+      "name": "Football Manager 27",
+      "rank": 9,
+      "rank_diff": -1,
+      "is_free": false,
+      "is_discounted": true,
+      "discount_pct": 10
+    },
+    {
       "app_id": "2507950",
       "name": "Delta Force",
-      "rank": 11,
-      "rank_diff": 0,
+      "rank": 10,
+      "rank_diff": 1,
       "is_free": true,
       "is_discounted": false,
       "discount_pct": 0
@@ -69,8 +69,8 @@
     {
       "app_id": "1172470",
       "name": "Apex Legends™",
-      "rank": 13,
-      "rank_diff": 0,
+      "rank": 11,
+      "rank_diff": 2,
       "is_free": true,
       "is_discounted": false,
       "discount_pct": 0
@@ -78,8 +78,8 @@
     {
       "app_id": "4348910",
       "name": "Probably Stolen - Cyberpunk Shopkeeper Sim",
-      "rank": 14,
-      "rank_diff": 0,
+      "rank": 12,
+      "rank_diff": 2,
       "is_free": false,
       "is_discounted": true,
       "discount_pct": 10
@@ -87,8 +87,8 @@
     {
       "app_id": "1203220",
       "name": "NARAKA: BLADEPOINT",
-      "rank": 15,
-      "rank_diff": 0,
+      "rank": 13,
+      "rank_diff": 2,
       "is_free": true,
       "is_discounted": false,
       "discount_pct": 0
@@ -97,25 +97,25 @@
       "app_id": "252490",
       "name": "Rust",
       "rank": 16,
-      "rank_diff": 11,
+      "rank_diff": 0,
       "is_free": false,
       "is_discounted": true,
       "discount_pct": 50
     },
     {
-      "app_id": "2139460",
-      "name": "Once Human",
-      "rank": 18,
-      "rank_diff": -1,
+      "app_id": "230410",
+      "name": "Warframe",
+      "rank": 17,
+      "rank_diff": 2,
       "is_free": true,
       "is_discounted": false,
       "discount_pct": 0
     },
     {
-      "app_id": "230410",
-      "name": "Warframe",
-      "rank": 19,
-      "rank_diff": -1,
+      "app_id": "2139460",
+      "name": "Once Human",
+      "rank": 20,
+      "rank_diff": -2,
       "is_free": true,
       "is_discounted": false,
       "discount_pct": 0
@@ -123,8 +123,35 @@
     {
       "app_id": "1799840",
       "name": "Queen's Domain",
-      "rank": 22,
+      "rank": 23,
+      "rank_diff": -1,
+      "is_free": false,
+      "is_discounted": true,
+      "discount_pct": 15
+    },
+    {
+      "app_id": "2767030",
+      "name": "Marvel Rivals",
+      "rank": 24,
       "rank_diff": 0,
+      "is_free": true,
+      "is_discounted": false,
+      "discount_pct": 0
+    },
+    {
+      "app_id": "2357570",
+      "name": "Overwatch®",
+      "rank": 25,
+      "rank_diff": 1,
+      "is_free": true,
+      "is_discounted": false,
+      "discount_pct": 0
+    },
+    {
+      "app_id": "2411200",
+      "name": "Underkeep",
+      "rank": 27,
+      "rank_diff": -2,
       "is_free": false,
       "is_discounted": true,
       "discount_pct": 15
@@ -132,44 +159,26 @@
     {
       "app_id": "3274580",
       "name": "Anno 117: Pax Romana",
-      "rank": 23,
-      "rank_diff": 2,
+      "rank": 28,
+      "rank_diff": -5,
       "is_free": false,
       "is_discounted": true,
       "discount_pct": 40
     },
     {
-      "app_id": "2411200",
-      "name": "Underkeep",
-      "rank": 25,
+      "app_id": "216150",
+      "name": "MapleStory",
+      "rank": 29,
       "rank_diff": 0,
-      "is_free": false,
-      "is_discounted": true,
-      "discount_pct": 15
-    },
-    {
-      "app_id": "2357570",
-      "name": "Overwatch®",
-      "rank": 26,
-      "rank_diff": -3,
       "is_free": true,
       "is_discounted": false,
       "discount_pct": 0
     },
     {
-      "app_id": "5266240",
-      "name": "Potato Please",
-      "rank": 29,
-      "rank_diff": -3,
-      "is_free": false,
-      "is_discounted": true,
-      "discount_pct": 10
-    },
-    {
       "app_id": "4126040",
       "name": "Aniimo",
       "rank": 30,
-      "rank_diff": -2,
+      "rank_diff": 0,
       "is_free": true,
       "is_discounted": false,
       "discount_pct": 0
