@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-11-06T20:45:45.542894+09:00",
-  "crimson_desert_rank": 27,
-  "rank_diff": 4,
+  "generated_at": "2026-11-07T03:50:05.510253+09:00",
+  "crimson_desert_rank": 29,
+  "rank_diff": -2,
   "rivals": [
     {
       "app_id": "578080",
       "name": "PUBG: BATTLEGROUNDS",
-      "rank": 1,
-      "rank_diff": 1,
+      "rank": 2,
+      "rank_diff": -1,
       "is_free": true,
       "is_discounted": false,
       "discount_pct": 0
@@ -16,7 +16,7 @@
       "app_id": "730",
       "name": "Counter-Strike 2",
       "rank": 4,
-      "rank_diff": 1,
+      "rank_diff": 0,
       "is_free": true,
       "is_discounted": false,
       "discount_pct": 0
@@ -25,7 +25,7 @@
       "app_id": "570",
       "name": "Dota 2",
       "rank": 6,
-      "rank_diff": 1,
+      "rank_diff": 0,
       "is_free": true,
       "is_discounted": false,
       "discount_pct": 0
@@ -34,7 +34,7 @@
       "app_id": "3393110",
       "name": "AION 2",
       "rank": 7,
-      "rank_diff": -1,
+      "rank_diff": 0,
       "is_free": true,
       "is_discounted": false,
       "discount_pct": 0
@@ -43,7 +43,7 @@
       "app_id": "4530370",
       "name": "Football Manager 27",
       "rank": 8,
-      "rank_diff": 1,
+      "rank_diff": 0,
       "is_free": false,
       "is_discounted": true,
       "discount_pct": 10
@@ -51,17 +51,17 @@
     {
       "app_id": "4348910",
       "name": "Probably Stolen - Cyberpunk Shopkeeper Sim",
-      "rank": 9,
-      "rank_diff": 3,
+      "rank": 11,
+      "rank_diff": -2,
       "is_free": false,
       "is_discounted": true,
       "discount_pct": 10
     },
     {
-      "app_id": "1449850",
-      "name": "Yu-Gi-Oh! Master Duel",
-      "rank": 11,
-      "rank_diff": -3,
+      "app_id": "1962663",
+      "name": "Call of Duty®: Warzone™",
+      "rank": 12,
+      "rank_diff": 5,
       "is_free": true,
       "is_discounted": false,
       "discount_pct": 0
@@ -69,7 +69,7 @@
     {
       "app_id": "1172470",
       "name": "Apex Legends™",
-      "rank": 12,
+      "rank": 13,
       "rank_diff": -1,
       "is_free": true,
       "is_discounted": false,
@@ -78,26 +78,35 @@
     {
       "app_id": "2507950",
       "name": "Delta Force",
-      "rank": 13,
-      "rank_diff": -3,
+      "rank": 14,
+      "rank_diff": -1,
       "is_free": true,
       "is_discounted": false,
       "discount_pct": 0
     },
     {
+      "app_id": "5160800",
+      "name": "Find The Needle",
+      "rank": 15,
+      "rank_diff": 0,
+      "is_free": false,
+      "is_discounted": true,
+      "discount_pct": 15
+    },
+    {
       "app_id": "252490",
       "name": "Rust",
-      "rank": 14,
-      "rank_diff": 2,
+      "rank": 16,
+      "rank_diff": -2,
       "is_free": false,
       "is_discounted": true,
       "discount_pct": 50
     },
     {
-      "app_id": "1962663",
-      "name": "Call of Duty®: Warzone™",
+      "app_id": "1449850",
+      "name": "Yu-Gi-Oh! Master Duel",
       "rank": 17,
-      "rank_diff": 0,
+      "rank_diff": -6,
       "is_free": true,
       "is_discounted": false,
       "discount_pct": 0
@@ -106,25 +115,16 @@
       "app_id": "230410",
       "name": "Warframe",
       "rank": 18,
-      "rank_diff": -1,
+      "rank_diff": 0,
       "is_free": true,
       "is_discounted": false,
       "discount_pct": 0
     },
     {
-      "app_id": "1799840",
-      "name": "Queen's Domain",
-      "rank": 21,
-      "rank_diff": 2,
-      "is_free": false,
-      "is_discounted": true,
-      "discount_pct": 15
-    },
-    {
       "app_id": "2411200",
       "name": "Underkeep",
-      "rank": 22,
-      "rank_diff": 5,
+      "rank": 24,
+      "rank_diff": -2,
       "is_free": false,
       "is_discounted": true,
       "discount_pct": 15
@@ -132,29 +132,29 @@
     {
       "app_id": "3274580",
       "name": "Anno 117: Pax Romana",
-      "rank": 24,
-      "rank_diff": 4,
+      "rank": 25,
+      "rank_diff": -1,
       "is_free": false,
       "is_discounted": true,
       "discount_pct": 40
     },
     {
-      "app_id": "1203220",
-      "name": "NARAKA: BLADEPOINT",
-      "rank": 25,
-      "rank_diff": -12,
+      "app_id": "4126040",
+      "name": "Aniimo",
+      "rank": 26,
+      "rank_diff": 0,
       "is_free": true,
       "is_discounted": false,
       "discount_pct": 0
     },
     {
-      "app_id": "2139460",
-      "name": "Once Human",
-      "rank": 26,
-      "rank_diff": -6,
-      "is_free": true,
-      "is_discounted": false,
-      "discount_pct": 0
+      "app_id": "4356430",
+      "name": "NBA 2K27",
+      "rank": 27,
+      "rank_diff": 0,
+      "is_free": false,
+      "is_discounted": true,
+      "discount_pct": 55
     }
   ]
 }
