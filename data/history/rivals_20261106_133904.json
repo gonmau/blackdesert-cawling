@@ -1,0 +1,7078 @@
+{
+  "generated_at": "2026-11-06T22:31:18.485079+09:00",
+  "countries": {
+    "us": {
+      "name": "미국",
+      "crimson_desert_rank": 25,
+      "rank_diff": -1,
+      "rivals": [
+        {
+          "app_id": "730",
+          "name": "Counter-Strike 2",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 3,
+          "rank_diff": 0
+        },
+        {
+          "app_id": "3393110",
+          "name": "AION 2",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 4,
+          "rank_diff": 0
+        },
+        {
+          "app_id": "2767030",
+          "name": "Marvel Rivals",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 10,
+          "rank_diff": -3
+        },
+        {
+          "app_id": "252490",
+          "name": "Rust",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 50,
+          "rank": 11,
+          "rank_diff": 1
+        },
+        {
+          "app_id": "230410",
+          "name": "Warframe",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 12,
+          "rank_diff": -2
+        },
+        {
+          "app_id": "1799840",
+          "name": "Queen's Domain",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 15,
+          "rank": 13,
+          "rank_diff": 1
+        },
+        {
+          "app_id": "1172470",
+          "name": "Apex Legends™",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 14,
+          "rank_diff": -3
+        },
+        {
+          "app_id": "1449850",
+          "name": "Yu-Gi-Oh! Master Duel",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 15,
+          "rank_diff": -2
+        },
+        {
+          "app_id": "4348910",
+          "name": "Probably Stolen - Cyberpunk Shopkeeper Sim",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 10,
+          "rank": 17,
+          "rank_diff": -1
+        },
+        {
+          "app_id": "1962663",
+          "name": "Call of Duty®: Warzone™",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 18,
+          "rank_diff": 0
+        },
+        {
+          "app_id": "216150",
+          "name": "MapleStory",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 19,
+          "rank_diff": -1
+        },
+        {
+          "app_id": "2357570",
+          "name": "Overwatch®",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 20,
+          "rank_diff": -3
+        },
+        {
+          "app_id": "2411200",
+          "name": "Underkeep",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 15,
+          "rank": 22,
+          "rank_diff": 0
+        },
+        {
+          "app_id": "4126040",
+          "name": "Aniimo",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 23,
+          "rank_diff": 0
+        }
+      ],
+      "all_ranks": [
+        {
+          "rank": 1,
+          "name": "Steam Frame",
+          "rank_diff": 0
+        },
+        {
+          "rank": 2,
+          "name": "Call of Duty®: Modern Warfare® 4",
+          "rank_diff": 0
+        },
+        {
+          "rank": 3,
+          "name": "Counter-Strike 2",
+          "rank_diff": 0
+        },
+        {
+          "rank": 4,
+          "name": "AION 2",
+          "rank_diff": 0
+        },
+        {
+          "rank": 5,
+          "name": "FINAL FANTASY XIV Online",
+          "rank_diff": 1
+        },
+        {
+          "rank": 6,
+          "name": "Phantom Blade Zero",
+          "rank_diff": -1
+        },
+        {
+          "rank": 7,
+          "name": "Call of Duty®",
+          "rank_diff": 14
+        },
+        {
+          "rank": 8,
+          "name": "Godzilla: Destroy All Monsters Melee Remastered",
+          "rank_diff": 0
+        },
+        {
+          "rank": 9,
+          "name": "FINAL FANTASY XIV: Evercold",
+          "rank_diff": 0
+        },
+        {
+          "rank": 10,
+          "name": "Marvel Rivals",
+          "rank_diff": -3
+        },
+        {
+          "rank": 11,
+          "name": "Rust",
+          "rank_diff": 1
+        },
+        {
+          "rank": 12,
+          "name": "Warframe",
+          "rank_diff": -2
+        },
+        {
+          "rank": 13,
+          "name": "Queen's Domain",
+          "rank_diff": 1
+        },
+        {
+          "rank": 14,
+          "name": "Apex Legends™",
+          "rank_diff": -3
+        },
+        {
+          "rank": 15,
+          "name": "Yu-Gi-Oh! Master Duel",
+          "rank_diff": -2
+        },
+        {
+          "rank": 16,
+          "name": "Dead by Daylight",
+          "rank_diff": -1
+        },
+        {
+          "rank": 17,
+          "name": "Probably Stolen - Cyberpunk Shopkeeper Sim",
+          "rank_diff": -1
+        },
+        {
+          "rank": 18,
+          "name": "Call of Duty®: Warzone™",
+          "rank_diff": 0
+        },
+        {
+          "rank": 19,
+          "name": "MapleStory",
+          "rank_diff": -1
+        },
+        {
+          "rank": 20,
+          "name": "Overwatch®",
+          "rank_diff": -3
+        },
+        {
+          "rank": 21,
+          "name": "Cyberpunk 2077",
+          "rank_diff": -2
+        },
+        {
+          "rank": 22,
+          "name": "Underkeep",
+          "rank_diff": 0
+        },
+        {
+          "rank": 23,
+          "name": "Aniimo",
+          "rank_diff": 0
+        },
+        {
+          "rank": 24,
+          "name": "Moon Sweepers",
+          "rank_diff": -4
+        }
+      ]
+    },
+    "gb": {
+      "name": "영국",
+      "crimson_desert_rank": 31,
+      "rank_diff": 9,
+      "rivals": [
+        {
+          "app_id": "4530370",
+          "name": "Football Manager 27",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 10,
+          "rank": 1,
+          "rank_diff": 1
+        },
+        {
+          "app_id": "730",
+          "name": "Counter-Strike 2",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 4,
+          "rank_diff": 0
+        },
+        {
+          "app_id": "3393110",
+          "name": "AION 2",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 8,
+          "rank_diff": -2
+        },
+        {
+          "app_id": "252490",
+          "name": "Rust",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 50,
+          "rank": 9,
+          "rank_diff": 0
+        },
+        {
+          "app_id": "1962663",
+          "name": "Call of Duty®: Warzone™",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 11,
+          "rank_diff": 0
+        },
+        {
+          "app_id": "4348910",
+          "name": "Probably Stolen - Cyberpunk Shopkeeper Sim",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 10,
+          "rank": 12,
+          "rank_diff": 0
+        },
+        {
+          "app_id": "230410",
+          "name": "Warframe",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 13,
+          "rank_diff": -2
+        },
+        {
+          "app_id": "2411200",
+          "name": "Underkeep",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 15,
+          "rank": 14,
+          "rank_diff": 5
+        },
+        {
+          "app_id": "1799840",
+          "name": "Queen's Domain",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 15,
+          "rank": 15,
+          "rank_diff": 3
+        },
+        {
+          "app_id": "1172470",
+          "name": "Apex Legends™",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 19,
+          "rank_diff": -3
+        },
+        {
+          "app_id": "1669000",
+          "name": "Age of Wonders 4",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 60,
+          "rank": 20,
+          "rank_diff": 6
+        },
+        {
+          "app_id": "3274580",
+          "name": "Anno 117: Pax Romana",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 40,
+          "rank": 21,
+          "rank_diff": 1
+        },
+        {
+          "app_id": "2357570",
+          "name": "Overwatch®",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 24,
+          "rank_diff": -4
+        },
+        {
+          "app_id": "1449850",
+          "name": "Yu-Gi-Oh! Master Duel",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 25,
+          "rank_diff": -11
+        },
+        {
+          "app_id": "2767030",
+          "name": "Marvel Rivals",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 26,
+          "rank_diff": 1
+        },
+        {
+          "app_id": "1677110",
+          "name": "Lightyear Frontier",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 20,
+          "rank": 27,
+          "rank_diff": -2
+        },
+        {
+          "app_id": "3296060",
+          "name": "Escape Academy 2: Back 2 School",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 15,
+          "rank": 28,
+          "rank_diff": 8
+        },
+        {
+          "app_id": "570",
+          "name": "Dota 2",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 29,
+          "rank_diff": -1
+        },
+        {
+          "app_id": "5266240",
+          "name": "Potato Please",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 10,
+          "rank": 30,
+          "rank_diff": -1
+        }
+      ],
+      "all_ranks": [
+        {
+          "rank": 1,
+          "name": "Football Manager 27",
+          "rank_diff": 1
+        },
+        {
+          "rank": 2,
+          "name": "Steam Frame",
+          "rank_diff": -1
+        },
+        {
+          "rank": 3,
+          "name": "Call of Duty®: Modern Warfare® 4",
+          "rank_diff": 0
+        },
+        {
+          "rank": 4,
+          "name": "Counter-Strike 2",
+          "rank_diff": 0
+        },
+        {
+          "rank": 5,
+          "name": "Call of Duty®",
+          "rank_diff": 27
+        },
+        {
+          "rank": 6,
+          "name": "FINAL FANTASY XIV Online",
+          "rank_diff": -1
+        },
+        {
+          "rank": 7,
+          "name": "EA SPORTS FC™ 27",
+          "rank_diff": 0
+        },
+        {
+          "rank": 8,
+          "name": "AION 2",
+          "rank_diff": -2
+        },
+        {
+          "rank": 9,
+          "name": "Rust",
+          "rank_diff": 0
+        },
+        {
+          "rank": 10,
+          "name": "FINAL FANTASY XIV: Evercold",
+          "rank_diff": -2
+        },
+        {
+          "rank": 11,
+          "name": "Call of Duty®: Warzone™",
+          "rank_diff": 0
+        },
+        {
+          "rank": 12,
+          "name": "Probably Stolen - Cyberpunk Shopkeeper Sim",
+          "rank_diff": 0
+        },
+        {
+          "rank": 13,
+          "name": "Warframe",
+          "rank_diff": -2
+        },
+        {
+          "rank": 14,
+          "name": "Underkeep",
+          "rank_diff": 5
+        },
+        {
+          "rank": 15,
+          "name": "Queen's Domain",
+          "rank_diff": 3
+        },
+        {
+          "rank": 16,
+          "name": "Cozy Game Restoration",
+          "rank_diff": -6
+        },
+        {
+          "rank": 17,
+          "name": "Phantom Blade Zero",
+          "rank_diff": -2
+        },
+        {
+          "rank": 18,
+          "name": "Dead by Daylight",
+          "rank_diff": -5
+        },
+        {
+          "rank": 19,
+          "name": "Apex Legends™",
+          "rank_diff": -3
+        },
+        {
+          "rank": 20,
+          "name": "Age of Wonders 4",
+          "rank_diff": 6
+        },
+        {
+          "rank": 21,
+          "name": "Anno 117: Pax Romana",
+          "rank_diff": 1
+        },
+        {
+          "rank": 22,
+          "name": "Moon Sweepers",
+          "rank_diff": -5
+        },
+        {
+          "rank": 23,
+          "name": "Cyberpunk 2077",
+          "rank_diff": -2
+        },
+        {
+          "rank": 24,
+          "name": "Overwatch®",
+          "rank_diff": -4
+        },
+        {
+          "rank": 25,
+          "name": "Yu-Gi-Oh! Master Duel",
+          "rank_diff": -11
+        },
+        {
+          "rank": 26,
+          "name": "Marvel Rivals",
+          "rank_diff": 1
+        },
+        {
+          "rank": 27,
+          "name": "Lightyear Frontier",
+          "rank_diff": -2
+        },
+        {
+          "rank": 28,
+          "name": "Escape Academy 2: Back 2 School",
+          "rank_diff": 8
+        },
+        {
+          "rank": 29,
+          "name": "Dota 2",
+          "rank_diff": -1
+        },
+        {
+          "rank": 30,
+          "name": "Potato Please",
+          "rank_diff": -1
+        }
+      ]
+    },
+    "de": {
+      "name": "독일",
+      "crimson_desert_rank": 34,
+      "rank_diff": 1,
+      "rivals": [
+        {
+          "app_id": "3393110",
+          "name": "AION 2",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 2,
+          "rank_diff": 0
+        },
+        {
+          "app_id": "3274580",
+          "name": "Anno 117: Pax Romana",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 40,
+          "rank": 3,
+          "rank_diff": 0
+        },
+        {
+          "app_id": "730",
+          "name": "Counter-Strike 2",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 4,
+          "rank_diff": 0
+        },
+        {
+          "app_id": "4530370",
+          "name": "Football Manager 27",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 10,
+          "rank": 5,
+          "rank_diff": 0
+        },
+        {
+          "app_id": "2411200",
+          "name": "Underkeep",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 15,
+          "rank": 7,
+          "rank_diff": 5
+        },
+        {
+          "app_id": "1449850",
+          "name": "Yu-Gi-Oh! Master Duel",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 9,
+          "rank_diff": -3
+        },
+        {
+          "app_id": "5266240",
+          "name": "Potato Please",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 10,
+          "rank": 12,
+          "rank_diff": 1
+        },
+        {
+          "app_id": "4126040",
+          "name": "Aniimo",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 15,
+          "rank_diff": 4
+        },
+        {
+          "app_id": "4348910",
+          "name": "Probably Stolen - Cyberpunk Shopkeeper Sim",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 10,
+          "rank": 16,
+          "rank_diff": -1
+        },
+        {
+          "app_id": "252490",
+          "name": "Rust",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 50,
+          "rank": 18,
+          "rank_diff": 0
+        },
+        {
+          "app_id": "3204330",
+          "name": "County of Fortune",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 10,
+          "rank": 19,
+          "rank_diff": 9
+        },
+        {
+          "app_id": "3727090",
+          "name": "Horses of Hoofprint Bay",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 15,
+          "rank": 20,
+          "rank_diff": -3
+        },
+        {
+          "app_id": "1669000",
+          "name": "Age of Wonders 4",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 60,
+          "rank": 22,
+          "rank_diff": 3
+        },
+        {
+          "app_id": "236390",
+          "name": "War Thunder",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 23,
+          "rank_diff": -3
+        },
+        {
+          "app_id": "552990",
+          "name": "World of Warships",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 25,
+          "rank_diff": -3
+        },
+        {
+          "app_id": "1962663",
+          "name": "Call of Duty®: Warzone™",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 26,
+          "rank_diff": 0
+        },
+        {
+          "app_id": "570",
+          "name": "Dota 2",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 27,
+          "rank_diff": 2
+        },
+        {
+          "app_id": "1172470",
+          "name": "Apex Legends™",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 28,
+          "rank_diff": -2
+        },
+        {
+          "app_id": "578080",
+          "name": "PUBG: BATTLEGROUNDS",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 29,
+          "rank_diff": -5
+        },
+        {
+          "app_id": "1942280",
+          "name": "Brotato",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 50,
+          "rank": 30,
+          "rank_diff": 4
+        },
+        {
+          "app_id": "2008740",
+          "name": "Wing Commander™ III: Heart of the Tiger: 30th Anniversary Edition",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 50,
+          "rank": 31,
+          "rank_diff": 0
+        },
+        {
+          "app_id": "230410",
+          "name": "Warframe",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 32,
+          "rank_diff": -2
+        }
+      ],
+      "all_ranks": [
+        {
+          "rank": 1,
+          "name": "Steam Frame",
+          "rank_diff": 0
+        },
+        {
+          "rank": 2,
+          "name": "AION 2",
+          "rank_diff": 0
+        },
+        {
+          "rank": 3,
+          "name": "Anno 117: Pax Romana",
+          "rank_diff": 0
+        },
+        {
+          "rank": 4,
+          "name": "Counter-Strike 2",
+          "rank_diff": 0
+        },
+        {
+          "rank": 5,
+          "name": "Football Manager 27",
+          "rank_diff": 0
+        },
+        {
+          "rank": 6,
+          "name": "Call of Duty®: Modern Warfare® 4",
+          "rank_diff": 2
+        },
+        {
+          "rank": 7,
+          "name": "Underkeep",
+          "rank_diff": 5
+        },
+        {
+          "rank": 8,
+          "name": "Moon Sweepers",
+          "rank_diff": 3
+        },
+        {
+          "rank": 9,
+          "name": "Yu-Gi-Oh! Master Duel",
+          "rank_diff": -3
+        },
+        {
+          "rank": 10,
+          "name": "EA SPORTS FC™ 27",
+          "rank_diff": -1
+        },
+        {
+          "rank": 11,
+          "name": "Call of Duty®",
+          "rank_diff": 0
+        },
+        {
+          "rank": 12,
+          "name": "Potato Please",
+          "rank_diff": 1
+        },
+        {
+          "rank": 13,
+          "name": "Phantom Blade Zero",
+          "rank_diff": 1
+        },
+        {
+          "rank": 14,
+          "name": "FINAL FANTASY XIV Online",
+          "rank_diff": -7
+        },
+        {
+          "rank": 15,
+          "name": "Aniimo",
+          "rank_diff": 4
+        },
+        {
+          "rank": 16,
+          "name": "Probably Stolen - Cyberpunk Shopkeeper Sim",
+          "rank_diff": -1
+        },
+        {
+          "rank": 17,
+          "name": "FINAL FANTASY XIV: Evercold",
+          "rank_diff": -7
+        },
+        {
+          "rank": 18,
+          "name": "Rust",
+          "rank_diff": 0
+        },
+        {
+          "rank": 19,
+          "name": "County of Fortune",
+          "rank_diff": 9
+        },
+        {
+          "rank": 20,
+          "name": "Horses of Hoofprint Bay",
+          "rank_diff": -3
+        },
+        {
+          "rank": 21,
+          "name": "Anno 117: Pax Romana - Dawn of the Delta",
+          "rank_diff": -5
+        },
+        {
+          "rank": 22,
+          "name": "Age of Wonders 4",
+          "rank_diff": 3
+        },
+        {
+          "rank": 23,
+          "name": "War Thunder",
+          "rank_diff": -3
+        },
+        {
+          "rank": 24,
+          "name": "Dead by Daylight",
+          "rank_diff": -3
+        },
+        {
+          "rank": 25,
+          "name": "World of Warships",
+          "rank_diff": -3
+        },
+        {
+          "rank": 26,
+          "name": "Call of Duty®: Warzone™",
+          "rank_diff": 0
+        },
+        {
+          "rank": 27,
+          "name": "Dota 2",
+          "rank_diff": 2
+        },
+        {
+          "rank": 28,
+          "name": "Apex Legends™",
+          "rank_diff": -2
+        },
+        {
+          "rank": 29,
+          "name": "PUBG: BATTLEGROUNDS",
+          "rank_diff": -5
+        },
+        {
+          "rank": 30,
+          "name": "Brotato",
+          "rank_diff": 4
+        },
+        {
+          "rank": 31,
+          "name": "Wing Commander™ III: Heart of the Tiger: 30th Anniversary Edition",
+          "rank_diff": 0
+        },
+        {
+          "rank": 32,
+          "name": "Warframe",
+          "rank_diff": -2
+        },
+        {
+          "rank": 33,
+          "name": "Cyberpunk 2077",
+          "rank_diff": 0
+        }
+      ]
+    },
+    "fr": {
+      "name": "프랑스",
+      "crimson_desert_rank": 35,
+      "rank_diff": 3,
+      "rivals": [
+        {
+          "app_id": "3393110",
+          "name": "AION 2",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 1,
+          "rank_diff": 1
+        },
+        {
+          "app_id": "4530370",
+          "name": "Football Manager 27",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 10,
+          "rank": 2,
+          "rank_diff": 1
+        },
+        {
+          "app_id": "4126040",
+          "name": "Aniimo",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 5,
+          "rank_diff": 0
+        },
+        {
+          "app_id": "730",
+          "name": "Counter-Strike 2",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 7,
+          "rank_diff": -1
+        },
+        {
+          "app_id": "1799840",
+          "name": "Queen's Domain",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 15,
+          "rank": 8,
+          "rank_diff": 2
+        },
+        {
+          "app_id": "3274580",
+          "name": "Anno 117: Pax Romana",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 40,
+          "rank": 10,
+          "rank_diff": 2
+        },
+        {
+          "app_id": "2411200",
+          "name": "Underkeep",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 15,
+          "rank": 13,
+          "rank_diff": 0
+        },
+        {
+          "app_id": "1962663",
+          "name": "Call of Duty®: Warzone™",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 16,
+          "rank_diff": 0
+        },
+        {
+          "app_id": "3296060",
+          "name": "Escape Academy 2: Back 2 School",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 15,
+          "rank": 17,
+          "rank_diff": 0
+        },
+        {
+          "app_id": "1172470",
+          "name": "Apex Legends™",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 18,
+          "rank_diff": -2
+        },
+        {
+          "app_id": "4348910",
+          "name": "Probably Stolen - Cyberpunk Shopkeeper Sim",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 10,
+          "rank": 20,
+          "rank_diff": 5
+        },
+        {
+          "app_id": "230410",
+          "name": "Warframe",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 21,
+          "rank_diff": -1
+        },
+        {
+          "app_id": "252490",
+          "name": "Rust",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 50,
+          "rank": 22,
+          "rank_diff": -1
+        },
+        {
+          "app_id": "3204330",
+          "name": "County of Fortune",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 10,
+          "rank": 23,
+          "rank_diff": 4
+        },
+        {
+          "app_id": "2902720",
+          "name": "SPAM",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 25,
+          "rank_diff": -1
+        },
+        {
+          "app_id": "2320980",
+          "name": "Loftia",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 17,
+          "rank": 27,
+          "rank_diff": -4
+        },
+        {
+          "app_id": "1449850",
+          "name": "Yu-Gi-Oh! Master Duel",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 29,
+          "rank_diff": -14
+        },
+        {
+          "app_id": "4356430",
+          "name": "NBA 2K27",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 55,
+          "rank": 30,
+          "rank_diff": 1
+        },
+        {
+          "app_id": "1669000",
+          "name": "Age of Wonders 4",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 60,
+          "rank": 32,
+          "rank_diff": 0
+        },
+        {
+          "app_id": "1677110",
+          "name": "Lightyear Frontier",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 20,
+          "rank": 33,
+          "rank_diff": -1
+        },
+        {
+          "app_id": "5266240",
+          "name": "Potato Please",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 10,
+          "rank": 34,
+          "rank_diff": 0
+        }
+      ],
+      "all_ranks": [
+        {
+          "rank": 1,
+          "name": "AION 2",
+          "rank_diff": 1
+        },
+        {
+          "rank": 2,
+          "name": "Football Manager 27",
+          "rank_diff": 1
+        },
+        {
+          "rank": 3,
+          "name": "Call of Duty®: Modern Warfare® 4",
+          "rank_diff": 1
+        },
+        {
+          "rank": 4,
+          "name": "Steam Frame",
+          "rank_diff": -3
+        },
+        {
+          "rank": 5,
+          "name": "Aniimo",
+          "rank_diff": 0
+        },
+        {
+          "rank": 6,
+          "name": "Call of Duty®",
+          "rank_diff": 30
+        },
+        {
+          "rank": 7,
+          "name": "Counter-Strike 2",
+          "rank_diff": -1
+        },
+        {
+          "rank": 8,
+          "name": "Queen's Domain",
+          "rank_diff": 2
+        },
+        {
+          "rank": 9,
+          "name": "Moon Sweepers",
+          "rank_diff": 0
+        },
+        {
+          "rank": 10,
+          "name": "Anno 117: Pax Romana",
+          "rank_diff": 2
+        },
+        {
+          "rank": 11,
+          "name": "EA SPORTS FC™ 27",
+          "rank_diff": -3
+        },
+        {
+          "rank": 12,
+          "name": "FINAL FANTASY XIV Online",
+          "rank_diff": -5
+        },
+        {
+          "rank": 13,
+          "name": "Underkeep",
+          "rank_diff": 0
+        },
+        {
+          "rank": 14,
+          "name": "Phantom Blade Zero",
+          "rank_diff": 0
+        },
+        {
+          "rank": 15,
+          "name": "FINAL FANTASY XIV: Evercold",
+          "rank_diff": -4
+        },
+        {
+          "rank": 16,
+          "name": "Call of Duty®: Warzone™",
+          "rank_diff": 0
+        },
+        {
+          "rank": 17,
+          "name": "Escape Academy 2: Back 2 School",
+          "rank_diff": 0
+        },
+        {
+          "rank": 18,
+          "name": "Apex Legends™",
+          "rank_diff": -2
+        },
+        {
+          "rank": 19,
+          "name": "Dead by Daylight",
+          "rank_diff": -1
+        },
+        {
+          "rank": 20,
+          "name": "Probably Stolen - Cyberpunk Shopkeeper Sim",
+          "rank_diff": 5
+        },
+        {
+          "rank": 21,
+          "name": "Warframe",
+          "rank_diff": -1
+        },
+        {
+          "rank": 22,
+          "name": "Rust",
+          "rank_diff": -1
+        },
+        {
+          "rank": 23,
+          "name": "County of Fortune",
+          "rank_diff": 4
+        },
+        {
+          "rank": 24,
+          "name": "Cyberpunk 2077",
+          "rank_diff": -5
+        },
+        {
+          "rank": 25,
+          "name": "SPAM",
+          "rank_diff": -1
+        },
+        {
+          "rank": 26,
+          "name": "Enshrouded",
+          "rank_diff": 0
+        },
+        {
+          "rank": 27,
+          "name": "Loftia",
+          "rank_diff": -4
+        },
+        {
+          "rank": 28,
+          "name": "Dressmaker",
+          "rank_diff": 2
+        },
+        {
+          "rank": 29,
+          "name": "Yu-Gi-Oh! Master Duel",
+          "rank_diff": -14
+        },
+        {
+          "rank": 30,
+          "name": "NBA 2K27",
+          "rank_diff": 1
+        },
+        {
+          "rank": 31,
+          "name": "FINAL FANTASY RESONANCE",
+          "rank_diff": -2
+        },
+        {
+          "rank": 32,
+          "name": "Age of Wonders 4",
+          "rank_diff": 0
+        },
+        {
+          "rank": 33,
+          "name": "Lightyear Frontier",
+          "rank_diff": -1
+        },
+        {
+          "rank": 34,
+          "name": "Potato Please",
+          "rank_diff": 0
+        }
+      ]
+    },
+    "ca": {
+      "name": "캐나다",
+      "crimson_desert_rank": 21,
+      "rank_diff": 2,
+      "rivals": [
+        {
+          "app_id": "730",
+          "name": "Counter-Strike 2",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 3,
+          "rank_diff": 0
+        },
+        {
+          "app_id": "3393110",
+          "name": "AION 2",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 5,
+          "rank_diff": -1
+        },
+        {
+          "app_id": "216150",
+          "name": "MapleStory",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 8,
+          "rank_diff": -1
+        },
+        {
+          "app_id": "4348910",
+          "name": "Probably Stolen - Cyberpunk Shopkeeper Sim",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 10,
+          "rank": 9,
+          "rank_diff": 0
+        },
+        {
+          "app_id": "2411200",
+          "name": "Underkeep",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 15,
+          "rank": 10,
+          "rank_diff": 0
+        },
+        {
+          "app_id": "1799840",
+          "name": "Queen's Domain",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 15,
+          "rank": 11,
+          "rank_diff": 0
+        },
+        {
+          "app_id": "252490",
+          "name": "Rust",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 50,
+          "rank": 12,
+          "rank_diff": 1
+        },
+        {
+          "app_id": "1449850",
+          "name": "Yu-Gi-Oh! Master Duel",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 14,
+          "rank_diff": -2
+        },
+        {
+          "app_id": "230410",
+          "name": "Warframe",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 15,
+          "rank_diff": 1
+        },
+        {
+          "app_id": "1172470",
+          "name": "Apex Legends™",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 16,
+          "rank_diff": -2
+        },
+        {
+          "app_id": "570",
+          "name": "Dota 2",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 17,
+          "rank_diff": 1
+        },
+        {
+          "app_id": "578080",
+          "name": "PUBG: BATTLEGROUNDS",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 19,
+          "rank_diff": -2
+        },
+        {
+          "app_id": "2767030",
+          "name": "Marvel Rivals",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 20,
+          "rank_diff": -5
+        }
+      ],
+      "all_ranks": [
+        {
+          "rank": 1,
+          "name": "Steam Frame",
+          "rank_diff": 0
+        },
+        {
+          "rank": 2,
+          "name": "Call of Duty®: Modern Warfare® 4",
+          "rank_diff": 0
+        },
+        {
+          "rank": 3,
+          "name": "Counter-Strike 2",
+          "rank_diff": 0
+        },
+        {
+          "rank": 4,
+          "name": "FINAL FANTASY XIV Online",
+          "rank_diff": 1
+        },
+        {
+          "rank": 5,
+          "name": "AION 2",
+          "rank_diff": -1
+        },
+        {
+          "rank": 6,
+          "name": "Phantom Blade Zero",
+          "rank_diff": 2
+        },
+        {
+          "rank": 7,
+          "name": "FINAL FANTASY XIV: Evercold",
+          "rank_diff": -1
+        },
+        {
+          "rank": 8,
+          "name": "MapleStory",
+          "rank_diff": -1
+        },
+        {
+          "rank": 9,
+          "name": "Probably Stolen - Cyberpunk Shopkeeper Sim",
+          "rank_diff": 0
+        },
+        {
+          "rank": 10,
+          "name": "Underkeep",
+          "rank_diff": 0
+        },
+        {
+          "rank": 11,
+          "name": "Queen's Domain",
+          "rank_diff": 0
+        },
+        {
+          "rank": 12,
+          "name": "Rust",
+          "rank_diff": 1
+        },
+        {
+          "rank": 13,
+          "name": "Call of Duty®",
+          "rank_diff": 0
+        },
+        {
+          "rank": 14,
+          "name": "Yu-Gi-Oh! Master Duel",
+          "rank_diff": -2
+        },
+        {
+          "rank": 15,
+          "name": "Warframe",
+          "rank_diff": 1
+        },
+        {
+          "rank": 16,
+          "name": "Apex Legends™",
+          "rank_diff": -2
+        },
+        {
+          "rank": 17,
+          "name": "Dota 2",
+          "rank_diff": 1
+        },
+        {
+          "rank": 18,
+          "name": "Dead by Daylight",
+          "rank_diff": 1
+        },
+        {
+          "rank": 19,
+          "name": "PUBG: BATTLEGROUNDS",
+          "rank_diff": -2
+        },
+        {
+          "rank": 20,
+          "name": "Marvel Rivals",
+          "rank_diff": -5
+        }
+      ]
+    },
+    "br": {
+      "name": "브라질",
+      "crimson_desert_rank": 29,
+      "rank_diff": 2,
+      "rivals": [
+        {
+          "app_id": "3393110",
+          "name": "AION 2",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 1,
+          "rank_diff": 0
+        },
+        {
+          "app_id": "730",
+          "name": "Counter-Strike 2",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 2,
+          "rank_diff": 0
+        },
+        {
+          "app_id": "570",
+          "name": "Dota 2",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 5,
+          "rank_diff": -2
+        },
+        {
+          "app_id": "578080",
+          "name": "PUBG: BATTLEGROUNDS",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 8,
+          "rank_diff": 0
+        },
+        {
+          "app_id": "1790600",
+          "name": "DRAGON BALL: Sparking! ZERO",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 40,
+          "rank": 10,
+          "rank_diff": -1
+        },
+        {
+          "app_id": "4126040",
+          "name": "Aniimo",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 12,
+          "rank_diff": 0
+        },
+        {
+          "app_id": "1665460",
+          "name": "eFootball™",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 14,
+          "rank_diff": 0
+        },
+        {
+          "app_id": "1547000",
+          "name": "Grand Theft Auto: San Andreas – The Definitive Edition",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 67,
+          "rank": 16,
+          "rank_diff": 3
+        },
+        {
+          "app_id": "2399830",
+          "name": "ARK: Survival Ascended",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 75,
+          "rank": 19,
+          "rank_diff": -1
+        },
+        {
+          "app_id": "252490",
+          "name": "Rust",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 50,
+          "rank": 20,
+          "rank_diff": 7
+        },
+        {
+          "app_id": "1272080",
+          "name": "PAYDAY 3",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 70,
+          "rank": 21,
+          "rank_diff": -1
+        },
+        {
+          "app_id": "230410",
+          "name": "Warframe",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 22,
+          "rank_diff": -5
+        },
+        {
+          "app_id": "750920",
+          "name": "Shadow of the Tomb Raider: Definitive Edition",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 90,
+          "rank": 23,
+          "rank_diff": -1
+        },
+        {
+          "app_id": "1449850",
+          "name": "Yu-Gi-Oh! Master Duel",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 24,
+          "rank_diff": 2
+        },
+        {
+          "app_id": "985810",
+          "name": "GrandChase",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 25,
+          "rank_diff": -1
+        },
+        {
+          "app_id": "12210",
+          "name": "Grand Theft Auto IV: The Complete Edition",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 70,
+          "rank": 26,
+          "rank_diff": 2
+        },
+        {
+          "app_id": "4715160",
+          "name": "Finals Week ✍🏻",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 38,
+          "rank": 28,
+          "rank_diff": -5
+        }
+      ],
+      "all_ranks": [
+        {
+          "rank": 1,
+          "name": "AION 2",
+          "rank_diff": 0
+        },
+        {
+          "rank": 2,
+          "name": "Counter-Strike 2",
+          "rank_diff": 0
+        },
+        {
+          "rank": 3,
+          "name": "Call of Duty®: Modern Warfare® 4",
+          "rank_diff": 1
+        },
+        {
+          "rank": 4,
+          "name": "Phantom Blade Zero",
+          "rank_diff": 1
+        },
+        {
+          "rank": 5,
+          "name": "Dota 2",
+          "rank_diff": -2
+        },
+        {
+          "rank": 6,
+          "name": "EA SPORTS FC™ 27",
+          "rank_diff": 0
+        },
+        {
+          "rank": 7,
+          "name": "FINAL FANTASY XIV Online",
+          "rank_diff": 3
+        },
+        {
+          "rank": 8,
+          "name": "PUBG: BATTLEGROUNDS",
+          "rank_diff": 0
+        },
+        {
+          "rank": 9,
+          "name": "Dead by Daylight",
+          "rank_diff": -2
+        },
+        {
+          "rank": 10,
+          "name": "DRAGON BALL: Sparking! ZERO",
+          "rank_diff": -1
+        },
+        {
+          "rank": 11,
+          "name": "Call of Duty®",
+          "rank_diff": 18
+        },
+        {
+          "rank": 12,
+          "name": "Aniimo",
+          "rank_diff": 0
+        },
+        {
+          "rank": 13,
+          "name": "Scam With Your Friends",
+          "rank_diff": -2
+        },
+        {
+          "rank": 14,
+          "name": "eFootball™",
+          "rank_diff": 0
+        },
+        {
+          "rank": 15,
+          "name": "Grand Theft Auto V Enhanced",
+          "rank_diff": -2
+        },
+        {
+          "rank": 16,
+          "name": "Grand Theft Auto: San Andreas – The Definitive Edition",
+          "rank_diff": 3
+        },
+        {
+          "rank": 17,
+          "name": "FINAL FANTASY XIV: Evercold",
+          "rank_diff": -1
+        },
+        {
+          "rank": 18,
+          "name": "Moon Sweepers",
+          "rank_diff": -3
+        },
+        {
+          "rank": 19,
+          "name": "ARK: Survival Ascended",
+          "rank_diff": -1
+        },
+        {
+          "rank": 20,
+          "name": "Rust",
+          "rank_diff": 7
+        },
+        {
+          "rank": 21,
+          "name": "PAYDAY 3",
+          "rank_diff": -1
+        },
+        {
+          "rank": 22,
+          "name": "Warframe",
+          "rank_diff": -5
+        },
+        {
+          "rank": 23,
+          "name": "Shadow of the Tomb Raider: Definitive Edition",
+          "rank_diff": -1
+        },
+        {
+          "rank": 24,
+          "name": "Yu-Gi-Oh! Master Duel",
+          "rank_diff": 2
+        },
+        {
+          "rank": 25,
+          "name": "GrandChase",
+          "rank_diff": -1
+        },
+        {
+          "rank": 26,
+          "name": "Grand Theft Auto IV: The Complete Edition",
+          "rank_diff": 2
+        },
+        {
+          "rank": 27,
+          "name": "Cyberpunk 2077",
+          "rank_diff": -6
+        },
+        {
+          "rank": 28,
+          "name": "Finals Week ✍🏻",
+          "rank_diff": -5
+        }
+      ]
+    },
+    "jp": {
+      "name": "일본",
+      "crimson_desert_rank": 84,
+      "rank_diff": 4,
+      "rivals": [
+        {
+          "app_id": "3393110",
+          "name": "AION 2",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 1,
+          "rank_diff": 1
+        },
+        {
+          "app_id": "1449850",
+          "name": "Yu-Gi-Oh! Master Duel",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 2,
+          "rank_diff": -1
+        },
+        {
+          "app_id": "1172470",
+          "name": "Apex Legends™",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 3,
+          "rank_diff": 0
+        },
+        {
+          "app_id": "2764370",
+          "name": "Starward",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 4,
+          "rank_diff": 0
+        },
+        {
+          "app_id": "2584990",
+          "name": "Shadowverse: Worlds Beyond",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 7,
+          "rank_diff": 24
+        },
+        {
+          "app_id": "4348910",
+          "name": "Probably Stolen - Cyberpunk Shopkeeper Sim",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 10,
+          "rank": 8,
+          "rank_diff": 0
+        },
+        {
+          "app_id": "2357570",
+          "name": "Overwatch®",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 9,
+          "rank_diff": 0
+        },
+        {
+          "app_id": "4282500",
+          "name": "hololive Dreams",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 12,
+          "rank_diff": 0
+        },
+        {
+          "app_id": "578080",
+          "name": "PUBG: BATTLEGROUNDS",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 13,
+          "rank_diff": 1
+        },
+        {
+          "app_id": "252490",
+          "name": "Rust",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 50,
+          "rank": 14,
+          "rank_diff": 4
+        },
+        {
+          "app_id": "3375780",
+          "name": "Trails in the Sky 1st Chapter",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 50,
+          "rank": 15,
+          "rank_diff": -2
+        },
+        {
+          "app_id": "5266240",
+          "name": "Potato Please",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 10,
+          "rank": 18,
+          "rank_diff": -2
+        },
+        {
+          "app_id": "2399830",
+          "name": "ARK: Survival Ascended",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 75,
+          "rank": 19,
+          "rank_diff": 2
+        },
+        {
+          "app_id": "3513350",
+          "name": "Wuthering Waves",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 22,
+          "rank_diff": 2
+        },
+        {
+          "app_id": "2139460",
+          "name": "Once Human",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 23,
+          "rank_diff": -8
+        },
+        {
+          "app_id": "4530370",
+          "name": "Football Manager 27",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 10,
+          "rank": 24,
+          "rank_diff": 1
+        },
+        {
+          "app_id": "4508340",
+          "name": "NTE: Neverness to Everness",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 25,
+          "rank_diff": -6
+        },
+        {
+          "app_id": "1665460",
+          "name": "eFootball™",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 27,
+          "rank_diff": -20
+        },
+        {
+          "app_id": "3432860",
+          "name": "Psycho-Sleuth",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 10,
+          "rank": 29,
+          "rank_diff": -9
+        }
+      ],
+      "all_ranks": [
+        {
+          "rank": 1,
+          "name": "AION 2",
+          "rank_diff": 1
+        },
+        {
+          "rank": 2,
+          "name": "Yu-Gi-Oh! Master Duel",
+          "rank_diff": -1
+        },
+        {
+          "rank": 3,
+          "name": "Apex Legends™",
+          "rank_diff": 0
+        },
+        {
+          "rank": 4,
+          "name": "Starward",
+          "rank_diff": 0
+        },
+        {
+          "rank": 5,
+          "name": "FINAL FANTASY XIV Online",
+          "rank_diff": 0
+        },
+        {
+          "rank": 6,
+          "name": "FINAL FANTASY XIV: Evercold",
+          "rank_diff": 0
+        },
+        {
+          "rank": 7,
+          "name": "Shadowverse: Worlds Beyond",
+          "rank_diff": 24
+        },
+        {
+          "rank": 8,
+          "name": "Probably Stolen - Cyberpunk Shopkeeper Sim",
+          "rank_diff": 0
+        },
+        {
+          "rank": 9,
+          "name": "Overwatch®",
+          "rank_diff": 0
+        },
+        {
+          "rank": 10,
+          "name": "FINAL FANTASY RESONANCE",
+          "rank_diff": 1
+        },
+        {
+          "rank": 11,
+          "name": "Call of Duty®: Modern Warfare® 4",
+          "rank_diff": -1
+        },
+        {
+          "rank": 12,
+          "name": "hololive Dreams",
+          "rank_diff": 0
+        },
+        {
+          "rank": 13,
+          "name": "PUBG: BATTLEGROUNDS",
+          "rank_diff": 1
+        },
+        {
+          "rank": 14,
+          "name": "Rust",
+          "rank_diff": 4
+        },
+        {
+          "rank": 15,
+          "name": "Trails in the Sky 1st Chapter",
+          "rank_diff": -2
+        },
+        {
+          "rank": 16,
+          "name": "Japanese Ramen Simulator",
+          "rank_diff": 7
+        },
+        {
+          "rank": 17,
+          "name": "Call of Duty®",
+          "rank_diff": 0
+        },
+        {
+          "rank": 18,
+          "name": "Potato Please",
+          "rank_diff": -2
+        },
+        {
+          "rank": 19,
+          "name": "ARK: Survival Ascended",
+          "rank_diff": 2
+        },
+        {
+          "rank": 20,
+          "name": "Dead by Daylight",
+          "rank_diff": 9
+        },
+        {
+          "rank": 21,
+          "name": "Phantom Blade Zero",
+          "rank_diff": 5
+        },
+        {
+          "rank": 22,
+          "name": "Wuthering Waves",
+          "rank_diff": 2
+        },
+        {
+          "rank": 23,
+          "name": "Once Human",
+          "rank_diff": -8
+        },
+        {
+          "rank": 24,
+          "name": "Football Manager 27",
+          "rank_diff": 1
+        },
+        {
+          "rank": 25,
+          "name": "NTE: Neverness to Everness",
+          "rank_diff": -6
+        },
+        {
+          "rank": 26,
+          "name": "ACE COMBAT 8: WINGS OF THEVE",
+          "rank_diff": 10
+        },
+        {
+          "rank": 27,
+          "name": "eFootball™",
+          "rank_diff": -20
+        },
+        {
+          "rank": 28,
+          "name": "Street Fighter™ 6",
+          "rank_diff": 0
+        },
+        {
+          "rank": 29,
+          "name": "Psycho-Sleuth",
+          "rank_diff": -9
+        },
+        {
+          "rank": 30,
+          "name": "Moon Sweepers",
+          "rank_diff": 12
+        },
+        {
+          "rank": 31,
+          "name": "Zenless Zone Zero",
+          "rank_diff": 4
+        },
+        {
+          "rank": 32,
+          "name": "Call of Duty®: Warzone™",
+          "rank_diff": 0
+        },
+        {
+          "rank": 33,
+          "name": "ArcheAge Chronicles",
+          "rank_diff": -1
+        },
+        {
+          "rank": 34,
+          "name": "Summoners War",
+          "rank_diff": 3
+        },
+        {
+          "rank": 35,
+          "name": "VRChat",
+          "rank_diff": -2
+        },
+        {
+          "rank": 36,
+          "name": "ZED ZONE",
+          "rank_diff": 0
+        },
+        {
+          "rank": 37,
+          "name": "MY HERO ULTRA RUMBLE",
+          "rank_diff": 7
+        },
+        {
+          "rank": 38,
+          "name": "Queen's Domain",
+          "rank_diff": 3
+        },
+        {
+          "rank": 39,
+          "name": "Aniimo",
+          "rank_diff": 4
+        },
+        {
+          "rank": 40,
+          "name": "Counter-Strike 2",
+          "rank_diff": -2
+        },
+        {
+          "rank": 41,
+          "name": "Eternal Palace Sakura",
+          "rank_diff": -7
+        },
+        {
+          "rank": 42,
+          "name": "DEAD OR ALIVE Xtreme Venus Vacation",
+          "rank_diff": -20
+        },
+        {
+          "rank": 43,
+          "name": "Escape from Tarkov",
+          "rank_diff": 3
+        },
+        {
+          "rank": 44,
+          "name": "The Seven Deadly Sins: Origin",
+          "rank_diff": 0
+        },
+        {
+          "rank": 45,
+          "name": "Lightyear Frontier",
+          "rank_diff": -15
+        },
+        {
+          "rank": 46,
+          "name": "R.E.P.O.",
+          "rank_diff": 15
+        },
+        {
+          "rank": 47,
+          "name": "DRAGON QUEST MONSTERS: The Withered World",
+          "rank_diff": 2
+        },
+        {
+          "rank": 48,
+          "name": "ANOMALITH",
+          "rank_diff": 24
+        },
+        {
+          "rank": 49,
+          "name": "ウマ娘 プリティーダービー",
+          "rank_diff": 22
+        },
+        {
+          "rank": 50,
+          "name": "Monster Hunter Wilds",
+          "rank_diff": 0
+        },
+        {
+          "rank": 51,
+          "name": "Big Walk",
+          "rank_diff": 0
+        },
+        {
+          "rank": 52,
+          "name": "Arknights: Endfield",
+          "rank_diff": -35
+        },
+        {
+          "rank": 53,
+          "name": "Limbus Company",
+          "rank_diff": -1
+        },
+        {
+          "rank": 54,
+          "name": "EARTH DEFENSE FORCE 6",
+          "rank_diff": 20
+        },
+        {
+          "rank": 55,
+          "name": "NARAKA: BLADEPOINT",
+          "rank_diff": -28
+        },
+        {
+          "rank": 56,
+          "name": "EA SPORTS FC™ 27",
+          "rank_diff": -11
+        },
+        {
+          "rank": 57,
+          "name": "County of Fortune",
+          "rank_diff": 16
+        },
+        {
+          "rank": 58,
+          "name": "DJMAX RESPECT V",
+          "rank_diff": 4
+        },
+        {
+          "rank": 59,
+          "name": "Crown &amp; Coin: The Hundred Years",
+          "rank_diff": -8
+        },
+        {
+          "rank": 60,
+          "name": "ELDEN RING NIGHTREIGN",
+          "rank_diff": 0
+        },
+        {
+          "rank": 61,
+          "name": "Slay the Spire 2",
+          "rank_diff": -8
+        },
+        {
+          "rank": 62,
+          "name": "Incursion Red River",
+          "rank_diff": 0
+        },
+        {
+          "rank": 63,
+          "name": "Culdcept BEGINS",
+          "rank_diff": -5
+        },
+        {
+          "rank": 64,
+          "name": "VOID/BREAKER",
+          "rank_diff": -17
+        },
+        {
+          "rank": 65,
+          "name": "ELDEN RING",
+          "rank_diff": -2
+        },
+        {
+          "rank": 66,
+          "name": "Cozy Game Restoration",
+          "rank_diff": -18
+        },
+        {
+          "rank": 67,
+          "name": "CRACK",
+          "rank_diff": 14
+        },
+        {
+          "rank": 68,
+          "name": "Onimusha: Way of the Sword",
+          "rank_diff": -13
+        },
+        {
+          "rank": 69,
+          "name": "Rogue Braver | 勇者ローグ",
+          "rank_diff": 0
+        },
+        {
+          "rank": 70,
+          "name": "Warframe",
+          "rank_diff": -1
+        },
+        {
+          "rank": 71,
+          "name": "Sky: Children of the Light",
+          "rank_diff": 11
+        },
+        {
+          "rank": 72,
+          "name": "FINAL FANTASY VII REVELATION",
+          "rank_diff": 0
+        },
+        {
+          "rank": 73,
+          "name": "Grand Theft Auto V Enhanced",
+          "rank_diff": -13
+        },
+        {
+          "rank": 74,
+          "name": "Tom Clancy’s The Division® 2",
+          "rank_diff": 2
+        },
+        {
+          "rank": 75,
+          "name": "Strinova",
+          "rank_diff": -9
+        },
+        {
+          "rank": 76,
+          "name": "CODE VEIN II",
+          "rank_diff": -6
+        },
+        {
+          "rank": 77,
+          "name": "Dota 2",
+          "rank_diff": -13
+        },
+        {
+          "rank": 78,
+          "name": "Death at Fleming Manor",
+          "rank_diff": -24
+        },
+        {
+          "rank": 79,
+          "name": "The First Descendant",
+          "rank_diff": -39
+        },
+        {
+          "rank": 80,
+          "name": "カラオケJOYSOUND for STREAMER",
+          "rank_diff": -24
+        },
+        {
+          "rank": 81,
+          "name": "Incremental Traffic",
+          "rank_diff": -6
+        },
+        {
+          "rank": 82,
+          "name": "DRAGON QUEST MONSTERS: The Dark Prince",
+          "rank_diff": -17
+        },
+        {
+          "rank": 83,
+          "name": "Eternal Return",
+          "rank_diff": -16
+        }
+      ]
+    },
+    "kr": {
+      "name": "한국",
+      "crimson_desert_rank": 8,
+      "rank_diff": -1,
+      "rivals": [],
+      "all_ranks": [
+        {
+          "rank": 1,
+          "name": "PUBG: BATTLEGROUNDS",
+          "rank_diff": 0
+        },
+        {
+          "rank": 2,
+          "name": "Call of Duty®: Modern Warfare® 4",
+          "rank_diff": 0
+        },
+        {
+          "rank": 3,
+          "name": "Football Manager 27",
+          "rank_diff": 2
+        },
+        {
+          "rank": 4,
+          "name": "Eternal Return",
+          "rank_diff": 2
+        },
+        {
+          "rank": 5,
+          "name": "Call of Duty®",
+          "rank_diff": 0
+        },
+        {
+          "rank": 6,
+          "name": "Once Human",
+          "rank_diff": -3
+        },
+        {
+          "rank": 7,
+          "name": "Yu-Gi-Oh! Master Duel",
+          "rank_diff": -3
+        }
+      ]
+    },
+    "cn": {
+      "name": "중국",
+      "crimson_desert_rank": 39,
+      "rank_diff": -10,
+      "rivals": [
+        {
+          "app_id": "1942280",
+          "name": "Brotato",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 50,
+          "rank": 17,
+          "rank_diff": -2
+        },
+        {
+          "app_id": "477160",
+          "name": "Human Fall Flat",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 70,
+          "rank": 22,
+          "rank_diff": 0
+        },
+        {
+          "app_id": "239140",
+          "name": "Dying Light",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 90,
+          "rank": 34,
+          "rank_diff": -7
+        },
+        {
+          "app_id": "750920",
+          "name": "Shadow of the Tomb Raider: Definitive Edition",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 90,
+          "rank": 38,
+          "rank_diff": -10
+        }
+      ],
+      "all_ranks": [
+        {
+          "rank": 1,
+          "name": "Phantom Blade Zero",
+          "rank_diff": 0
+        },
+        {
+          "rank": 2,
+          "name": "PUBG: BATTLEGROUNDS",
+          "rank_diff": 0
+        },
+        {
+          "rank": 3,
+          "name": "Delta Force",
+          "rank_diff": 0
+        },
+        {
+          "rank": 4,
+          "name": "Probably Stolen - Cyberpunk Shopkeeper Sim",
+          "rank_diff": 1
+        },
+        {
+          "rank": 5,
+          "name": "Apex Legends™",
+          "rank_diff": 1
+        },
+        {
+          "rank": 6,
+          "name": "Call of Duty®",
+          "rank_diff": 13
+        },
+        {
+          "rank": 7,
+          "name": "Yu-Gi-Oh! Master Duel",
+          "rank_diff": 0
+        },
+        {
+          "rank": 8,
+          "name": "Call of Duty®: Modern Warfare® 4",
+          "rank_diff": 0
+        },
+        {
+          "rank": 9,
+          "name": "Call of Duty®: Warzone™",
+          "rank_diff": 0
+        },
+        {
+          "rank": 10,
+          "name": "NARAKA: BLADEPOINT",
+          "rank_diff": -6
+        },
+        {
+          "rank": 11,
+          "name": "Counter-Strike 2",
+          "rank_diff": -2
+        },
+        {
+          "rank": 12,
+          "name": "ZED ZONE",
+          "rank_diff": 0
+        },
+        {
+          "rank": 13,
+          "name": "Warframe",
+          "rank_diff": -3
+        },
+        {
+          "rank": 14,
+          "name": "NBA 2K27",
+          "rank_diff": -2
+        },
+        {
+          "rank": 15,
+          "name": "Dota 2",
+          "rank_diff": -4
+        },
+        {
+          "rank": 16,
+          "name": "Wallpaper Engine",
+          "rank_diff": -3
+        },
+        {
+          "rank": 17,
+          "name": "Brotato",
+          "rank_diff": -2
+        },
+        {
+          "rank": 18,
+          "name": "Football Manager 27",
+          "rank_diff": -2
+        },
+        {
+          "rank": 19,
+          "name": "Nomad Drive",
+          "rank_diff": 3
+        },
+        {
+          "rank": 20,
+          "name": "R.E.P.O.",
+          "rank_diff": 0
+        },
+        {
+          "rank": 21,
+          "name": "Potato Please",
+          "rank_diff": 5
+        },
+        {
+          "rank": 22,
+          "name": "Human Fall Flat",
+          "rank_diff": 0
+        },
+        {
+          "rank": 23,
+          "name": "组长！怨念请查收！",
+          "rank_diff": 0
+        },
+        {
+          "rank": 24,
+          "name": "Brotato: Primal Dread",
+          "rank_diff": -1
+        },
+        {
+          "rank": 25,
+          "name": "Limbus Company",
+          "rank_diff": 0
+        },
+        {
+          "rank": 26,
+          "name": "Rise of the Tomb Raider™",
+          "rank_diff": -2
+        },
+        {
+          "rank": 27,
+          "name": "ARK: Survival Ascended",
+          "rank_diff": 0
+        },
+        {
+          "rank": 28,
+          "name": "How to Fish",
+          "rank_diff": 0
+        },
+        {
+          "rank": 29,
+          "name": "Escape the Backrooms",
+          "rank_diff": 0
+        },
+        {
+          "rank": 30,
+          "name": "Forza Horizon 6",
+          "rank_diff": 0
+        },
+        {
+          "rank": 31,
+          "name": "Dead by Daylight",
+          "rank_diff": 0
+        },
+        {
+          "rank": 32,
+          "name": "Stardew Valley",
+          "rank_diff": 0
+        },
+        {
+          "rank": 33,
+          "name": "Queen's Domain",
+          "rank_diff": 0
+        },
+        {
+          "rank": 34,
+          "name": "Dying Light",
+          "rank_diff": -7
+        },
+        {
+          "rank": 35,
+          "name": "Escape from Tarkov",
+          "rank_diff": 0
+        },
+        {
+          "rank": 36,
+          "name": "World of Warships",
+          "rank_diff": -16
+        },
+        {
+          "rank": 37,
+          "name": "EA SPORTS FC™ 27",
+          "rank_diff": -16
+        },
+        {
+          "rank": 38,
+          "name": "Shadow of the Tomb Raider: Definitive Edition",
+          "rank_diff": -10
+        }
+      ]
+    },
+    "ru": {
+      "name": "러시아",
+      "crimson_desert_rank": 21,
+      "rank_diff": 0,
+      "rivals": [],
+      "all_ranks": [
+        {
+          "rank": 1,
+          "name": "Dota 2",
+          "rank_diff": 0
+        },
+        {
+          "rank": 2,
+          "name": "Counter-Strike 2",
+          "rank_diff": 0
+        },
+        {
+          "rank": 3,
+          "name": "Rust",
+          "rank_diff": 1
+        },
+        {
+          "rank": 4,
+          "name": "PUBG: BATTLEGROUNDS",
+          "rank_diff": -1
+        },
+        {
+          "rank": 5,
+          "name": "ROB RUN",
+          "rank_diff": 0
+        },
+        {
+          "rank": 6,
+          "name": "PAYDAY 3",
+          "rank_diff": 10
+        },
+        {
+          "rank": 7,
+          "name": "Phantom Blade Zero",
+          "rank_diff": -1
+        },
+        {
+          "rank": 8,
+          "name": "Probably Stolen - Cyberpunk Shopkeeper Sim",
+          "rank_diff": -1
+        },
+        {
+          "rank": 9,
+          "name": "R.E.P.O.",
+          "rank_diff": 2
+        },
+        {
+          "rank": 10,
+          "name": "Underkeep",
+          "rank_diff": 5
+        },
+        {
+          "rank": 11,
+          "name": "Arena Breakout: Infinite",
+          "rank_diff": -1
+        },
+        {
+          "rank": 12,
+          "name": "Potato Please",
+          "rank_diff": 1
+        },
+        {
+          "rank": 13,
+          "name": "Once Human",
+          "rank_diff": -5
+        },
+        {
+          "rank": 14,
+          "name": "Age of Wonders 4",
+          "rank_diff": -2
+        },
+        {
+          "rank": 15,
+          "name": "Moon Sweepers",
+          "rank_diff": 4
+        },
+        {
+          "rank": 16,
+          "name": "Escape from Tarkov",
+          "rank_diff": 2
+        },
+        {
+          "rank": 17,
+          "name": "ARC Raiders",
+          "rank_diff": -3
+        },
+        {
+          "rank": 18,
+          "name": "Russian Fishing 4",
+          "rank_diff": 2
+        },
+        {
+          "rank": 19,
+          "name": "NARAKA: BLADEPOINT",
+          "rank_diff": -10
+        },
+        {
+          "rank": 20,
+          "name": "Active Matter",
+          "rank_diff": 0
+        }
+      ]
+    },
+    "au": {
+      "name": "호주",
+      "crimson_desert_rank": 33,
+      "rank_diff": -9,
+      "rivals": [],
+      "all_ranks": [
+        {
+          "rank": 1,
+          "name": "Counter-Strike 2",
+          "rank_diff": 1
+        },
+        {
+          "rank": 2,
+          "name": "Call of Duty®: Modern Warfare® 4",
+          "rank_diff": -1
+        },
+        {
+          "rank": 3,
+          "name": "Call of Duty®",
+          "rank_diff": 0
+        },
+        {
+          "rank": 4,
+          "name": "Phantom Blade Zero",
+          "rank_diff": -1
+        },
+        {
+          "rank": 5,
+          "name": "Call of Duty®: Warzone™",
+          "rank_diff": 0
+        },
+        {
+          "rank": 6,
+          "name": "Rust",
+          "rank_diff": 0
+        },
+        {
+          "rank": 7,
+          "name": "Football Manager 27",
+          "rank_diff": 2
+        },
+        {
+          "rank": 8,
+          "name": "AION 2",
+          "rank_diff": 2
+        },
+        {
+          "rank": 9,
+          "name": "Probably Stolen - Cyberpunk Shopkeeper Sim",
+          "rank_diff": 3
+        },
+        {
+          "rank": 10,
+          "name": "Warframe",
+          "rank_diff": -2
+        },
+        {
+          "rank": 11,
+          "name": "Dota 2",
+          "rank_diff": 2
+        },
+        {
+          "rank": 12,
+          "name": "PUBG: BATTLEGROUNDS",
+          "rank_diff": -7
+        },
+        {
+          "rank": 13,
+          "name": "Marvel Rivals",
+          "rank_diff": 7
+        },
+        {
+          "rank": 14,
+          "name": "FINAL FANTASY XIV Online",
+          "rank_diff": -10
+        },
+        {
+          "rank": 15,
+          "name": "Dead by Daylight",
+          "rank_diff": 0
+        },
+        {
+          "rank": 16,
+          "name": "Overwatch®",
+          "rank_diff": -1
+        },
+        {
+          "rank": 17,
+          "name": "Moon Sweepers",
+          "rank_diff": 0
+        },
+        {
+          "rank": 18,
+          "name": "Tom Clancy's Rainbow Six Siege",
+          "rank_diff": 4
+        },
+        {
+          "rank": 19,
+          "name": "EA SPORTS FC™ 27",
+          "rank_diff": -2
+        },
+        {
+          "rank": 20,
+          "name": "MapleStory",
+          "rank_diff": 1
+        },
+        {
+          "rank": 21,
+          "name": "Yu-Gi-Oh! Master Duel",
+          "rank_diff": -10
+        },
+        {
+          "rank": 22,
+          "name": "Apex Legends™",
+          "rank_diff": -4
+        },
+        {
+          "rank": 23,
+          "name": "Umamusume: Pretty Derby",
+          "rank_diff": 0
+        },
+        {
+          "rank": 24,
+          "name": "Loftia",
+          "rank_diff": -5
+        },
+        {
+          "rank": 25,
+          "name": "FINAL FANTASY XIV: Evercold",
+          "rank_diff": -18
+        },
+        {
+          "rank": 26,
+          "name": "Cyberpunk 2077",
+          "rank_diff": 0
+        },
+        {
+          "rank": 27,
+          "name": "Team Fortress 2",
+          "rank_diff": 0
+        },
+        {
+          "rank": 28,
+          "name": "Underkeep",
+          "rank_diff": 0
+        },
+        {
+          "rank": 29,
+          "name": "Anno 117: Pax Romana",
+          "rank_diff": 0
+        },
+        {
+          "rank": 30,
+          "name": "Queen's Domain",
+          "rank_diff": -7
+        },
+        {
+          "rank": 31,
+          "name": "Age of Wonders 4",
+          "rank_diff": 0
+        },
+        {
+          "rank": 32,
+          "name": "PAYDAY 3",
+          "rank_diff": 0
+        }
+      ]
+    },
+    "es": {
+      "name": "스페인",
+      "crimson_desert_rank": 37,
+      "rank_diff": 4,
+      "rivals": [],
+      "all_ranks": [
+        {
+          "rank": 1,
+          "name": "PUBG: BATTLEGROUNDS",
+          "rank_diff": 1
+        },
+        {
+          "rank": 2,
+          "name": "Steam Frame",
+          "rank_diff": 1
+        },
+        {
+          "rank": 3,
+          "name": "Counter-Strike 2",
+          "rank_diff": 1
+        },
+        {
+          "rank": 4,
+          "name": "AION 2",
+          "rank_diff": 1
+        },
+        {
+          "rank": 5,
+          "name": "Football Manager 27",
+          "rank_diff": 2
+        },
+        {
+          "rank": 6,
+          "name": "EA SPORTS FC™ 27",
+          "rank_diff": 2
+        },
+        {
+          "rank": 7,
+          "name": "NARAKA: BLADEPOINT",
+          "rank_diff": -6
+        },
+        {
+          "rank": 8,
+          "name": "Call of Duty®: Modern Warfare® 4",
+          "rank_diff": -2
+        },
+        {
+          "rank": 9,
+          "name": "Rust",
+          "rank_diff": 0
+        },
+        {
+          "rank": 10,
+          "name": "Call of Duty®",
+          "rank_diff": 0
+        },
+        {
+          "rank": 11,
+          "name": "Queen's Domain",
+          "rank_diff": 2
+        },
+        {
+          "rank": 12,
+          "name": "Moon Sweepers",
+          "rank_diff": 0
+        },
+        {
+          "rank": 13,
+          "name": "Dota 2",
+          "rank_diff": -3
+        },
+        {
+          "rank": 14,
+          "name": "Can 'Em All",
+          "rank_diff": 4
+        },
+        {
+          "rank": 15,
+          "name": "Phantom Blade Zero",
+          "rank_diff": -4
+        },
+        {
+          "rank": 16,
+          "name": "FINAL FANTASY XIV Online",
+          "rank_diff": 0
+        },
+        {
+          "rank": 17,
+          "name": "Underkeep",
+          "rank_diff": 4
+        },
+        {
+          "rank": 18,
+          "name": "Dead by Daylight",
+          "rank_diff": -3
+        },
+        {
+          "rank": 19,
+          "name": "Dominus Gladiatus",
+          "rank_diff": -2
+        },
+        {
+          "rank": 20,
+          "name": "Call of Duty®: Warzone™",
+          "rank_diff": 0
+        },
+        {
+          "rank": 21,
+          "name": "Age of Wonders 4",
+          "rank_diff": 9
+        },
+        {
+          "rank": 22,
+          "name": "NBA 2K27",
+          "rank_diff": -8
+        },
+        {
+          "rank": 23,
+          "name": "Anno 117: Pax Romana",
+          "rank_diff": -1
+        },
+        {
+          "rank": 24,
+          "name": "Warframe",
+          "rank_diff": -1
+        },
+        {
+          "rank": 25,
+          "name": "Aniimo",
+          "rank_diff": 9
+        },
+        {
+          "rank": 26,
+          "name": "Cyberpunk 2077",
+          "rank_diff": 1
+        },
+        {
+          "rank": 27,
+          "name": "Scam With Your Friends",
+          "rank_diff": -8
+        },
+        {
+          "rank": 28,
+          "name": "FINAL FANTASY XIV: Evercold",
+          "rank_diff": -8
+        },
+        {
+          "rank": 29,
+          "name": "County of Fortune",
+          "rank_diff": 0
+        },
+        {
+          "rank": 30,
+          "name": "Probably Stolen - Cyberpunk Shopkeeper Sim",
+          "rank_diff": -4
+        },
+        {
+          "rank": 31,
+          "name": "Apex Legends™",
+          "rank_diff": -3
+        },
+        {
+          "rank": 32,
+          "name": "Potato Please",
+          "rank_diff": 3
+        },
+        {
+          "rank": 33,
+          "name": "ARK: Survival Ascended",
+          "rank_diff": -8
+        },
+        {
+          "rank": 34,
+          "name": "Euro Truck Simulator 2",
+          "rank_diff": 3
+        },
+        {
+          "rank": 35,
+          "name": "Victoria 3",
+          "rank_diff": -11
+        },
+        {
+          "rank": 36,
+          "name": "DRAGON BALL: Sparking! ZERO",
+          "rank_diff": 0
+        }
+      ]
+    },
+    "it": {
+      "name": "이탈리아",
+      "crimson_desert_rank": 40,
+      "rank_diff": -14,
+      "rivals": [],
+      "all_ranks": [
+        {
+          "rank": 1,
+          "name": "Football Manager 27",
+          "rank_diff": 0
+        },
+        {
+          "rank": 2,
+          "name": "AION 2",
+          "rank_diff": 0
+        },
+        {
+          "rank": 3,
+          "name": "Call of Duty®: Modern Warfare® 4",
+          "rank_diff": 0
+        },
+        {
+          "rank": 4,
+          "name": "Steam Frame",
+          "rank_diff": 0
+        },
+        {
+          "rank": 5,
+          "name": "EA SPORTS FC™ 27",
+          "rank_diff": 1
+        },
+        {
+          "rank": 6,
+          "name": "Call of Duty®",
+          "rank_diff": 0
+        },
+        {
+          "rank": 7,
+          "name": "Phantom Blade Zero",
+          "rank_diff": 1
+        },
+        {
+          "rank": 8,
+          "name": "PUBG: BATTLEGROUNDS",
+          "rank_diff": 0
+        },
+        {
+          "rank": 9,
+          "name": "Yu-Gi-Oh! Master Duel",
+          "rank_diff": -2
+        },
+        {
+          "rank": 10,
+          "name": "Moon Sweepers",
+          "rank_diff": -1
+        },
+        {
+          "rank": 11,
+          "name": "Counter-Strike 2",
+          "rank_diff": -1
+        },
+        {
+          "rank": 12,
+          "name": "Call of Duty®: Warzone™",
+          "rank_diff": 0
+        },
+        {
+          "rank": 13,
+          "name": "Underkeep",
+          "rank_diff": 3
+        },
+        {
+          "rank": 14,
+          "name": "Queen's Domain",
+          "rank_diff": 1
+        },
+        {
+          "rank": 15,
+          "name": "Dota 2",
+          "rank_diff": -1
+        },
+        {
+          "rank": 16,
+          "name": "Warframe",
+          "rank_diff": -5
+        },
+        {
+          "rank": 17,
+          "name": "Anno 117: Pax Romana",
+          "rank_diff": 3
+        },
+        {
+          "rank": 18,
+          "name": "ArcheAge Chronicles",
+          "rank_diff": -1
+        },
+        {
+          "rank": 19,
+          "name": "Magic: The Gathering Arena",
+          "rank_diff": -7
+        },
+        {
+          "rank": 20,
+          "name": "NARAKA: BLADEPOINT",
+          "rank_diff": -15
+        },
+        {
+          "rank": 21,
+          "name": "ELDEN RING",
+          "rank_diff": 0
+        },
+        {
+          "rank": 22,
+          "name": "Probably Stolen - Cyberpunk Shopkeeper Sim",
+          "rank_diff": 2
+        },
+        {
+          "rank": 23,
+          "name": "Age of Wonders 4",
+          "rank_diff": 0
+        },
+        {
+          "rank": 24,
+          "name": "Aniimo",
+          "rank_diff": -11
+        },
+        {
+          "rank": 25,
+          "name": "FINAL FANTASY XIV Online",
+          "rank_diff": -6
+        },
+        {
+          "rank": 26,
+          "name": "Rust",
+          "rank_diff": -3
+        },
+        {
+          "rank": 27,
+          "name": "County of Fortune",
+          "rank_diff": 0
+        },
+        {
+          "rank": 28,
+          "name": "Cyberpunk 2077",
+          "rank_diff": 0
+        },
+        {
+          "rank": 29,
+          "name": "FINAL FANTASY XIV: Evercold",
+          "rank_diff": -7
+        },
+        {
+          "rank": 30,
+          "name": "Tom Clancy's Rainbow Six Siege",
+          "rank_diff": 0
+        },
+        {
+          "rank": 31,
+          "name": "Potato Please",
+          "rank_diff": 0
+        },
+        {
+          "rank": 32,
+          "name": "Victoria 3",
+          "rank_diff": 0
+        },
+        {
+          "rank": 33,
+          "name": "Apex Legends™",
+          "rank_diff": -15
+        },
+        {
+          "rank": 34,
+          "name": "Dominus Gladiatus",
+          "rank_diff": 0
+        },
+        {
+          "rank": 35,
+          "name": "FINAL FANTASY RESONANCE",
+          "rank_diff": 0
+        },
+        {
+          "rank": 36,
+          "name": "NBA 2K27",
+          "rank_diff": -15
+        },
+        {
+          "rank": 37,
+          "name": "007 First Light",
+          "rank_diff": 0
+        },
+        {
+          "rank": 38,
+          "name": "Dead by Daylight",
+          "rank_diff": -13
+        },
+        {
+          "rank": 39,
+          "name": "Forza Horizon 6",
+          "rank_diff": 0
+        }
+      ]
+    },
+    "pl": {
+      "name": "폴란드",
+      "crimson_desert_rank": 31,
+      "rank_diff": 8,
+      "rivals": [
+        {
+          "app_id": "252490",
+          "name": "Rust",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 50,
+          "rank": 14,
+          "rank_diff": -1
+        }
+      ],
+      "all_ranks": [
+        {
+          "rank": 1,
+          "name": "Counter-Strike 2",
+          "rank_diff": 0
+        },
+        {
+          "rank": 2,
+          "name": "Steam Frame",
+          "rank_diff": 0
+        },
+        {
+          "rank": 3,
+          "name": "Football Manager 27",
+          "rank_diff": 1
+        },
+        {
+          "rank": 4,
+          "name": "AION 2",
+          "rank_diff": -1
+        },
+        {
+          "rank": 5,
+          "name": "Call of Duty®: Modern Warfare® 4",
+          "rank_diff": 0
+        },
+        {
+          "rank": 6,
+          "name": "EA SPORTS FC™ 27",
+          "rank_diff": 0
+        },
+        {
+          "rank": 7,
+          "name": "Call of Duty®",
+          "rank_diff": 30
+        },
+        {
+          "rank": 8,
+          "name": "Underkeep",
+          "rank_diff": 3
+        },
+        {
+          "rank": 9,
+          "name": "Probably Stolen - Cyberpunk Shopkeeper Sim",
+          "rank_diff": 0
+        },
+        {
+          "rank": 10,
+          "name": "Anno 117: Pax Romana",
+          "rank_diff": -2
+        },
+        {
+          "rank": 11,
+          "name": "Dota 2",
+          "rank_diff": -4
+        },
+        {
+          "rank": 12,
+          "name": "Moon Sweepers",
+          "rank_diff": 0
+        },
+        {
+          "rank": 13,
+          "name": "Dead by Daylight",
+          "rank_diff": -3
+        },
+        {
+          "rank": 14,
+          "name": "Rust",
+          "rank_diff": -1
+        },
+        {
+          "rank": 15,
+          "name": "Potato Please",
+          "rank_diff": -1
+        },
+        {
+          "rank": 16,
+          "name": "Cyberpunk 2077",
+          "rank_diff": 0
+        },
+        {
+          "rank": 17,
+          "name": "PAYDAY 3",
+          "rank_diff": 16
+        },
+        {
+          "rank": 18,
+          "name": "Phantom Blade Zero",
+          "rank_diff": 7
+        },
+        {
+          "rank": 19,
+          "name": "Victoria 3",
+          "rank_diff": -4
+        },
+        {
+          "rank": 20,
+          "name": "Euro Truck Simulator 2",
+          "rank_diff": 1
+        },
+        {
+          "rank": 21,
+          "name": "Age of Wonders 4",
+          "rank_diff": -4
+        },
+        {
+          "rank": 22,
+          "name": "Queen's Domain",
+          "rank_diff": -3
+        },
+        {
+          "rank": 23,
+          "name": "War Thunder",
+          "rank_diff": 0
+        },
+        {
+          "rank": 24,
+          "name": "Call of Duty®: Warzone™",
+          "rank_diff": 0
+        },
+        {
+          "rank": 25,
+          "name": "Assassin's Creed Black Flag Resynced",
+          "rank_diff": -1
+        },
+        {
+          "rank": 26,
+          "name": "Farming Simulator 25",
+          "rank_diff": 4
+        },
+        {
+          "rank": 27,
+          "name": "World of Tanks",
+          "rank_diff": -7
+        },
+        {
+          "rank": 28,
+          "name": "Forza Horizon 6",
+          "rank_diff": 0
+        },
+        {
+          "rank": 29,
+          "name": "Grand Theft Auto V Enhanced",
+          "rank_diff": -11
+        },
+        {
+          "rank": 30,
+          "name": "Grand Theft Auto: San Andreas – The Definitive Edition",
+          "rank_diff": 0
+        }
+      ]
+    },
+    "tr": {
+      "name": "터키",
+      "crimson_desert_rank": 34,
+      "rank_diff": -3,
+      "rivals": [],
+      "all_ranks": [
+        {
+          "rank": 1,
+          "name": "Counter-Strike 2",
+          "rank_diff": 0
+        },
+        {
+          "rank": 2,
+          "name": "Football Manager 27",
+          "rank_diff": 0
+        },
+        {
+          "rank": 3,
+          "name": "AION 2",
+          "rank_diff": 0
+        },
+        {
+          "rank": 4,
+          "name": "EA SPORTS FC™ 27",
+          "rank_diff": 0
+        },
+        {
+          "rank": 5,
+          "name": "PUBG: BATTLEGROUNDS",
+          "rank_diff": 0
+        },
+        {
+          "rank": 6,
+          "name": "Phantom Blade Zero",
+          "rank_diff": 1
+        },
+        {
+          "rank": 7,
+          "name": "Call of Duty®: Modern Warfare® 4",
+          "rank_diff": -1
+        },
+        {
+          "rank": 8,
+          "name": "Dota 2",
+          "rank_diff": 0
+        },
+        {
+          "rank": 9,
+          "name": "Moon Sweepers",
+          "rank_diff": 0
+        },
+        {
+          "rank": 10,
+          "name": "Rust",
+          "rank_diff": 0
+        },
+        {
+          "rank": 11,
+          "name": "007 First Light",
+          "rank_diff": 2
+        },
+        {
+          "rank": 12,
+          "name": "Knight Online",
+          "rank_diff": 2
+        },
+        {
+          "rank": 13,
+          "name": "Euro Truck Simulator 2",
+          "rank_diff": 2
+        },
+        {
+          "rank": 14,
+          "name": "WARDOGS",
+          "rank_diff": 5
+        },
+        {
+          "rank": 15,
+          "name": "Call of Duty®",
+          "rank_diff": 0
+        },
+        {
+          "rank": 16,
+          "name": "Grand Theft Auto V Enhanced",
+          "rank_diff": -4
+        },
+        {
+          "rank": 17,
+          "name": "PAYDAY 3",
+          "rank_diff": 11
+        },
+        {
+          "rank": 18,
+          "name": "eFootball™",
+          "rank_diff": -7
+        },
+        {
+          "rank": 19,
+          "name": "NBA 2K27",
+          "rank_diff": 3
+        },
+        {
+          "rank": 20,
+          "name": "Dead by Daylight",
+          "rank_diff": 0
+        },
+        {
+          "rank": 21,
+          "name": "Dying Light 2 Stay Human: Reloaded Edition",
+          "rank_diff": 3
+        },
+        {
+          "rank": 22,
+          "name": "Apex Legends™",
+          "rank_diff": -5
+        },
+        {
+          "rank": 23,
+          "name": "Mount &amp; Blade II: Bannerlord",
+          "rank_diff": 2
+        },
+        {
+          "rank": 24,
+          "name": "ELDEN RING",
+          "rank_diff": 0
+        },
+        {
+          "rank": 25,
+          "name": "Black Desert",
+          "rank_diff": -7
+        },
+        {
+          "rank": 26,
+          "name": "Dying Light: The Beast",
+          "rank_diff": 0
+        },
+        {
+          "rank": 27,
+          "name": "Grand Theft Auto: San Andreas – The Definitive Edition",
+          "rank_diff": 0
+        },
+        {
+          "rank": 28,
+          "name": "Finals Week ✍🏻",
+          "rank_diff": -1
+        },
+        {
+          "rank": 29,
+          "name": "World of Warships",
+          "rank_diff": -8
+        },
+        {
+          "rank": 30,
+          "name": "CONTROL Resonant",
+          "rank_diff": 0
+        },
+        {
+          "rank": 31,
+          "name": "Farming Simulator 25",
+          "rank_diff": 0
+        },
+        {
+          "rank": 32,
+          "name": "Warframe",
+          "rank_diff": -9
+        },
+        {
+          "rank": 33,
+          "name": "Potato Please",
+          "rank_diff": 0
+        }
+      ]
+    },
+    "nl": {
+      "name": "네덜란드",
+      "crimson_desert_rank": 21,
+      "rank_diff": 2,
+      "rivals": [],
+      "all_ranks": [
+        {
+          "rank": 1,
+          "name": "Steam Frame",
+          "rank_diff": 0
+        },
+        {
+          "rank": 2,
+          "name": "Football Manager 27",
+          "rank_diff": 0
+        },
+        {
+          "rank": 3,
+          "name": "Call of Duty®: Modern Warfare® 4",
+          "rank_diff": 0
+        },
+        {
+          "rank": 4,
+          "name": "Counter-Strike 2",
+          "rank_diff": 0
+        },
+        {
+          "rank": 5,
+          "name": "Call of Duty®",
+          "rank_diff": 0
+        },
+        {
+          "rank": 6,
+          "name": "Anno 117: Pax Romana",
+          "rank_diff": 2
+        },
+        {
+          "rank": 7,
+          "name": "EA SPORTS FC™ 27",
+          "rank_diff": 0
+        },
+        {
+          "rank": 8,
+          "name": "Phantom Blade Zero",
+          "rank_diff": 3
+        },
+        {
+          "rank": 9,
+          "name": "FINAL FANTASY XIV Online",
+          "rank_diff": -4
+        },
+        {
+          "rank": 10,
+          "name": "Probably Stolen - Cyberpunk Shopkeeper Sim",
+          "rank_diff": 0
+        },
+        {
+          "rank": 11,
+          "name": "Rust",
+          "rank_diff": -2
+        },
+        {
+          "rank": 12,
+          "name": "Planet Zoo 2",
+          "rank_diff": 3
+        },
+        {
+          "rank": 13,
+          "name": "Moon Sweepers",
+          "rank_diff": 0
+        },
+        {
+          "rank": 14,
+          "name": "Horses of Hoofprint Bay",
+          "rank_diff": -2
+        },
+        {
+          "rank": 15,
+          "name": "FINAL FANTASY XIV: Evercold",
+          "rank_diff": -9
+        },
+        {
+          "rank": 16,
+          "name": "Yu-Gi-Oh! Master Duel",
+          "rank_diff": -2
+        },
+        {
+          "rank": 17,
+          "name": "Aniimo",
+          "rank_diff": 3
+        },
+        {
+          "rank": 18,
+          "name": "Loftia",
+          "rank_diff": -1
+        },
+        {
+          "rank": 19,
+          "name": "County of Fortune",
+          "rank_diff": 0
+        },
+        {
+          "rank": 20,
+          "name": "Age of Wonders 4",
+          "rank_diff": -1
+        }
+      ]
+    },
+    "se": {
+      "name": "스웨덴",
+      "crimson_desert_rank": 48,
+      "rank_diff": -17,
+      "rivals": [],
+      "all_ranks": [
+        {
+          "rank": 1,
+          "name": "Steam Frame",
+          "rank_diff": 0
+        },
+        {
+          "rank": 2,
+          "name": "Counter-Strike 2",
+          "rank_diff": 0
+        },
+        {
+          "rank": 3,
+          "name": "Football Manager 27",
+          "rank_diff": 0
+        },
+        {
+          "rank": 4,
+          "name": "Call of Duty®: Modern Warfare® 4",
+          "rank_diff": 0
+        },
+        {
+          "rank": 5,
+          "name": "EA SPORTS FC™ 27",
+          "rank_diff": 0
+        },
+        {
+          "rank": 6,
+          "name": "AION 2",
+          "rank_diff": 2
+        },
+        {
+          "rank": 7,
+          "name": "Rust",
+          "rank_diff": 0
+        },
+        {
+          "rank": 8,
+          "name": "Call of Duty®",
+          "rank_diff": 0
+        },
+        {
+          "rank": 9,
+          "name": "Underkeep",
+          "rank_diff": 6
+        },
+        {
+          "rank": 10,
+          "name": "PUBG: BATTLEGROUNDS",
+          "rank_diff": -4
+        },
+        {
+          "rank": 11,
+          "name": "Queen's Domain",
+          "rank_diff": -1
+        },
+        {
+          "rank": 12,
+          "name": "Probably Stolen - Cyberpunk Shopkeeper Sim",
+          "rank_diff": 1
+        },
+        {
+          "rank": 13,
+          "name": "Warframe",
+          "rank_diff": 7
+        },
+        {
+          "rank": 14,
+          "name": "Age of Wonders 4",
+          "rank_diff": 0
+        },
+        {
+          "rank": 15,
+          "name": "Horses of Hoofprint Bay",
+          "rank_diff": -4
+        },
+        {
+          "rank": 16,
+          "name": "Anno 117: Pax Romana",
+          "rank_diff": 6
+        },
+        {
+          "rank": 17,
+          "name": "Phantom Blade Zero",
+          "rank_diff": 7
+        },
+        {
+          "rank": 18,
+          "name": "FINAL FANTASY XIV Online",
+          "rank_diff": -9
+        },
+        {
+          "rank": 19,
+          "name": "Apex Legends™",
+          "rank_diff": -3
+        },
+        {
+          "rank": 20,
+          "name": "Moon Sweepers",
+          "rank_diff": -2
+        },
+        {
+          "rank": 21,
+          "name": "Call of Duty®: Warzone™",
+          "rank_diff": 0
+        },
+        {
+          "rank": 22,
+          "name": "PAYDAY 3",
+          "rank_diff": 8
+        },
+        {
+          "rank": 23,
+          "name": "Dota 2",
+          "rank_diff": -6
+        },
+        {
+          "rank": 24,
+          "name": "Potato Please",
+          "rank_diff": -1
+        },
+        {
+          "rank": 25,
+          "name": "FINAL FANTASY XIV: Evercold",
+          "rank_diff": -13
+        },
+        {
+          "rank": 26,
+          "name": "War Thunder",
+          "rank_diff": 0
+        },
+        {
+          "rank": 27,
+          "name": "Victoria 3",
+          "rank_diff": -6
+        },
+        {
+          "rank": 28,
+          "name": "Dead by Daylight",
+          "rank_diff": 0
+        },
+        {
+          "rank": 29,
+          "name": "Yu-Gi-Oh! Master Duel",
+          "rank_diff": -10
+        },
+        {
+          "rank": 30,
+          "name": "CONTROL Resonant",
+          "rank_diff": 0
+        },
+        {
+          "rank": 31,
+          "name": "Wielders of the Essence",
+          "rank_diff": 0
+        },
+        {
+          "rank": 32,
+          "name": "County of Fortune",
+          "rank_diff": 0
+        },
+        {
+          "rank": 33,
+          "name": "Enshrouded",
+          "rank_diff": 0
+        },
+        {
+          "rank": 34,
+          "name": "Planet Zoo 2",
+          "rank_diff": 0
+        },
+        {
+          "rank": 35,
+          "name": "Borderlands 4",
+          "rank_diff": 0
+        },
+        {
+          "rank": 36,
+          "name": "Company of Heroes 3",
+          "rank_diff": 0
+        },
+        {
+          "rank": 37,
+          "name": "Cozy Game Restoration",
+          "rank_diff": -12
+        },
+        {
+          "rank": 38,
+          "name": "Tom Clancy's Rainbow Six Siege",
+          "rank_diff": 0
+        },
+        {
+          "rank": 39,
+          "name": "Farming Simulator 25",
+          "rank_diff": 0
+        },
+        {
+          "rank": 40,
+          "name": "WARDOGS",
+          "rank_diff": -13
+        },
+        {
+          "rank": 41,
+          "name": "007 First Light",
+          "rank_diff": 0
+        },
+        {
+          "rank": 42,
+          "name": "Escape Academy 2: Back 2 School",
+          "rank_diff": 0
+        },
+        {
+          "rank": 43,
+          "name": "Victoria 3: State and Revolution - Immersion Pack",
+          "rank_diff": 0
+        },
+        {
+          "rank": 44,
+          "name": "Age of Empires IV: Anniversary Edition",
+          "rank_diff": 0
+        },
+        {
+          "rank": 45,
+          "name": "Path of Exile 2",
+          "rank_diff": 0
+        },
+        {
+          "rank": 46,
+          "name": "Dressmaker",
+          "rank_diff": 0
+        },
+        {
+          "rank": 47,
+          "name": "THE FINALS",
+          "rank_diff": 0
+        }
+      ]
+    },
+    "no": {
+      "name": "노르웨이",
+      "crimson_desert_rank": 17,
+      "rank_diff": 9,
+      "rivals": [],
+      "all_ranks": [
+        {
+          "rank": 1,
+          "name": "Counter-Strike 2",
+          "rank_diff": 0
+        },
+        {
+          "rank": 2,
+          "name": "Football Manager 27",
+          "rank_diff": 0
+        },
+        {
+          "rank": 3,
+          "name": "EA SPORTS FC™ 27",
+          "rank_diff": 0
+        },
+        {
+          "rank": 4,
+          "name": "Call of Duty®: Modern Warfare® 4",
+          "rank_diff": 3
+        },
+        {
+          "rank": 5,
+          "name": "AION 2",
+          "rank_diff": -1
+        },
+        {
+          "rank": 6,
+          "name": "Rust",
+          "rank_diff": 0
+        },
+        {
+          "rank": 7,
+          "name": "FINAL FANTASY XIV Online",
+          "rank_diff": -2
+        },
+        {
+          "rank": 8,
+          "name": "Moon Sweepers",
+          "rank_diff": 2
+        },
+        {
+          "rank": 9,
+          "name": "Call of Duty®",
+          "rank_diff": 0
+        },
+        {
+          "rank": 10,
+          "name": "PUBG: BATTLEGROUNDS",
+          "rank_diff": -1
+        },
+        {
+          "rank": 11,
+          "name": "FINAL FANTASY XIV: Evercold",
+          "rank_diff": -3
+        },
+        {
+          "rank": 12,
+          "name": "Underkeep",
+          "rank_diff": 10
+        },
+        {
+          "rank": 13,
+          "name": "Phantom Blade Zero",
+          "rank_diff": -2
+        },
+        {
+          "rank": 14,
+          "name": "Anno 117: Pax Romana",
+          "rank_diff": 4
+        },
+        {
+          "rank": 15,
+          "name": "Probably Stolen - Cyberpunk Shopkeeper Sim",
+          "rank_diff": -2
+        },
+        {
+          "rank": 16,
+          "name": "Potato Please",
+          "rank_diff": 1
+        }
+      ]
+    },
+    "dk": {
+      "name": "덴마크",
+      "crimson_desert_rank": 55,
+      "rank_diff": -19,
+      "rivals": [
+        {
+          "app_id": "1272080",
+          "name": "PAYDAY 3",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 70,
+          "rank": 22,
+          "rank_diff": 0
+        },
+        {
+          "app_id": "578080",
+          "name": "PUBG: BATTLEGROUNDS",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 23,
+          "rank_diff": 3
+        },
+        {
+          "app_id": "1677110",
+          "name": "Lightyear Frontier",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 20,
+          "rank": 25,
+          "rank_diff": -1
+        },
+        {
+          "app_id": "3669870",
+          "name": "CONTROL Resonant",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 20,
+          "rank": 26,
+          "rank_diff": 6
+        },
+        {
+          "app_id": "570",
+          "name": "Dota 2",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 27,
+          "rank_diff": 4
+        },
+        {
+          "app_id": "236390",
+          "name": "War Thunder",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 30,
+          "rank_diff": -7
+        },
+        {
+          "app_id": "2948190",
+          "name": "World of Sea Battle",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 31,
+          "rank_diff": 0
+        },
+        {
+          "app_id": "3296060",
+          "name": "Escape Academy 2: Back 2 School",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 15,
+          "rank": 33,
+          "rank_diff": 0
+        },
+        {
+          "app_id": "3204330",
+          "name": "County of Fortune",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 10,
+          "rank": 35,
+          "rank_diff": 0
+        },
+        {
+          "app_id": "2139460",
+          "name": "Once Human",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 36,
+          "rank_diff": -18
+        },
+        {
+          "app_id": "4126040",
+          "name": "Aniimo",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 39,
+          "rank_diff": 0
+        },
+        {
+          "app_id": "2221490",
+          "name": "Tom Clancy’s The Division® 2",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 75,
+          "rank": 41,
+          "rank_diff": 0
+        },
+        {
+          "app_id": "1677280",
+          "name": "Company of Heroes 3",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 67,
+          "rank": 42,
+          "rank_diff": 0
+        },
+        {
+          "app_id": "3768760",
+          "name": "007 First Light",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 40,
+          "rank": 47,
+          "rank_diff": 0
+        },
+        {
+          "app_id": "4732690",
+          "name": "Arknights: Endfield",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 49,
+          "rank_diff": 0
+        },
+        {
+          "app_id": "2357570",
+          "name": "Overwatch®",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 50,
+          "rank_diff": 0
+        },
+        {
+          "app_id": "1799840",
+          "name": "Queen's Domain",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 15,
+          "rank": 51,
+          "rank_diff": -16
+        },
+        {
+          "app_id": "216150",
+          "name": "MapleStory",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 52,
+          "rank_diff": 0
+        },
+        {
+          "app_id": "2399830",
+          "name": "ARK: Survival Ascended",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 75,
+          "rank": 53,
+          "rank_diff": 0
+        },
+        {
+          "app_id": "3546610",
+          "name": "Wielders of the Essence",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 10,
+          "rank": 54,
+          "rank_diff": 0
+        }
+      ],
+      "all_ranks": [
+        {
+          "rank": 1,
+          "name": "Counter-Strike 2",
+          "rank_diff": 1
+        },
+        {
+          "rank": 2,
+          "name": "Steam Frame",
+          "rank_diff": -1
+        },
+        {
+          "rank": 3,
+          "name": "Football Manager 27",
+          "rank_diff": 0
+        },
+        {
+          "rank": 4,
+          "name": "EA SPORTS FC™ 27",
+          "rank_diff": 0
+        },
+        {
+          "rank": 5,
+          "name": "Call of Duty®: Modern Warfare® 4",
+          "rank_diff": 0
+        },
+        {
+          "rank": 6,
+          "name": "Moon Sweepers",
+          "rank_diff": 0
+        },
+        {
+          "rank": 7,
+          "name": "Rust",
+          "rank_diff": 1
+        },
+        {
+          "rank": 8,
+          "name": "Call of Duty®",
+          "rank_diff": 26
+        },
+        {
+          "rank": 9,
+          "name": "Anno 117: Pax Romana",
+          "rank_diff": 2
+        },
+        {
+          "rank": 10,
+          "name": "Underkeep",
+          "rank_diff": 6
+        },
+        {
+          "rank": 11,
+          "name": "AION 2",
+          "rank_diff": -4
+        },
+        {
+          "rank": 12,
+          "name": "Call of Duty®: Warzone™",
+          "rank_diff": 0
+        },
+        {
+          "rank": 13,
+          "name": "Horses of Hoofprint Bay",
+          "rank_diff": 6
+        },
+        {
+          "rank": 14,
+          "name": "Warframe",
+          "rank_diff": 11
+        },
+        {
+          "rank": 15,
+          "name": "Yu-Gi-Oh! Master Duel",
+          "rank_diff": -5
+        },
+        {
+          "rank": 16,
+          "name": "WARDOGS",
+          "rank_diff": 17
+        },
+        {
+          "rank": 17,
+          "name": "Age of Wonders 4",
+          "rank_diff": -4
+        },
+        {
+          "rank": 18,
+          "name": "Potato Please",
+          "rank_diff": -3
+        },
+        {
+          "rank": 19,
+          "name": "Planet Zoo 2",
+          "rank_diff": -7
+        },
+        {
+          "rank": 20,
+          "name": "Probably Stolen - Cyberpunk Shopkeeper Sim",
+          "rank_diff": -6
+        },
+        {
+          "rank": 21,
+          "name": "Apex Legends™",
+          "rank_diff": -1
+        },
+        {
+          "rank": 22,
+          "name": "PAYDAY 3",
+          "rank_diff": 0
+        },
+        {
+          "rank": 23,
+          "name": "PUBG: BATTLEGROUNDS",
+          "rank_diff": 3
+        },
+        {
+          "rank": 24,
+          "name": "Phantom Blade Zero",
+          "rank_diff": -3
+        },
+        {
+          "rank": 25,
+          "name": "Lightyear Frontier",
+          "rank_diff": -1
+        },
+        {
+          "rank": 26,
+          "name": "CONTROL Resonant",
+          "rank_diff": 6
+        },
+        {
+          "rank": 27,
+          "name": "Dota 2",
+          "rank_diff": 4
+        },
+        {
+          "rank": 28,
+          "name": "Dead by Daylight",
+          "rank_diff": -6
+        },
+        {
+          "rank": 29,
+          "name": "Euro Truck Simulator 2",
+          "rank_diff": 0
+        },
+        {
+          "rank": 30,
+          "name": "War Thunder",
+          "rank_diff": -7
+        },
+        {
+          "rank": 31,
+          "name": "World of Sea Battle",
+          "rank_diff": 0
+        },
+        {
+          "rank": 32,
+          "name": "Farming Simulator 25",
+          "rank_diff": 0
+        },
+        {
+          "rank": 33,
+          "name": "Escape Academy 2: Back 2 School",
+          "rank_diff": 0
+        },
+        {
+          "rank": 34,
+          "name": "Cyberpunk 2077",
+          "rank_diff": -7
+        },
+        {
+          "rank": 35,
+          "name": "County of Fortune",
+          "rank_diff": 0
+        },
+        {
+          "rank": 36,
+          "name": "Once Human",
+          "rank_diff": -18
+        },
+        {
+          "rank": 37,
+          "name": "Victoria 3",
+          "rank_diff": -7
+        },
+        {
+          "rank": 38,
+          "name": "FINAL FANTASY XIV Online",
+          "rank_diff": -29
+        },
+        {
+          "rank": 39,
+          "name": "Aniimo",
+          "rank_diff": 0
+        },
+        {
+          "rank": 40,
+          "name": "Call of Duty®: Modern Warfare® 4 - BlackCell (Season 1)",
+          "rank_diff": 0
+        },
+        {
+          "rank": 41,
+          "name": "Tom Clancy’s The Division® 2",
+          "rank_diff": 0
+        },
+        {
+          "rank": 42,
+          "name": "Company of Heroes 3",
+          "rank_diff": 0
+        },
+        {
+          "rank": 43,
+          "name": "ArcheAge Chronicles",
+          "rank_diff": 0
+        },
+        {
+          "rank": 44,
+          "name": "Cozy Game Restoration",
+          "rank_diff": -15
+        },
+        {
+          "rank": 45,
+          "name": "Battlefield™ 6",
+          "rank_diff": 0
+        },
+        {
+          "rank": 46,
+          "name": "Hearts of Iron IV",
+          "rank_diff": 0
+        },
+        {
+          "rank": 47,
+          "name": "007 First Light",
+          "rank_diff": 0
+        },
+        {
+          "rank": 48,
+          "name": "Enshrouded",
+          "rank_diff": 0
+        },
+        {
+          "rank": 49,
+          "name": "Arknights: Endfield",
+          "rank_diff": 0
+        },
+        {
+          "rank": 50,
+          "name": "Overwatch®",
+          "rank_diff": 0
+        },
+        {
+          "rank": 51,
+          "name": "Queen's Domain",
+          "rank_diff": -16
+        },
+        {
+          "rank": 52,
+          "name": "MapleStory",
+          "rank_diff": 0
+        },
+        {
+          "rank": 53,
+          "name": "ARK: Survival Ascended",
+          "rank_diff": 0
+        },
+        {
+          "rank": 54,
+          "name": "Wielders of the Essence",
+          "rank_diff": 0
+        }
+      ]
+    },
+    "fi": {
+      "name": "핀란드",
+      "crimson_desert_rank": 17,
+      "rank_diff": 11,
+      "rivals": [
+        {
+          "app_id": "730",
+          "name": "Counter-Strike 2",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 2,
+          "rank_diff": 0
+        },
+        {
+          "app_id": "3393110",
+          "name": "AION 2",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 4,
+          "rank_diff": 2
+        },
+        {
+          "app_id": "578080",
+          "name": "PUBG: BATTLEGROUNDS",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 5,
+          "rank_diff": 4
+        },
+        {
+          "app_id": "1799840",
+          "name": "Queen's Domain",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 15,
+          "rank": 6,
+          "rank_diff": 1
+        },
+        {
+          "app_id": "252490",
+          "name": "Rust",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 50,
+          "rank": 9,
+          "rank_diff": -1
+        },
+        {
+          "app_id": "2411200",
+          "name": "Underkeep",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 15,
+          "rank": 10,
+          "rank_diff": 3
+        },
+        {
+          "app_id": "4348910",
+          "name": "Probably Stolen - Cyberpunk Shopkeeper Sim",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 10,
+          "rank": 11,
+          "rank_diff": 1
+        },
+        {
+          "app_id": "4530370",
+          "name": "Football Manager 27",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 10,
+          "rank": 13,
+          "rank_diff": -2
+        },
+        {
+          "app_id": "3669870",
+          "name": "CONTROL Resonant",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 20,
+          "rank": 14,
+          "rank_diff": -4
+        },
+        {
+          "app_id": "230410",
+          "name": "Warframe",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 16,
+          "rank_diff": 0
+        }
+      ],
+      "all_ranks": [
+        {
+          "rank": 1,
+          "name": "Steam Frame",
+          "rank_diff": 0
+        },
+        {
+          "rank": 2,
+          "name": "Counter-Strike 2",
+          "rank_diff": 0
+        },
+        {
+          "rank": 3,
+          "name": "Call of Duty®: Modern Warfare® 4",
+          "rank_diff": 2
+        },
+        {
+          "rank": 4,
+          "name": "AION 2",
+          "rank_diff": 2
+        },
+        {
+          "rank": 5,
+          "name": "PUBG: BATTLEGROUNDS",
+          "rank_diff": 4
+        },
+        {
+          "rank": 6,
+          "name": "Queen's Domain",
+          "rank_diff": 1
+        },
+        {
+          "rank": 7,
+          "name": "FINAL FANTASY XIV Online",
+          "rank_diff": -4
+        },
+        {
+          "rank": 8,
+          "name": "Call of Duty®",
+          "rank_diff": 0
+        },
+        {
+          "rank": 9,
+          "name": "Rust",
+          "rank_diff": -1
+        },
+        {
+          "rank": 10,
+          "name": "Underkeep",
+          "rank_diff": 3
+        },
+        {
+          "rank": 11,
+          "name": "Probably Stolen - Cyberpunk Shopkeeper Sim",
+          "rank_diff": 1
+        },
+        {
+          "rank": 12,
+          "name": "FINAL FANTASY XIV: Evercold",
+          "rank_diff": -8
+        },
+        {
+          "rank": 13,
+          "name": "Football Manager 27",
+          "rank_diff": -2
+        },
+        {
+          "rank": 14,
+          "name": "CONTROL Resonant",
+          "rank_diff": -4
+        },
+        {
+          "rank": 15,
+          "name": "Phantom Blade Zero",
+          "rank_diff": -1
+        },
+        {
+          "rank": 16,
+          "name": "Warframe",
+          "rank_diff": 0
+        }
+      ]
+    },
+    "at": {
+      "name": "오스트리아",
+      "crimson_desert_rank": 18,
+      "rank_diff": 15,
+      "rivals": [
+        {
+          "app_id": "730",
+          "name": "Counter-Strike 2",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 2,
+          "rank_diff": 1
+        },
+        {
+          "app_id": "3393110",
+          "name": "AION 2",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 3,
+          "rank_diff": -1
+        },
+        {
+          "app_id": "3274580",
+          "name": "Anno 117: Pax Romana",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 40,
+          "rank": 4,
+          "rank_diff": 0
+        },
+        {
+          "app_id": "4530370",
+          "name": "Football Manager 27",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 10,
+          "rank": 6,
+          "rank_diff": 2
+        },
+        {
+          "app_id": "2411200",
+          "name": "Underkeep",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 15,
+          "rank": 9,
+          "rank_diff": 3
+        },
+        {
+          "app_id": "1172470",
+          "name": "Apex Legends™",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 14,
+          "rank_diff": -1
+        },
+        {
+          "app_id": "4348910",
+          "name": "Probably Stolen - Cyberpunk Shopkeeper Sim",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 10,
+          "rank": 15,
+          "rank_diff": 6
+        },
+        {
+          "app_id": "236390",
+          "name": "War Thunder",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 16,
+          "rank_diff": -1
+        },
+        {
+          "app_id": "252490",
+          "name": "Rust",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 50,
+          "rank": 17,
+          "rank_diff": -1
+        }
+      ],
+      "all_ranks": [
+        {
+          "rank": 1,
+          "name": "Steam Frame",
+          "rank_diff": 0
+        },
+        {
+          "rank": 2,
+          "name": "Counter-Strike 2",
+          "rank_diff": 1
+        },
+        {
+          "rank": 3,
+          "name": "AION 2",
+          "rank_diff": -1
+        },
+        {
+          "rank": 4,
+          "name": "Anno 117: Pax Romana",
+          "rank_diff": 0
+        },
+        {
+          "rank": 5,
+          "name": "Call of Duty®: Modern Warfare® 4",
+          "rank_diff": 0
+        },
+        {
+          "rank": 6,
+          "name": "Football Manager 27",
+          "rank_diff": 2
+        },
+        {
+          "rank": 7,
+          "name": "EA SPORTS FC™ 27",
+          "rank_diff": -1
+        },
+        {
+          "rank": 8,
+          "name": "FINAL FANTASY XIV Online",
+          "rank_diff": -1
+        },
+        {
+          "rank": 9,
+          "name": "Underkeep",
+          "rank_diff": 3
+        },
+        {
+          "rank": 10,
+          "name": "Moon Sweepers",
+          "rank_diff": 1
+        },
+        {
+          "rank": 11,
+          "name": "FINAL FANTASY XIV: Evercold",
+          "rank_diff": -1
+        },
+        {
+          "rank": 12,
+          "name": "Call of Duty®",
+          "rank_diff": 0
+        },
+        {
+          "rank": 13,
+          "name": "Phantom Blade Zero",
+          "rank_diff": -4
+        },
+        {
+          "rank": 14,
+          "name": "Apex Legends™",
+          "rank_diff": -1
+        },
+        {
+          "rank": 15,
+          "name": "Probably Stolen - Cyberpunk Shopkeeper Sim",
+          "rank_diff": 6
+        },
+        {
+          "rank": 16,
+          "name": "War Thunder",
+          "rank_diff": -1
+        },
+        {
+          "rank": 17,
+          "name": "Rust",
+          "rank_diff": -1
+        }
+      ]
+    },
+    "ch": {
+      "name": "스위스",
+      "crimson_desert_rank": 28,
+      "rank_diff": 1,
+      "rivals": [
+        {
+          "app_id": "3393110",
+          "name": "AION 2",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 1,
+          "rank_diff": 0
+        },
+        {
+          "app_id": "730",
+          "name": "Counter-Strike 2",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 2,
+          "rank_diff": 1
+        },
+        {
+          "app_id": "4530370",
+          "name": "Football Manager 27",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 10,
+          "rank": 4,
+          "rank_diff": 0
+        },
+        {
+          "app_id": "3274580",
+          "name": "Anno 117: Pax Romana",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 40,
+          "rank": 5,
+          "rank_diff": 1
+        },
+        {
+          "app_id": "5266240",
+          "name": "Potato Please",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 10,
+          "rank": 11,
+          "rank_diff": 12
+        },
+        {
+          "app_id": "252490",
+          "name": "Rust",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 50,
+          "rank": 12,
+          "rank_diff": 2
+        },
+        {
+          "app_id": "1449850",
+          "name": "Yu-Gi-Oh! Master Duel",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 13,
+          "rank_diff": 7
+        },
+        {
+          "app_id": "2411200",
+          "name": "Underkeep",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 15,
+          "rank": 14,
+          "rank_diff": 7
+        },
+        {
+          "app_id": "4126040",
+          "name": "Aniimo",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 15,
+          "rank_diff": 11
+        },
+        {
+          "app_id": "1962663",
+          "name": "Call of Duty®: Warzone™",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 16,
+          "rank_diff": 0
+        },
+        {
+          "app_id": "1599340",
+          "name": "Lost Ark",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 17,
+          "rank_diff": 0
+        },
+        {
+          "app_id": "1172470",
+          "name": "Apex Legends™",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 18,
+          "rank_diff": -7
+        },
+        {
+          "app_id": "3204330",
+          "name": "County of Fortune",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 10,
+          "rank": 19,
+          "rank_diff": 5
+        },
+        {
+          "app_id": "578080",
+          "name": "PUBG: BATTLEGROUNDS",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 21,
+          "rank_diff": 0
+        },
+        {
+          "app_id": "1669000",
+          "name": "Age of Wonders 4",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 60,
+          "rank": 23,
+          "rank_diff": 0
+        },
+        {
+          "app_id": "4348910",
+          "name": "Probably Stolen - Cyberpunk Shopkeeper Sim",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 10,
+          "rank": 27,
+          "rank_diff": -5
+        }
+      ],
+      "all_ranks": [
+        {
+          "rank": 1,
+          "name": "AION 2",
+          "rank_diff": 0
+        },
+        {
+          "rank": 2,
+          "name": "Counter-Strike 2",
+          "rank_diff": 1
+        },
+        {
+          "rank": 3,
+          "name": "Call of Duty®: Modern Warfare® 4",
+          "rank_diff": -1
+        },
+        {
+          "rank": 4,
+          "name": "Football Manager 27",
+          "rank_diff": 0
+        },
+        {
+          "rank": 5,
+          "name": "Anno 117: Pax Romana",
+          "rank_diff": 1
+        },
+        {
+          "rank": 6,
+          "name": "EA SPORTS FC™ 27",
+          "rank_diff": -1
+        },
+        {
+          "rank": 7,
+          "name": "Phantom Blade Zero",
+          "rank_diff": 3
+        },
+        {
+          "rank": 8,
+          "name": "Moon Sweepers",
+          "rank_diff": 0
+        },
+        {
+          "rank": 9,
+          "name": "Call of Duty®",
+          "rank_diff": 0
+        },
+        {
+          "rank": 10,
+          "name": "Forza Horizon 6",
+          "rank_diff": 0
+        },
+        {
+          "rank": 11,
+          "name": "Potato Please",
+          "rank_diff": 12
+        },
+        {
+          "rank": 12,
+          "name": "Rust",
+          "rank_diff": 2
+        },
+        {
+          "rank": 13,
+          "name": "Yu-Gi-Oh! Master Duel",
+          "rank_diff": 7
+        },
+        {
+          "rank": 14,
+          "name": "Underkeep",
+          "rank_diff": 7
+        },
+        {
+          "rank": 15,
+          "name": "Aniimo",
+          "rank_diff": 11
+        },
+        {
+          "rank": 16,
+          "name": "Call of Duty®: Warzone™",
+          "rank_diff": 0
+        },
+        {
+          "rank": 17,
+          "name": "Lost Ark",
+          "rank_diff": 0
+        },
+        {
+          "rank": 18,
+          "name": "Apex Legends™",
+          "rank_diff": -7
+        },
+        {
+          "rank": 19,
+          "name": "County of Fortune",
+          "rank_diff": 5
+        },
+        {
+          "rank": 20,
+          "name": "Transport Fever 3",
+          "rank_diff": 0
+        },
+        {
+          "rank": 21,
+          "name": "PUBG: BATTLEGROUNDS",
+          "rank_diff": 0
+        },
+        {
+          "rank": 22,
+          "name": "Dead by Daylight",
+          "rank_diff": -6
+        },
+        {
+          "rank": 23,
+          "name": "Age of Wonders 4",
+          "rank_diff": 0
+        },
+        {
+          "rank": 24,
+          "name": "Age of Empires IV: Anniversary Edition",
+          "rank_diff": 0
+        },
+        {
+          "rank": 25,
+          "name": "Microsoft Flight Simulator 2024",
+          "rank_diff": 0
+        },
+        {
+          "rank": 26,
+          "name": "Black Desert",
+          "rank_diff": 0
+        },
+        {
+          "rank": 27,
+          "name": "Probably Stolen - Cyberpunk Shopkeeper Sim",
+          "rank_diff": -5
+        }
+      ]
+    },
+    "cz": {
+      "name": "체코",
+      "crimson_desert_rank": 28,
+      "rank_diff": 24,
+      "rivals": [
+        {
+          "app_id": "2411200",
+          "name": "Underkeep",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 15,
+          "rank": 1,
+          "rank_diff": 2
+        },
+        {
+          "app_id": "730",
+          "name": "Counter-Strike 2",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 3,
+          "rank_diff": -1
+        },
+        {
+          "app_id": "252490",
+          "name": "Rust",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 50,
+          "rank": 4,
+          "rank_diff": 0
+        },
+        {
+          "app_id": "5266240",
+          "name": "Potato Please",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 10,
+          "rank": 6,
+          "rank_diff": 0
+        },
+        {
+          "app_id": "3393110",
+          "name": "AION 2",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 7,
+          "rank_diff": 1
+        },
+        {
+          "app_id": "570",
+          "name": "Dota 2",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 8,
+          "rank_diff": -1
+        },
+        {
+          "app_id": "4530370",
+          "name": "Football Manager 27",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 10,
+          "rank": 9,
+          "rank_diff": 1
+        },
+        {
+          "app_id": "3204330",
+          "name": "County of Fortune",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 10,
+          "rank": 13,
+          "rank_diff": 10
+        },
+        {
+          "app_id": "3274580",
+          "name": "Anno 117: Pax Romana",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 40,
+          "rank": 14,
+          "rank_diff": 5
+        },
+        {
+          "app_id": "578080",
+          "name": "PUBG: BATTLEGROUNDS",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 16,
+          "rank_diff": -2
+        },
+        {
+          "app_id": "4348910",
+          "name": "Probably Stolen - Cyberpunk Shopkeeper Sim",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 10,
+          "rank": 17,
+          "rank_diff": 8
+        },
+        {
+          "app_id": "1669000",
+          "name": "Age of Wonders 4",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 60,
+          "rank": 18,
+          "rank_diff": 11
+        },
+        {
+          "app_id": "3727090",
+          "name": "Horses of Hoofprint Bay",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 15,
+          "rank": 19,
+          "rank_diff": -6
+        },
+        {
+          "app_id": "1172470",
+          "name": "Apex Legends™",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 20,
+          "rank_diff": 12
+        },
+        {
+          "app_id": "1962663",
+          "name": "Call of Duty®: Warzone™",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 21,
+          "rank_diff": 0
+        },
+        {
+          "app_id": "3751950",
+          "name": "Assassin's Creed Black Flag Resynced",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 25,
+          "rank": 22,
+          "rank_diff": 21
+        },
+        {
+          "app_id": "1677110",
+          "name": "Lightyear Frontier",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 20,
+          "rank": 23,
+          "rank_diff": 3
+        },
+        {
+          "app_id": "236390",
+          "name": "War Thunder",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 24,
+          "rank_diff": -9
+        },
+        {
+          "app_id": "230410",
+          "name": "Warframe",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 27,
+          "rank_diff": 6
+        }
+      ],
+      "all_ranks": [
+        {
+          "rank": 1,
+          "name": "Underkeep",
+          "rank_diff": 2
+        },
+        {
+          "rank": 2,
+          "name": "Steam Frame",
+          "rank_diff": -1
+        },
+        {
+          "rank": 3,
+          "name": "Counter-Strike 2",
+          "rank_diff": -1
+        },
+        {
+          "rank": 4,
+          "name": "Rust",
+          "rank_diff": 0
+        },
+        {
+          "rank": 5,
+          "name": "Call of Duty®: Modern Warfare® 4",
+          "rank_diff": 0
+        },
+        {
+          "rank": 6,
+          "name": "Potato Please",
+          "rank_diff": 0
+        },
+        {
+          "rank": 7,
+          "name": "AION 2",
+          "rank_diff": 1
+        },
+        {
+          "rank": 8,
+          "name": "Dota 2",
+          "rank_diff": -1
+        },
+        {
+          "rank": 9,
+          "name": "Football Manager 27",
+          "rank_diff": 1
+        },
+        {
+          "rank": 10,
+          "name": "Moon Sweepers",
+          "rank_diff": -1
+        },
+        {
+          "rank": 11,
+          "name": "Call of Duty®",
+          "rank_diff": 0
+        },
+        {
+          "rank": 12,
+          "name": "Phantom Blade Zero",
+          "rank_diff": -1
+        },
+        {
+          "rank": 13,
+          "name": "County of Fortune",
+          "rank_diff": 10
+        },
+        {
+          "rank": 14,
+          "name": "Anno 117: Pax Romana",
+          "rank_diff": 5
+        },
+        {
+          "rank": 15,
+          "name": "EA SPORTS FC™ 27",
+          "rank_diff": -3
+        },
+        {
+          "rank": 16,
+          "name": "PUBG: BATTLEGROUNDS",
+          "rank_diff": -2
+        },
+        {
+          "rank": 17,
+          "name": "Probably Stolen - Cyberpunk Shopkeeper Sim",
+          "rank_diff": 8
+        },
+        {
+          "rank": 18,
+          "name": "Age of Wonders 4",
+          "rank_diff": 11
+        },
+        {
+          "rank": 19,
+          "name": "Horses of Hoofprint Bay",
+          "rank_diff": -6
+        },
+        {
+          "rank": 20,
+          "name": "Apex Legends™",
+          "rank_diff": 12
+        },
+        {
+          "rank": 21,
+          "name": "Call of Duty®: Warzone™",
+          "rank_diff": 0
+        },
+        {
+          "rank": 22,
+          "name": "Assassin's Creed Black Flag Resynced",
+          "rank_diff": 21
+        },
+        {
+          "rank": 23,
+          "name": "Lightyear Frontier",
+          "rank_diff": 3
+        },
+        {
+          "rank": 24,
+          "name": "War Thunder",
+          "rank_diff": -9
+        },
+        {
+          "rank": 25,
+          "name": "Arma Reforger",
+          "rank_diff": -8
+        },
+        {
+          "rank": 26,
+          "name": "Arma Reforger - Rally",
+          "rank_diff": -6
+        },
+        {
+          "rank": 27,
+          "name": "Warframe",
+          "rank_diff": 6
+        }
+      ]
+    },
+    "sg": {
+      "name": "싱가포르",
+      "crimson_desert_rank": 33,
+      "rank_diff": -8,
+      "rivals": [
+        {
+          "app_id": "3393110",
+          "name": "AION 2",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 1,
+          "rank_diff": 0
+        },
+        {
+          "app_id": "4530370",
+          "name": "Football Manager 27",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 10,
+          "rank": 4,
+          "rank_diff": -2
+        },
+        {
+          "app_id": "570",
+          "name": "Dota 2",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 5,
+          "rank_diff": -1
+        },
+        {
+          "app_id": "578080",
+          "name": "PUBG: BATTLEGROUNDS",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 7,
+          "rank_diff": -2
+        },
+        {
+          "app_id": "730",
+          "name": "Counter-Strike 2",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 8,
+          "rank_diff": 0
+        },
+        {
+          "app_id": "1172470",
+          "name": "Apex Legends™",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 10,
+          "rank_diff": 6
+        },
+        {
+          "app_id": "1203220",
+          "name": "NARAKA: BLADEPOINT",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 11,
+          "rank_diff": -4
+        },
+        {
+          "app_id": "4348910",
+          "name": "Probably Stolen - Cyberpunk Shopkeeper Sim",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 10,
+          "rank": 13,
+          "rank_diff": 0
+        },
+        {
+          "app_id": "1449850",
+          "name": "Yu-Gi-Oh! Master Duel",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 15,
+          "rank_diff": -9
+        },
+        {
+          "app_id": "4126040",
+          "name": "Aniimo",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 16,
+          "rank_diff": 3
+        },
+        {
+          "app_id": "2320980",
+          "name": "Loftia",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 17,
+          "rank": 19,
+          "rank_diff": -5
+        },
+        {
+          "app_id": "4356430",
+          "name": "NBA 2K27",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 55,
+          "rank": 20,
+          "rank_diff": 0
+        },
+        {
+          "app_id": "230410",
+          "name": "Warframe",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 21,
+          "rank_diff": 0
+        },
+        {
+          "app_id": "2767030",
+          "name": "Marvel Rivals",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 22,
+          "rank_diff": 0
+        },
+        {
+          "app_id": "1272080",
+          "name": "PAYDAY 3",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 70,
+          "rank": 23,
+          "rank_diff": 0
+        },
+        {
+          "app_id": "1962663",
+          "name": "Call of Duty®: Warzone™",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 25,
+          "rank_diff": 0
+        },
+        {
+          "app_id": "3768760",
+          "name": "007 First Light",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 40,
+          "rank": 26,
+          "rank_diff": -3
+        },
+        {
+          "app_id": "3092660",
+          "name": "Reverse: 1999",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 27,
+          "rank_diff": -9
+        },
+        {
+          "app_id": "2139460",
+          "name": "Once Human",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 28,
+          "rank_diff": -13
+        },
+        {
+          "app_id": "3751950",
+          "name": "Assassin's Creed Black Flag Resynced",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 25,
+          "rank": 29,
+          "rank_diff": 0
+        },
+        {
+          "app_id": "2357570",
+          "name": "Overwatch®",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 30,
+          "rank_diff": -13
+        },
+        {
+          "app_id": "3564740",
+          "name": "Where Winds Meet",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 31,
+          "rank_diff": 0
+        },
+        {
+          "app_id": "2073620",
+          "name": "Arena Breakout: Infinite",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 32,
+          "rank_diff": 0
+        }
+      ],
+      "all_ranks": [
+        {
+          "rank": 1,
+          "name": "AION 2",
+          "rank_diff": 0
+        },
+        {
+          "rank": 2,
+          "name": "Phantom Blade Zero",
+          "rank_diff": 1
+        },
+        {
+          "rank": 3,
+          "name": "Path of Exile 2",
+          "rank_diff": 0
+        },
+        {
+          "rank": 4,
+          "name": "Football Manager 27",
+          "rank_diff": -2
+        },
+        {
+          "rank": 5,
+          "name": "Dota 2",
+          "rank_diff": -1
+        },
+        {
+          "rank": 6,
+          "name": "Call of Duty®: Modern Warfare® 4",
+          "rank_diff": 4
+        },
+        {
+          "rank": 7,
+          "name": "PUBG: BATTLEGROUNDS",
+          "rank_diff": -2
+        },
+        {
+          "rank": 8,
+          "name": "Counter-Strike 2",
+          "rank_diff": 0
+        },
+        {
+          "rank": 9,
+          "name": "Escape from Tarkov",
+          "rank_diff": 3
+        },
+        {
+          "rank": 10,
+          "name": "Apex Legends™",
+          "rank_diff": 6
+        },
+        {
+          "rank": 11,
+          "name": "NARAKA: BLADEPOINT",
+          "rank_diff": -4
+        },
+        {
+          "rank": 12,
+          "name": "Call of Duty®",
+          "rank_diff": 0
+        },
+        {
+          "rank": 13,
+          "name": "Probably Stolen - Cyberpunk Shopkeeper Sim",
+          "rank_diff": 0
+        },
+        {
+          "rank": 14,
+          "name": "FINAL FANTASY XIV Online",
+          "rank_diff": -5
+        },
+        {
+          "rank": 15,
+          "name": "Yu-Gi-Oh! Master Duel",
+          "rank_diff": -9
+        },
+        {
+          "rank": 16,
+          "name": "Aniimo",
+          "rank_diff": 3
+        },
+        {
+          "rank": 17,
+          "name": "FINAL FANTASY XIV: Evercold",
+          "rank_diff": -6
+        },
+        {
+          "rank": 18,
+          "name": "EA SPORTS FC™ 27",
+          "rank_diff": 6
+        },
+        {
+          "rank": 19,
+          "name": "Loftia",
+          "rank_diff": -5
+        },
+        {
+          "rank": 20,
+          "name": "NBA 2K27",
+          "rank_diff": 0
+        },
+        {
+          "rank": 21,
+          "name": "Warframe",
+          "rank_diff": 0
+        },
+        {
+          "rank": 22,
+          "name": "Marvel Rivals",
+          "rank_diff": 0
+        },
+        {
+          "rank": 23,
+          "name": "PAYDAY 3",
+          "rank_diff": 0
+        },
+        {
+          "rank": 24,
+          "name": "FINAL FANTASY RESONANCE",
+          "rank_diff": -2
+        },
+        {
+          "rank": 25,
+          "name": "Call of Duty®: Warzone™",
+          "rank_diff": 0
+        },
+        {
+          "rank": 26,
+          "name": "007 First Light",
+          "rank_diff": -3
+        },
+        {
+          "rank": 27,
+          "name": "Reverse: 1999",
+          "rank_diff": -9
+        },
+        {
+          "rank": 28,
+          "name": "Once Human",
+          "rank_diff": -13
+        },
+        {
+          "rank": 29,
+          "name": "Assassin's Creed Black Flag Resynced",
+          "rank_diff": 0
+        },
+        {
+          "rank": 30,
+          "name": "Overwatch®",
+          "rank_diff": -13
+        },
+        {
+          "rank": 31,
+          "name": "Where Winds Meet",
+          "rank_diff": 0
+        },
+        {
+          "rank": 32,
+          "name": "Arena Breakout: Infinite",
+          "rank_diff": 0
+        }
+      ]
+    },
+    "be": {
+      "name": "벨기에",
+      "crimson_desert_rank": 35,
+      "rank_diff": -5,
+      "rivals": [
+        {
+          "app_id": "4530370",
+          "name": "Football Manager 27",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 10,
+          "rank": 2,
+          "rank_diff": 0
+        },
+        {
+          "app_id": "252490",
+          "name": "Rust",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 50,
+          "rank": 5,
+          "rank_diff": -1
+        },
+        {
+          "app_id": "1962663",
+          "name": "Call of Duty®: Warzone™",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 6,
+          "rank_diff": 0
+        },
+        {
+          "app_id": "3274580",
+          "name": "Anno 117: Pax Romana",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 40,
+          "rank": 7,
+          "rank_diff": -1
+        },
+        {
+          "app_id": "4126040",
+          "name": "Aniimo",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 9,
+          "rank_diff": 0
+        },
+        {
+          "app_id": "2411200",
+          "name": "Underkeep",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 15,
+          "rank": 10,
+          "rank_diff": 1
+        },
+        {
+          "app_id": "3768760",
+          "name": "007 First Light",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 40,
+          "rank": 12,
+          "rank_diff": 0
+        },
+        {
+          "app_id": "2139460",
+          "name": "Once Human",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 13,
+          "rank_diff": 8
+        },
+        {
+          "app_id": "3727090",
+          "name": "Horses of Hoofprint Bay",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 15,
+          "rank": 17,
+          "rank_diff": 3
+        },
+        {
+          "app_id": "1799840",
+          "name": "Queen's Domain",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 15,
+          "rank": 18,
+          "rank_diff": 11
+        },
+        {
+          "app_id": "3204330",
+          "name": "County of Fortune",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 10,
+          "rank": 19,
+          "rank_diff": 8
+        },
+        {
+          "app_id": "570",
+          "name": "Dota 2",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 20,
+          "rank_diff": 3
+        },
+        {
+          "app_id": "236390",
+          "name": "War Thunder",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 22,
+          "rank_diff": 4
+        },
+        {
+          "app_id": "1677110",
+          "name": "Lightyear Frontier",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 20,
+          "rank": 24,
+          "rank_diff": -9
+        },
+        {
+          "app_id": "730",
+          "name": "Counter-Strike 2",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 25,
+          "rank_diff": -6
+        },
+        {
+          "app_id": "230410",
+          "name": "Warframe",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 26,
+          "rank_diff": -9
+        },
+        {
+          "app_id": "5266240",
+          "name": "Potato Please",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 10,
+          "rank": 27,
+          "rank_diff": 1
+        },
+        {
+          "app_id": "4348910",
+          "name": "Probably Stolen - Cyberpunk Shopkeeper Sim",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 10,
+          "rank": 29,
+          "rank_diff": -5
+        },
+        {
+          "app_id": "2320980",
+          "name": "Loftia",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 17,
+          "rank": 30,
+          "rank_diff": 0
+        },
+        {
+          "app_id": "3751950",
+          "name": "Assassin's Creed Black Flag Resynced",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 25,
+          "rank": 31,
+          "rank_diff": 0
+        },
+        {
+          "app_id": "1285190",
+          "name": "Borderlands 4",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 50,
+          "rank": 32,
+          "rank_diff": -16
+        }
+      ],
+      "all_ranks": [
+        {
+          "rank": 1,
+          "name": "Call of Duty®: Modern Warfare® 4",
+          "rank_diff": 2
+        },
+        {
+          "rank": 2,
+          "name": "Football Manager 27",
+          "rank_diff": 0
+        },
+        {
+          "rank": 3,
+          "name": "Steam Frame",
+          "rank_diff": -2
+        },
+        {
+          "rank": 4,
+          "name": "Call of Duty®",
+          "rank_diff": 14
+        },
+        {
+          "rank": 5,
+          "name": "Rust",
+          "rank_diff": -1
+        },
+        {
+          "rank": 6,
+          "name": "Call of Duty®: Warzone™",
+          "rank_diff": 0
+        },
+        {
+          "rank": 7,
+          "name": "Anno 117: Pax Romana",
+          "rank_diff": -1
+        },
+        {
+          "rank": 8,
+          "name": "Moon Sweepers",
+          "rank_diff": 2
+        },
+        {
+          "rank": 9,
+          "name": "Aniimo",
+          "rank_diff": 0
+        },
+        {
+          "rank": 10,
+          "name": "Underkeep",
+          "rank_diff": 1
+        },
+        {
+          "rank": 11,
+          "name": "FINAL FANTASY XIV Online",
+          "rank_diff": -6
+        },
+        {
+          "rank": 12,
+          "name": "007 First Light",
+          "rank_diff": 0
+        },
+        {
+          "rank": 13,
+          "name": "Once Human",
+          "rank_diff": 8
+        },
+        {
+          "rank": 14,
+          "name": "FINAL FANTASY XIV: Evercold",
+          "rank_diff": -6
+        },
+        {
+          "rank": 15,
+          "name": "Planet Zoo 2",
+          "rank_diff": -1
+        },
+        {
+          "rank": 16,
+          "name": "Euro Truck Simulator 2",
+          "rank_diff": 6
+        },
+        {
+          "rank": 17,
+          "name": "Horses of Hoofprint Bay",
+          "rank_diff": 3
+        },
+        {
+          "rank": 18,
+          "name": "Queen's Domain",
+          "rank_diff": 11
+        },
+        {
+          "rank": 19,
+          "name": "County of Fortune",
+          "rank_diff": 8
+        },
+        {
+          "rank": 20,
+          "name": "Dota 2",
+          "rank_diff": 3
+        },
+        {
+          "rank": 21,
+          "name": "Dead by Daylight",
+          "rank_diff": -9
+        },
+        {
+          "rank": 22,
+          "name": "War Thunder",
+          "rank_diff": 4
+        },
+        {
+          "rank": 23,
+          "name": "Phantom Blade Zero",
+          "rank_diff": -10
+        },
+        {
+          "rank": 24,
+          "name": "Lightyear Frontier",
+          "rank_diff": -9
+        },
+        {
+          "rank": 25,
+          "name": "Counter-Strike 2",
+          "rank_diff": -6
+        },
+        {
+          "rank": 26,
+          "name": "Warframe",
+          "rank_diff": -9
+        },
+        {
+          "rank": 27,
+          "name": "Potato Please",
+          "rank_diff": 1
+        },
+        {
+          "rank": 28,
+          "name": "EA SPORTS FC™ 27",
+          "rank_diff": -3
+        },
+        {
+          "rank": 29,
+          "name": "Probably Stolen - Cyberpunk Shopkeeper Sim",
+          "rank_diff": -5
+        },
+        {
+          "rank": 30,
+          "name": "Loftia",
+          "rank_diff": 0
+        },
+        {
+          "rank": 31,
+          "name": "Assassin's Creed Black Flag Resynced",
+          "rank_diff": 0
+        },
+        {
+          "rank": 32,
+          "name": "Borderlands 4",
+          "rank_diff": -16
+        },
+        {
+          "rank": 33,
+          "name": "Dressmaker",
+          "rank_diff": 0
+        },
+        {
+          "rank": 34,
+          "name": "Cyberpunk 2077",
+          "rank_diff": 0
+        }
+      ]
+    },
+    "hk": {
+      "name": "홍콩",
+      "crimson_desert_rank": 50,
+      "rank_diff": 96,
+      "rivals": [
+        {
+          "app_id": "578080",
+          "name": "PUBG: BATTLEGROUNDS",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 1,
+          "rank_diff": 0
+        },
+        {
+          "app_id": "1449850",
+          "name": "Yu-Gi-Oh! Master Duel",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 3,
+          "rank_diff": 0
+        },
+        {
+          "app_id": "4348910",
+          "name": "Probably Stolen - Cyberpunk Shopkeeper Sim",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 10,
+          "rank": 4,
+          "rank_diff": 1
+        },
+        {
+          "app_id": "730",
+          "name": "Counter-Strike 2",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 5,
+          "rank_diff": 4
+        },
+        {
+          "app_id": "1172470",
+          "name": "Apex Legends™",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 6,
+          "rank_diff": 2
+        },
+        {
+          "app_id": "4530370",
+          "name": "Football Manager 27",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 10,
+          "rank": 7,
+          "rank_diff": 0
+        },
+        {
+          "app_id": "1203220",
+          "name": "NARAKA: BLADEPOINT",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 8,
+          "rank_diff": -4
+        },
+        {
+          "app_id": "1962663",
+          "name": "Call of Duty®: Warzone™",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 9,
+          "rank_diff": 0
+        },
+        {
+          "app_id": "1665460",
+          "name": "eFootball™",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 12,
+          "rank_diff": -6
+        },
+        {
+          "app_id": "230410",
+          "name": "Warframe",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 13,
+          "rank_diff": 1
+        },
+        {
+          "app_id": "4356430",
+          "name": "NBA 2K27",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 55,
+          "rank": 14,
+          "rank_diff": -3
+        }
+      ],
+      "all_ranks": [
+        {
+          "rank": 1,
+          "name": "PUBG: BATTLEGROUNDS",
+          "rank_diff": 0
+        },
+        {
+          "rank": 2,
+          "name": "Phantom Blade Zero",
+          "rank_diff": 0
+        },
+        {
+          "rank": 3,
+          "name": "Yu-Gi-Oh! Master Duel",
+          "rank_diff": 0
+        },
+        {
+          "rank": 4,
+          "name": "Probably Stolen - Cyberpunk Shopkeeper Sim",
+          "rank_diff": 1
+        },
+        {
+          "rank": 5,
+          "name": "Counter-Strike 2",
+          "rank_diff": 4
+        },
+        {
+          "rank": 6,
+          "name": "Apex Legends™",
+          "rank_diff": 2
+        },
+        {
+          "rank": 7,
+          "name": "Football Manager 27",
+          "rank_diff": 0
+        },
+        {
+          "rank": 8,
+          "name": "NARAKA: BLADEPOINT",
+          "rank_diff": -4
+        },
+        {
+          "rank": 9,
+          "name": "Call of Duty®: Warzone™",
+          "rank_diff": 0
+        },
+        {
+          "rank": 10,
+          "name": "Call of Duty®",
+          "rank_diff": 45
+        },
+        {
+          "rank": 11,
+          "name": "Call of Duty®: Modern Warfare® 4",
+          "rank_diff": -1
+        },
+        {
+          "rank": 12,
+          "name": "eFootball™",
+          "rank_diff": -6
+        },
+        {
+          "rank": 13,
+          "name": "Warframe",
+          "rank_diff": 1
+        },
+        {
+          "rank": 14,
+          "name": "NBA 2K27",
+          "rank_diff": -3
+        },
+        {
+          "rank": 15,
+          "name": "Black Desert",
+          "rank_diff": 52
+        },
+        {
+          "rank": 16,
+          "name": "Wallpaper Engine",
+          "rank_diff": 1
+        },
+        {
+          "rank": 17,
+          "name": "Delta Force",
+          "rank_diff": -4
+        },
+        {
+          "rank": 18,
+          "name": "Once Human",
+          "rank_diff": -6
+        },
+        {
+          "rank": 19,
+          "name": "Where Winds Meet",
+          "rank_diff": -4
+        },
+        {
+          "rank": 20,
+          "name": "ZED ZONE",
+          "rank_diff": 0
+        },
+        {
+          "rank": 21,
+          "name": "EA SPORTS FC™ 27",
+          "rank_diff": -2
+        },
+        {
+          "rank": 22,
+          "name": "World of Warships",
+          "rank_diff": -6
+        },
+        {
+          "rank": 23,
+          "name": "Dead by Daylight",
+          "rank_diff": 4
+        },
+        {
+          "rank": 24,
+          "name": "Limbus Company",
+          "rank_diff": -6
+        },
+        {
+          "rank": 25,
+          "name": "Love n Life: Happy Student",
+          "rank_diff": -3
+        },
+        {
+          "rank": 26,
+          "name": "三國鼎立Online Remastered",
+          "rank_diff": 56
+        },
+        {
+          "rank": 27,
+          "name": "Company of Heroes 3",
+          "rank_diff": 26
+        },
+        {
+          "rank": 28,
+          "name": "Potato Please",
+          "rank_diff": 10
+        },
+        {
+          "rank": 29,
+          "name": "Age of Empires IV: Anniversary Edition",
+          "rank_diff": 5
+        },
+        {
+          "rank": 30,
+          "name": "Wuthering Waves",
+          "rank_diff": 12
+        },
+        {
+          "rank": 31,
+          "name": "Dota 2",
+          "rank_diff": -10
+        },
+        {
+          "rank": 32,
+          "name": "KARDS - The WW2 Card Game",
+          "rank_diff": 77
+        },
+        {
+          "rank": 33,
+          "name": "Dungeon Munchies 2",
+          "rank_diff": 0
+        },
+        {
+          "rank": 34,
+          "name": "Love n Life: Happy Student - Winter Embrace",
+          "rank_diff": -8
+        },
+        {
+          "rank": 35,
+          "name": "Nomad Drive",
+          "rank_diff": 17
+        },
+        {
+          "rank": 36,
+          "name": "The First Descendant",
+          "rank_diff": -6
+        },
+        {
+          "rank": 37,
+          "name": "Age of Wonders 4",
+          "rank_diff": 11
+        },
+        {
+          "rank": 38,
+          "name": "Hearts of Iron IV",
+          "rank_diff": 26
+        },
+        {
+          "rank": 39,
+          "name": "Ragnarok X: Next Generation",
+          "rank_diff": 0
+        },
+        {
+          "rank": 40,
+          "name": "Psycho-Sleuth",
+          "rank_diff": -5
+        },
+        {
+          "rank": 41,
+          "name": "Overwatch®",
+          "rank_diff": -12
+        },
+        {
+          "rank": 42,
+          "name": "Black Myth: Wukong",
+          "rank_diff": 37
+        },
+        {
+          "rank": 43,
+          "name": "Human Fall Flat",
+          "rank_diff": 37
+        },
+        {
+          "rank": 44,
+          "name": "Conqueror's Blade",
+          "rank_diff": -13
+        },
+        {
+          "rank": 45,
+          "name": "FINAL FANTASY RESONANCE",
+          "rank_diff": -17
+        },
+        {
+          "rank": 46,
+          "name": "Escape the Backrooms",
+          "rank_diff": 41
+        },
+        {
+          "rank": 47,
+          "name": "Victoria 3",
+          "rank_diff": 0
+        },
+        {
+          "rank": 48,
+          "name": "Grand Theft Auto V Enhanced",
+          "rank_diff": -25
+        },
+        {
+          "rank": 49,
+          "name": "Dying Light",
+          "rank_diff": 0
+        }
+      ]
+    },
+    "nz": {
+      "name": "뉴질랜드",
+      "crimson_desert_rank": 30,
+      "rank_diff": -9,
+      "rivals": [],
+      "all_ranks": [
+        {
+          "rank": 1,
+          "name": "Counter-Strike 2",
+          "rank_diff": 1
+        },
+        {
+          "rank": 2,
+          "name": "Call of Duty®: Modern Warfare® 4",
+          "rank_diff": 1
+        },
+        {
+          "rank": 3,
+          "name": "Call of Duty®",
+          "rank_diff": 0
+        },
+        {
+          "rank": 4,
+          "name": "Rust",
+          "rank_diff": 4
+        },
+        {
+          "rank": 5,
+          "name": "Phantom Blade Zero",
+          "rank_diff": -1
+        },
+        {
+          "rank": 6,
+          "name": "Age of Wonders 4",
+          "rank_diff": 0
+        },
+        {
+          "rank": 7,
+          "name": "Dota 2",
+          "rank_diff": 4
+        },
+        {
+          "rank": 8,
+          "name": "Probably Stolen - Cyberpunk Shopkeeper Sim",
+          "rank_diff": -3
+        },
+        {
+          "rank": 9,
+          "name": "AION 2",
+          "rank_diff": 7
+        },
+        {
+          "rank": 10,
+          "name": "Football Manager 27",
+          "rank_diff": -1
+        },
+        {
+          "rank": 11,
+          "name": "FINAL FANTASY XIV Online",
+          "rank_diff": -5
+        },
+        {
+          "rank": 12,
+          "name": "Warframe",
+          "rank_diff": -5
+        },
+        {
+          "rank": 13,
+          "name": "Apex Legends™",
+          "rank_diff": 2
+        },
+        {
+          "rank": 14,
+          "name": "PUBG: BATTLEGROUNDS",
+          "rank_diff": 0
+        },
+        {
+          "rank": 15,
+          "name": "Queen's Domain",
+          "rank_diff": -1
+        },
+        {
+          "rank": 16,
+          "name": "ELDEN RING",
+          "rank_diff": -6
+        },
+        {
+          "rank": 17,
+          "name": "Marvel Rivals",
+          "rank_diff": 0
+        },
+        {
+          "rank": 18,
+          "name": "MapleStory",
+          "rank_diff": 0
+        },
+        {
+          "rank": 19,
+          "name": "Dead by Daylight",
+          "rank_diff": 0
+        },
+        {
+          "rank": 20,
+          "name": "FINAL FANTASY XIV: Evercold",
+          "rank_diff": -8
+        },
+        {
+          "rank": 21,
+          "name": "Moon Sweepers",
+          "rank_diff": 0
+        },
+        {
+          "rank": 22,
+          "name": "Loftia",
+          "rank_diff": 0
+        },
+        {
+          "rank": 23,
+          "name": "Age of Empires IV: Anniversary Edition",
+          "rank_diff": 0
+        },
+        {
+          "rank": 24,
+          "name": "Overwatch®",
+          "rank_diff": 0
+        },
+        {
+          "rank": 25,
+          "name": "PAYDAY 3",
+          "rank_diff": 0
+        },
+        {
+          "rank": 26,
+          "name": "Underkeep",
+          "rank_diff": 0
+        },
+        {
+          "rank": 27,
+          "name": "Satisfactory",
+          "rank_diff": 0
+        },
+        {
+          "rank": 28,
+          "name": "EA SPORTS FC™ 27",
+          "rank_diff": 0
+        },
+        {
+          "rank": 29,
+          "name": "Call of Duty®: Warzone™",
+          "rank_diff": 0
+        }
+      ]
+    },
+    "tw": {
+      "name": "대만",
+      "crimson_desert_rank": 45,
+      "rank_diff": 1,
+      "rivals": [],
+      "all_ranks": [
+        {
+          "rank": 1,
+          "name": "PUBG: BATTLEGROUNDS",
+          "rank_diff": 0
+        },
+        {
+          "rank": 2,
+          "name": "Phantom Blade Zero",
+          "rank_diff": 1
+        },
+        {
+          "rank": 3,
+          "name": "Probably Stolen - Cyberpunk Shopkeeper Sim",
+          "rank_diff": 3
+        },
+        {
+          "rank": 4,
+          "name": "Call of Duty®: Modern Warfare® 4",
+          "rank_diff": 3
+        },
+        {
+          "rank": 5,
+          "name": "Once Human",
+          "rank_diff": -1
+        },
+        {
+          "rank": 6,
+          "name": "NARAKA: BLADEPOINT",
+          "rank_diff": -4
+        },
+        {
+          "rank": 7,
+          "name": "Yu-Gi-Oh! Master Duel",
+          "rank_diff": -2
+        },
+        {
+          "rank": 8,
+          "name": "Apex Legends™",
+          "rank_diff": 0
+        },
+        {
+          "rank": 9,
+          "name": "Dungeon Munchies 2",
+          "rank_diff": 4
+        },
+        {
+          "rank": 10,
+          "name": "Counter-Strike 2",
+          "rank_diff": -1
+        },
+        {
+          "rank": 11,
+          "name": "Where Winds Meet",
+          "rank_diff": 0
+        },
+        {
+          "rank": 12,
+          "name": "NBA 2K27",
+          "rank_diff": 3
+        },
+        {
+          "rank": 13,
+          "name": "hololive Dreams",
+          "rank_diff": -3
+        },
+        {
+          "rank": 14,
+          "name": "Wuthering Waves",
+          "rank_diff": 5
+        },
+        {
+          "rank": 15,
+          "name": "Aniimo",
+          "rank_diff": -3
+        },
+        {
+          "rank": 16,
+          "name": "Call of Duty®",
+          "rank_diff": 0
+        },
+        {
+          "rank": 17,
+          "name": "FINAL FANTASY RESONANCE",
+          "rank_diff": 1
+        },
+        {
+          "rank": 18,
+          "name": "Conqueror's Blade",
+          "rank_diff": -2
+        },
+        {
+          "rank": 19,
+          "name": "Psycho-Sleuth",
+          "rank_diff": -5
+        },
+        {
+          "rank": 20,
+          "name": "Overwatch®",
+          "rank_diff": 3
+        },
+        {
+          "rank": 21,
+          "name": "Call of Duty®: Warzone™",
+          "rank_diff": 0
+        },
+        {
+          "rank": 22,
+          "name": "Torchlight: Infinite",
+          "rank_diff": -5
+        },
+        {
+          "rank": 23,
+          "name": "Warframe",
+          "rank_diff": 1
+        },
+        {
+          "rank": 24,
+          "name": "GrandChase",
+          "rank_diff": 1
+        },
+        {
+          "rank": 25,
+          "name": "Company of Heroes 3",
+          "rank_diff": 13
+        },
+        {
+          "rank": 26,
+          "name": "Potato Please",
+          "rank_diff": 3
+        },
+        {
+          "rank": 27,
+          "name": "Wizardry Variants Daphne",
+          "rank_diff": -6
+        },
+        {
+          "rank": 28,
+          "name": "ACE COMBAT 8: WINGS OF THEVE",
+          "rank_diff": 6
+        },
+        {
+          "rank": 29,
+          "name": "Age of Empires IV: Anniversary Edition",
+          "rank_diff": 6
+        },
+        {
+          "rank": 30,
+          "name": "Legend of Defenders",
+          "rank_diff": -4
+        },
+        {
+          "rank": 31,
+          "name": "Heartopia",
+          "rank_diff": 1
+        },
+        {
+          "rank": 32,
+          "name": "ArcheAge Chronicles",
+          "rank_diff": -2
+        },
+        {
+          "rank": 33,
+          "name": "False Myth 2",
+          "rank_diff": -13
+        },
+        {
+          "rank": 34,
+          "name": "三國鼎立Online Remastered",
+          "rank_diff": 0
+        },
+        {
+          "rank": 35,
+          "name": "Grand Theft Auto V Enhanced",
+          "rank_diff": -2
+        },
+        {
+          "rank": 36,
+          "name": "Arknights: Endfield",
+          "rank_diff": -14
+        },
+        {
+          "rank": 37,
+          "name": "Idol Party 2 - Love Vibe",
+          "rank_diff": -6
+        },
+        {
+          "rank": 38,
+          "name": "Rust",
+          "rank_diff": 0
+        },
+        {
+          "rank": 39,
+          "name": "Dead by Daylight",
+          "rank_diff": 0
+        },
+        {
+          "rank": 40,
+          "name": "Tom Clancy’s The Division® 2",
+          "rank_diff": 2
+        },
+        {
+          "rank": 41,
+          "name": "ELDEN RING",
+          "rank_diff": 0
+        },
+        {
+          "rank": 42,
+          "name": "007 First Light",
+          "rank_diff": 3
+        },
+        {
+          "rank": 43,
+          "name": "The First Descendant",
+          "rank_diff": -16
+        },
+        {
+          "rank": 44,
+          "name": "Scam With Your Friends",
+          "rank_diff": -4
+        }
+      ]
+    },
+    "th": {
+      "name": "태국",
+      "crimson_desert_rank": null,
+      "rank_diff": 0,
+      "rivals": []
+    }
+  }
+}
