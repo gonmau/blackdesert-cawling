@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-11-07T20:28:11.082129+09:00",
-  "crimson_desert_rank": 23,
-  "rank_diff": 4,
+  "generated_at": "2026-11-08T02:22:28.700054+09:00",
+  "crimson_desert_rank": 21,
+  "rank_diff": 2,
   "rivals": [
     {
       "app_id": "578080",
       "name": "PUBG: BATTLEGROUNDS",
       "rank": 2,
-      "rank_diff": 1,
+      "rank_diff": 0,
       "is_free": true,
       "is_discounted": false,
       "discount_pct": 0
@@ -16,7 +16,7 @@
       "app_id": "730",
       "name": "Counter-Strike 2",
       "rank": 3,
-      "rank_diff": 1,
+      "rank_diff": 0,
       "is_free": true,
       "is_discounted": false,
       "discount_pct": 0
@@ -25,7 +25,7 @@
       "app_id": "570",
       "name": "Dota 2",
       "rank": 5,
-      "rank_diff": 3,
+      "rank_diff": 0,
       "is_free": true,
       "is_discounted": false,
       "discount_pct": 0
@@ -34,7 +34,7 @@
       "app_id": "3393110",
       "name": "AION 2",
       "rank": 7,
-      "rank_diff": -1,
+      "rank_diff": 0,
       "is_free": true,
       "is_discounted": false,
       "discount_pct": 0
@@ -42,8 +42,8 @@
     {
       "app_id": "4530370",
       "name": "Football Manager 27",
-      "rank": 9,
-      "rank_diff": 3,
+      "rank": 8,
+      "rank_diff": 1,
       "is_free": false,
       "is_discounted": true,
       "discount_pct": 10
@@ -51,8 +51,8 @@
     {
       "app_id": "4348910",
       "name": "Probably Stolen - Cyberpunk Shopkeeper Sim",
-      "rank": 10,
-      "rank_diff": 0,
+      "rank": 9,
+      "rank_diff": 1,
       "is_free": false,
       "is_discounted": true,
       "discount_pct": 10
@@ -60,8 +60,8 @@
     {
       "app_id": "1962663",
       "name": "Call of Duty®: Warzone™",
-      "rank": 11,
-      "rank_diff": -2,
+      "rank": 12,
+      "rank_diff": -1,
       "is_free": true,
       "is_discounted": false,
       "discount_pct": 0
@@ -76,46 +76,28 @@
       "discount_pct": 0
     },
     {
-      "app_id": "2507950",
-      "name": "Delta Force",
-      "rank": 14,
-      "rank_diff": 1,
-      "is_free": true,
-      "is_discounted": false,
-      "discount_pct": 0
-    },
-    {
       "app_id": "230410",
       "name": "Warframe",
       "rank": 15,
-      "rank_diff": -1,
+      "rank_diff": 0,
       "is_free": true,
       "is_discounted": false,
       "discount_pct": 0
     },
     {
-      "app_id": "1449850",
-      "name": "Yu-Gi-Oh! Master Duel",
-      "rank": 18,
-      "rank_diff": -1,
+      "app_id": "2507950",
+      "name": "Delta Force",
+      "rank": 17,
+      "rank_diff": -3,
       "is_free": true,
       "is_discounted": false,
       "discount_pct": 0
-    },
-    {
-      "app_id": "5160800",
-      "name": "Find The Needle",
-      "rank": 20,
-      "rank_diff": 4,
-      "is_free": false,
-      "is_discounted": true,
-      "discount_pct": 15
     },
     {
       "app_id": "252490",
       "name": "Rust",
-      "rank": 21,
-      "rank_diff": 0,
+      "rank": 20,
+      "rank_diff": 1,
       "is_free": false,
       "is_discounted": true,
       "discount_pct": 50
