@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-11-09T00:45:11.277228+09:00",
+  "generated_at": "2026-11-09T05:07:53.372855+09:00",
   "crimson_desert_rank": 23,
-  "rank_diff": -2,
+  "rank_diff": 0,
   "rivals": [
     {
-      "app_id": "578080",
-      "name": "PUBG: BATTLEGROUNDS",
+      "app_id": "730",
+      "name": "Counter-Strike 2",
       "rank": 1,
-      "rank_diff": 1,
+      "rank_diff": 2,
       "is_free": true,
       "is_discounted": false,
       "discount_pct": 0
     },
     {
-      "app_id": "730",
-      "name": "Counter-Strike 2",
-      "rank": 3,
-      "rank_diff": 1,
+      "app_id": "578080",
+      "name": "PUBG: BATTLEGROUNDS",
+      "rank": 4,
+      "rank_diff": -3,
       "is_free": true,
       "is_discounted": false,
       "discount_pct": 0
@@ -25,7 +25,7 @@
       "app_id": "570",
       "name": "Dota 2",
       "rank": 6,
-      "rank_diff": 1,
+      "rank_diff": 0,
       "is_free": true,
       "is_discounted": false,
       "discount_pct": 0
@@ -34,7 +34,7 @@
       "app_id": "3393110",
       "name": "AION 2",
       "rank": 7,
-      "rank_diff": -1,
+      "rank_diff": 0,
       "is_free": true,
       "is_discounted": false,
       "discount_pct": 0
@@ -60,7 +60,7 @@
     {
       "app_id": "1962663",
       "name": "Call of Duty®: Warzone™",
-      "rank": 11,
+      "rank": 12,
       "rank_diff": -1,
       "is_free": true,
       "is_discounted": false,
@@ -69,8 +69,8 @@
     {
       "app_id": "1172470",
       "name": "Apex Legends™",
-      "rank": 12,
-      "rank_diff": -1,
+      "rank": 14,
+      "rank_diff": -2,
       "is_free": true,
       "is_discounted": false,
       "discount_pct": 0
@@ -78,26 +78,17 @@
     {
       "app_id": "230410",
       "name": "Warframe",
-      "rank": 15,
+      "rank": 16,
       "rank_diff": -1,
       "is_free": true,
       "is_discounted": false,
       "discount_pct": 0
     },
     {
-      "app_id": "2399830",
-      "name": "ARK: Survival Ascended",
-      "rank": 19,
+      "app_id": "4262460",
+      "name": "ROB RUN",
+      "rank": 17,
       "rank_diff": 0,
-      "is_free": false,
-      "is_discounted": true,
-      "discount_pct": 75
-    },
-    {
-      "app_id": "2507950",
-      "name": "Delta Force",
-      "rank": 20,
-      "rank_diff": -2,
       "is_free": true,
       "is_discounted": false,
       "discount_pct": 0
@@ -105,11 +96,20 @@
     {
       "app_id": "1272080",
       "name": "PAYDAY 3",
-      "rank": 21,
-      "rank_diff": 0,
+      "rank": 19,
+      "rank_diff": 2,
       "is_free": false,
       "is_discounted": true,
       "discount_pct": 70
+    },
+    {
+      "app_id": "252490",
+      "name": "Rust",
+      "rank": 22,
+      "rank_diff": 0,
+      "is_free": false,
+      "is_discounted": true,
+      "discount_pct": 50
     }
   ]
 }
