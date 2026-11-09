@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-11-09T09:28:15.107293+09:00",
-  "crimson_desert_rank": 22,
-  "rank_diff": 1,
+  "generated_at": "2026-11-09T16:36:21.567922+09:00",
+  "crimson_desert_rank": 23,
+  "rank_diff": -1,
   "rivals": [
     {
       "app_id": "730",
       "name": "Counter-Strike 2",
-      "rank": 3,
-      "rank_diff": -2,
+      "rank": 1,
+      "rank_diff": 2,
       "is_free": true,
       "is_discounted": false,
       "discount_pct": 0
@@ -15,8 +15,8 @@
     {
       "app_id": "578080",
       "name": "PUBG: BATTLEGROUNDS",
-      "rank": 5,
-      "rank_diff": -1,
+      "rank": 2,
+      "rank_diff": 3,
       "is_free": true,
       "is_discounted": false,
       "discount_pct": 0
@@ -25,7 +25,7 @@
       "app_id": "3393110",
       "name": "AION 2",
       "rank": 6,
-      "rank_diff": 1,
+      "rank_diff": 0,
       "is_free": true,
       "is_discounted": false,
       "discount_pct": 0
@@ -34,7 +34,7 @@
       "app_id": "570",
       "name": "Dota 2",
       "rank": 7,
-      "rank_diff": -1,
+      "rank_diff": 0,
       "is_free": true,
       "is_discounted": false,
       "discount_pct": 0
@@ -58,19 +58,10 @@
       "discount_pct": 10
     },
     {
-      "app_id": "1962663",
-      "name": "Call of Duty®: Warzone™",
-      "rank": 11,
-      "rank_diff": 1,
-      "is_free": true,
-      "is_discounted": false,
-      "discount_pct": 0
-    },
-    {
       "app_id": "1172470",
       "name": "Apex Legends™",
-      "rank": 15,
-      "rank_diff": -1,
+      "rank": 10,
+      "rank_diff": 5,
       "is_free": true,
       "is_discounted": false,
       "discount_pct": 0
@@ -78,8 +69,17 @@
     {
       "app_id": "230410",
       "name": "Warframe",
-      "rank": 16,
-      "rank_diff": 0,
+      "rank": 11,
+      "rank_diff": 5,
+      "is_free": true,
+      "is_discounted": false,
+      "discount_pct": 0
+    },
+    {
+      "app_id": "1962663",
+      "name": "Call of Duty®: Warzone™",
+      "rank": 12,
+      "rank_diff": -1,
       "is_free": true,
       "is_discounted": false,
       "discount_pct": 0
@@ -96,11 +96,20 @@
     {
       "app_id": "1272080",
       "name": "PAYDAY 3",
-      "rank": 19,
-      "rank_diff": 0,
+      "rank": 18,
+      "rank_diff": 1,
       "is_free": false,
       "is_discounted": true,
       "discount_pct": 70
+    },
+    {
+      "app_id": "3768760",
+      "name": "007 First Light",
+      "rank": 22,
+      "rank_diff": 0,
+      "is_free": false,
+      "is_discounted": true,
+      "discount_pct": 40
     }
   ]
 }
