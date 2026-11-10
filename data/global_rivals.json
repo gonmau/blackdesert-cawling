@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-11-11T02:27:13.221955+09:00",
-  "crimson_desert_rank": 36,
-  "rank_diff": -8,
+  "generated_at": "2026-11-11T07:51:51.655390+09:00",
+  "crimson_desert_rank": 39,
+  "rank_diff": -3,
   "rivals": [
     {
-      "app_id": "578080",
-      "name": "PUBG: BATTLEGROUNDS",
-      "rank": 2,
-      "rank_diff": -1,
+      "app_id": "1172470",
+      "name": "Apex Legends™",
+      "rank": 1,
+      "rank_diff": 14,
       "is_free": true,
       "is_discounted": false,
       "discount_pct": 0
@@ -16,25 +16,7 @@
       "app_id": "730",
       "name": "Counter-Strike 2",
       "rank": 3,
-      "rank_diff": -1,
-      "is_free": true,
-      "is_discounted": false,
-      "discount_pct": 0
-    },
-    {
-      "app_id": "570",
-      "name": "Dota 2",
-      "rank": 4,
-      "rank_diff": 3,
-      "is_free": true,
-      "is_discounted": false,
-      "discount_pct": 0
-    },
-    {
-      "app_id": "3393110",
-      "name": "AION 2",
-      "rank": 8,
-      "rank_diff": -3,
+      "rank_diff": 0,
       "is_free": true,
       "is_discounted": false,
       "discount_pct": 0
@@ -42,29 +24,38 @@
     {
       "app_id": "227300",
       "name": "Euro Truck Simulator 2",
-      "rank": 9,
-      "rank_diff": 0,
+      "rank": 4,
+      "rank_diff": 5,
       "is_free": false,
       "is_discounted": true,
       "discount_pct": 75
     },
     {
-      "app_id": "4576490",
-      "name": "Casualties: Unknown",
-      "rank": 10,
+      "app_id": "578080",
+      "name": "PUBG: BATTLEGROUNDS",
+      "rank": 6,
       "rank_diff": -4,
-      "is_free": false,
-      "is_discounted": true,
-      "discount_pct": 15
+      "is_free": true,
+      "is_discounted": false,
+      "discount_pct": 0
     },
     {
-      "app_id": "3629430",
-      "name": "DREADMOOR",
-      "rank": 11,
-      "rank_diff": -1,
-      "is_free": false,
-      "is_discounted": true,
-      "discount_pct": 10
+      "app_id": "570",
+      "name": "Dota 2",
+      "rank": 8,
+      "rank_diff": -4,
+      "is_free": true,
+      "is_discounted": false,
+      "discount_pct": 0
+    },
+    {
+      "app_id": "3393110",
+      "name": "AION 2",
+      "rank": 10,
+      "rank_diff": -2,
+      "is_free": true,
+      "is_discounted": false,
+      "discount_pct": 0
     },
     {
       "app_id": "3669620",
@@ -76,8 +67,17 @@
       "discount_pct": 10
     },
     {
-      "app_id": "4348910",
-      "name": "Probably Stolen - Cyberpunk Shopkeeper Sim",
+      "app_id": "4576490",
+      "name": "Casualties: Unknown",
+      "rank": 13,
+      "rank_diff": -3,
+      "is_free": false,
+      "is_discounted": true,
+      "discount_pct": 15
+    },
+    {
+      "app_id": "3629430",
+      "name": "DREADMOOR",
       "rank": 14,
       "rank_diff": -3,
       "is_free": false,
@@ -85,10 +85,10 @@
       "discount_pct": 10
     },
     {
-      "app_id": "1172470",
-      "name": "Apex Legends™",
-      "rank": 15,
-      "rank_diff": -2,
+      "app_id": "4262460",
+      "name": "ROB RUN",
+      "rank": 16,
+      "rank_diff": 5,
       "is_free": true,
       "is_discounted": false,
       "discount_pct": 0
@@ -97,16 +97,25 @@
       "app_id": "2507950",
       "name": "Delta Force",
       "rank": 17,
-      "rank_diff": -2,
+      "rank_diff": 0,
       "is_free": true,
       "is_discounted": false,
       "discount_pct": 0
     },
     {
+      "app_id": "4348910",
+      "name": "Probably Stolen - Cyberpunk Shopkeeper Sim",
+      "rank": 18,
+      "rank_diff": -4,
+      "is_free": false,
+      "is_discounted": true,
+      "discount_pct": 10
+    },
+    {
       "app_id": "2584270",
       "name": "Mortal Shell II",
-      "rank": 18,
-      "rank_diff": -1,
+      "rank": 20,
+      "rank_diff": -2,
       "is_free": false,
       "is_discounted": true,
       "discount_pct": 25
@@ -114,42 +123,24 @@
     {
       "app_id": "230410",
       "name": "Warframe",
-      "rank": 19,
-      "rank_diff": -5,
-      "is_free": true,
-      "is_discounted": false,
-      "discount_pct": 0
-    },
-    {
-      "app_id": "4262460",
-      "name": "ROB RUN",
       "rank": 21,
-      "rank_diff": -5,
+      "rank_diff": -2,
       "is_free": true,
       "is_discounted": false,
       "discount_pct": 0
     },
     {
-      "app_id": "5175310",
-      "name": "Worst Class Ever",
-      "rank": 22,
-      "rank_diff": 0,
-      "is_free": false,
-      "is_discounted": true,
-      "discount_pct": 35
+      "app_id": "1962663",
+      "name": "Call of Duty®: Warzone™",
+      "rank": 25,
+      "rank_diff": 4,
+      "is_free": true,
+      "is_discounted": false,
+      "discount_pct": 0
     },
     {
-      "app_id": "3499790",
-      "name": "Ashes of the Singularity II",
-      "rank": 23,
-      "rank_diff": 0,
-      "is_free": false,
-      "is_discounted": true,
-      "discount_pct": 20
-    },
-    {
-      "app_id": "3557620",
-      "name": "Blue Archive",
+      "app_id": "2357570",
+      "name": "Overwatch®",
       "rank": 26,
       "rank_diff": 0,
       "is_free": true,
@@ -157,28 +148,46 @@
       "discount_pct": 0
     },
     {
-      "app_id": "1272080",
-      "name": "PAYDAY 3",
-      "rank": 28,
-      "rank_diff": -8,
+      "app_id": "5175310",
+      "name": "Worst Class Ever",
+      "rank": 27,
+      "rank_diff": -5,
       "is_free": false,
       "is_discounted": true,
-      "discount_pct": 70
+      "discount_pct": 35
     },
     {
-      "app_id": "1962663",
-      "name": "Call of Duty®: Warzone™",
-      "rank": 29,
-      "rank_diff": -8,
+      "app_id": "3557620",
+      "name": "Blue Archive",
+      "rank": 28,
+      "rank_diff": -2,
       "is_free": true,
       "is_discounted": false,
       "discount_pct": 0
     },
     {
-      "app_id": "3513350",
-      "name": "Wuthering Waves",
+      "app_id": "3499790",
+      "name": "Ashes of the Singularity II",
       "rank": 30,
+      "rank_diff": -7,
+      "is_free": false,
+      "is_discounted": true,
+      "discount_pct": 20
+    },
+    {
+      "app_id": "1272080",
+      "name": "PAYDAY 3",
+      "rank": 31,
       "rank_diff": -3,
+      "is_free": false,
+      "is_discounted": true,
+      "discount_pct": 70
+    },
+    {
+      "app_id": "2141910",
+      "name": "Magic: The Gathering Arena",
+      "rank": 32,
+      "rank_diff": 0,
       "is_free": true,
       "is_discounted": false,
       "discount_pct": 0
@@ -186,8 +195,8 @@
     {
       "app_id": "4618570",
       "name": "Booster Pack Heroes",
-      "rank": 32,
-      "rank_diff": 0,
+      "rank": 33,
+      "rank_diff": -1,
       "is_free": false,
       "is_discounted": true,
       "discount_pct": 30
@@ -195,20 +204,38 @@
     {
       "app_id": "236390",
       "name": "War Thunder",
-      "rank": 33,
-      "rank_diff": -8,
+      "rank": 34,
+      "rank_diff": -1,
       "is_free": true,
       "is_discounted": false,
       "discount_pct": 0
     },
     {
-      "app_id": "2523740",
-      "name": "DreamWorks Shrek 2 Remastered",
+      "app_id": "3513350",
+      "name": "Wuthering Waves",
       "rank": 35,
+      "rank_diff": -5,
+      "is_free": true,
+      "is_discounted": false,
+      "discount_pct": 0
+    },
+    {
+      "app_id": "2767030",
+      "name": "Marvel Rivals",
+      "rank": 36,
+      "rank_diff": 0,
+      "is_free": true,
+      "is_discounted": false,
+      "discount_pct": 0
+    },
+    {
+      "app_id": "270880",
+      "name": "American Truck Simulator",
+      "rank": 37,
       "rank_diff": 0,
       "is_free": false,
       "is_discounted": true,
-      "discount_pct": 10
+      "discount_pct": 75
     }
   ]
 }
