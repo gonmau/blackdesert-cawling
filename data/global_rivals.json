@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-11-09T16:36:21.567922+09:00",
-  "crimson_desert_rank": 23,
-  "rank_diff": -1,
+  "generated_at": "2026-11-10T10:51:23.574928+09:00",
+  "crimson_desert_rank": 26,
+  "rank_diff": -3,
   "rivals": [
     {
       "app_id": "730",
       "name": "Counter-Strike 2",
-      "rank": 1,
-      "rank_diff": 2,
+      "rank": 2,
+      "rank_diff": -1,
       "is_free": true,
       "is_discounted": false,
       "discount_pct": 0
@@ -15,11 +15,20 @@
     {
       "app_id": "578080",
       "name": "PUBG: BATTLEGROUNDS",
-      "rank": 2,
-      "rank_diff": 3,
+      "rank": 3,
+      "rank_diff": -1,
       "is_free": true,
       "is_discounted": false,
       "discount_pct": 0
+    },
+    {
+      "app_id": "4576490",
+      "name": "Casualties: Unknown",
+      "rank": 4,
+      "rank_diff": 0,
+      "is_free": false,
+      "is_discounted": true,
+      "discount_pct": 15
     },
     {
       "app_id": "3393110",
@@ -33,20 +42,11 @@
     {
       "app_id": "570",
       "name": "Dota 2",
-      "rank": 7,
-      "rank_diff": 0,
+      "rank": 8,
+      "rank_diff": -1,
       "is_free": true,
       "is_discounted": false,
       "discount_pct": 0
-    },
-    {
-      "app_id": "4348910",
-      "name": "Probably Stolen - Cyberpunk Shopkeeper Sim",
-      "rank": 8,
-      "rank_diff": 0,
-      "is_free": false,
-      "is_discounted": true,
-      "discount_pct": 10
     },
     {
       "app_id": "4530370",
@@ -58,28 +58,37 @@
       "discount_pct": 10
     },
     {
-      "app_id": "1172470",
-      "name": "Apex Legends™",
+      "app_id": "3629430",
+      "name": "DREADMOOR",
       "rank": 10,
-      "rank_diff": 5,
-      "is_free": true,
-      "is_discounted": false,
-      "discount_pct": 0
+      "rank_diff": 0,
+      "is_free": false,
+      "is_discounted": true,
+      "discount_pct": 10
+    },
+    {
+      "app_id": "4348910",
+      "name": "Probably Stolen - Cyberpunk Shopkeeper Sim",
+      "rank": 11,
+      "rank_diff": -3,
+      "is_free": false,
+      "is_discounted": true,
+      "discount_pct": 10
     },
     {
       "app_id": "230410",
       "name": "Warframe",
-      "rank": 11,
-      "rank_diff": 5,
+      "rank": 13,
+      "rank_diff": -2,
       "is_free": true,
       "is_discounted": false,
       "discount_pct": 0
     },
     {
-      "app_id": "1962663",
-      "name": "Call of Duty®: Warzone™",
-      "rank": 12,
-      "rank_diff": -1,
+      "app_id": "1172470",
+      "name": "Apex Legends™",
+      "rank": 15,
+      "rank_diff": -5,
       "is_free": true,
       "is_discounted": false,
       "discount_pct": 0
@@ -97,19 +106,46 @@
       "app_id": "1272080",
       "name": "PAYDAY 3",
       "rank": 18,
-      "rank_diff": 1,
+      "rank_diff": 0,
       "is_free": false,
       "is_discounted": true,
       "discount_pct": 70
     },
     {
-      "app_id": "3768760",
-      "name": "007 First Light",
-      "rank": 22,
+      "app_id": "2584270",
+      "name": "Mortal Shell II",
+      "rank": 19,
       "rank_diff": 0,
       "is_free": false,
       "is_discounted": true,
-      "discount_pct": 40
+      "discount_pct": 25
+    },
+    {
+      "app_id": "1962663",
+      "name": "Call of Duty®: Warzone™",
+      "rank": 20,
+      "rank_diff": -8,
+      "is_free": true,
+      "is_discounted": false,
+      "discount_pct": 0
+    },
+    {
+      "app_id": "4126040",
+      "name": "Aniimo",
+      "rank": 23,
+      "rank_diff": 0,
+      "is_free": true,
+      "is_discounted": false,
+      "discount_pct": 0
+    },
+    {
+      "app_id": "236390",
+      "name": "War Thunder",
+      "rank": 25,
+      "rank_diff": 0,
+      "is_free": true,
+      "is_discounted": false,
+      "discount_pct": 0
     }
   ]
 }
