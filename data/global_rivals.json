@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-12T03:19:54.461388+09:00",
-  "crimson_desert_rank": 34,
-  "rank_diff": 6,
+  "generated_at": "2026-11-12T10:15:50.410594+09:00",
+  "crimson_desert_rank": 32,
+  "rank_diff": 2,
   "rivals": [
     {
       "app_id": "1172470",
@@ -16,7 +16,7 @@
       "app_id": "3393110",
       "name": "AION 2",
       "rank": 2,
-      "rank_diff": 10,
+      "rank_diff": 0,
       "is_free": true,
       "is_discounted": false,
       "discount_pct": 0
@@ -31,19 +31,37 @@
       "discount_pct": 0
     },
     {
+      "app_id": "570",
+      "name": "Dota 2",
+      "rank": 7,
+      "rank_diff": 0,
+      "is_free": true,
+      "is_discounted": false,
+      "discount_pct": 0
+    },
+    {
       "app_id": "227300",
       "name": "Euro Truck Simulator 2",
-      "rank": 5,
-      "rank_diff": -1,
+      "rank": 8,
+      "rank_diff": -3,
       "is_free": false,
       "is_discounted": true,
       "discount_pct": 75
     },
     {
-      "app_id": "570",
-      "name": "Dota 2",
-      "rank": 7,
-      "rank_diff": -2,
+      "app_id": "216150",
+      "name": "MapleStory",
+      "rank": 10,
+      "rank_diff": 17,
+      "is_free": true,
+      "is_discounted": false,
+      "discount_pct": 0
+    },
+    {
+      "app_id": "4262460",
+      "name": "ROB RUN",
+      "rank": 11,
+      "rank_diff": 2,
       "is_free": true,
       "is_discounted": false,
       "discount_pct": 0
@@ -51,26 +69,8 @@
     {
       "app_id": "578080",
       "name": "PUBG: BATTLEGROUNDS",
-      "rank": 11,
-      "rank_diff": -3,
-      "is_free": true,
-      "is_discounted": false,
-      "discount_pct": 0
-    },
-    {
-      "app_id": "3669620",
-      "name": "Warhammer Survivors",
       "rank": 12,
       "rank_diff": -1,
-      "is_free": false,
-      "is_discounted": true,
-      "discount_pct": 10
-    },
-    {
-      "app_id": "4262460",
-      "name": "ROB RUN",
-      "rank": 13,
-      "rank_diff": 1,
       "is_free": true,
       "is_discounted": false,
       "discount_pct": 0
@@ -78,26 +78,26 @@
     {
       "app_id": "230410",
       "name": "Warframe",
-      "rank": 16,
-      "rank_diff": 0,
+      "rank": 14,
+      "rank_diff": 2,
       "is_free": true,
       "is_discounted": false,
       "discount_pct": 0
     },
     {
-      "app_id": "4508340",
-      "name": "NTE: Neverness to Everness",
-      "rank": 17,
-      "rank_diff": 5,
-      "is_free": true,
-      "is_discounted": false,
-      "discount_pct": 0
+      "app_id": "3669620",
+      "name": "Warhammer Survivors",
+      "rank": 16,
+      "rank_diff": -4,
+      "is_free": false,
+      "is_discounted": true,
+      "discount_pct": 10
     },
     {
       "app_id": "236390",
       "name": "War Thunder",
       "rank": 18,
-      "rank_diff": 14,
+      "rank_diff": 0,
       "is_free": true,
       "is_discounted": false,
       "discount_pct": 0
@@ -105,92 +105,83 @@
     {
       "app_id": "1962663",
       "name": "Call of Duty®: Warzone™",
-      "rank": 19,
-      "rank_diff": 0,
+      "rank": 20,
+      "rank_diff": -1,
       "is_free": true,
       "is_discounted": false,
       "discount_pct": 0
     },
     {
+      "app_id": "4508340",
+      "name": "NTE: Neverness to Everness",
+      "rank": 21,
+      "rank_diff": -4,
+      "is_free": true,
+      "is_discounted": false,
+      "discount_pct": 0
+    },
+    {
+      "app_id": "2767030",
+      "name": "Marvel Rivals",
+      "rank": 23,
+      "rank_diff": 8,
+      "is_free": true,
+      "is_discounted": false,
+      "discount_pct": 0
+    },
+    {
+      "app_id": "4576490",
+      "name": "Casualties: Unknown",
+      "rank": 25,
+      "rank_diff": 0,
+      "is_free": false,
+      "is_discounted": true,
+      "discount_pct": 15
+    },
+    {
       "app_id": "3629430",
       "name": "DREADMOOR",
-      "rank": 22,
+      "rank": 26,
       "rank_diff": -4,
       "is_free": false,
       "is_discounted": true,
       "discount_pct": 10
     },
     {
-      "app_id": "4576490",
-      "name": "Casualties: Unknown",
-      "rank": 25,
-      "rank_diff": -5,
-      "is_free": false,
-      "is_discounted": true,
-      "discount_pct": 15
-    },
-    {
-      "app_id": "2507950",
-      "name": "Delta Force",
-      "rank": 26,
-      "rank_diff": -9,
-      "is_free": true,
-      "is_discounted": false,
-      "discount_pct": 0
-    },
-    {
-      "app_id": "216150",
-      "name": "MapleStory",
-      "rank": 27,
-      "rank_diff": -2,
-      "is_free": true,
-      "is_discounted": false,
-      "discount_pct": 0
-    },
-    {
       "app_id": "2357570",
       "name": "Overwatch®",
-      "rank": 28,
+      "rank": 27,
       "rank_diff": 1,
       "is_free": true,
       "is_discounted": false,
       "discount_pct": 0
     },
     {
-      "app_id": "2584270",
-      "name": "Mortal Shell II",
-      "rank": 29,
-      "rank_diff": -3,
-      "is_free": false,
-      "is_discounted": true,
-      "discount_pct": 25
-    },
-    {
       "app_id": "270880",
       "name": "American Truck Simulator",
-      "rank": 30,
-      "rank_diff": 7,
+      "rank": 29,
+      "rank_diff": 1,
       "is_free": false,
       "is_discounted": true,
       "discount_pct": 75
     },
     {
-      "app_id": "2767030",
-      "name": "Marvel Rivals",
+      "app_id": "2584270",
+      "name": "Mortal Shell II",
+      "rank": 30,
+      "rank_diff": -1,
+      "is_free": false,
+      "is_discounted": true,
+      "discount_pct": 25
+    },
+    {
+      "app_id": "4162040",
+      "name": "Zenless Zone Zero",
       "rank": 31,
-      "rank_diff": 2,
+      "rank_diff": 0,
       "is_free": true,
       "is_discounted": false,
       "discount_pct": 0
-    },
-    {
-      "app_id": "4618570",
-      "name": "Booster Pack Heroes",
-      "rank": 33,
-      "rank_diff": -5,
-      "is_free": false,
-      "is_discounted": true,
-      "discount_pct": 30
     }
   ]
 }
