@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-13T08:14:13.276373+09:00",
-  "crimson_desert_rank": 38,
+  "generated_at": "2026-11-13T13:54:30.779312+09:00",
+  "crimson_desert_rank": 36,
   "rank_diff": 2,
   "rivals": [
     {
@@ -13,8 +13,8 @@
       "discount_pct": 75
     },
     {
-      "app_id": "1973530",
-      "name": "Limbus Company",
+      "app_id": "1172470",
+      "name": "Apex Legends™",
       "rank": 3,
       "rank_diff": 1,
       "is_free": true,
@@ -22,19 +22,19 @@
       "discount_pct": 0
     },
     {
-      "app_id": "1172470",
-      "name": "Apex Legends™",
+      "app_id": "730",
+      "name": "Counter-Strike 2",
       "rank": 4,
-      "rank_diff": -1,
+      "rank_diff": 1,
       "is_free": true,
       "is_discounted": false,
       "discount_pct": 0
     },
     {
-      "app_id": "730",
-      "name": "Counter-Strike 2",
+      "app_id": "1973530",
+      "name": "Limbus Company",
       "rank": 5,
-      "rank_diff": 0,
+      "rank_diff": -2,
       "is_free": true,
       "is_discounted": false,
       "discount_pct": 0
@@ -43,7 +43,7 @@
       "app_id": "3393110",
       "name": "AION 2",
       "rank": 7,
-      "rank_diff": -1,
+      "rank_diff": 0,
       "is_free": true,
       "is_discounted": false,
       "discount_pct": 0
@@ -58,19 +58,10 @@
       "discount_pct": 0
     },
     {
-      "app_id": "3513350",
-      "name": "Wuthering Waves",
+      "app_id": "1049590",
+      "name": "Eternal Return",
       "rank": 10,
-      "rank_diff": 4,
-      "is_free": true,
-      "is_discounted": false,
-      "discount_pct": 0
-    },
-    {
-      "app_id": "216150",
-      "name": "MapleStory",
-      "rank": 12,
-      "rank_diff": 3,
+      "rank_diff": 5,
       "is_free": true,
       "is_discounted": false,
       "discount_pct": 0
@@ -78,15 +69,24 @@
     {
       "app_id": "4262460",
       "name": "ROB RUN",
-      "rank": 14,
+      "rank": 12,
       "rank_diff": 2,
       "is_free": true,
       "is_discounted": false,
       "discount_pct": 0
     },
     {
-      "app_id": "1049590",
-      "name": "Eternal Return",
+      "app_id": "3513350",
+      "name": "Wuthering Waves",
+      "rank": 13,
+      "rank_diff": -3,
+      "is_free": true,
+      "is_discounted": false,
+      "discount_pct": 0
+    },
+    {
+      "app_id": "216150",
+      "name": "MapleStory",
       "rank": 15,
       "rank_diff": -3,
       "is_free": true,
@@ -105,11 +105,20 @@
     {
       "app_id": "578080",
       "name": "PUBG: BATTLEGROUNDS",
-      "rank": 21,
-      "rank_diff": -3,
+      "rank": 19,
+      "rank_diff": 2,
       "is_free": true,
       "is_discounted": false,
       "discount_pct": 0
+    },
+    {
+      "app_id": "2868840",
+      "name": "Slay the Spire 2",
+      "rank": 21,
+      "rank_diff": 3,
+      "is_free": false,
+      "is_discounted": true,
+      "discount_pct": 20
     },
     {
       "app_id": "230410",
@@ -121,37 +130,28 @@
       "discount_pct": 0
     },
     {
-      "app_id": "394360",
-      "name": "Hearts of Iron IV",
-      "rank": 23,
-      "rank_diff": 11,
-      "is_free": false,
-      "is_discounted": true,
-      "discount_pct": 70
-    },
-    {
-      "app_id": "2868840",
-      "name": "Slay the Spire 2",
-      "rank": 24,
-      "rank_diff": 0,
-      "is_free": false,
-      "is_discounted": true,
-      "discount_pct": 20
-    },
-    {
       "app_id": "2767030",
       "name": "Marvel Rivals",
-      "rank": 25,
-      "rank_diff": 3,
+      "rank": 23,
+      "rank_diff": 2,
       "is_free": true,
       "is_discounted": false,
       "discount_pct": 0
     },
     {
+      "app_id": "394360",
+      "name": "Hearts of Iron IV",
+      "rank": 24,
+      "rank_diff": -1,
+      "is_free": false,
+      "is_discounted": true,
+      "discount_pct": 70
+    },
+    {
       "app_id": "236390",
       "name": "War Thunder",
       "rank": 26,
-      "rank_diff": -3,
+      "rank_diff": 0,
       "is_free": true,
       "is_discounted": false,
       "discount_pct": 0
@@ -159,7 +159,7 @@
     {
       "app_id": "2487190",
       "name": "Main Sequence",
-      "rank": 27,
+      "rank": 29,
       "rank_diff": -2,
       "is_free": false,
       "is_discounted": true,
@@ -168,38 +168,29 @@
     {
       "app_id": "1962663",
       "name": "Call of Duty®: Warzone™",
-      "rank": 31,
-      "rank_diff": -4,
+      "rank": 30,
+      "rank_diff": 1,
       "is_free": true,
       "is_discounted": false,
       "discount_pct": 0
     },
     {
-      "app_id": "489830",
-      "name": "The Elder Scrolls V: Skyrim Special Edition",
-      "rank": 32,
-      "rank_diff": -1,
-      "is_free": false,
-      "is_discounted": true,
-      "discount_pct": 80
-    },
-    {
       "app_id": "2062430",
       "name": "BALL x PIT",
-      "rank": 35,
-      "rank_diff": 0,
+      "rank": 32,
+      "rank_diff": 3,
       "is_free": false,
       "is_discounted": true,
       "discount_pct": 50
     },
     {
-      "app_id": "270880",
-      "name": "American Truck Simulator",
-      "rank": 36,
-      "rank_diff": -1,
+      "app_id": "1611600",
+      "name": "WARNO",
+      "rank": 35,
+      "rank_diff": 0,
       "is_free": false,
       "is_discounted": true,
-      "discount_pct": 75
+      "discount_pct": 66
     }
   ]
 }
