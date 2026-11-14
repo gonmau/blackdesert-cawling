@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-14T10:13:53.059828+09:00",
-  "crimson_desert_rank": 30,
-  "rank_diff": 3,
+  "generated_at": "2026-11-14T17:31:39.137614+09:00",
+  "crimson_desert_rank": 31,
+  "rank_diff": -1,
   "rivals": [
     {
       "app_id": "227300",
@@ -13,46 +13,37 @@
       "discount_pct": 75
     },
     {
-      "app_id": "2767030",
-      "name": "Marvel Rivals",
-      "rank": 2,
-      "rank_diff": 3,
-      "is_free": true,
-      "is_discounted": false,
-      "discount_pct": 0
-    },
-    {
-      "app_id": "730",
-      "name": "Counter-Strike 2",
-      "rank": 3,
-      "rank_diff": -1,
-      "is_free": true,
-      "is_discounted": false,
-      "discount_pct": 0
-    },
-    {
       "app_id": "2406770",
       "name": "Bodycam",
-      "rank": 4,
-      "rank_diff": 7,
+      "rank": 2,
+      "rank_diff": 2,
       "is_free": false,
       "is_discounted": true,
       "discount_pct": 20
     },
     {
-      "app_id": "1172470",
-      "name": "Apex Legends™",
-      "rank": 5,
-      "rank_diff": -1,
+      "app_id": "730",
+      "name": "Counter-Strike 2",
+      "rank": 3,
+      "rank_diff": 0,
       "is_free": true,
       "is_discounted": false,
       "discount_pct": 0
     },
     {
-      "app_id": "570",
-      "name": "Dota 2",
-      "rank": 9,
-      "rank_diff": -2,
+      "app_id": "1172470",
+      "name": "Apex Legends™",
+      "rank": 4,
+      "rank_diff": 1,
+      "is_free": true,
+      "is_discounted": false,
+      "discount_pct": 0
+    },
+    {
+      "app_id": "2767030",
+      "name": "Marvel Rivals",
+      "rank": 5,
+      "rank_diff": -3,
       "is_free": true,
       "is_discounted": false,
       "discount_pct": 0
@@ -60,6 +51,15 @@
     {
       "app_id": "3564740",
       "name": "Where Winds Meet",
+      "rank": 7,
+      "rank_diff": 3,
+      "is_free": true,
+      "is_discounted": false,
+      "discount_pct": 0
+    },
+    {
+      "app_id": "570",
+      "name": "Dota 2",
       "rank": 10,
       "rank_diff": -1,
       "is_free": true,
@@ -69,7 +69,7 @@
     {
       "app_id": "3393110",
       "name": "AION 2",
-      "rank": 11,
+      "rank": 12,
       "rank_diff": -1,
       "is_free": true,
       "is_discounted": false,
@@ -78,7 +78,16 @@
     {
       "app_id": "4262460",
       "name": "ROB RUN",
-      "rank": 13,
+      "rank": 14,
+      "rank_diff": -1,
+      "is_free": true,
+      "is_discounted": false,
+      "discount_pct": 0
+    },
+    {
+      "app_id": "578080",
+      "name": "PUBG: BATTLEGROUNDS",
+      "rank": 16,
       "rank_diff": 2,
       "is_free": true,
       "is_discounted": false,
@@ -87,8 +96,8 @@
     {
       "app_id": "1973530",
       "name": "Limbus Company",
-      "rank": 16,
-      "rank_diff": 0,
+      "rank": 17,
+      "rank_diff": -1,
       "is_free": true,
       "is_discounted": false,
       "discount_pct": 0
@@ -96,17 +105,17 @@
     {
       "app_id": "2868840",
       "name": "Slay the Spire 2",
-      "rank": 17,
-      "rank_diff": 0,
+      "rank": 18,
+      "rank_diff": -1,
       "is_free": false,
       "is_discounted": true,
       "discount_pct": 20
     },
     {
-      "app_id": "578080",
-      "name": "PUBG: BATTLEGROUNDS",
-      "rank": 18,
-      "rank_diff": 0,
+      "app_id": "230410",
+      "name": "Warframe",
+      "rank": 19,
+      "rank_diff": 1,
       "is_free": true,
       "is_discounted": false,
       "discount_pct": 0
@@ -114,26 +123,35 @@
     {
       "app_id": "394360",
       "name": "Hearts of Iron IV",
-      "rank": 19,
-      "rank_diff": 1,
+      "rank": 20,
+      "rank_diff": -1,
       "is_free": false,
       "is_discounted": true,
       "discount_pct": 70
     },
     {
-      "app_id": "230410",
-      "name": "Warframe",
-      "rank": 20,
-      "rank_diff": 2,
+      "app_id": "216150",
+      "name": "MapleStory",
+      "rank": 21,
+      "rank_diff": 1,
       "is_free": true,
       "is_discounted": false,
       "discount_pct": 0
     },
     {
-      "app_id": "216150",
-      "name": "MapleStory",
-      "rank": 22,
-      "rank_diff": 1,
+      "app_id": "5175310",
+      "name": "Worst Class Ever",
+      "rank": 24,
+      "rank_diff": 0,
+      "is_free": false,
+      "is_discounted": true,
+      "discount_pct": 35
+    },
+    {
+      "app_id": "1049590",
+      "name": "Eternal Return",
+      "rank": 26,
+      "rank_diff": 0,
       "is_free": true,
       "is_discounted": false,
       "discount_pct": 0
@@ -141,8 +159,8 @@
     {
       "app_id": "238960",
       "name": "Path of Exile",
-      "rank": 24,
-      "rank_diff": 0,
+      "rank": 27,
+      "rank_diff": -3,
       "is_free": true,
       "is_discounted": false,
       "discount_pct": 0
@@ -150,17 +168,8 @@
     {
       "app_id": "236390",
       "name": "War Thunder",
-      "rank": 25,
-      "rank_diff": 1,
-      "is_free": true,
-      "is_discounted": false,
-      "discount_pct": 0
-    },
-    {
-      "app_id": "3513350",
-      "name": "Wuthering Waves",
-      "rank": 27,
-      "rank_diff": -3,
+      "rank": 29,
+      "rank_diff": -4,
       "is_free": true,
       "is_discounted": false,
       "discount_pct": 0
