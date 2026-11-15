@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-15T05:22:13.751981+09:00",
+  "generated_at": "2026-11-15T09:41:36.828729+09:00",
   "crimson_desert_rank": 29,
-  "rank_diff": 1,
+  "rank_diff": 0,
   "rivals": [
     {
       "app_id": "2406770",
@@ -16,7 +16,7 @@
       "app_id": "730",
       "name": "Counter-Strike 2",
       "rank": 2,
-      "rank_diff": 1,
+      "rank_diff": 0,
       "is_free": true,
       "is_discounted": false,
       "discount_pct": 0
@@ -24,8 +24,8 @@
     {
       "app_id": "227300",
       "name": "Euro Truck Simulator 2",
-      "rank": 3,
-      "rank_diff": -1,
+      "rank": 5,
+      "rank_diff": -2,
       "is_free": false,
       "is_discounted": true,
       "discount_pct": 75
@@ -34,7 +34,7 @@
       "app_id": "1172470",
       "name": "Apex Legends™",
       "rank": 6,
-      "rank_diff": -2,
+      "rank_diff": 0,
       "is_free": true,
       "is_discounted": false,
       "discount_pct": 0
@@ -43,7 +43,7 @@
       "app_id": "570",
       "name": "Dota 2",
       "rank": 7,
-      "rank_diff": 2,
+      "rank_diff": 0,
       "is_free": true,
       "is_discounted": false,
       "discount_pct": 0
@@ -61,7 +61,7 @@
       "app_id": "3393110",
       "name": "AION 2",
       "rank": 9,
-      "rank_diff": 3,
+      "rank_diff": 0,
       "is_free": true,
       "is_discounted": false,
       "discount_pct": 0
@@ -69,8 +69,8 @@
     {
       "app_id": "3564740",
       "name": "Where Winds Meet",
-      "rank": 12,
-      "rank_diff": -5,
+      "rank": 11,
+      "rank_diff": 1,
       "is_free": true,
       "is_discounted": false,
       "discount_pct": 0
@@ -78,7 +78,7 @@
     {
       "app_id": "4262460",
       "name": "ROB RUN",
-      "rank": 14,
+      "rank": 12,
       "rank_diff": 2,
       "is_free": true,
       "is_discounted": false,
@@ -88,7 +88,16 @@
       "app_id": "578080",
       "name": "PUBG: BATTLEGROUNDS",
       "rank": 16,
-      "rank_diff": -1,
+      "rank_diff": 0,
+      "is_free": true,
+      "is_discounted": false,
+      "discount_pct": 0
+    },
+    {
+      "app_id": "230410",
+      "name": "Warframe",
+      "rank": 17,
+      "rank_diff": 1,
       "is_free": true,
       "is_discounted": false,
       "discount_pct": 0
@@ -96,17 +105,17 @@
     {
       "app_id": "2868840",
       "name": "Slay the Spire 2",
-      "rank": 17,
-      "rank_diff": 0,
+      "rank": 18,
+      "rank_diff": -1,
       "is_free": false,
       "is_discounted": true,
       "discount_pct": 20
     },
     {
-      "app_id": "230410",
-      "name": "Warframe",
-      "rank": 18,
-      "rank_diff": 2,
+      "app_id": "1973530",
+      "name": "Limbus Company",
+      "rank": 21,
+      "rank_diff": 1,
       "is_free": true,
       "is_discounted": false,
       "discount_pct": 0
@@ -114,35 +123,17 @@
     {
       "app_id": "394360",
       "name": "Hearts of Iron IV",
-      "rank": 21,
-      "rank_diff": 0,
+      "rank": 22,
+      "rank_diff": -1,
       "is_free": false,
       "is_discounted": true,
       "discount_pct": 70
     },
     {
-      "app_id": "1973530",
-      "name": "Limbus Company",
-      "rank": 22,
-      "rank_diff": -4,
-      "is_free": true,
-      "is_discounted": false,
-      "discount_pct": 0
-    },
-    {
-      "app_id": "238960",
-      "name": "Path of Exile",
-      "rank": 23,
-      "rank_diff": 3,
-      "is_free": true,
-      "is_discounted": false,
-      "discount_pct": 0
-    },
-    {
       "app_id": "216150",
       "name": "MapleStory",
-      "rank": 24,
-      "rank_diff": 3,
+      "rank": 23,
+      "rank_diff": 1,
       "is_free": true,
       "is_discounted": false,
       "discount_pct": 0
@@ -150,8 +141,17 @@
     {
       "app_id": "236390",
       "name": "War Thunder",
-      "rank": 26,
+      "rank": 24,
       "rank_diff": 2,
+      "is_free": true,
+      "is_discounted": false,
+      "discount_pct": 0
+    },
+    {
+      "app_id": "1962663",
+      "name": "Call of Duty®: Warzone™",
+      "rank": 27,
+      "rank_diff": 0,
       "is_free": true,
       "is_discounted": false,
       "discount_pct": 0
