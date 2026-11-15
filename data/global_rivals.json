@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-15T16:30:09.076347+09:00",
-  "crimson_desert_rank": 29,
-  "rank_diff": 0,
+  "generated_at": "2026-11-16T00:16:07.313327+09:00",
+  "crimson_desert_rank": 25,
+  "rank_diff": 4,
   "rivals": [
     {
       "app_id": "2406770",
@@ -22,28 +22,28 @@
       "discount_pct": 0
     },
     {
-      "app_id": "1172470",
-      "name": "Apex Legends™",
-      "rank": 3,
-      "rank_diff": 3,
-      "is_free": true,
-      "is_discounted": false,
-      "discount_pct": 0
-    },
-    {
       "app_id": "227300",
       "name": "Euro Truck Simulator 2",
-      "rank": 5,
-      "rank_diff": 0,
+      "rank": 3,
+      "rank_diff": 2,
       "is_free": false,
       "is_discounted": true,
       "discount_pct": 75
     },
     {
+      "app_id": "1172470",
+      "name": "Apex Legends™",
+      "rank": 4,
+      "rank_diff": -1,
+      "is_free": true,
+      "is_discounted": false,
+      "discount_pct": 0
+    },
+    {
       "app_id": "570",
       "name": "Dota 2",
-      "rank": 7,
-      "rank_diff": 0,
+      "rank": 6,
+      "rank_diff": 1,
       "is_free": true,
       "is_discounted": false,
       "discount_pct": 0
@@ -58,19 +58,10 @@
       "discount_pct": 0
     },
     {
-      "app_id": "2767030",
-      "name": "Marvel Rivals",
-      "rank": 10,
-      "rank_diff": -2,
-      "is_free": true,
-      "is_discounted": false,
-      "discount_pct": 0
-    },
-    {
       "app_id": "4262460",
       "name": "ROB RUN",
       "rank": 11,
-      "rank_diff": 1,
+      "rank_diff": 0,
       "is_free": true,
       "is_discounted": false,
       "discount_pct": 0
@@ -79,7 +70,16 @@
       "app_id": "578080",
       "name": "PUBG: BATTLEGROUNDS",
       "rank": 13,
-      "rank_diff": 3,
+      "rank_diff": 0,
+      "is_free": true,
+      "is_discounted": false,
+      "discount_pct": 0
+    },
+    {
+      "app_id": "2767030",
+      "name": "Marvel Rivals",
+      "rank": 15,
+      "rank_diff": -5,
       "is_free": true,
       "is_discounted": false,
       "discount_pct": 0
@@ -87,17 +87,8 @@
     {
       "app_id": "3564740",
       "name": "Where Winds Meet",
-      "rank": 15,
-      "rank_diff": -4,
-      "is_free": true,
-      "is_discounted": false,
-      "discount_pct": 0
-    },
-    {
-      "app_id": "230410",
-      "name": "Warframe",
-      "rank": 17,
-      "rank_diff": 0,
+      "rank": 16,
+      "rank_diff": -1,
       "is_free": true,
       "is_discounted": false,
       "discount_pct": 0
@@ -105,62 +96,44 @@
     {
       "app_id": "2868840",
       "name": "Slay the Spire 2",
-      "rank": 18,
-      "rank_diff": 0,
+      "rank": 17,
+      "rank_diff": 1,
       "is_free": false,
       "is_discounted": true,
       "discount_pct": 20
     },
     {
-      "app_id": "1973530",
-      "name": "Limbus Company",
-      "rank": 19,
-      "rank_diff": 2,
-      "is_free": true,
-      "is_discounted": false,
-      "discount_pct": 0
-    },
-    {
-      "app_id": "216150",
-      "name": "MapleStory",
-      "rank": 21,
-      "rank_diff": 2,
-      "is_free": true,
-      "is_discounted": false,
-      "discount_pct": 0
-    },
-    {
-      "app_id": "394360",
-      "name": "Hearts of Iron IV",
-      "rank": 23,
+      "app_id": "230410",
+      "name": "Warframe",
+      "rank": 18,
       "rank_diff": -1,
-      "is_free": false,
-      "is_discounted": true,
-      "discount_pct": 70
+      "is_free": true,
+      "is_discounted": false,
+      "discount_pct": 0
     },
     {
       "app_id": "5175310",
       "name": "Worst Class Ever",
-      "rank": 25,
-      "rank_diff": 0,
+      "rank": 20,
+      "rank_diff": 5,
       "is_free": false,
       "is_discounted": true,
       "discount_pct": 35
     },
     {
-      "app_id": "1962663",
-      "name": "Call of Duty®: Warzone™",
-      "rank": 26,
-      "rank_diff": 1,
-      "is_free": true,
-      "is_discounted": false,
-      "discount_pct": 0
+      "app_id": "394360",
+      "name": "Hearts of Iron IV",
+      "rank": 21,
+      "rank_diff": 2,
+      "is_free": false,
+      "is_discounted": true,
+      "discount_pct": 70
     },
     {
-      "app_id": "236390",
-      "name": "War Thunder",
-      "rank": 27,
-      "rank_diff": -3,
+      "app_id": "1973530",
+      "name": "Limbus Company",
+      "rank": 24,
+      "rank_diff": -5,
       "is_free": true,
       "is_discounted": false,
       "discount_pct": 0
