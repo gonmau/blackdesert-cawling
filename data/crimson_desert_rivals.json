@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-16T23:24:18.693317+09:00",
+  "generated_at": "2026-11-17T10:21:36.368048+09:00",
   "countries": {
     "us": {
       "name": "미국",
-      "crimson_desert_rank": 9,
-      "rank_diff": 13,
+      "crimson_desert_rank": 5,
+      "rank_diff": 4,
       "rivals": [
         {
           "app_id": "2406770",
@@ -12,8 +12,8 @@
           "is_free": false,
           "is_discounted": true,
           "discount_pct": 20,
-          "rank": 1,
-          "rank_diff": 0
+          "rank": 2,
+          "rank_diff": -1
         },
         {
           "app_id": "730",
@@ -21,93 +21,37 @@
           "is_free": true,
           "is_discounted": false,
           "discount_pct": 0,
-          "rank": 3,
-          "rank_diff": 0
-        },
-        {
-          "app_id": "4262460",
-          "name": "ROB RUN",
-          "is_free": true,
-          "is_discounted": false,
-          "discount_pct": 0,
           "rank": 4,
-          "rank_diff": 1
-        },
-        {
-          "app_id": "2767030",
-          "name": "Marvel Rivals",
-          "is_free": true,
-          "is_discounted": false,
-          "discount_pct": 0,
-          "rank": 6,
-          "rank_diff": -2
-        },
-        {
-          "app_id": "3393110",
-          "name": "AION 2",
-          "is_free": true,
-          "is_discounted": false,
-          "discount_pct": 0,
-          "rank": 7,
-          "rank_diff": 0
-        },
-        {
-          "app_id": "1172470",
-          "name": "Apex Legends™",
-          "is_free": true,
-          "is_discounted": false,
-          "discount_pct": 0,
-          "rank": 8,
-          "rank_diff": -2
+          "rank_diff": -1
         }
       ],
       "all_ranks": [
         {
           "rank": 1,
-          "name": "Bodycam",
-          "rank_diff": 0
+          "name": "Steam Frame",
+          "rank_diff": 4
         },
         {
           "rank": 2,
-          "name": "Call of Duty®: Modern Warfare® 4",
-          "rank_diff": 0
+          "name": "Bodycam",
+          "rank_diff": -1
         },
         {
           "rank": 3,
-          "name": "Counter-Strike 2",
-          "rank_diff": 0
+          "name": "Call of Duty®: Modern Warfare® 4",
+          "rank_diff": -1
         },
         {
           "rank": 4,
-          "name": "ROB RUN",
-          "rank_diff": 1
-        },
-        {
-          "rank": 5,
-          "name": "Steam Frame",
-          "rank_diff": 5
-        },
-        {
-          "rank": 6,
-          "name": "Marvel Rivals",
-          "rank_diff": -2
-        },
-        {
-          "rank": 7,
-          "name": "AION 2",
-          "rank_diff": 0
-        },
-        {
-          "rank": 8,
-          "name": "Apex Legends™",
-          "rank_diff": -2
+          "name": "Counter-Strike 2",
+          "rank_diff": -1
         }
       ]
     },
     "gb": {
       "name": "영국",
-      "crimson_desert_rank": 9,
-      "rank_diff": 17,
+      "crimson_desert_rank": 8,
+      "rank_diff": 1,
       "rivals": [
         {
           "app_id": "2406770",
@@ -115,8 +59,8 @@
           "is_free": false,
           "is_discounted": true,
           "discount_pct": 20,
-          "rank": 3,
-          "rank_diff": -1
+          "rank": 2,
+          "rank_diff": 1
         },
         {
           "app_id": "227300",
@@ -142,24 +86,33 @@
           "is_free": true,
           "is_discounted": false,
           "discount_pct": 0,
+          "rank": 6,
+          "rank_diff": 1
+        },
+        {
+          "app_id": "230410",
+          "name": "Warframe",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
           "rank": 7,
-          "rank_diff": -1
+          "rank_diff": 0
         }
       ],
       "all_ranks": [
         {
           "rank": 1,
           "name": "Steam Frame",
-          "rank_diff": 2
+          "rank_diff": 0
         },
         {
           "rank": 2,
-          "name": "Football Manager 27",
-          "rank_diff": -1
+          "name": "Bodycam",
+          "rank_diff": 1
         },
         {
           "rank": 3,
-          "name": "Bodycam",
+          "name": "Football Manager 27",
           "rank_diff": -1
         },
         {
@@ -174,52 +127,38 @@
         },
         {
           "rank": 6,
-          "name": "Call of Duty®: Modern Warfare® 4",
+          "name": "ROB RUN",
           "rank_diff": 1
         },
         {
           "rank": 7,
-          "name": "ROB RUN",
-          "rank_diff": -1
-        },
-        {
-          "rank": 8,
-          "name": "Euro Truck Simulator 2 - Coaches",
+          "name": "Warframe",
           "rank_diff": 0
         }
       ]
     },
     "de": {
       "name": "독일",
-      "crimson_desert_rank": 8,
-      "rank_diff": 21,
+      "crimson_desert_rank": 7,
+      "rank_diff": 1,
       "rivals": [
-        {
-          "app_id": "227300",
-          "name": "Euro Truck Simulator 2",
-          "is_free": false,
-          "is_discounted": true,
-          "discount_pct": 75,
-          "rank": 1,
-          "rank_diff": 0
-        },
         {
           "app_id": "3393110",
           "name": "AION 2",
           "is_free": true,
           "is_discounted": false,
           "discount_pct": 0,
-          "rank": 3,
-          "rank_diff": 0
+          "rank": 2,
+          "rank_diff": 1
         },
         {
-          "app_id": "2406770",
-          "name": "Bodycam",
+          "app_id": "227300",
+          "name": "Euro Truck Simulator 2",
           "is_free": false,
           "is_discounted": true,
-          "discount_pct": 20,
-          "rank": 5,
-          "rank_diff": 0
+          "discount_pct": 75,
+          "rank": 3,
+          "rank_diff": -2
         },
         {
           "app_id": "730",
@@ -227,25 +166,34 @@
           "is_free": true,
           "is_discounted": false,
           "discount_pct": 0,
-          "rank": 6,
+          "rank": 5,
           "rank_diff": 1
+        },
+        {
+          "app_id": "2406770",
+          "name": "Bodycam",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 20,
+          "rank": 6,
+          "rank_diff": -1
         }
       ],
       "all_ranks": [
         {
           "rank": 1,
-          "name": "Euro Truck Simulator 2",
-          "rank_diff": 0
+          "name": "Steam Frame",
+          "rank_diff": 1
         },
         {
           "rank": 2,
-          "name": "Steam Frame",
-          "rank_diff": 0
+          "name": "AION 2",
+          "rank_diff": 1
         },
         {
           "rank": 3,
-          "name": "AION 2",
-          "rank_diff": 0
+          "name": "Euro Truck Simulator 2",
+          "rank_diff": -2
         },
         {
           "rank": 4,
@@ -254,25 +202,20 @@
         },
         {
           "rank": 5,
-          "name": "Bodycam",
-          "rank_diff": 0
-        },
-        {
-          "rank": 6,
           "name": "Counter-Strike 2",
           "rank_diff": 1
         },
         {
-          "rank": 7,
-          "name": "Euro Truck Simulator 2 - Coaches",
+          "rank": 6,
+          "name": "Bodycam",
           "rank_diff": -1
         }
       ]
     },
     "fr": {
       "name": "프랑스",
-      "crimson_desert_rank": 11,
-      "rank_diff": 13,
+      "crimson_desert_rank": 6,
+      "rank_diff": 5,
       "rivals": [
         {
           "app_id": "3393110",
@@ -280,25 +223,7 @@
           "is_free": true,
           "is_discounted": false,
           "discount_pct": 0,
-          "rank": 1,
-          "rank_diff": 2
-        },
-        {
-          "app_id": "2406770",
-          "name": "Bodycam",
-          "is_free": false,
-          "is_discounted": true,
-          "discount_pct": 20,
           "rank": 2,
-          "rank_diff": -1
-        },
-        {
-          "app_id": "227300",
-          "name": "Euro Truck Simulator 2",
-          "is_free": false,
-          "is_discounted": true,
-          "discount_pct": 75,
-          "rank": 3,
           "rank_diff": -1
         },
         {
@@ -307,85 +232,60 @@
           "is_free": true,
           "is_discounted": false,
           "discount_pct": 0,
-          "rank": 4,
+          "rank": 3,
           "rank_diff": 1
         },
         {
-          "app_id": "730",
-          "name": "Counter-Strike 2",
-          "is_free": true,
-          "is_discounted": false,
-          "discount_pct": 0,
-          "rank": 9,
-          "rank_diff": 0
+          "app_id": "2406770",
+          "name": "Bodycam",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 20,
+          "rank": 4,
+          "rank_diff": -2
         },
         {
-          "app_id": "4126040",
-          "name": "Aniimo",
-          "is_free": true,
-          "is_discounted": false,
-          "discount_pct": 0,
-          "rank": 10,
-          "rank_diff": 3
+          "app_id": "227300",
+          "name": "Euro Truck Simulator 2",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 75,
+          "rank": 5,
+          "rank_diff": -2
         }
       ],
       "all_ranks": [
         {
           "rank": 1,
-          "name": "AION 2",
-          "rank_diff": 2
+          "name": "Steam Frame",
+          "rank_diff": 4
         },
         {
           "rank": 2,
-          "name": "Bodycam",
+          "name": "AION 2",
           "rank_diff": -1
         },
         {
           "rank": 3,
-          "name": "Euro Truck Simulator 2",
-          "rank_diff": -1
-        },
-        {
-          "rank": 4,
           "name": "ROB RUN",
           "rank_diff": 1
         },
         {
+          "rank": 4,
+          "name": "Bodycam",
+          "rank_diff": -2
+        },
+        {
           "rank": 5,
-          "name": "Steam Frame",
-          "rank_diff": -1
-        },
-        {
-          "rank": 6,
-          "name": "Football Manager 27",
-          "rank_diff": 1
-        },
-        {
-          "rank": 7,
-          "name": "Call of Duty®: Modern Warfare® 4",
-          "rank_diff": -1
-        },
-        {
-          "rank": 8,
-          "name": "Euro Truck Simulator 2 - Coaches",
-          "rank_diff": 0
-        },
-        {
-          "rank": 9,
-          "name": "Counter-Strike 2",
-          "rank_diff": 0
-        },
-        {
-          "rank": 10,
-          "name": "Aniimo",
-          "rank_diff": 3
+          "name": "Euro Truck Simulator 2",
+          "rank_diff": -2
         }
       ]
     },
     "ca": {
       "name": "캐나다",
-      "crimson_desert_rank": 8,
-      "rank_diff": 13,
+      "crimson_desert_rank": 3,
+      "rank_diff": 5,
       "rivals": [
         {
           "app_id": "2406770",
@@ -393,97 +293,36 @@
           "is_free": false,
           "is_discounted": true,
           "discount_pct": 20,
-          "rank": 1,
-          "rank_diff": 0
-        },
-        {
-          "app_id": "730",
-          "name": "Counter-Strike 2",
-          "is_free": true,
-          "is_discounted": false,
-          "discount_pct": 0,
-          "rank": 3,
+          "rank": 2,
           "rank_diff": -1
-        },
-        {
-          "app_id": "216150",
-          "name": "MapleStory",
-          "is_free": true,
-          "is_discounted": false,
-          "discount_pct": 0,
-          "rank": 4,
-          "rank_diff": -1
-        },
-        {
-          "app_id": "4262460",
-          "name": "ROB RUN",
-          "is_free": true,
-          "is_discounted": false,
-          "discount_pct": 0,
-          "rank": 6,
-          "rank_diff": -1
-        },
-        {
-          "app_id": "3393110",
-          "name": "AION 2",
-          "is_free": true,
-          "is_discounted": false,
-          "discount_pct": 0,
-          "rank": 7,
-          "rank_diff": 1
         }
       ],
       "all_ranks": [
         {
           "rank": 1,
-          "name": "Bodycam",
-          "rank_diff": 0
+          "name": "Steam Frame",
+          "rank_diff": 1
         },
         {
           "rank": 2,
-          "name": "Steam Frame",
-          "rank_diff": 4
-        },
-        {
-          "rank": 3,
-          "name": "Counter-Strike 2",
+          "name": "Bodycam",
           "rank_diff": -1
-        },
-        {
-          "rank": 4,
-          "name": "MapleStory",
-          "rank_diff": -1
-        },
-        {
-          "rank": 5,
-          "name": "Call of Duty®: Modern Warfare® 4",
-          "rank_diff": -1
-        },
-        {
-          "rank": 6,
-          "name": "ROB RUN",
-          "rank_diff": -1
-        },
-        {
-          "rank": 7,
-          "name": "AION 2",
-          "rank_diff": 1
         }
       ]
     },
     "br": {
       "name": "브라질",
-      "crimson_desert_rank": 10,
-      "rank_diff": 35,
+      "crimson_desert_rank": 8,
+      "rank_diff": 2,
       "rivals": [
         {
-          "app_id": "3393110",
-          "name": "AION 2",
-          "is_free": true,
-          "is_discounted": false,
-          "discount_pct": 0,
+          "app_id": "5037200",
+          "name": "just volleyball",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 38,
           "rank": 1,
-          "rank_diff": 1
+          "rank_diff": 0
         },
         {
           "app_id": "730",
@@ -492,7 +331,16 @@
           "is_discounted": false,
           "discount_pct": 0,
           "rank": 2,
-          "rank_diff": -1
+          "rank_diff": 0
+        },
+        {
+          "app_id": "3393110",
+          "name": "AION 2",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 3,
+          "rank_diff": -2
         },
         {
           "app_id": "227300",
@@ -500,8 +348,8 @@
           "is_free": false,
           "is_discounted": true,
           "discount_pct": 75,
-          "rank": 3,
-          "rank_diff": 0
+          "rank": 4,
+          "rank_diff": -1
         },
         {
           "app_id": "2406770",
@@ -509,8 +357,8 @@
           "is_free": false,
           "is_discounted": true,
           "discount_pct": 20,
-          "rank": 4,
-          "rank_diff": 0
+          "rank": 5,
+          "rank_diff": -1
         },
         {
           "app_id": "4262460",
@@ -518,71 +366,52 @@
           "is_free": true,
           "is_discounted": false,
           "discount_pct": 0,
-          "rank": 5,
-          "rank_diff": 0
-        },
-        {
-          "app_id": "570",
-          "name": "Dota 2",
-          "is_free": true,
-          "is_discounted": false,
-          "discount_pct": 0,
           "rank": 6,
-          "rank_diff": 0
+          "rank_diff": -1
         }
       ],
       "all_ranks": [
         {
           "rank": 1,
-          "name": "AION 2",
-          "rank_diff": 1
+          "name": "just volleyball",
+          "rank_diff": 0
         },
         {
           "rank": 2,
           "name": "Counter-Strike 2",
-          "rank_diff": -1
+          "rank_diff": 0
         },
         {
           "rank": 3,
-          "name": "Euro Truck Simulator 2",
-          "rank_diff": 0
+          "name": "AION 2",
+          "rank_diff": -2
         },
         {
           "rank": 4,
-          "name": "Bodycam",
-          "rank_diff": 0
+          "name": "Euro Truck Simulator 2",
+          "rank_diff": -1
         },
         {
           "rank": 5,
-          "name": "ROB RUN",
-          "rank_diff": 0
+          "name": "Bodycam",
+          "rank_diff": -1
         },
         {
           "rank": 6,
-          "name": "Dota 2",
-          "rank_diff": 0
+          "name": "ROB RUN",
+          "rank_diff": -1
         },
         {
           "rank": 7,
-          "name": "Call of Duty®: Modern Warfare® 4",
-          "rank_diff": 0
-        },
-        {
-          "rank": 8,
           "name": "EA SPORTS FC™ 27",
-          "rank_diff": 0
-        },
-        {
-          "rank": 9,
-          "name": "Euro Truck Simulator 2 - Coaches",
-          "rank_diff": 0
+          "rank_diff": 1
         }
       ]
     },
     "jp": {
       "name": "일본",
-      "crimson_desert_rank": 35,
-      "rank_diff": 108,
+      "crimson_desert_rank": 33,
+      "rank_diff": 2,
       "rivals": [
         {
           "app_id": "1172470",
@@ -609,7 +438,7 @@
           "is_discounted": false,
           "discount_pct": 0,
           "rank": 3,
-          "rank_diff": 1
+          "rank_diff": 0
         },
         {
           "app_id": "5200620",
@@ -621,40 +450,13 @@
           "rank_diff": 0
         },
         {
-          "app_id": "1361350",
-          "name": "DEAD OR ALIVE Xtreme Venus Vacation",
-          "is_free": true,
-          "is_discounted": false,
-          "discount_pct": 0,
+          "app_id": "5318580",
+          "name": "Jyoka -Castle town-",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 23,
           "rank": 6,
-          "rank_diff": 77
-        },
-        {
-          "app_id": "2860490",
-          "name": "Warota: I Live Next to The Demon King's Castle LOL",
-          "is_free": false,
-          "is_discounted": true,
-          "discount_pct": 10,
-          "rank": 7,
-          "rank_diff": -4
-        },
-        {
-          "app_id": "2638080",
-          "name": "Annihilated",
-          "is_free": false,
-          "is_discounted": true,
-          "discount_pct": 10,
-          "rank": 8,
-          "rank_diff": -3
-        },
-        {
-          "app_id": "2868840",
-          "name": "Slay the Spire 2",
-          "is_free": false,
-          "is_discounted": true,
-          "discount_pct": 20,
-          "rank": 9,
-          "rank_diff": -2
+          "rank_diff": 5
         },
         {
           "app_id": "438100",
@@ -662,17 +464,44 @@
           "is_free": true,
           "is_discounted": false,
           "discount_pct": 0,
-          "rank": 10,
-          "rank_diff": 10
+          "rank": 7,
+          "rank_diff": 3
         },
         {
-          "app_id": "5318580",
-          "name": "Jyoka -Castle town-",
+          "app_id": "2860490",
+          "name": "Warota: I Live Next to The Demon King's Castle LOL",
           "is_free": false,
           "is_discounted": true,
-          "discount_pct": 23,
+          "discount_pct": 10,
+          "rank": 8,
+          "rank_diff": -1
+        },
+        {
+          "app_id": "2638080",
+          "name": "Annihilated",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 10,
+          "rank": 9,
+          "rank_diff": -1
+        },
+        {
+          "app_id": "2868840",
+          "name": "Slay the Spire 2",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 20,
+          "rank": 10,
+          "rank_diff": -1
+        },
+        {
+          "app_id": "1361350",
+          "name": "DEAD OR ALIVE Xtreme Venus Vacation",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
           "rank": 11,
-          "rank_diff": -2
+          "rank_diff": -5
         },
         {
           "app_id": "1973530",
@@ -681,16 +510,7 @@
           "is_discounted": false,
           "discount_pct": 0,
           "rank": 12,
-          "rank_diff": -4
-        },
-        {
-          "app_id": "2492040",
-          "name": "FATAL FURY: City of the Wolves",
-          "is_free": false,
-          "is_discounted": true,
-          "discount_pct": 75,
-          "rank": 13,
-          "rank_diff": 2
+          "rank_diff": 0
         },
         {
           "app_id": "4508340",
@@ -698,8 +518,26 @@
           "is_free": true,
           "is_discounted": false,
           "discount_pct": 0,
+          "rank": 13,
+          "rank_diff": 1
+        },
+        {
+          "app_id": "2492040",
+          "name": "FATAL FURY: City of the Wolves",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 75,
           "rank": 14,
-          "rank_diff": -2
+          "rank_diff": -1
+        },
+        {
+          "app_id": "3432860",
+          "name": "Psycho-Sleuth",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 10,
+          "rank": 15,
+          "rank_diff": 4
         },
         {
           "app_id": "3513350",
@@ -707,17 +545,8 @@
           "is_free": true,
           "is_discounted": false,
           "discount_pct": 0,
-          "rank": 15,
-          "rank_diff": 4
-        },
-        {
-          "app_id": "3375780",
-          "name": "Trails in the Sky 1st Chapter",
-          "is_free": false,
-          "is_discounted": true,
-          "discount_pct": 50,
           "rank": 16,
-          "rank_diff": 8
+          "rank_diff": -1
         },
         {
           "app_id": "2357570",
@@ -726,52 +555,7 @@
           "is_discounted": false,
           "discount_pct": 0,
           "rank": 17,
-          "rank_diff": 4
-        },
-        {
-          "app_id": "3432860",
-          "name": "Psycho-Sleuth",
-          "is_free": false,
-          "is_discounted": true,
-          "discount_pct": 10,
-          "rank": 19,
-          "rank_diff": -5
-        },
-        {
-          "app_id": "1449850",
-          "name": "Yu-Gi-Oh! Master Duel",
-          "is_free": true,
-          "is_discounted": false,
-          "discount_pct": 0,
-          "rank": 20,
-          "rank_diff": -3
-        },
-        {
-          "app_id": "4282500",
-          "name": "hololive Dreams",
-          "is_free": true,
-          "is_discounted": false,
-          "discount_pct": 0,
-          "rank": 21,
-          "rank_diff": 6
-        },
-        {
-          "app_id": "227300",
-          "name": "Euro Truck Simulator 2",
-          "is_free": false,
-          "is_discounted": true,
-          "discount_pct": 75,
-          "rank": 22,
-          "rank_diff": -11
-        },
-        {
-          "app_id": "5160800",
-          "name": "Find The Needle",
-          "is_free": false,
-          "is_discounted": true,
-          "discount_pct": 15,
-          "rank": 25,
-          "rank_diff": -12
+          "rank_diff": 0
         },
         {
           "app_id": "1665460",
@@ -779,8 +563,53 @@
           "is_free": true,
           "is_discounted": false,
           "discount_pct": 0,
+          "rank": 20,
+          "rank_diff": 7
+        },
+        {
+          "app_id": "1449850",
+          "name": "Yu-Gi-Oh! Master Duel",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 22,
+          "rank_diff": -2
+        },
+        {
+          "app_id": "4282500",
+          "name": "hololive Dreams",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 23,
+          "rank_diff": -2
+        },
+        {
+          "app_id": "227300",
+          "name": "Euro Truck Simulator 2",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 75,
+          "rank": 25,
+          "rank_diff": -3
+        },
+        {
+          "app_id": "5160800",
+          "name": "Find The Needle",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 15,
+          "rank": 26,
+          "rank_diff": -1
+        },
+        {
+          "app_id": "3609080",
+          "name": "StarSavior",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
           "rank": 27,
-          "rank_diff": -11
+          "rank_diff": 3
         },
         {
           "app_id": "2764370",
@@ -789,34 +618,7 @@
           "is_discounted": false,
           "discount_pct": 0,
           "rank": 28,
-          "rank_diff": 8
-        },
-        {
-          "app_id": "3609080",
-          "name": "StarSavior",
-          "is_free": true,
-          "is_discounted": false,
-          "discount_pct": 0,
-          "rank": 30,
-          "rank_diff": -4
-        },
-        {
-          "app_id": "4921660",
-          "name": "EVERYONE'S TIER LIST!",
-          "is_free": false,
-          "is_discounted": true,
-          "discount_pct": 15,
-          "rank": 33,
-          "rank_diff": -4
-        },
-        {
-          "app_id": "1607250",
-          "name": "MY HERO ULTRA RUMBLE",
-          "is_free": true,
-          "is_discounted": false,
-          "discount_pct": 0,
-          "rank": 34,
-          "rank_diff": 22
+          "rank_diff": 0
         }
       ],
       "all_ranks": [
@@ -833,7 +635,7 @@
         {
           "rank": 3,
           "name": "ウマ娘 プリティーダービー",
-          "rank_diff": 1
+          "rank_diff": 0
         },
         {
           "rank": 4,
@@ -843,159 +645,149 @@
         {
           "rank": 5,
           "name": "DRAGON QUEST MONSTERS: The Withered World",
-          "rank_diff": 1
+          "rank_diff": 0
         },
         {
           "rank": 6,
-          "name": "DEAD OR ALIVE Xtreme Venus Vacation",
-          "rank_diff": 77
+          "name": "Jyoka -Castle town-",
+          "rank_diff": 5
         },
         {
           "rank": 7,
-          "name": "Warota: I Live Next to The Demon King's Castle LOL",
-          "rank_diff": -4
+          "name": "VRChat",
+          "rank_diff": 3
         },
         {
           "rank": 8,
-          "name": "Annihilated",
-          "rank_diff": -3
+          "name": "Warota: I Live Next to The Demon King's Castle LOL",
+          "rank_diff": -1
         },
         {
           "rank": 9,
-          "name": "Slay the Spire 2",
-          "rank_diff": -2
+          "name": "Annihilated",
+          "rank_diff": -1
         },
         {
           "rank": 10,
-          "name": "VRChat",
-          "rank_diff": 10
+          "name": "Slay the Spire 2",
+          "rank_diff": -1
         },
         {
           "rank": 11,
-          "name": "Jyoka -Castle town-",
-          "rank_diff": -2
+          "name": "DEAD OR ALIVE Xtreme Venus Vacation",
+          "rank_diff": -5
         },
         {
           "rank": 12,
           "name": "Limbus Company",
-          "rank_diff": -4
+          "rank_diff": 0
         },
         {
           "rank": 13,
-          "name": "FATAL FURY: City of the Wolves",
-          "rank_diff": 2
+          "name": "NTE: Neverness to Everness",
+          "rank_diff": 1
         },
         {
           "rank": 14,
-          "name": "NTE: Neverness to Everness",
-          "rank_diff": -2
+          "name": "FATAL FURY: City of the Wolves",
+          "rank_diff": -1
         },
         {
           "rank": 15,
-          "name": "Wuthering Waves",
+          "name": "Psycho-Sleuth",
           "rank_diff": 4
         },
         {
           "rank": 16,
-          "name": "Trails in the Sky 1st Chapter",
-          "rank_diff": 8
+          "name": "Wuthering Waves",
+          "rank_diff": -1
         },
         {
           "rank": 17,
           "name": "Overwatch®",
-          "rank_diff": 4
+          "rank_diff": 0
         },
         {
           "rank": 18,
-          "name": "Call of Duty®: Modern Warfare® 4",
-          "rank_diff": -8
-        },
-        {
-          "rank": 19,
-          "name": "Psycho-Sleuth",
-          "rank_diff": -5
-        },
-        {
-          "rank": 20,
-          "name": "Yu-Gi-Oh! Master Duel",
-          "rank_diff": -3
-        },
-        {
-          "rank": 21,
-          "name": "hololive Dreams",
-          "rank_diff": 6
-        },
-        {
-          "rank": 22,
-          "name": "Euro Truck Simulator 2",
-          "rank_diff": -11
-        },
-        {
-          "rank": 23,
-          "name": "FINAL FANTASY XIV Online",
-          "rank_diff": 26
-        },
-        {
-          "rank": 24,
-          "name": "Japanese Ramen Simulator",
+          "name": "Trails in the Sky 1st Chapter",
           "rank_diff": -2
         },
         {
+          "rank": 19,
+          "name": "Call of Duty®: Modern Warfare® 4",
+          "rank_diff": -1
+        },
+        {
+          "rank": 20,
+          "name": "eFootball™",
+          "rank_diff": 7
+        },
+        {
+          "rank": 21,
+          "name": "Escape from Tarkov",
+          "rank_diff": 8
+        },
+        {
+          "rank": 22,
+          "name": "Yu-Gi-Oh! Master Duel",
+          "rank_diff": -2
+        },
+        {
+          "rank": 23,
+          "name": "hololive Dreams",
+          "rank_diff": -2
+        },
+        {
+          "rank": 24,
+          "name": "FINAL FANTASY XIV Online",
+          "rank_diff": -1
+        },
+        {
           "rank": 25,
-          "name": "Find The Needle",
-          "rank_diff": -12
+          "name": "Euro Truck Simulator 2",
+          "rank_diff": -3
         },
         {
           "rank": 26,
-          "name": "FINAL FANTASY RESONANCE",
-          "rank_diff": -8
+          "name": "Find The Needle",
+          "rank_diff": -1
         },
         {
           "rank": 27,
-          "name": "eFootball™",
-          "rank_diff": -11
+          "name": "StarSavior",
+          "rank_diff": 3
         },
         {
           "rank": 28,
           "name": "Starward",
-          "rank_diff": 8
+          "rank_diff": 0
         },
         {
           "rank": 29,
-          "name": "Escape from Tarkov",
-          "rank_diff": 2
+          "name": "Japanese Ramen Simulator",
+          "rank_diff": -5
         },
         {
           "rank": 30,
-          "name": "StarSavior",
+          "name": "FINAL FANTASY RESONANCE",
           "rank_diff": -4
         },
         {
           "rank": 31,
-          "name": "Dead by Daylight",
-          "rank_diff": 1
+          "name": "EA SPORTS FC™ 27",
+          "rank_diff": 0
         },
         {
           "rank": 32,
-          "name": "Potato Please",
-          "rank_diff": -7
-        },
-        {
-          "rank": 33,
-          "name": "EVERYONE'S TIER LIST!",
-          "rank_diff": -4
-        },
-        {
-          "rank": 34,
-          "name": "MY HERO ULTRA RUMBLE",
-          "rank_diff": 22
+          "name": "Dead by Daylight",
+          "rank_diff": -1
         }
       ]
     },
     "kr": {
       "name": "한국",
       "crimson_desert_rank": 3,
-      "rank_diff": 5,
+      "rank_diff": 0,
       "rivals": [
         {
           "app_id": "578080",
@@ -1032,7 +824,7 @@
     "cn": {
       "name": "중국",
       "crimson_desert_rank": 8,
-      "rank_diff": 17,
+      "rank_diff": 0,
       "rivals": [
         {
           "app_id": "1172470",
@@ -1044,22 +836,22 @@
           "rank_diff": 0
         },
         {
-          "app_id": "5175310",
-          "name": "Worst Class Ever",
-          "is_free": false,
-          "is_discounted": true,
-          "discount_pct": 35,
-          "rank": 3,
-          "rank_diff": 0
-        },
-        {
           "app_id": "4459590",
           "name": "Slotbound",
           "is_free": false,
           "is_discounted": true,
           "discount_pct": 10,
-          "rank": 4,
+          "rank": 3,
           "rank_diff": 1
+        },
+        {
+          "app_id": "5175310",
+          "name": "Worst Class Ever",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 35,
+          "rank": 4,
+          "rank_diff": -1
         },
         {
           "app_id": "578080",
@@ -1068,7 +860,7 @@
           "is_discounted": false,
           "discount_pct": 0,
           "rank": 5,
-          "rank_diff": -1
+          "rank_diff": 0
         },
         {
           "app_id": "2507950",
@@ -1093,18 +885,18 @@
         },
         {
           "rank": 3,
-          "name": "Worst Class Ever",
-          "rank_diff": 0
-        },
-        {
-          "rank": 4,
           "name": "Slotbound",
           "rank_diff": 1
         },
         {
+          "rank": 4,
+          "name": "Worst Class Ever",
+          "rank_diff": -1
+        },
+        {
           "rank": 5,
           "name": "PUBG: BATTLEGROUNDS",
-          "rank_diff": -1
+          "rank_diff": 0
         },
         {
           "rank": 6,
@@ -1120,8 +912,8 @@
     },
     "ru": {
       "name": "러시아",
-      "crimson_desert_rank": 7,
-      "rank_diff": 20,
+      "crimson_desert_rank": 5,
+      "rank_diff": 2,
       "rivals": [
         {
           "app_id": "570",
@@ -1142,13 +934,13 @@
           "rank_diff": 0
         },
         {
-          "app_id": "2584270",
-          "name": "Mortal Shell II",
-          "is_free": false,
-          "is_discounted": true,
-          "discount_pct": 25,
+          "app_id": "4262460",
+          "name": "ROB RUN",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
           "rank": 3,
-          "rank_diff": 7
+          "rank_diff": 3
         },
         {
           "app_id": "227300",
@@ -1157,25 +949,7 @@
           "is_discounted": true,
           "discount_pct": 75,
           "rank": 4,
-          "rank_diff": -1
-        },
-        {
-          "app_id": "2406770",
-          "name": "Bodycam",
-          "is_free": false,
-          "is_discounted": true,
-          "discount_pct": 20,
-          "rank": 5,
-          "rank_diff": -1
-        },
-        {
-          "app_id": "4262460",
-          "name": "ROB RUN",
-          "is_free": true,
-          "is_discounted": false,
-          "discount_pct": 0,
-          "rank": 6,
-          "rank_diff": -1
+          "rank_diff": 0
         }
       ],
       "all_ranks": [
@@ -1191,30 +965,20 @@
         },
         {
           "rank": 3,
-          "name": "Mortal Shell II",
-          "rank_diff": 7
+          "name": "ROB RUN",
+          "rank_diff": 3
         },
         {
           "rank": 4,
           "name": "Euro Truck Simulator 2",
-          "rank_diff": -1
-        },
-        {
-          "rank": 5,
-          "name": "Bodycam",
-          "rank_diff": -1
-        },
-        {
-          "rank": 6,
-          "name": "ROB RUN",
-          "rank_diff": -1
+          "rank_diff": 0
         }
       ]
     },
     "au": {
       "name": "호주",
-      "crimson_desert_rank": 4,
-      "rank_diff": 22,
+      "crimson_desert_rank": 2,
+      "rank_diff": 2,
       "rivals": [
         {
           "app_id": "2406770",
@@ -1224,15 +988,6 @@
           "discount_pct": 20,
           "rank": 1,
           "rank_diff": 0
-        },
-        {
-          "app_id": "730",
-          "name": "Counter-Strike 2",
-          "is_free": true,
-          "is_discounted": false,
-          "discount_pct": 0,
-          "rank": 2,
-          "rank_diff": 0
         }
       ],
       "all_ranks": [
@@ -1240,23 +995,13 @@
           "rank": 1,
           "name": "Bodycam",
           "rank_diff": 0
-        },
-        {
-          "rank": 2,
-          "name": "Counter-Strike 2",
-          "rank_diff": 0
-        },
-        {
-          "rank": 3,
-          "name": "Steam Frame",
-          "rank_diff": 1
         }
       ]
     },
     "es": {
       "name": "스페인",
-      "crimson_desert_rank": 12,
-      "rank_diff": 44,
+      "crimson_desert_rank": 11,
+      "rank_diff": 1,
       "rivals": [
         {
           "app_id": "227300",
@@ -1264,26 +1009,17 @@
           "is_free": false,
           "is_discounted": true,
           "discount_pct": 75,
-          "rank": 1,
-          "rank_diff": 0
+          "rank": 2,
+          "rank_diff": -1
         },
         {
-          "app_id": "2406770",
-          "name": "Bodycam",
+          "app_id": "5037200",
+          "name": "just volleyball",
           "is_free": false,
           "is_discounted": true,
-          "discount_pct": 20,
+          "discount_pct": 38,
           "rank": 3,
-          "rank_diff": 1
-        },
-        {
-          "app_id": "4262460",
-          "name": "ROB RUN",
-          "is_free": true,
-          "is_discounted": false,
-          "discount_pct": 0,
-          "rank": 4,
-          "rank_diff": 1
+          "rank_diff": 0
         },
         {
           "app_id": "730",
@@ -1291,6 +1027,15 @@
           "is_free": true,
           "is_discounted": false,
           "discount_pct": 0,
+          "rank": 4,
+          "rank_diff": 1
+        },
+        {
+          "app_id": "2406770",
+          "name": "Bodycam",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 20,
           "rank": 5,
           "rank_diff": -2
         },
@@ -1304,39 +1049,48 @@
           "rank_diff": 0
         },
         {
-          "app_id": "578080",
-          "name": "PUBG: BATTLEGROUNDS",
+          "app_id": "4262460",
+          "name": "ROB RUN",
           "is_free": true,
           "is_discounted": false,
           "discount_pct": 0,
-          "rank": 11,
-          "rank_diff": 1
+          "rank": 7,
+          "rank_diff": -3
+        },
+        {
+          "app_id": "1771300",
+          "name": "Kingdom Come: Deliverance II",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 67,
+          "rank": 8,
+          "rank_diff": 0
         }
       ],
       "all_ranks": [
         {
           "rank": 1,
-          "name": "Euro Truck Simulator 2",
-          "rank_diff": 0
-        },
-        {
-          "rank": 2,
           "name": "Steam Frame",
-          "rank_diff": 0
-        },
-        {
-          "rank": 3,
-          "name": "Bodycam",
           "rank_diff": 1
         },
         {
+          "rank": 2,
+          "name": "Euro Truck Simulator 2",
+          "rank_diff": -1
+        },
+        {
+          "rank": 3,
+          "name": "just volleyball",
+          "rank_diff": 0
+        },
+        {
           "rank": 4,
-          "name": "ROB RUN",
+          "name": "Counter-Strike 2",
           "rank_diff": 1
         },
         {
           "rank": 5,
-          "name": "Counter-Strike 2",
+          "name": "Bodycam",
           "rank_diff": -2
         },
         {
@@ -1346,45 +1100,31 @@
         },
         {
           "rank": 7,
-          "name": "Moon Sweepers",
-          "rank_diff": 0
+          "name": "ROB RUN",
+          "rank_diff": -3
         },
         {
           "rank": 8,
-          "name": "EA SPORTS FC™ 27",
+          "name": "Kingdom Come: Deliverance II",
           "rank_diff": 0
         },
         {
           "rank": 9,
-          "name": "Euro Truck Simulator 2 - Coaches",
-          "rank_diff": 0
+          "name": "EA SPORTS FC™ 27",
+          "rank_diff": -1
         },
         {
           "rank": 10,
-          "name": "Football Manager 27",
-          "rank_diff": 1
-        },
-        {
-          "rank": 11,
-          "name": "PUBG: BATTLEGROUNDS",
-          "rank_diff": 1
+          "name": "Moon Sweepers",
+          "rank_diff": -3
         }
       ]
     },
     "it": {
       "name": "이탈리아",
-      "crimson_desert_rank": 11,
-      "rank_diff": 9,
+      "crimson_desert_rank": 9,
+      "rank_diff": 2,
       "rivals": [
-        {
-          "app_id": "2406770",
-          "name": "Bodycam",
-          "is_free": false,
-          "is_discounted": true,
-          "discount_pct": 20,
-          "rank": 1,
-          "rank_diff": 0
-        },
         {
           "app_id": "227300",
           "name": "Euro Truck Simulator 2",
@@ -1395,13 +1135,22 @@
           "rank_diff": 0
         },
         {
+          "app_id": "2406770",
+          "name": "Bodycam",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 20,
+          "rank": 3,
+          "rank_diff": -2
+        },
+        {
           "app_id": "3393110",
           "name": "AION 2",
           "is_free": true,
           "is_discounted": false,
           "discount_pct": 0,
-          "rank": 3,
-          "rank_diff": 2
+          "rank": 4,
+          "rank_diff": -1
         },
         {
           "app_id": "4262460",
@@ -1411,13 +1160,22 @@
           "discount_pct": 0,
           "rank": 7,
           "rank_diff": 0
+        },
+        {
+          "app_id": "5037200",
+          "name": "just volleyball",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 38,
+          "rank": 8,
+          "rank_diff": 0
         }
       ],
       "all_ranks": [
         {
           "rank": 1,
-          "name": "Bodycam",
-          "rank_diff": 0
+          "name": "EA SPORTS FC™ 27",
+          "rank_diff": 9
         },
         {
           "rank": 2,
@@ -1426,23 +1184,23 @@
         },
         {
           "rank": 3,
-          "name": "AION 2",
-          "rank_diff": 2
-        },
-        {
-          "rank": 4,
-          "name": "Call of Duty®: Modern Warfare® 4",
-          "rank_diff": 0
-        },
-        {
-          "rank": 5,
-          "name": "Football Manager 27",
+          "name": "Bodycam",
           "rank_diff": -2
         },
         {
+          "rank": 4,
+          "name": "AION 2",
+          "rank_diff": -1
+        },
+        {
+          "rank": 5,
+          "name": "Call of Duty®: Modern Warfare® 4",
+          "rank_diff": -1
+        },
+        {
           "rank": 6,
-          "name": "Euro Truck Simulator 2 - Coaches",
-          "rank_diff": 3
+          "name": "Steam Frame",
+          "rank_diff": 2
         },
         {
           "rank": 7,
@@ -1451,43 +1209,33 @@
         },
         {
           "rank": 8,
-          "name": "Steam Frame",
-          "rank_diff": 3
-        },
-        {
-          "rank": 9,
-          "name": "Moon Sweepers",
-          "rank_diff": -1
-        },
-        {
-          "rank": 10,
-          "name": "EA SPORTS FC™ 27",
-          "rank_diff": -4
+          "name": "just volleyball",
+          "rank_diff": 0
         }
       ]
     },
     "pl": {
       "name": "폴란드",
-      "crimson_desert_rank": 9,
-      "rank_diff": 16,
+      "crimson_desert_rank": 8,
+      "rank_diff": 1,
       "rivals": [
-        {
-          "app_id": "227300",
-          "name": "Euro Truck Simulator 2",
-          "is_free": false,
-          "is_discounted": true,
-          "discount_pct": 75,
-          "rank": 1,
-          "rank_diff": 0
-        },
         {
           "app_id": "730",
           "name": "Counter-Strike 2",
           "is_free": true,
           "is_discounted": false,
           "discount_pct": 0,
+          "rank": 1,
+          "rank_diff": 1
+        },
+        {
+          "app_id": "227300",
+          "name": "Euro Truck Simulator 2",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 75,
           "rank": 2,
-          "rank_diff": 0
+          "rank_diff": -1
         },
         {
           "app_id": "4262460",
@@ -1495,8 +1243,8 @@
           "is_free": true,
           "is_discounted": false,
           "discount_pct": 0,
-          "rank": 5,
-          "rank_diff": 0
+          "rank": 4,
+          "rank_diff": 1
         },
         {
           "app_id": "2406770",
@@ -1504,66 +1252,52 @@
           "is_free": false,
           "is_discounted": true,
           "discount_pct": 20,
-          "rank": 6,
-          "rank_diff": 0
-        },
-        {
-          "app_id": "3393110",
-          "name": "AION 2",
-          "is_free": true,
-          "is_discounted": false,
-          "discount_pct": 0,
-          "rank": 7,
+          "rank": 5,
           "rank_diff": 1
         }
       ],
       "all_ranks": [
         {
           "rank": 1,
-          "name": "Euro Truck Simulator 2",
-          "rank_diff": 0
+          "name": "Counter-Strike 2",
+          "rank_diff": 1
         },
         {
           "rank": 2,
-          "name": "Counter-Strike 2",
-          "rank_diff": 0
+          "name": "Euro Truck Simulator 2",
+          "rank_diff": -1
         },
         {
           "rank": 3,
           "name": "Steam Frame",
-          "rank_diff": 1
+          "rank_diff": 0
         },
         {
           "rank": 4,
-          "name": "Euro Truck Simulator 2 - Coaches",
-          "rank_diff": -1
-        },
-        {
-          "rank": 5,
           "name": "ROB RUN",
-          "rank_diff": 0
-        },
-        {
-          "rank": 6,
-          "name": "Bodycam",
-          "rank_diff": 0
-        },
-        {
-          "rank": 7,
-          "name": "AION 2",
           "rank_diff": 1
         },
         {
-          "rank": 8,
+          "rank": 5,
+          "name": "Bodycam",
+          "rank_diff": 1
+        },
+        {
+          "rank": 6,
+          "name": "Euro Truck Simulator 2 - Coaches",
+          "rank_diff": -2
+        },
+        {
+          "rank": 7,
           "name": "EA SPORTS FC™ 27",
-          "rank_diff": -1
+          "rank_diff": 1
         }
       ]
     },
     "tr": {
       "name": "터키",
       "crimson_desert_rank": 9,
-      "rank_diff": 56,
+      "rank_diff": 0,
       "rivals": [
         {
           "app_id": "730",
@@ -1589,7 +1323,16 @@
           "is_free": true,
           "is_discounted": false,
           "discount_pct": 0,
-          "rank": 4,
+          "rank": 5,
+          "rank_diff": -1
+        },
+        {
+          "app_id": "4262460",
+          "name": "ROB RUN",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 6,
           "rank_diff": 2
         },
         {
@@ -1598,17 +1341,8 @@
           "is_free": false,
           "is_discounted": true,
           "discount_pct": 20,
-          "rank": 6,
-          "rank_diff": 1
-        },
-        {
-          "app_id": "4262460",
-          "name": "ROB RUN",
-          "is_free": true,
-          "is_discounted": false,
-          "discount_pct": 0,
           "rank": 8,
-          "rank_diff": 0
+          "rank_diff": -2
         }
       ],
       "all_ranks": [
@@ -1629,35 +1363,35 @@
         },
         {
           "rank": 4,
-          "name": "AION 2",
-          "rank_diff": 2
+          "name": "EA SPORTS FC™ 27",
+          "rank_diff": 3
         },
         {
           "rank": 5,
-          "name": "Euro Truck Simulator 2 - Coaches",
+          "name": "AION 2",
           "rank_diff": -1
         },
         {
           "rank": 6,
-          "name": "Bodycam",
-          "rank_diff": 1
+          "name": "ROB RUN",
+          "rank_diff": 2
         },
         {
           "rank": 7,
-          "name": "EA SPORTS FC™ 27",
+          "name": "Euro Truck Simulator 2 - Coaches",
           "rank_diff": -2
         },
         {
           "rank": 8,
-          "name": "ROB RUN",
-          "rank_diff": 0
+          "name": "Bodycam",
+          "rank_diff": -2
         }
       ]
     },
     "nl": {
       "name": "네덜란드",
-      "crimson_desert_rank": 7,
-      "rank_diff": 17,
+      "crimson_desert_rank": 4,
+      "rank_diff": 3,
       "rivals": [
         {
           "app_id": "227300",
@@ -1693,28 +1427,13 @@
           "rank": 3,
           "name": "Bodycam",
           "rank_diff": 0
-        },
-        {
-          "rank": 4,
-          "name": "Euro Truck Simulator 2 - Coaches",
-          "rank_diff": 0
-        },
-        {
-          "rank": 5,
-          "name": "Call of Duty®: Modern Warfare® 4",
-          "rank_diff": 2
-        },
-        {
-          "rank": 6,
-          "name": "Football Manager 27",
-          "rank_diff": -1
         }
       ]
     },
     "se": {
       "name": "스웨덴",
-      "crimson_desert_rank": 7,
-      "rank_diff": 26,
+      "crimson_desert_rank": 5,
+      "rank_diff": 2,
       "rivals": [
         {
           "app_id": "730",
@@ -1723,7 +1442,7 @@
           "is_discounted": false,
           "discount_pct": 0,
           "rank": 2,
-          "rank_diff": -1
+          "rank_diff": 0
         },
         {
           "app_id": "2406770",
@@ -1732,15 +1451,6 @@
           "is_discounted": true,
           "discount_pct": 20,
           "rank": 3,
-          "rank_diff": 0
-        },
-        {
-          "app_id": "227300",
-          "name": "Euro Truck Simulator 2",
-          "is_free": false,
-          "is_discounted": true,
-          "discount_pct": 75,
-          "rank": 4,
           "rank_diff": 0
         },
         {
@@ -1749,20 +1459,20 @@
           "is_free": true,
           "is_discounted": false,
           "discount_pct": 0,
-          "rank": 6,
-          "rank_diff": -1
+          "rank": 4,
+          "rank_diff": 2
         }
       ],
       "all_ranks": [
         {
           "rank": 1,
           "name": "Steam Frame",
-          "rank_diff": 1
+          "rank_diff": 0
         },
         {
           "rank": 2,
           "name": "Counter-Strike 2",
-          "rank_diff": -1
+          "rank_diff": 0
         },
         {
           "rank": 3,
@@ -1771,25 +1481,15 @@
         },
         {
           "rank": 4,
-          "name": "Euro Truck Simulator 2",
-          "rank_diff": 0
-        },
-        {
-          "rank": 5,
-          "name": "Football Manager 27",
-          "rank_diff": 1
-        },
-        {
-          "rank": 6,
           "name": "ROB RUN",
-          "rank_diff": -1
+          "rank_diff": 2
         }
       ]
     },
     "no": {
       "name": "노르웨이",
-      "crimson_desert_rank": 5,
-      "rank_diff": 23,
+      "crimson_desert_rank": 7,
+      "rank_diff": -2,
       "rivals": [
         {
           "app_id": "730",
@@ -1801,21 +1501,30 @@
           "rank_diff": 0
         },
         {
-          "app_id": "227300",
-          "name": "Euro Truck Simulator 2",
-          "is_free": false,
-          "is_discounted": true,
-          "discount_pct": 75,
-          "rank": 2,
-          "rank_diff": 0
-        },
-        {
           "app_id": "2406770",
           "name": "Bodycam",
           "is_free": false,
           "is_discounted": true,
           "discount_pct": 20,
+          "rank": 2,
+          "rank_diff": 1
+        },
+        {
+          "app_id": "227300",
+          "name": "Euro Truck Simulator 2",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 75,
           "rank": 3,
+          "rank_diff": -1
+        },
+        {
+          "app_id": "4262460",
+          "name": "ROB RUN",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 6,
           "rank_diff": 0
         }
       ],
@@ -1827,17 +1536,27 @@
         },
         {
           "rank": 2,
-          "name": "Euro Truck Simulator 2",
-          "rank_diff": 0
+          "name": "Bodycam",
+          "rank_diff": 1
         },
         {
           "rank": 3,
-          "name": "Bodycam",
-          "rank_diff": 0
+          "name": "Euro Truck Simulator 2",
+          "rank_diff": -1
         },
         {
           "rank": 4,
+          "name": "EA SPORTS FC™ 27",
+          "rank_diff": 0
+        },
+        {
+          "rank": 5,
           "name": "Football Manager 27",
+          "rank_diff": -1
+        },
+        {
+          "rank": 6,
+          "name": "ROB RUN",
           "rank_diff": 0
         }
       ]
@@ -1845,7 +1564,7 @@
     "dk": {
       "name": "덴마크",
       "crimson_desert_rank": 11,
-      "rank_diff": 11,
+      "rank_diff": 0,
       "rivals": [
         {
           "app_id": "730",
@@ -1863,7 +1582,16 @@
           "is_discounted": true,
           "discount_pct": 20,
           "rank": 3,
-          "rank_diff": 2
+          "rank_diff": 0
+        },
+        {
+          "app_id": "4262460",
+          "name": "ROB RUN",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 4,
+          "rank_diff": 1
         },
         {
           "app_id": "227300",
@@ -1871,8 +1599,224 @@
           "is_free": false,
           "is_discounted": true,
           "discount_pct": 75,
-          "rank": 4,
+          "rank": 5,
           "rank_diff": -1
+        },
+        {
+          "app_id": "1771300",
+          "name": "Kingdom Come: Deliverance II",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 67,
+          "rank": 9,
+          "rank_diff": 0
+        }
+      ],
+      "all_ranks": [
+        {
+          "rank": 1,
+          "name": "Counter-Strike 2",
+          "rank_diff": 0
+        },
+        {
+          "rank": 2,
+          "name": "Steam Frame",
+          "rank_diff": 0
+        },
+        {
+          "rank": 3,
+          "name": "Bodycam",
+          "rank_diff": 0
+        },
+        {
+          "rank": 4,
+          "name": "ROB RUN",
+          "rank_diff": 1
+        },
+        {
+          "rank": 5,
+          "name": "Euro Truck Simulator 2",
+          "rank_diff": -1
+        },
+        {
+          "rank": 6,
+          "name": "Football Manager 27",
+          "rank_diff": 0
+        },
+        {
+          "rank": 7,
+          "name": "EA SPORTS FC™ 27",
+          "rank_diff": 0
+        },
+        {
+          "rank": 8,
+          "name": "Moon Sweepers",
+          "rank_diff": 0
+        },
+        {
+          "rank": 9,
+          "name": "Kingdom Come: Deliverance II",
+          "rank_diff": 0
+        },
+        {
+          "rank": 10,
+          "name": "Euro Truck Simulator 2 - Coaches",
+          "rank_diff": -1
+        }
+      ]
+    },
+    "fi": {
+      "name": "핀란드",
+      "crimson_desert_rank": 4,
+      "rank_diff": 1,
+      "rivals": [
+        {
+          "app_id": "730",
+          "name": "Counter-Strike 2",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 1,
+          "rank_diff": 0
+        },
+        {
+          "app_id": "227300",
+          "name": "Euro Truck Simulator 2",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 75,
+          "rank": 3,
+          "rank_diff": 0
+        }
+      ],
+      "all_ranks": [
+        {
+          "rank": 1,
+          "name": "Counter-Strike 2",
+          "rank_diff": 0
+        },
+        {
+          "rank": 2,
+          "name": "Steam Frame",
+          "rank_diff": 0
+        },
+        {
+          "rank": 3,
+          "name": "Euro Truck Simulator 2",
+          "rank_diff": 0
+        }
+      ]
+    },
+    "at": {
+      "name": "오스트리아",
+      "crimson_desert_rank": 6,
+      "rank_diff": 1,
+      "rivals": [
+        {
+          "app_id": "730",
+          "name": "Counter-Strike 2",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 2,
+          "rank_diff": 1
+        },
+        {
+          "app_id": "3393110",
+          "name": "AION 2",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 3,
+          "rank_diff": 2
+        },
+        {
+          "app_id": "2406770",
+          "name": "Bodycam",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 20,
+          "rank": 4,
+          "rank_diff": 0
+        },
+        {
+          "app_id": "227300",
+          "name": "Euro Truck Simulator 2",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 75,
+          "rank": 5,
+          "rank_diff": -3
+        }
+      ],
+      "all_ranks": [
+        {
+          "rank": 1,
+          "name": "Steam Frame",
+          "rank_diff": 0
+        },
+        {
+          "rank": 2,
+          "name": "Counter-Strike 2",
+          "rank_diff": 1
+        },
+        {
+          "rank": 3,
+          "name": "AION 2",
+          "rank_diff": 2
+        },
+        {
+          "rank": 4,
+          "name": "Bodycam",
+          "rank_diff": 0
+        },
+        {
+          "rank": 5,
+          "name": "Euro Truck Simulator 2",
+          "rank_diff": -3
+        }
+      ]
+    },
+    "ch": {
+      "name": "스위스",
+      "crimson_desert_rank": 8,
+      "rank_diff": -1,
+      "rivals": [
+        {
+          "app_id": "730",
+          "name": "Counter-Strike 2",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 1,
+          "rank_diff": 1
+        },
+        {
+          "app_id": "3393110",
+          "name": "AION 2",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 2,
+          "rank_diff": 1
+        },
+        {
+          "app_id": "227300",
+          "name": "Euro Truck Simulator 2",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 75,
+          "rank": 3,
+          "rank_diff": -2
+        },
+        {
+          "app_id": "2406770",
+          "name": "Bodycam",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 20,
+          "rank": 4,
+          "rank_diff": 0
         },
         {
           "app_id": "4262460",
@@ -1881,272 +1825,51 @@
           "is_discounted": false,
           "discount_pct": 0,
           "rank": 5,
-          "rank_diff": 2
+          "rank_diff": 0
         }
       ],
       "all_ranks": [
         {
           "rank": 1,
           "name": "Counter-Strike 2",
-          "rank_diff": 0
+          "rank_diff": 1
         },
         {
           "rank": 2,
-          "name": "Steam Frame",
-          "rank_diff": 0
+          "name": "AION 2",
+          "rank_diff": 1
         },
         {
           "rank": 3,
-          "name": "Bodycam",
-          "rank_diff": 2
+          "name": "Euro Truck Simulator 2",
+          "rank_diff": -2
         },
         {
           "rank": 4,
-          "name": "Euro Truck Simulator 2",
-          "rank_diff": -1
+          "name": "Bodycam",
+          "rank_diff": 0
         },
         {
           "rank": 5,
           "name": "ROB RUN",
-          "rank_diff": 2
+          "rank_diff": 0
         },
         {
           "rank": 6,
-          "name": "Football Manager 27",
-          "rank_diff": -2
+          "name": "Moon Sweepers",
+          "rank_diff": -1
         },
         {
           "rank": 7,
           "name": "EA SPORTS FC™ 27",
-          "rank_diff": -1
-        },
-        {
-          "rank": 8,
-          "name": "Moon Sweepers",
-          "rank_diff": 2
-        },
-        {
-          "rank": 9,
-          "name": "Euro Truck Simulator 2 - Coaches",
-          "rank_diff": -1
-        },
-        {
-          "rank": 10,
-          "name": "Call of Duty®: Modern Warfare® 4",
-          "rank_diff": -1
-        }
-      ]
-    },
-    "fi": {
-      "name": "핀란드",
-      "crimson_desert_rank": 5,
-      "rank_diff": 27,
-      "rivals": [
-        {
-          "app_id": "730",
-          "name": "Counter-Strike 2",
-          "is_free": true,
-          "is_discounted": false,
-          "discount_pct": 0,
-          "rank": 1,
-          "rank_diff": 1
-        },
-        {
-          "app_id": "227300",
-          "name": "Euro Truck Simulator 2",
-          "is_free": false,
-          "is_discounted": true,
-          "discount_pct": 75,
-          "rank": 3,
           "rank_diff": 0
-        },
-        {
-          "app_id": "2406770",
-          "name": "Bodycam",
-          "is_free": false,
-          "is_discounted": true,
-          "discount_pct": 20,
-          "rank": 4,
-          "rank_diff": 0
-        }
-      ],
-      "all_ranks": [
-        {
-          "rank": 1,
-          "name": "Counter-Strike 2",
-          "rank_diff": 1
-        },
-        {
-          "rank": 2,
-          "name": "Steam Frame",
-          "rank_diff": -1
-        },
-        {
-          "rank": 3,
-          "name": "Euro Truck Simulator 2",
-          "rank_diff": 0
-        },
-        {
-          "rank": 4,
-          "name": "Bodycam",
-          "rank_diff": 0
-        }
-      ]
-    },
-    "at": {
-      "name": "오스트리아",
-      "crimson_desert_rank": 7,
-      "rank_diff": 36,
-      "rivals": [
-        {
-          "app_id": "227300",
-          "name": "Euro Truck Simulator 2",
-          "is_free": false,
-          "is_discounted": true,
-          "discount_pct": 75,
-          "rank": 2,
-          "rank_diff": -1
-        },
-        {
-          "app_id": "730",
-          "name": "Counter-Strike 2",
-          "is_free": true,
-          "is_discounted": false,
-          "discount_pct": 0,
-          "rank": 3,
-          "rank_diff": 0
-        },
-        {
-          "app_id": "2406770",
-          "name": "Bodycam",
-          "is_free": false,
-          "is_discounted": true,
-          "discount_pct": 20,
-          "rank": 4,
-          "rank_diff": 0
-        },
-        {
-          "app_id": "3393110",
-          "name": "AION 2",
-          "is_free": true,
-          "is_discounted": false,
-          "discount_pct": 0,
-          "rank": 5,
-          "rank_diff": 0
-        }
-      ],
-      "all_ranks": [
-        {
-          "rank": 1,
-          "name": "Steam Frame",
-          "rank_diff": 1
-        },
-        {
-          "rank": 2,
-          "name": "Euro Truck Simulator 2",
-          "rank_diff": -1
-        },
-        {
-          "rank": 3,
-          "name": "Counter-Strike 2",
-          "rank_diff": 0
-        },
-        {
-          "rank": 4,
-          "name": "Bodycam",
-          "rank_diff": 0
-        },
-        {
-          "rank": 5,
-          "name": "AION 2",
-          "rank_diff": 0
-        },
-        {
-          "rank": 6,
-          "name": "Moon Sweepers",
-          "rank_diff": 0
-        }
-      ]
-    },
-    "ch": {
-      "name": "스위스",
-      "crimson_desert_rank": 7,
-      "rank_diff": 29,
-      "rivals": [
-        {
-          "app_id": "227300",
-          "name": "Euro Truck Simulator 2",
-          "is_free": false,
-          "is_discounted": true,
-          "discount_pct": 75,
-          "rank": 1,
-          "rank_diff": 1
-        },
-        {
-          "app_id": "730",
-          "name": "Counter-Strike 2",
-          "is_free": true,
-          "is_discounted": false,
-          "discount_pct": 0,
-          "rank": 2,
-          "rank_diff": -1
-        },
-        {
-          "app_id": "3393110",
-          "name": "AION 2",
-          "is_free": true,
-          "is_discounted": false,
-          "discount_pct": 0,
-          "rank": 3,
-          "rank_diff": 0
-        },
-        {
-          "app_id": "2406770",
-          "name": "Bodycam",
-          "is_free": false,
-          "is_discounted": true,
-          "discount_pct": 20,
-          "rank": 4,
-          "rank_diff": 0
-        }
-      ],
-      "all_ranks": [
-        {
-          "rank": 1,
-          "name": "Euro Truck Simulator 2",
-          "rank_diff": 1
-        },
-        {
-          "rank": 2,
-          "name": "Counter-Strike 2",
-          "rank_diff": -1
-        },
-        {
-          "rank": 3,
-          "name": "AION 2",
-          "rank_diff": 0
-        },
-        {
-          "rank": 4,
-          "name": "Bodycam",
-          "rank_diff": 0
-        },
-        {
-          "rank": 5,
-          "name": "Moon Sweepers",
-          "rank_diff": 2
-        },
-        {
-          "rank": 6,
-          "name": "Football Manager 27",
-          "rank_diff": 2
         }
       ]
     },
     "cz": {
       "name": "체코",
       "crimson_desert_rank": 8,
-      "rank_diff": 20,
+      "rank_diff": 0,
       "rivals": [
         {
           "app_id": "227300",
@@ -2167,12 +1890,30 @@
           "rank_diff": 0
         },
         {
+          "app_id": "1771300",
+          "name": "Kingdom Come: Deliverance II",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 67,
+          "rank": 3,
+          "rank_diff": 0
+        },
+        {
           "app_id": "2406770",
           "name": "Bodycam",
           "is_free": false,
           "is_discounted": true,
           "discount_pct": 20,
-          "rank": 4,
+          "rank": 5,
+          "rank_diff": -1
+        },
+        {
+          "app_id": "5185890",
+          "name": "Zombies Aren't Real",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 10,
+          "rank": 7,
           "rank_diff": 0
         }
       ],
@@ -2189,35 +1930,35 @@
         },
         {
           "rank": 3,
-          "name": "Euro Truck Simulator 2 - Coaches",
+          "name": "Kingdom Come: Deliverance II",
           "rank_diff": 0
         },
         {
           "rank": 4,
-          "name": "Bodycam",
-          "rank_diff": 0
-        },
-        {
-          "rank": 5,
           "name": "Steam Frame",
           "rank_diff": 1
         },
         {
+          "rank": 5,
+          "name": "Bodycam",
+          "rank_diff": -1
+        },
+        {
           "rank": 6,
-          "name": "Call of Duty®: Modern Warfare® 4",
-          "rank_diff": 3
+          "name": "Euro Truck Simulator 2 - Coaches",
+          "rank_diff": -3
         },
         {
           "rank": 7,
-          "name": "Euro Truck Simulator 2 - Iceland",
+          "name": "Zombies Aren't Real",
           "rank_diff": 0
         }
       ]
     },
     "sg": {
       "name": "싱가포르",
-      "crimson_desert_rank": 5,
-      "rank_diff": 13,
+      "crimson_desert_rank": 4,
+      "rank_diff": 1,
       "rivals": [
         {
           "app_id": "3393110",
@@ -2236,15 +1977,6 @@
           "discount_pct": 0,
           "rank": 2,
           "rank_diff": 0
-        },
-        {
-          "app_id": "2406770",
-          "name": "Bodycam",
-          "is_free": false,
-          "is_discounted": true,
-          "discount_pct": 20,
-          "rank": 4,
-          "rank_diff": 1
         }
       ],
       "all_ranks": [
@@ -2262,26 +1994,30 @@
           "rank": 3,
           "name": "Escape from Tarkov",
           "rank_diff": 0
-        },
-        {
-          "rank": 4,
-          "name": "Bodycam",
-          "rank_diff": 1
         }
       ]
     },
     "be": {
       "name": "벨기에",
-      "crimson_desert_rank": 8,
-      "rank_diff": 11,
+      "crimson_desert_rank": 6,
+      "rank_diff": 2,
       "rivals": [
+        {
+          "app_id": "4262460",
+          "name": "ROB RUN",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 2,
+          "rank_diff": 2
+        },
         {
           "app_id": "227300",
           "name": "Euro Truck Simulator 2",
           "is_free": false,
           "is_discounted": true,
           "discount_pct": 75,
-          "rank": 2,
+          "rank": 3,
           "rank_diff": -1
         },
         {
@@ -2290,15 +2026,303 @@
           "is_free": false,
           "is_discounted": true,
           "discount_pct": 20,
-          "rank": 3,
+          "rank": 4,
           "rank_diff": -1
         },
         {
-          "app_id": "4262460",
-          "name": "ROB RUN",
+          "app_id": "230410",
+          "name": "Warframe",
           "is_free": true,
           "is_discounted": false,
           "discount_pct": 0,
+          "rank": 5,
+          "rank_diff": 0
+        }
+      ],
+      "all_ranks": [
+        {
+          "rank": 1,
+          "name": "Steam Frame",
+          "rank_diff": 0
+        },
+        {
+          "rank": 2,
+          "name": "ROB RUN",
+          "rank_diff": 2
+        },
+        {
+          "rank": 3,
+          "name": "Euro Truck Simulator 2",
+          "rank_diff": -1
+        },
+        {
+          "rank": 4,
+          "name": "Bodycam",
+          "rank_diff": -1
+        },
+        {
+          "rank": 5,
+          "name": "Warframe",
+          "rank_diff": 0
+        }
+      ]
+    },
+    "hk": {
+      "name": "홍콩",
+      "crimson_desert_rank": 18,
+      "rank_diff": -2,
+      "rivals": [
+        {
+          "app_id": "1172470",
+          "name": "Apex Legends™",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 1,
+          "rank_diff": 1
+        },
+        {
+          "app_id": "578080",
+          "name": "PUBG: BATTLEGROUNDS",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 3,
+          "rank_diff": 1
+        },
+        {
+          "app_id": "227300",
+          "name": "Euro Truck Simulator 2",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 75,
+          "rank": 4,
+          "rank_diff": -1
+        },
+        {
+          "app_id": "3564740",
+          "name": "Where Winds Meet",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 5,
+          "rank_diff": 0
+        },
+        {
+          "app_id": "394360",
+          "name": "Hearts of Iron IV",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 70,
+          "rank": 6,
+          "rank_diff": 1
+        },
+        {
+          "app_id": "4459590",
+          "name": "Slotbound",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 10,
+          "rank": 7,
+          "rank_diff": 2
+        },
+        {
+          "app_id": "730",
+          "name": "Counter-Strike 2",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 8,
+          "rank_diff": 0
+        },
+        {
+          "app_id": "5175310",
+          "name": "Worst Class Ever",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 35,
+          "rank": 9,
+          "rank_diff": -3
+        },
+        {
+          "app_id": "1665460",
+          "name": "eFootball™",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 12,
+          "rank_diff": 0
+        },
+        {
+          "app_id": "230410",
+          "name": "Warframe",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 14,
+          "rank_diff": 0
+        },
+        {
+          "app_id": "1973530",
+          "name": "Limbus Company",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 15,
+          "rank_diff": -2
+        },
+        {
+          "app_id": "2406770",
+          "name": "Bodycam",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 20,
+          "rank": 16,
+          "rank_diff": -5
+        },
+        {
+          "app_id": "570",
+          "name": "Dota 2",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 17,
+          "rank_diff": 0
+        }
+      ],
+      "all_ranks": [
+        {
+          "rank": 1,
+          "name": "Apex Legends™",
+          "rank_diff": 1
+        },
+        {
+          "rank": 2,
+          "name": "Phantom Blade Zero",
+          "rank_diff": -1
+        },
+        {
+          "rank": 3,
+          "name": "PUBG: BATTLEGROUNDS",
+          "rank_diff": 1
+        },
+        {
+          "rank": 4,
+          "name": "Euro Truck Simulator 2",
+          "rank_diff": -1
+        },
+        {
+          "rank": 5,
+          "name": "Where Winds Meet",
+          "rank_diff": 0
+        },
+        {
+          "rank": 6,
+          "name": "Hearts of Iron IV",
+          "rank_diff": 1
+        },
+        {
+          "rank": 7,
+          "name": "Slotbound",
+          "rank_diff": 2
+        },
+        {
+          "rank": 8,
+          "name": "Counter-Strike 2",
+          "rank_diff": 0
+        },
+        {
+          "rank": 9,
+          "name": "Worst Class Ever",
+          "rank_diff": -3
+        },
+        {
+          "rank": 10,
+          "name": "Euro Truck Simulator 2 - Coaches",
+          "rank_diff": 0
+        },
+        {
+          "rank": 11,
+          "name": "Football Manager 27",
+          "rank_diff": 3
+        },
+        {
+          "rank": 12,
+          "name": "eFootball™",
+          "rank_diff": 0
+        },
+        {
+          "rank": 13,
+          "name": "Probably Stolen - Cyberpunk Shopkeeper Sim",
+          "rank_diff": 2
+        },
+        {
+          "rank": 14,
+          "name": "Warframe",
+          "rank_diff": 0
+        },
+        {
+          "rank": 15,
+          "name": "Limbus Company",
+          "rank_diff": -2
+        },
+        {
+          "rank": 16,
+          "name": "Bodycam",
+          "rank_diff": -5
+        },
+        {
+          "rank": 17,
+          "name": "Dota 2",
+          "rank_diff": 0
+        }
+      ]
+    },
+    "nz": {
+      "name": "뉴질랜드",
+      "crimson_desert_rank": 1,
+      "rank_diff": 4,
+      "rivals": [],
+      "all_ranks": []
+    },
+    "tw": {
+      "name": "대만",
+      "crimson_desert_rank": 6,
+      "rank_diff": 0,
+      "rivals": [
+        {
+          "app_id": "3564740",
+          "name": "Where Winds Meet",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 1,
+          "rank_diff": 0
+        },
+        {
+          "app_id": "1172470",
+          "name": "Apex Legends™",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 2,
+          "rank_diff": 0
+        },
+        {
+          "app_id": "578080",
+          "name": "PUBG: BATTLEGROUNDS",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 3,
+          "rank_diff": 1
+        },
+        {
+          "app_id": "227300",
+          "name": "Euro Truck Simulator 2",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 75,
           "rank": 4,
           "rank_diff": -1
         }
@@ -2306,160 +2330,6 @@
       "all_ranks": [
         {
           "rank": 1,
-          "name": "Steam Frame",
-          "rank_diff": 6
-        },
-        {
-          "rank": 2,
-          "name": "Euro Truck Simulator 2",
-          "rank_diff": -1
-        },
-        {
-          "rank": 3,
-          "name": "Bodycam",
-          "rank_diff": -1
-        },
-        {
-          "rank": 4,
-          "name": "ROB RUN",
-          "rank_diff": -1
-        },
-        {
-          "rank": 5,
-          "name": "Football Manager 27",
-          "rank_diff": 0
-        },
-        {
-          "rank": 6,
-          "name": "Call of Duty®: Modern Warfare® 4",
-          "rank_diff": -2
-        },
-        {
-          "rank": 7,
-          "name": "Euro Truck Simulator 2 - Coaches",
-          "rank_diff": -1
-        }
-      ]
-    },
-    "hk": {
-      "name": "홍콩",
-      "crimson_desert_rank": 16,
-      "rank_diff": 16,
-      "rivals": [],
-      "all_ranks": [
-        {
-          "rank": 1,
-          "name": "Phantom Blade Zero",
-          "rank_diff": 0
-        },
-        {
-          "rank": 2,
-          "name": "Apex Legends™",
-          "rank_diff": 0
-        },
-        {
-          "rank": 3,
-          "name": "Euro Truck Simulator 2",
-          "rank_diff": 0
-        },
-        {
-          "rank": 4,
-          "name": "PUBG: BATTLEGROUNDS",
-          "rank_diff": 0
-        },
-        {
-          "rank": 5,
-          "name": "Where Winds Meet",
-          "rank_diff": 0
-        },
-        {
-          "rank": 6,
-          "name": "Worst Class Ever",
-          "rank_diff": 3
-        },
-        {
-          "rank": 7,
-          "name": "Hearts of Iron IV",
-          "rank_diff": -1
-        },
-        {
-          "rank": 8,
-          "name": "Counter-Strike 2",
-          "rank_diff": -1
-        },
-        {
-          "rank": 9,
-          "name": "Slotbound",
-          "rank_diff": 2
-        },
-        {
-          "rank": 10,
-          "name": "Euro Truck Simulator 2 - Coaches",
-          "rank_diff": -2
-        },
-        {
-          "rank": 11,
-          "name": "Bodycam",
-          "rank_diff": 4
-        },
-        {
-          "rank": 12,
-          "name": "eFootball™",
-          "rank_diff": 2
-        },
-        {
-          "rank": 13,
-          "name": "Limbus Company",
-          "rank_diff": -3
-        },
-        {
-          "rank": 14,
-          "name": "Football Manager 27",
-          "rank_diff": -2
-        },
-        {
-          "rank": 15,
-          "name": "Probably Stolen - Cyberpunk Shopkeeper Sim",
-          "rank_diff": -2
-        }
-      ]
-    },
-    "nz": {
-      "name": "뉴질랜드",
-      "crimson_desert_rank": 5,
-      "rank_diff": 7,
-      "rivals": [],
-      "all_ranks": [
-        {
-          "rank": 1,
-          "name": "Dota 2",
-          "rank_diff": 4
-        },
-        {
-          "rank": 2,
-          "name": "Counter-Strike 2",
-          "rank_diff": 0
-        },
-        {
-          "rank": 3,
-          "name": "Bodycam",
-          "rank_diff": -2
-        },
-        {
-          "rank": 4,
-          "name": "Warframe",
-          "rank_diff": 6
-        }
-      ]
-    },
-    "tw": {
-      "name": "대만",
-      "crimson_desert_rank": 6,
-      "rank_diff": 14,
-      "rivals": [],
-      "all_ranks": [
-        {
-          "rank": 1,
           "name": "Where Winds Meet",
           "rank_diff": 0
         },
@@ -2470,13 +2340,13 @@
         },
         {
           "rank": 3,
-          "name": "Euro Truck Simulator 2",
-          "rank_diff": 0
+          "name": "PUBG: BATTLEGROUNDS",
+          "rank_diff": 1
         },
         {
           "rank": 4,
-          "name": "PUBG: BATTLEGROUNDS",
-          "rank_diff": 0
+          "name": "Euro Truck Simulator 2",
+          "rank_diff": -1
         },
         {
           "rank": 5,
@@ -2487,34 +2357,85 @@
     },
     "th": {
       "name": "태국",
-      "crimson_desert_rank": 6,
-      "rank_diff": 26,
-      "rivals": [],
-      "all_ranks": [
+      "crimson_desert_rank": 7,
+      "rank_diff": -1,
+      "rivals": [
         {
+          "app_id": "570",
+          "name": "Dota 2",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
           "rank": 1,
+          "rank_diff": 1
+        },
+        {
+          "app_id": "4521650",
           "name": "Farm &amp; Feast",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 20,
+          "rank": 2,
+          "rank_diff": -1
+        },
+        {
+          "app_id": "578080",
+          "name": "PUBG: BATTLEGROUNDS",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 3,
           "rank_diff": 0
         },
         {
-          "rank": 2,
-          "name": "Dota 2",
+          "app_id": "3393110",
+          "name": "AION 2",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 4,
           "rank_diff": 0
+        },
+        {
+          "app_id": "3564740",
+          "name": "Where Winds Meet",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 6,
+          "rank_diff": 0
+        }
+      ],
+      "all_ranks": [
+        {
+          "rank": 1,
+          "name": "Dota 2",
+          "rank_diff": 1
+        },
+        {
+          "rank": 2,
+          "name": "Farm &amp; Feast",
+          "rank_diff": -1
         },
         {
           "rank": 3,
           "name": "PUBG: BATTLEGROUNDS",
-          "rank_diff": 1
+          "rank_diff": 0
         },
         {
           "rank": 4,
           "name": "AION 2",
-          "rank_diff": -1
+          "rank_diff": 0
         },
         {
           "rank": 5,
           "name": "Phantom Blade Zero",
-          "rank_diff": 1
+          "rank_diff": 0
+        },
+        {
+          "rank": 6,
+          "name": "Where Winds Meet",
+          "rank_diff": 0
         }
       ]
     }
