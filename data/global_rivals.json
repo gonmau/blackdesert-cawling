@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-18T20:03:06.882614+09:00",
-  "crimson_desert_rank": 14,
-  "rank_diff": -1,
+  "generated_at": "2026-11-19T04:55:08.632613+09:00",
+  "crimson_desert_rank": 17,
+  "rank_diff": -3,
   "rivals": [
     {
       "app_id": "730",
@@ -13,28 +13,46 @@
       "discount_pct": 0
     },
     {
+      "app_id": "1401590",
+      "name": "Disney Dreamlight Valley",
+      "rank": 2,
+      "rank_diff": 0,
+      "is_free": false,
+      "is_discounted": true,
+      "discount_pct": 40
+    },
+    {
+      "app_id": "2406770",
+      "name": "Bodycam",
+      "rank": 4,
+      "rank_diff": 0,
+      "is_free": false,
+      "is_discounted": true,
+      "discount_pct": 20
+    },
+    {
       "app_id": "570",
       "name": "Dota 2",
-      "rank": 3,
+      "rank": 5,
+      "rank_diff": -2,
+      "is_free": true,
+      "is_discounted": false,
+      "discount_pct": 0
+    },
+    {
+      "app_id": "3393110",
+      "name": "AION 2",
+      "rank": 7,
       "rank_diff": 3,
       "is_free": true,
       "is_discounted": false,
       "discount_pct": 0
     },
     {
-      "app_id": "2406770",
-      "name": "Bodycam",
-      "rank": 4,
-      "rank_diff": -1,
-      "is_free": false,
-      "is_discounted": true,
-      "discount_pct": 20
-    },
-    {
       "app_id": "1172470",
       "name": "Apex Legends™",
-      "rank": 5,
-      "rank_diff": 4,
+      "rank": 10,
+      "rank_diff": -5,
       "is_free": true,
       "is_discounted": false,
       "discount_pct": 0
@@ -42,35 +60,17 @@
     {
       "app_id": "1771300",
       "name": "Kingdom Come: Deliverance II",
-      "rank": 6,
-      "rank_diff": -1,
+      "rank": 11,
+      "rank_diff": -5,
       "is_free": false,
       "is_discounted": true,
       "discount_pct": 67
     },
     {
-      "app_id": "3218350",
-      "name": "Melvor Idle 2: A RuneScape Adventure",
-      "rank": 7,
-      "rank_diff": -3,
-      "is_free": false,
-      "is_discounted": true,
-      "discount_pct": 10
-    },
-    {
-      "app_id": "3393110",
-      "name": "AION 2",
-      "rank": 10,
-      "rank_diff": 1,
-      "is_free": true,
-      "is_discounted": false,
-      "discount_pct": 0
-    },
-    {
       "app_id": "4262460",
       "name": "ROB RUN",
       "rank": 12,
-      "rank_diff": -2,
+      "rank_diff": 0,
       "is_free": true,
       "is_discounted": false,
       "discount_pct": 0
@@ -83,6 +83,15 @@
       "is_free": false,
       "is_discounted": true,
       "discount_pct": 75
+    },
+    {
+      "app_id": "216150",
+      "name": "MapleStory",
+      "rank": 16,
+      "rank_diff": 0,
+      "is_free": true,
+      "is_discounted": false,
+      "discount_pct": 0
     }
   ]
 }
