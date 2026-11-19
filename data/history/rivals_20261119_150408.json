@@ -1,0 +1,4333 @@
+{
+  "generated_at": "2026-11-19T23:58:58.723845+09:00",
+  "countries": {
+    "us": {
+      "name": "미국",
+      "crimson_desert_rank": 15,
+      "rank_diff": 2,
+      "rivals": [
+        {
+          "app_id": "1401590",
+          "name": "Disney Dreamlight Valley",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 40,
+          "rank": 2,
+          "rank_diff": 0
+        },
+        {
+          "app_id": "730",
+          "name": "Counter-Strike 2",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 4,
+          "rank_diff": -1
+        },
+        {
+          "app_id": "216150",
+          "name": "MapleStory",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 5,
+          "rank_diff": 1
+        },
+        {
+          "app_id": "2406770",
+          "name": "Bodycam",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 20,
+          "rank": 7,
+          "rank_diff": -2
+        },
+        {
+          "app_id": "2767030",
+          "name": "Marvel Rivals",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 8,
+          "rank_diff": 1
+        },
+        {
+          "app_id": "3393110",
+          "name": "AION 2",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 10,
+          "rank_diff": 2
+        },
+        {
+          "app_id": "2909400",
+          "name": "FINAL FANTASY VII REBIRTH",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 85,
+          "rank": 11,
+          "rank_diff": 3
+        },
+        {
+          "app_id": "230410",
+          "name": "Warframe",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 12,
+          "rank_diff": 1
+        },
+        {
+          "app_id": "1172470",
+          "name": "Apex Legends™",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 13,
+          "rank_diff": -3
+        },
+        {
+          "app_id": "4262460",
+          "name": "ROB RUN",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 14,
+          "rank_diff": -3
+        }
+      ],
+      "all_ranks": [
+        {
+          "rank": 1,
+          "name": "Steam Frame",
+          "rank_diff": 0
+        },
+        {
+          "rank": 2,
+          "name": "Disney Dreamlight Valley",
+          "rank_diff": 0
+        },
+        {
+          "rank": 3,
+          "name": "Disney Dreamlight Valley: The Keepsake Sea",
+          "rank_diff": 1
+        },
+        {
+          "rank": 4,
+          "name": "Counter-Strike 2",
+          "rank_diff": -1
+        },
+        {
+          "rank": 5,
+          "name": "MapleStory",
+          "rank_diff": 1
+        },
+        {
+          "rank": 6,
+          "name": "Disney Dreamlight Valley: The Keepsake Sea — Deluxe Edition",
+          "rank_diff": 1
+        },
+        {
+          "rank": 7,
+          "name": "Bodycam",
+          "rank_diff": -2
+        },
+        {
+          "rank": 8,
+          "name": "Marvel Rivals",
+          "rank_diff": 1
+        },
+        {
+          "rank": 9,
+          "name": "Call of Duty®: Modern Warfare® 4",
+          "rank_diff": -1
+        },
+        {
+          "rank": 10,
+          "name": "AION 2",
+          "rank_diff": 2
+        },
+        {
+          "rank": 11,
+          "name": "FINAL FANTASY VII REBIRTH",
+          "rank_diff": 3
+        },
+        {
+          "rank": 12,
+          "name": "Warframe",
+          "rank_diff": 1
+        },
+        {
+          "rank": 13,
+          "name": "Apex Legends™",
+          "rank_diff": -3
+        },
+        {
+          "rank": 14,
+          "name": "ROB RUN",
+          "rank_diff": -3
+        }
+      ]
+    },
+    "gb": {
+      "name": "영국",
+      "crimson_desert_rank": 24,
+      "rank_diff": -3,
+      "rivals": [
+        {
+          "app_id": "1401590",
+          "name": "Disney Dreamlight Valley",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 40,
+          "rank": 1,
+          "rank_diff": 0
+        },
+        {
+          "app_id": "730",
+          "name": "Counter-Strike 2",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 3,
+          "rank_diff": -1
+        },
+        {
+          "app_id": "2406770",
+          "name": "Bodycam",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 20,
+          "rank": 7,
+          "rank_diff": 0
+        },
+        {
+          "app_id": "2767030",
+          "name": "Marvel Rivals",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 8,
+          "rank_diff": 12
+        },
+        {
+          "app_id": "227300",
+          "name": "Euro Truck Simulator 2",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 75,
+          "rank": 10,
+          "rank_diff": -1
+        },
+        {
+          "app_id": "2909400",
+          "name": "FINAL FANTASY VII REBIRTH",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 85,
+          "rank": 11,
+          "rank_diff": 7
+        },
+        {
+          "app_id": "2272360",
+          "name": "Warhammer 40,000: Dawn of War IV",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 10,
+          "rank": 12,
+          "rank_diff": -1
+        },
+        {
+          "app_id": "394360",
+          "name": "Hearts of Iron IV",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 70,
+          "rank": 13,
+          "rank_diff": 0
+        },
+        {
+          "app_id": "5185890",
+          "name": "Zombies Aren't Real",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 10,
+          "rank": 15,
+          "rank_diff": -2
+        },
+        {
+          "app_id": "230410",
+          "name": "Warframe",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 16,
+          "rank_diff": -1
+        },
+        {
+          "app_id": "4262460",
+          "name": "ROB RUN",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 18,
+          "rank_diff": -4
+        },
+        {
+          "app_id": "1771300",
+          "name": "Kingdom Come: Deliverance II",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 67,
+          "rank": 19,
+          "rank_diff": -2
+        },
+        {
+          "app_id": "3218350",
+          "name": "Melvor Idle 2: A RuneScape Adventure",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 10,
+          "rank": 20,
+          "rank_diff": -8
+        },
+        {
+          "app_id": "1462040",
+          "name": "FINAL FANTASY VII REMAKE INTERGRADE",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 82,
+          "rank": 21,
+          "rank_diff": 0
+        },
+        {
+          "app_id": "3393110",
+          "name": "AION 2",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 22,
+          "rank_diff": -6
+        }
+      ],
+      "all_ranks": [
+        {
+          "rank": 1,
+          "name": "Disney Dreamlight Valley",
+          "rank_diff": 0
+        },
+        {
+          "rank": 2,
+          "name": "Steam Frame",
+          "rank_diff": 3
+        },
+        {
+          "rank": 3,
+          "name": "Counter-Strike 2",
+          "rank_diff": -1
+        },
+        {
+          "rank": 4,
+          "name": "Disney Dreamlight Valley: The Keepsake Sea",
+          "rank_diff": -1
+        },
+        {
+          "rank": 5,
+          "name": "Football Manager 27",
+          "rank_diff": 1
+        },
+        {
+          "rank": 6,
+          "name": "Disney Dreamlight Valley: The Keepsake Sea — Deluxe Edition",
+          "rank_diff": -2
+        },
+        {
+          "rank": 7,
+          "name": "Bodycam",
+          "rank_diff": 0
+        },
+        {
+          "rank": 8,
+          "name": "Marvel Rivals",
+          "rank_diff": 12
+        },
+        {
+          "rank": 9,
+          "name": "EA SPORTS FC™ 27",
+          "rank_diff": -1
+        },
+        {
+          "rank": 10,
+          "name": "Euro Truck Simulator 2",
+          "rank_diff": -1
+        },
+        {
+          "rank": 11,
+          "name": "FINAL FANTASY VII REBIRTH",
+          "rank_diff": 7
+        },
+        {
+          "rank": 12,
+          "name": "Warhammer 40,000: Dawn of War IV",
+          "rank_diff": -1
+        },
+        {
+          "rank": 13,
+          "name": "Hearts of Iron IV",
+          "rank_diff": 0
+        },
+        {
+          "rank": 14,
+          "name": "Crusader Kings III",
+          "rank_diff": -4
+        },
+        {
+          "rank": 15,
+          "name": "Zombies Aren't Real",
+          "rank_diff": -2
+        },
+        {
+          "rank": 16,
+          "name": "Warframe",
+          "rank_diff": -1
+        },
+        {
+          "rank": 17,
+          "name": "Call of Duty®: Modern Warfare® 4",
+          "rank_diff": 2
+        },
+        {
+          "rank": 18,
+          "name": "ROB RUN",
+          "rank_diff": -4
+        },
+        {
+          "rank": 19,
+          "name": "Kingdom Come: Deliverance II",
+          "rank_diff": -2
+        },
+        {
+          "rank": 20,
+          "name": "Melvor Idle 2: A RuneScape Adventure",
+          "rank_diff": -8
+        },
+        {
+          "rank": 21,
+          "name": "FINAL FANTASY VII REMAKE INTERGRADE",
+          "rank_diff": 0
+        },
+        {
+          "rank": 22,
+          "name": "AION 2",
+          "rank_diff": -6
+        },
+        {
+          "rank": 23,
+          "name": "Grand Theft Auto V Enhanced",
+          "rank_diff": 0
+        }
+      ]
+    },
+    "de": {
+      "name": "독일",
+      "crimson_desert_rank": 16,
+      "rank_diff": -1,
+      "rivals": [
+        {
+          "app_id": "1401590",
+          "name": "Disney Dreamlight Valley",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 40,
+          "rank": 1,
+          "rank_diff": 1
+        },
+        {
+          "app_id": "730",
+          "name": "Counter-Strike 2",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 2,
+          "rank_diff": -1
+        },
+        {
+          "app_id": "3393110",
+          "name": "AION 2",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 4,
+          "rank_diff": 1
+        },
+        {
+          "app_id": "227300",
+          "name": "Euro Truck Simulator 2",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 75,
+          "rank": 7,
+          "rank_diff": 0
+        },
+        {
+          "app_id": "4618570",
+          "name": "Booster Pack Heroes",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 30,
+          "rank": 8,
+          "rank_diff": 0
+        },
+        {
+          "app_id": "2406770",
+          "name": "Bodycam",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 20,
+          "rank": 9,
+          "rank_diff": 2
+        },
+        {
+          "app_id": "1771300",
+          "name": "Kingdom Come: Deliverance II",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 67,
+          "rank": 10,
+          "rank_diff": 0
+        },
+        {
+          "app_id": "394360",
+          "name": "Hearts of Iron IV",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 70,
+          "rank": 12,
+          "rank_diff": 0
+        }
+      ],
+      "all_ranks": [
+        {
+          "rank": 1,
+          "name": "Disney Dreamlight Valley",
+          "rank_diff": 1
+        },
+        {
+          "rank": 2,
+          "name": "Counter-Strike 2",
+          "rank_diff": -1
+        },
+        {
+          "rank": 3,
+          "name": "Disney Dreamlight Valley: The Keepsake Sea",
+          "rank_diff": 0
+        },
+        {
+          "rank": 4,
+          "name": "AION 2",
+          "rank_diff": 1
+        },
+        {
+          "rank": 5,
+          "name": "Steam Frame",
+          "rank_diff": 1
+        },
+        {
+          "rank": 6,
+          "name": "Disney Dreamlight Valley: The Keepsake Sea — Deluxe Edition",
+          "rank_diff": -2
+        },
+        {
+          "rank": 7,
+          "name": "Euro Truck Simulator 2",
+          "rank_diff": 0
+        },
+        {
+          "rank": 8,
+          "name": "Booster Pack Heroes",
+          "rank_diff": 0
+        },
+        {
+          "rank": 9,
+          "name": "Bodycam",
+          "rank_diff": 2
+        },
+        {
+          "rank": 10,
+          "name": "Kingdom Come: Deliverance II",
+          "rank_diff": 0
+        },
+        {
+          "rank": 11,
+          "name": "Crusader Kings III",
+          "rank_diff": -2
+        },
+        {
+          "rank": 12,
+          "name": "Hearts of Iron IV",
+          "rank_diff": 0
+        },
+        {
+          "rank": 13,
+          "name": "Grand Theft Auto V Enhanced",
+          "rank_diff": 0
+        },
+        {
+          "rank": 14,
+          "name": "EA SPORTS FC™ 27",
+          "rank_diff": -1
+        },
+        {
+          "rank": 15,
+          "name": "Moon Sweepers",
+          "rank_diff": -3
+        }
+      ]
+    },
+    "fr": {
+      "name": "프랑스",
+      "crimson_desert_rank": 20,
+      "rank_diff": -1,
+      "rivals": [
+        {
+          "app_id": "1401590",
+          "name": "Disney Dreamlight Valley",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 40,
+          "rank": 1,
+          "rank_diff": 0
+        },
+        {
+          "app_id": "730",
+          "name": "Counter-Strike 2",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 2,
+          "rank_diff": 1
+        },
+        {
+          "app_id": "3393110",
+          "name": "AION 2",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 5,
+          "rank_diff": 0
+        },
+        {
+          "app_id": "4262460",
+          "name": "ROB RUN",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 6,
+          "rank_diff": 0
+        },
+        {
+          "app_id": "2406770",
+          "name": "Bodycam",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 20,
+          "rank": 7,
+          "rank_diff": 0
+        },
+        {
+          "app_id": "227300",
+          "name": "Euro Truck Simulator 2",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 75,
+          "rank": 8,
+          "rank_diff": 1
+        },
+        {
+          "app_id": "2909400",
+          "name": "FINAL FANTASY VII REBIRTH",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 85,
+          "rank": 9,
+          "rank_diff": 8
+        },
+        {
+          "app_id": "394360",
+          "name": "Hearts of Iron IV",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 70,
+          "rank": 13,
+          "rank_diff": 0
+        },
+        {
+          "app_id": "230410",
+          "name": "Warframe",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 14,
+          "rank_diff": 2
+        },
+        {
+          "app_id": "1771300",
+          "name": "Kingdom Come: Deliverance II",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 67,
+          "rank": 18,
+          "rank_diff": -4
+        }
+      ],
+      "all_ranks": [
+        {
+          "rank": 1,
+          "name": "Disney Dreamlight Valley",
+          "rank_diff": 0
+        },
+        {
+          "rank": 2,
+          "name": "Counter-Strike 2",
+          "rank_diff": 1
+        },
+        {
+          "rank": 3,
+          "name": "Disney Dreamlight Valley: The Keepsake Sea",
+          "rank_diff": -1
+        },
+        {
+          "rank": 4,
+          "name": "Disney Dreamlight Valley: The Keepsake Sea — Deluxe Edition",
+          "rank_diff": 0
+        },
+        {
+          "rank": 5,
+          "name": "AION 2",
+          "rank_diff": 0
+        },
+        {
+          "rank": 6,
+          "name": "ROB RUN",
+          "rank_diff": 0
+        },
+        {
+          "rank": 7,
+          "name": "Bodycam",
+          "rank_diff": 0
+        },
+        {
+          "rank": 8,
+          "name": "Euro Truck Simulator 2",
+          "rank_diff": 1
+        },
+        {
+          "rank": 9,
+          "name": "FINAL FANTASY VII REBIRTH",
+          "rank_diff": 8
+        },
+        {
+          "rank": 10,
+          "name": "Football Manager 27",
+          "rank_diff": 2
+        },
+        {
+          "rank": 11,
+          "name": "Call of Duty®: Modern Warfare® 4",
+          "rank_diff": 2
+        },
+        {
+          "rank": 12,
+          "name": "EA SPORTS FC™ 27",
+          "rank_diff": -1
+        },
+        {
+          "rank": 13,
+          "name": "Hearts of Iron IV",
+          "rank_diff": 0
+        },
+        {
+          "rank": 14,
+          "name": "Warframe",
+          "rank_diff": 2
+        },
+        {
+          "rank": 15,
+          "name": "Crusader Kings III",
+          "rank_diff": -5
+        },
+        {
+          "rank": 16,
+          "name": "Queen's Domain",
+          "rank_diff": -1
+        },
+        {
+          "rank": 17,
+          "name": "Moon Sweepers",
+          "rank_diff": 1
+        },
+        {
+          "rank": 18,
+          "name": "Kingdom Come: Deliverance II",
+          "rank_diff": -4
+        },
+        {
+          "rank": 19,
+          "name": "Grand Theft Auto V Enhanced",
+          "rank_diff": 0
+        }
+      ]
+    },
+    "ca": {
+      "name": "캐나다",
+      "crimson_desert_rank": 12,
+      "rank_diff": 2,
+      "rivals": [
+        {
+          "app_id": "1401590",
+          "name": "Disney Dreamlight Valley",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 40,
+          "rank": 2,
+          "rank_diff": 0
+        },
+        {
+          "app_id": "216150",
+          "name": "MapleStory",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 3,
+          "rank_diff": 0
+        },
+        {
+          "app_id": "730",
+          "name": "Counter-Strike 2",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 4,
+          "rank_diff": 0
+        },
+        {
+          "app_id": "2406770",
+          "name": "Bodycam",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 20,
+          "rank": 6,
+          "rank_diff": 0
+        },
+        {
+          "app_id": "2909400",
+          "name": "FINAL FANTASY VII REBIRTH",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 85,
+          "rank": 8,
+          "rank_diff": 0
+        },
+        {
+          "app_id": "1462040",
+          "name": "FINAL FANTASY VII REMAKE INTERGRADE",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 82,
+          "rank": 9,
+          "rank_diff": 0
+        },
+        {
+          "app_id": "2767030",
+          "name": "Marvel Rivals",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 10,
+          "rank_diff": 0
+        },
+        {
+          "app_id": "1771300",
+          "name": "Kingdom Come: Deliverance II",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 67,
+          "rank": 11,
+          "rank_diff": 0
+        }
+      ],
+      "all_ranks": [
+        {
+          "rank": 1,
+          "name": "Steam Frame",
+          "rank_diff": 0
+        },
+        {
+          "rank": 2,
+          "name": "Disney Dreamlight Valley",
+          "rank_diff": 0
+        },
+        {
+          "rank": 3,
+          "name": "MapleStory",
+          "rank_diff": 0
+        },
+        {
+          "rank": 4,
+          "name": "Counter-Strike 2",
+          "rank_diff": 0
+        },
+        {
+          "rank": 5,
+          "name": "Disney Dreamlight Valley: The Keepsake Sea",
+          "rank_diff": 0
+        },
+        {
+          "rank": 6,
+          "name": "Bodycam",
+          "rank_diff": 0
+        },
+        {
+          "rank": 7,
+          "name": "Disney Dreamlight Valley: The Keepsake Sea — Deluxe Edition",
+          "rank_diff": 0
+        },
+        {
+          "rank": 8,
+          "name": "FINAL FANTASY VII REBIRTH",
+          "rank_diff": 0
+        },
+        {
+          "rank": 9,
+          "name": "FINAL FANTASY VII REMAKE INTERGRADE",
+          "rank_diff": 0
+        },
+        {
+          "rank": 10,
+          "name": "Marvel Rivals",
+          "rank_diff": 0
+        },
+        {
+          "rank": 11,
+          "name": "Kingdom Come: Deliverance II",
+          "rank_diff": 0
+        }
+      ]
+    },
+    "br": {
+      "name": "브라질",
+      "crimson_desert_rank": 15,
+      "rank_diff": -1,
+      "rivals": [
+        {
+          "app_id": "730",
+          "name": "Counter-Strike 2",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 1,
+          "rank_diff": 0
+        },
+        {
+          "app_id": "2909400",
+          "name": "FINAL FANTASY VII REBIRTH",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 85,
+          "rank": 3,
+          "rank_diff": 1
+        },
+        {
+          "app_id": "3393110",
+          "name": "AION 2",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 4,
+          "rank_diff": -1
+        },
+        {
+          "app_id": "5037200",
+          "name": "just volleyball",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 38,
+          "rank": 5,
+          "rank_diff": 0
+        },
+        {
+          "app_id": "1462040",
+          "name": "FINAL FANTASY VII REMAKE INTERGRADE",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 82,
+          "rank": 6,
+          "rank_diff": 0
+        },
+        {
+          "app_id": "1547000",
+          "name": "Grand Theft Auto: San Andreas – The Definitive Edition",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 67,
+          "rank": 7,
+          "rank_diff": 0
+        },
+        {
+          "app_id": "12210",
+          "name": "Grand Theft Auto IV: The Complete Edition",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 70,
+          "rank": 8,
+          "rank_diff": 1
+        },
+        {
+          "app_id": "570",
+          "name": "Dota 2",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 9,
+          "rank_diff": 2
+        },
+        {
+          "app_id": "227300",
+          "name": "Euro Truck Simulator 2",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 75,
+          "rank": 11,
+          "rank_diff": 1
+        },
+        {
+          "app_id": "4262460",
+          "name": "ROB RUN",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 13,
+          "rank_diff": -3
+        },
+        {
+          "app_id": "2406770",
+          "name": "Bodycam",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 20,
+          "rank": 14,
+          "rank_diff": 0
+        }
+      ],
+      "all_ranks": [
+        {
+          "rank": 1,
+          "name": "Counter-Strike 2",
+          "rank_diff": 0
+        },
+        {
+          "rank": 2,
+          "name": "EA SPORTS FC™ 27",
+          "rank_diff": 0
+        },
+        {
+          "rank": 3,
+          "name": "FINAL FANTASY VII REBIRTH",
+          "rank_diff": 1
+        },
+        {
+          "rank": 4,
+          "name": "AION 2",
+          "rank_diff": -1
+        },
+        {
+          "rank": 5,
+          "name": "just volleyball",
+          "rank_diff": 0
+        },
+        {
+          "rank": 6,
+          "name": "FINAL FANTASY VII REMAKE INTERGRADE",
+          "rank_diff": 0
+        },
+        {
+          "rank": 7,
+          "name": "Grand Theft Auto: San Andreas – The Definitive Edition",
+          "rank_diff": 0
+        },
+        {
+          "rank": 8,
+          "name": "Grand Theft Auto IV: The Complete Edition",
+          "rank_diff": 1
+        },
+        {
+          "rank": 9,
+          "name": "Dota 2",
+          "rank_diff": 2
+        },
+        {
+          "rank": 10,
+          "name": "Grand Theft Auto V Enhanced",
+          "rank_diff": -2
+        },
+        {
+          "rank": 11,
+          "name": "Euro Truck Simulator 2",
+          "rank_diff": 1
+        },
+        {
+          "rank": 12,
+          "name": "Phantom Blade Zero",
+          "rank_diff": 0
+        },
+        {
+          "rank": 13,
+          "name": "ROB RUN",
+          "rank_diff": -3
+        },
+        {
+          "rank": 14,
+          "name": "Bodycam",
+          "rank_diff": 0
+        }
+      ]
+    },
+    "jp": {
+      "name": "일본",
+      "crimson_desert_rank": 105,
+      "rank_diff": -67,
+      "rivals": [
+        {
+          "app_id": "1172470",
+          "name": "Apex Legends™",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 1,
+          "rank_diff": 0
+        },
+        {
+          "app_id": "3393110",
+          "name": "AION 2",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 2,
+          "rank_diff": 1
+        },
+        {
+          "app_id": "2717220",
+          "name": "Mahjong Soul",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 3,
+          "rank_diff": -1
+        },
+        {
+          "app_id": "3679080",
+          "name": "The Seven Deadly Sins: Origin",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 4,
+          "rank_diff": 0
+        },
+        {
+          "app_id": "2909400",
+          "name": "FINAL FANTASY VII REBIRTH",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 85,
+          "rank": 5,
+          "rank_diff": 0
+        },
+        {
+          "app_id": "3308670",
+          "name": "GIRLS' FRONTLINE 2: EXILIUM",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 6,
+          "rank_diff": 0
+        },
+        {
+          "app_id": "1462040",
+          "name": "FINAL FANTASY VII REMAKE INTERGRADE",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 82,
+          "rank": 7,
+          "rank_diff": 2
+        },
+        {
+          "app_id": "4073960",
+          "name": "ブループロトコル：スターレゾナンス",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 9,
+          "rank_diff": -2
+        },
+        {
+          "app_id": "3432860",
+          "name": "Psycho-Sleuth",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 10,
+          "rank": 10,
+          "rank_diff": 8
+        },
+        {
+          "app_id": "2492040",
+          "name": "FATAL FURY: City of the Wolves",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 75,
+          "rank": 11,
+          "rank_diff": 1
+        },
+        {
+          "app_id": "2139460",
+          "name": "Once Human",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 12,
+          "rank_diff": 3
+        },
+        {
+          "app_id": "2860490",
+          "name": "Warota: I Live Next to The Demon King's Castle LOL",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 10,
+          "rank": 13,
+          "rank_diff": -5
+        },
+        {
+          "app_id": "2868840",
+          "name": "Slay the Spire 2",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 20,
+          "rank": 14,
+          "rank_diff": -3
+        },
+        {
+          "app_id": "2357570",
+          "name": "Overwatch®",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 15,
+          "rank_diff": -2
+        },
+        {
+          "app_id": "438100",
+          "name": "VRChat",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 16,
+          "rank_diff": 4
+        },
+        {
+          "app_id": "2638080",
+          "name": "Annihilated",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 10,
+          "rank": 17,
+          "rank_diff": -3
+        },
+        {
+          "app_id": "1973530",
+          "name": "Limbus Company",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 18,
+          "rank_diff": 4
+        },
+        {
+          "app_id": "1665460",
+          "name": "eFootball™",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 19,
+          "rank_diff": 0
+        },
+        {
+          "app_id": "4508340",
+          "name": "NTE: Neverness to Everness",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 20,
+          "rank_diff": -1
+        },
+        {
+          "app_id": "5005700",
+          "name": "MUV-LUV GIRLS GARDEN Mellow Days",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 10,
+          "rank": 21,
+          "rank_diff": 0
+        },
+        {
+          "app_id": "1449850",
+          "name": "Yu-Gi-Oh! Master Duel",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 22,
+          "rank_diff": 2
+        },
+        {
+          "app_id": "394360",
+          "name": "Hearts of Iron IV",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 70,
+          "rank": 24,
+          "rank_diff": 11
+        },
+        {
+          "app_id": "1282270",
+          "name": "Strinova",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 25,
+          "rank_diff": 0
+        },
+        {
+          "app_id": "730",
+          "name": "Counter-Strike 2",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 27,
+          "rank_diff": -17
+        },
+        {
+          "app_id": "2455640",
+          "name": "Romancing SaGa 2: Revenge of the Seven",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 60,
+          "rank": 28,
+          "rank_diff": 0
+        },
+        {
+          "app_id": "1361350",
+          "name": "DEAD OR ALIVE Xtreme Venus Vacation",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 29,
+          "rank_diff": -6
+        },
+        {
+          "app_id": "3513350",
+          "name": "Wuthering Waves",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 30,
+          "rank_diff": -2
+        },
+        {
+          "app_id": "2499860",
+          "name": "DRAGON QUEST VII Reimagined",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 35,
+          "rank": 31,
+          "rank_diff": 0
+        },
+        {
+          "app_id": "2893570",
+          "name": "DRAGON QUEST I &amp; II HD-2D Remake",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 35,
+          "rank": 32,
+          "rank_diff": 0
+        },
+        {
+          "app_id": "2161700",
+          "name": "Persona 3 Reload",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 65,
+          "rank": 34,
+          "rank_diff": -5
+        },
+        {
+          "app_id": "5200620",
+          "name": "Dungeonbound",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 10,
+          "rank": 35,
+          "rank_diff": -18
+        },
+        {
+          "app_id": "2764370",
+          "name": "Starward",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 38,
+          "rank_diff": 0
+        },
+        {
+          "app_id": "1607250",
+          "name": "MY HERO ULTRA RUMBLE",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 41,
+          "rank_diff": -7
+        },
+        {
+          "app_id": "2767030",
+          "name": "Marvel Rivals",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 42,
+          "rank_diff": 0
+        },
+        {
+          "app_id": "2515020",
+          "name": "FINAL FANTASY XVI",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 60,
+          "rank": 43,
+          "rank_diff": 0
+        },
+        {
+          "app_id": "4027450",
+          "name": "Dragon Quest Heroes: Torneko's Mystery Dungeon -Classic HD-",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 20,
+          "rank": 44,
+          "rank_diff": 0
+        },
+        {
+          "app_id": "3564400",
+          "name": "ウマ娘 プリティーダービー",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 45,
+          "rank_diff": -19
+        },
+        {
+          "app_id": "1295510",
+          "name": "DRAGON QUEST® XI S: Echoes of an Elusive Age™ - Definitive Edition",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 50,
+          "rank": 46,
+          "rank_diff": 0
+        },
+        {
+          "app_id": "949230",
+          "name": "Cities: Skylines II",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 30,
+          "rank": 50,
+          "rank_diff": 0
+        },
+        {
+          "app_id": "2429640",
+          "name": "Throne and Liberty",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 52,
+          "rank_diff": -36
+        },
+        {
+          "app_id": "1687950",
+          "name": "Persona 5 Royal",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 70,
+          "rank": 53,
+          "rank_diff": 0
+        },
+        {
+          "app_id": "4618570",
+          "name": "Booster Pack Heroes",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 30,
+          "rank": 55,
+          "rank_diff": -19
+        },
+        {
+          "app_id": "1771300",
+          "name": "Kingdom Come: Deliverance II",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 67,
+          "rank": 56,
+          "rank_diff": 0
+        },
+        {
+          "app_id": "5160800",
+          "name": "Find The Needle",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 15,
+          "rank": 57,
+          "rank_diff": 0
+        },
+        {
+          "app_id": "4921660",
+          "name": "EVERYONE'S TIER LIST!",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 15,
+          "rank": 58,
+          "rank_diff": 0
+        },
+        {
+          "app_id": "5037200",
+          "name": "just volleyball",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 38,
+          "rank": 59,
+          "rank_diff": 0
+        },
+        {
+          "app_id": "1049590",
+          "name": "Eternal Return",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 60,
+          "rank_diff": 0
+        },
+        {
+          "app_id": "2072450",
+          "name": "Like a Dragon: Infinite Wealth",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 80,
+          "rank": 61,
+          "rank_diff": 0
+        },
+        {
+          "app_id": "1211600",
+          "name": "ZED ZONE",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 40,
+          "rank": 62,
+          "rank_diff": 0
+        },
+        {
+          "app_id": "227300",
+          "name": "Euro Truck Simulator 2",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 75,
+          "rank": 63,
+          "rank_diff": 0
+        },
+        {
+          "app_id": "3061570",
+          "name": "Persona5: The Phantom X",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 64,
+          "rank_diff": 0
+        },
+        {
+          "app_id": "2584990",
+          "name": "Shadowverse: Worlds Beyond",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 69,
+          "rank_diff": 0
+        },
+        {
+          "app_id": "230410",
+          "name": "Warframe",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 70,
+          "rank_diff": 0
+        },
+        {
+          "app_id": "2406770",
+          "name": "Bodycam",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 20,
+          "rank": 71,
+          "rank_diff": 0
+        },
+        {
+          "app_id": "835570",
+          "name": "Conqueror's Blade",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 72,
+          "rank_diff": 0
+        },
+        {
+          "app_id": "4262460",
+          "name": "ROB RUN",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 74,
+          "rank_diff": 0
+        },
+        {
+          "app_id": "3014320",
+          "name": "OCTOPATH TRAVELER 0",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 50,
+          "rank": 75,
+          "rank_diff": 0
+        },
+        {
+          "app_id": "3564740",
+          "name": "Where Winds Meet",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 78,
+          "rank_diff": 0
+        },
+        {
+          "app_id": "1875830",
+          "name": "Shin Megami Tensei V: Vengeance",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 70,
+          "rank": 79,
+          "rank_diff": 0
+        },
+        {
+          "app_id": "5318580",
+          "name": "Jyoka -Castle town-",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 23,
+          "rank": 80,
+          "rank_diff": 0
+        },
+        {
+          "app_id": "2154770",
+          "name": "NOBUNAGA'S AMBITION: Hadou",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 81,
+          "rank_diff": 0
+        },
+        {
+          "app_id": "1608070",
+          "name": "CRISIS CORE –FINAL FANTASY VII– REUNION",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 65,
+          "rank": 83,
+          "rank_diff": 0
+        },
+        {
+          "app_id": "1401590",
+          "name": "Disney Dreamlight Valley",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 40,
+          "rank": 84,
+          "rank_diff": 0
+        },
+        {
+          "app_id": "3609080",
+          "name": "StarSavior",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 85,
+          "rank_diff": 0
+        },
+        {
+          "app_id": "2426960",
+          "name": "Summoners War",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 86,
+          "rank_diff": -65
+        },
+        {
+          "app_id": "4162040",
+          "name": "Zenless Zone Zero",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 87,
+          "rank_diff": 0
+        },
+        {
+          "app_id": "637650",
+          "name": "FINAL FANTASY XV WINDOWS EDITION",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 70,
+          "rank": 88,
+          "rank_diff": 0
+        },
+        {
+          "app_id": "2701440",
+          "name": "PARANORMASIGHT: The Mermaid's Curse",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 35,
+          "rank": 89,
+          "rank_diff": 0
+        },
+        {
+          "app_id": "1004640",
+          "name": "FINAL FANTASY TACTICS - The Ivalice Chronicles",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 40,
+          "rank": 90,
+          "rank_diff": 0
+        },
+        {
+          "app_id": "524220",
+          "name": "NieR:Automata™",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 60,
+          "rank": 92,
+          "rank_diff": 0
+        },
+        {
+          "app_id": "2864560",
+          "name": "Rune Factory: Guardians of Azuma",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 50,
+          "rank": 93,
+          "rank_diff": 0
+        },
+        {
+          "app_id": "2622000",
+          "name": "Astral Party ",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 94,
+          "rank_diff": 0
+        },
+        {
+          "app_id": "2712460",
+          "name": "DUNGEON SLASHER",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 95,
+          "rank_diff": 0
+        },
+        {
+          "app_id": "2074920",
+          "name": "The First Descendant",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 96,
+          "rank_diff": 0
+        },
+        {
+          "app_id": "4282500",
+          "name": "hololive Dreams",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 97,
+          "rank_diff": 0
+        },
+        {
+          "app_id": "3937550",
+          "name": "Yakuza Kiwami 3 &amp; Dark Ties",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 60,
+          "rank": 98,
+          "rank_diff": 0
+        },
+        {
+          "app_id": "2058190",
+          "name": "Lost Judgment",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 80,
+          "rank": 99,
+          "rank_diff": 0
+        }
+      ],
+      "all_ranks": [
+        {
+          "rank": 1,
+          "name": "Apex Legends™",
+          "rank_diff": 0
+        },
+        {
+          "rank": 2,
+          "name": "AION 2",
+          "rank_diff": 1
+        },
+        {
+          "rank": 3,
+          "name": "Mahjong Soul",
+          "rank_diff": -1
+        },
+        {
+          "rank": 4,
+          "name": "The Seven Deadly Sins: Origin",
+          "rank_diff": 0
+        },
+        {
+          "rank": 5,
+          "name": "FINAL FANTASY VII REBIRTH",
+          "rank_diff": 0
+        },
+        {
+          "rank": 6,
+          "name": "GIRLS' FRONTLINE 2: EXILIUM",
+          "rank_diff": 0
+        },
+        {
+          "rank": 7,
+          "name": "FINAL FANTASY VII REMAKE INTERGRADE",
+          "rank_diff": 2
+        },
+        {
+          "rank": 8,
+          "name": "DRAGON QUEST MONSTERS: The Withered World",
+          "rank_diff": -4
+        },
+        {
+          "rank": 9,
+          "name": "ブループロトコル：スターレゾナンス",
+          "rank_diff": -2
+        },
+        {
+          "rank": 10,
+          "name": "Psycho-Sleuth",
+          "rank_diff": 8
+        },
+        {
+          "rank": 11,
+          "name": "FATAL FURY: City of the Wolves",
+          "rank_diff": 1
+        },
+        {
+          "rank": 12,
+          "name": "Once Human",
+          "rank_diff": 3
+        },
+        {
+          "rank": 13,
+          "name": "Warota: I Live Next to The Demon King's Castle LOL",
+          "rank_diff": -5
+        },
+        {
+          "rank": 14,
+          "name": "Slay the Spire 2",
+          "rank_diff": -3
+        },
+        {
+          "rank": 15,
+          "name": "Overwatch®",
+          "rank_diff": -2
+        },
+        {
+          "rank": 16,
+          "name": "VRChat",
+          "rank_diff": 4
+        },
+        {
+          "rank": 17,
+          "name": "Annihilated",
+          "rank_diff": -3
+        },
+        {
+          "rank": 18,
+          "name": "Limbus Company",
+          "rank_diff": 4
+        },
+        {
+          "rank": 19,
+          "name": "eFootball™",
+          "rank_diff": 0
+        },
+        {
+          "rank": 20,
+          "name": "NTE: Neverness to Everness",
+          "rank_diff": -1
+        },
+        {
+          "rank": 21,
+          "name": "MUV-LUV GIRLS GARDEN Mellow Days",
+          "rank_diff": 0
+        },
+        {
+          "rank": 22,
+          "name": "Yu-Gi-Oh! Master Duel",
+          "rank_diff": 2
+        },
+        {
+          "rank": 23,
+          "name": "EA SPORTS FC™ 27",
+          "rank_diff": 2
+        },
+        {
+          "rank": 24,
+          "name": "Hearts of Iron IV",
+          "rank_diff": 11
+        },
+        {
+          "rank": 25,
+          "name": "Strinova",
+          "rank_diff": 0
+        },
+        {
+          "rank": 26,
+          "name": "Witch the Showdown",
+          "rank_diff": 5
+        },
+        {
+          "rank": 27,
+          "name": "Counter-Strike 2",
+          "rank_diff": -17
+        },
+        {
+          "rank": 28,
+          "name": "Romancing SaGa 2: Revenge of the Seven",
+          "rank_diff": 0
+        },
+        {
+          "rank": 29,
+          "name": "DEAD OR ALIVE Xtreme Venus Vacation",
+          "rank_diff": -6
+        },
+        {
+          "rank": 30,
+          "name": "Wuthering Waves",
+          "rank_diff": -2
+        },
+        {
+          "rank": 31,
+          "name": "DRAGON QUEST VII Reimagined",
+          "rank_diff": 0
+        },
+        {
+          "rank": 32,
+          "name": "DRAGON QUEST I &amp; II HD-2D Remake",
+          "rank_diff": 0
+        },
+        {
+          "rank": 33,
+          "name": "Dead by Daylight",
+          "rank_diff": -1
+        },
+        {
+          "rank": 34,
+          "name": "Persona 3 Reload",
+          "rank_diff": -5
+        },
+        {
+          "rank": 35,
+          "name": "Dungeonbound",
+          "rank_diff": -18
+        },
+        {
+          "rank": 36,
+          "name": "Call of Duty®: Modern Warfare® 4",
+          "rank_diff": -3
+        },
+        {
+          "rank": 37,
+          "name": "Japanese Ramen Simulator",
+          "rank_diff": 0
+        },
+        {
+          "rank": 38,
+          "name": "Starward",
+          "rank_diff": 0
+        },
+        {
+          "rank": 39,
+          "name": "Escape from Tarkov",
+          "rank_diff": -12
+        },
+        {
+          "rank": 40,
+          "name": "Street Fighter™ 6",
+          "rank_diff": -3
+        },
+        {
+          "rank": 41,
+          "name": "MY HERO ULTRA RUMBLE",
+          "rank_diff": -7
+        },
+        {
+          "rank": 42,
+          "name": "Marvel Rivals",
+          "rank_diff": 0
+        },
+        {
+          "rank": 43,
+          "name": "FINAL FANTASY XVI",
+          "rank_diff": 0
+        },
+        {
+          "rank": 44,
+          "name": "Dragon Quest Heroes: Torneko's Mystery Dungeon -Classic HD-",
+          "rank_diff": 0
+        },
+        {
+          "rank": 45,
+          "name": "ウマ娘 プリティーダービー",
+          "rank_diff": -19
+        },
+        {
+          "rank": 46,
+          "name": "DRAGON QUEST® XI S: Echoes of an Elusive Age™ - Definitive Edition",
+          "rank_diff": 0
+        },
+        {
+          "rank": 47,
+          "name": "Football Manager 27",
+          "rank_diff": 0
+        },
+        {
+          "rank": 48,
+          "name": "FINAL FANTASY RESONANCE",
+          "rank_diff": 0
+        },
+        {
+          "rank": 49,
+          "name": "Grand Theft Auto V Enhanced",
+          "rank_diff": 0
+        },
+        {
+          "rank": 50,
+          "name": "Cities: Skylines II",
+          "rank_diff": 0
+        },
+        {
+          "rank": 51,
+          "name": "FINAL FANTASY XIV Online",
+          "rank_diff": 0
+        },
+        {
+          "rank": 52,
+          "name": "Throne and Liberty",
+          "rank_diff": -36
+        },
+        {
+          "rank": 53,
+          "name": "Persona 5 Royal",
+          "rank_diff": 0
+        },
+        {
+          "rank": 54,
+          "name": "ACE COMBAT 8: WINGS OF THEVE",
+          "rank_diff": 0
+        },
+        {
+          "rank": 55,
+          "name": "Booster Pack Heroes",
+          "rank_diff": -19
+        },
+        {
+          "rank": 56,
+          "name": "Kingdom Come: Deliverance II",
+          "rank_diff": 0
+        },
+        {
+          "rank": 57,
+          "name": "Find The Needle",
+          "rank_diff": 0
+        },
+        {
+          "rank": 58,
+          "name": "EVERYONE'S TIER LIST!",
+          "rank_diff": 0
+        },
+        {
+          "rank": 59,
+          "name": "just volleyball",
+          "rank_diff": 0
+        },
+        {
+          "rank": 60,
+          "name": "Eternal Return",
+          "rank_diff": 0
+        },
+        {
+          "rank": 61,
+          "name": "Like a Dragon: Infinite Wealth",
+          "rank_diff": 0
+        },
+        {
+          "rank": 62,
+          "name": "ZED ZONE",
+          "rank_diff": 0
+        },
+        {
+          "rank": 63,
+          "name": "Euro Truck Simulator 2",
+          "rank_diff": 0
+        },
+        {
+          "rank": 64,
+          "name": "Persona5: The Phantom X",
+          "rank_diff": 0
+        },
+        {
+          "rank": 65,
+          "name": "FATAL FURY: CotW - Season Pass 3",
+          "rank_diff": 0
+        },
+        {
+          "rank": 66,
+          "name": "Monster Hunter Wilds",
+          "rank_diff": 0
+        },
+        {
+          "rank": 67,
+          "name": "FINAL FANTASY VII REVELATION",
+          "rank_diff": 0
+        },
+        {
+          "rank": 68,
+          "name": "Crusader Kings III",
+          "rank_diff": -38
+        },
+        {
+          "rank": 69,
+          "name": "Shadowverse: Worlds Beyond",
+          "rank_diff": 0
+        },
+        {
+          "rank": 70,
+          "name": "Warframe",
+          "rank_diff": 0
+        },
+        {
+          "rank": 71,
+          "name": "Bodycam",
+          "rank_diff": 0
+        },
+        {
+          "rank": 72,
+          "name": "Conqueror's Blade",
+          "rank_diff": 0
+        },
+        {
+          "rank": 73,
+          "name": "Phantom Blade Zero",
+          "rank_diff": 0
+        },
+        {
+          "rank": 74,
+          "name": "ROB RUN",
+          "rank_diff": 0
+        },
+        {
+          "rank": 75,
+          "name": "OCTOPATH TRAVELER 0",
+          "rank_diff": 0
+        },
+        {
+          "rank": 76,
+          "name": "Potato Please",
+          "rank_diff": 0
+        },
+        {
+          "rank": 77,
+          "name": "ELDEN RING NIGHTREIGN",
+          "rank_diff": 0
+        },
+        {
+          "rank": 78,
+          "name": "Where Winds Meet",
+          "rank_diff": 0
+        },
+        {
+          "rank": 79,
+          "name": "Shin Megami Tensei V: Vengeance",
+          "rank_diff": 0
+        },
+        {
+          "rank": 80,
+          "name": "Jyoka -Castle town-",
+          "rank_diff": 0
+        },
+        {
+          "rank": 81,
+          "name": "NOBUNAGA'S AMBITION: Hadou",
+          "rank_diff": 0
+        },
+        {
+          "rank": 82,
+          "name": "Probably Stolen - Cyberpunk Shopkeeper Sim",
+          "rank_diff": 0
+        },
+        {
+          "rank": 83,
+          "name": "CRISIS CORE –FINAL FANTASY VII– REUNION",
+          "rank_diff": 0
+        },
+        {
+          "rank": 84,
+          "name": "Disney Dreamlight Valley",
+          "rank_diff": 0
+        },
+        {
+          "rank": 85,
+          "name": "StarSavior",
+          "rank_diff": 0
+        },
+        {
+          "rank": 86,
+          "name": "Summoners War",
+          "rank_diff": -65
+        },
+        {
+          "rank": 87,
+          "name": "Zenless Zone Zero",
+          "rank_diff": 0
+        },
+        {
+          "rank": 88,
+          "name": "FINAL FANTASY XV WINDOWS EDITION",
+          "rank_diff": 0
+        },
+        {
+          "rank": 89,
+          "name": "PARANORMASIGHT: The Mermaid's Curse",
+          "rank_diff": 0
+        },
+        {
+          "rank": 90,
+          "name": "FINAL FANTASY TACTICS - The Ivalice Chronicles",
+          "rank_diff": 0
+        },
+        {
+          "rank": 91,
+          "name": "Moon Sweepers",
+          "rank_diff": 0
+        },
+        {
+          "rank": 92,
+          "name": "NieR:Automata™",
+          "rank_diff": 0
+        },
+        {
+          "rank": 93,
+          "name": "Rune Factory: Guardians of Azuma",
+          "rank_diff": 0
+        },
+        {
+          "rank": 94,
+          "name": "Astral Party ",
+          "rank_diff": 0
+        },
+        {
+          "rank": 95,
+          "name": "DUNGEON SLASHER",
+          "rank_diff": 0
+        },
+        {
+          "rank": 96,
+          "name": "The First Descendant",
+          "rank_diff": 0
+        },
+        {
+          "rank": 97,
+          "name": "hololive Dreams",
+          "rank_diff": 0
+        },
+        {
+          "rank": 98,
+          "name": "Yakuza Kiwami 3 &amp; Dark Ties",
+          "rank_diff": 0
+        },
+        {
+          "rank": 99,
+          "name": "Lost Judgment",
+          "rank_diff": 0
+        },
+        {
+          "rank": 100,
+          "name": "Magical Girl Witch Trials",
+          "rank_diff": 0
+        },
+        {
+          "rank": 101,
+          "name": "Dota 2",
+          "rank_diff": 0
+        },
+        {
+          "rank": 102,
+          "name": "Onimusha: Way of the Sword",
+          "rank_diff": 0
+        },
+        {
+          "rank": 103,
+          "name": "R.E.P.O.",
+          "rank_diff": 0
+        },
+        {
+          "rank": 104,
+          "name": "Call of Duty®: Warzone™",
+          "rank_diff": 0
+        }
+      ]
+    },
+    "kr": {
+      "name": "한국",
+      "crimson_desert_rank": 6,
+      "rank_diff": 0,
+      "rivals": [],
+      "all_ranks": [
+        {
+          "rank": 1,
+          "name": "PUBG: BATTLEGROUNDS",
+          "rank_diff": 0
+        },
+        {
+          "rank": 2,
+          "name": "Eternal Return",
+          "rank_diff": 3
+        },
+        {
+          "rank": 3,
+          "name": "Once Human",
+          "rank_diff": 0
+        },
+        {
+          "rank": 4,
+          "name": "Call of Duty®: Modern Warfare® 4",
+          "rank_diff": 0
+        },
+        {
+          "rank": 5,
+          "name": "Limbus Company",
+          "rank_diff": -1
+        }
+      ]
+    },
+    "cn": {
+      "name": "중국",
+      "crimson_desert_rank": 24,
+      "rank_diff": -8,
+      "rivals": [],
+      "all_ranks": [
+        {
+          "rank": 1,
+          "name": "Counter-Strike 2",
+          "rank_diff": 0
+        },
+        {
+          "rank": 2,
+          "name": "雀魂麻將(MahjongSoul)",
+          "rank_diff": 0
+        },
+        {
+          "rank": 3,
+          "name": "Apex Legends™",
+          "rank_diff": 1
+        },
+        {
+          "rank": 4,
+          "name": "Phantom Blade Zero",
+          "rank_diff": -1
+        },
+        {
+          "rank": 5,
+          "name": "Worst Class Ever",
+          "rank_diff": 1
+        },
+        {
+          "rank": 6,
+          "name": "Kingdom Come: Deliverance II",
+          "rank_diff": 1
+        },
+        {
+          "rank": 7,
+          "name": "Slotbound",
+          "rank_diff": -2
+        },
+        {
+          "rank": 8,
+          "name": "PUBG: BATTLEGROUNDS",
+          "rank_diff": 0
+        },
+        {
+          "rank": 9,
+          "name": "Grand Theft Auto V Enhanced",
+          "rank_diff": 3
+        },
+        {
+          "rank": 10,
+          "name": "Delta Force",
+          "rank_diff": -1
+        },
+        {
+          "rank": 11,
+          "name": "Warframe",
+          "rank_diff": 0
+        },
+        {
+          "rank": 12,
+          "name": "Call of Duty®: Modern Warfare® 4",
+          "rank_diff": -2
+        },
+        {
+          "rank": 13,
+          "name": "Dota 2",
+          "rank_diff": 2
+        },
+        {
+          "rank": 14,
+          "name": "Slay the Spire 2",
+          "rank_diff": 0
+        },
+        {
+          "rank": 15,
+          "name": "Probably Stolen - Cyberpunk Shopkeeper Sim",
+          "rank_diff": -1
+        },
+        {
+          "rank": 16,
+          "name": "Limbus Company",
+          "rank_diff": 0
+        },
+        {
+          "rank": 17,
+          "name": "Euro Truck Simulator 2",
+          "rank_diff": 0
+        },
+        {
+          "rank": 18,
+          "name": "Riders Republic",
+          "rank_diff": 0
+        },
+        {
+          "rank": 19,
+          "name": "FINAL FANTASY VII REBIRTH",
+          "rank_diff": 0
+        },
+        {
+          "rank": 20,
+          "name": "FINAL FANTASY VII REMAKE INTERGRADE",
+          "rank_diff": 0
+        },
+        {
+          "rank": 21,
+          "name": "Wallpaper Engine",
+          "rank_diff": 0
+        },
+        {
+          "rank": 22,
+          "name": "EA SPORTS FC™ 27",
+          "rank_diff": -9
+        },
+        {
+          "rank": 23,
+          "name": "NARAKA: BLADEPOINT",
+          "rank_diff": 0
+        }
+      ]
+    },
+    "ru": {
+      "name": "러시아",
+      "crimson_desert_rank": 8,
+      "rank_diff": -1,
+      "rivals": [],
+      "all_ranks": [
+        {
+          "rank": 1,
+          "name": "Counter-Strike 2",
+          "rank_diff": 0
+        },
+        {
+          "rank": 2,
+          "name": "Dota 2",
+          "rank_diff": 0
+        },
+        {
+          "rank": 3,
+          "name": "Bodycam",
+          "rank_diff": 0
+        },
+        {
+          "rank": 4,
+          "name": "ROB RUN",
+          "rank_diff": 0
+        },
+        {
+          "rank": 5,
+          "name": "Euro Truck Simulator 2",
+          "rank_diff": 0
+        },
+        {
+          "rank": 6,
+          "name": "Rust",
+          "rank_diff": 0
+        },
+        {
+          "rank": 7,
+          "name": "Hearts of Iron IV",
+          "rank_diff": 0
+        }
+      ]
+    },
+    "au": {
+      "name": "호주",
+      "crimson_desert_rank": 12,
+      "rank_diff": -6,
+      "rivals": [],
+      "all_ranks": [
+        {
+          "rank": 1,
+          "name": "Counter-Strike 2",
+          "rank_diff": 0
+        },
+        {
+          "rank": 2,
+          "name": "Disney Dreamlight Valley",
+          "rank_diff": 0
+        },
+        {
+          "rank": 3,
+          "name": "MapleStory",
+          "rank_diff": 0
+        },
+        {
+          "rank": 4,
+          "name": "Marvel Rivals",
+          "rank_diff": 0
+        },
+        {
+          "rank": 5,
+          "name": "Disney Dreamlight Valley: The Keepsake Sea",
+          "rank_diff": 0
+        },
+        {
+          "rank": 6,
+          "name": "Bodycam",
+          "rank_diff": -2
+        },
+        {
+          "rank": 7,
+          "name": "FINAL FANTASY VII REBIRTH",
+          "rank_diff": 0
+        },
+        {
+          "rank": 8,
+          "name": "Warhammer 40,000: Dawn of War IV",
+          "rank_diff": 0
+        },
+        {
+          "rank": 9,
+          "name": "Disney Dreamlight Valley: The Keepsake Sea — Deluxe Edition",
+          "rank_diff": 0
+        },
+        {
+          "rank": 10,
+          "name": "Call of Duty®: Modern Warfare® 4",
+          "rank_diff": 0
+        },
+        {
+          "rank": 11,
+          "name": "Warframe",
+          "rank_diff": 0
+        }
+      ]
+    },
+    "es": {
+      "name": "스페인",
+      "crimson_desert_rank": 23,
+      "rank_diff": -3,
+      "rivals": [],
+      "all_ranks": [
+        {
+          "rank": 1,
+          "name": "Counter-Strike 2",
+          "rank_diff": 0
+        },
+        {
+          "rank": 2,
+          "name": "Disney Dreamlight Valley",
+          "rank_diff": 0
+        },
+        {
+          "rank": 3,
+          "name": "Disney Dreamlight Valley: The Keepsake Sea",
+          "rank_diff": 0
+        },
+        {
+          "rank": 4,
+          "name": "FINAL FANTASY VII REBIRTH",
+          "rank_diff": 5
+        },
+        {
+          "rank": 5,
+          "name": "EA SPORTS FC™ 27",
+          "rank_diff": 1
+        },
+        {
+          "rank": 6,
+          "name": "Steam Frame",
+          "rank_diff": 1
+        },
+        {
+          "rank": 7,
+          "name": "Disney Dreamlight Valley: The Keepsake Sea — Deluxe Edition",
+          "rank_diff": -3
+        },
+        {
+          "rank": 8,
+          "name": "Kingdom Come: Deliverance II",
+          "rank_diff": 2
+        },
+        {
+          "rank": 9,
+          "name": "Euro Truck Simulator 2",
+          "rank_diff": -1
+        },
+        {
+          "rank": 10,
+          "name": "AION 2",
+          "rank_diff": -5
+        },
+        {
+          "rank": 11,
+          "name": "FINAL FANTASY VII REMAKE INTERGRADE",
+          "rank_diff": 8
+        },
+        {
+          "rank": 12,
+          "name": "ROB RUN",
+          "rank_diff": -1
+        },
+        {
+          "rank": 13,
+          "name": "Grand Theft Auto IV: The Complete Edition",
+          "rank_diff": 5
+        },
+        {
+          "rank": 14,
+          "name": "Marvel Rivals",
+          "rank_diff": 0
+        },
+        {
+          "rank": 15,
+          "name": "Bodycam",
+          "rank_diff": -3
+        },
+        {
+          "rank": 16,
+          "name": "Queen's Domain",
+          "rank_diff": 0
+        },
+        {
+          "rank": 17,
+          "name": "Hearts of Iron IV",
+          "rank_diff": 0
+        },
+        {
+          "rank": 18,
+          "name": "Call of Duty®: Modern Warfare® 4",
+          "rank_diff": -4
+        },
+        {
+          "rank": 19,
+          "name": "Call of Duty®: Black Ops III",
+          "rank_diff": -6
+        },
+        {
+          "rank": 20,
+          "name": "PUBG: BATTLEGROUNDS",
+          "rank_diff": 0
+        },
+        {
+          "rank": 21,
+          "name": "Moon Sweepers",
+          "rank_diff": -6
+        },
+        {
+          "rank": 22,
+          "name": "Grand Theft Auto V Enhanced",
+          "rank_diff": 0
+        }
+      ]
+    },
+    "it": {
+      "name": "이탈리아",
+      "crimson_desert_rank": 22,
+      "rank_diff": -7,
+      "rivals": [],
+      "all_ranks": [
+        {
+          "rank": 1,
+          "name": "EA SPORTS FC™ 27",
+          "rank_diff": 2
+        },
+        {
+          "rank": 2,
+          "name": "Counter-Strike 2",
+          "rank_diff": -1
+        },
+        {
+          "rank": 3,
+          "name": "FINAL FANTASY VII REBIRTH",
+          "rank_diff": 9
+        },
+        {
+          "rank": 4,
+          "name": "Disney Dreamlight Valley",
+          "rank_diff": -2
+        },
+        {
+          "rank": 5,
+          "name": "AION 2",
+          "rank_diff": 1
+        },
+        {
+          "rank": 6,
+          "name": "Euro Truck Simulator 2",
+          "rank_diff": -2
+        },
+        {
+          "rank": 7,
+          "name": "Football Manager 27",
+          "rank_diff": 1
+        },
+        {
+          "rank": 8,
+          "name": "Call of Duty®: Modern Warfare® 4",
+          "rank_diff": 3
+        },
+        {
+          "rank": 9,
+          "name": "The Seven Deadly Sins: Origin",
+          "rank_diff": 0
+        },
+        {
+          "rank": 10,
+          "name": "Bodycam",
+          "rank_diff": 0
+        },
+        {
+          "rank": 11,
+          "name": "FINAL FANTASY VII REMAKE INTERGRADE",
+          "rank_diff": 0
+        },
+        {
+          "rank": 12,
+          "name": "Disney Dreamlight Valley: The Keepsake Sea",
+          "rank_diff": -7
+        },
+        {
+          "rank": 13,
+          "name": "ROB RUN",
+          "rank_diff": -4
+        },
+        {
+          "rank": 14,
+          "name": "Hearts of Iron IV",
+          "rank_diff": 0
+        },
+        {
+          "rank": 15,
+          "name": "Kingdom Come: Deliverance II",
+          "rank_diff": -2
+        },
+        {
+          "rank": 16,
+          "name": "Steam Frame",
+          "rank_diff": -9
+        },
+        {
+          "rank": 17,
+          "name": "Grand Theft Auto V Enhanced",
+          "rank_diff": 0
+        },
+        {
+          "rank": 18,
+          "name": "Moon Sweepers",
+          "rank_diff": 0
+        },
+        {
+          "rank": 19,
+          "name": "Crusader Kings III",
+          "rank_diff": 0
+        },
+        {
+          "rank": 20,
+          "name": "Grand Theft Auto IV: The Complete Edition",
+          "rank_diff": 0
+        },
+        {
+          "rank": 21,
+          "name": "Cyberpunk 2077",
+          "rank_diff": 0
+        }
+      ]
+    },
+    "pl": {
+      "name": "폴란드",
+      "crimson_desert_rank": 18,
+      "rank_diff": -2,
+      "rivals": [
+        {
+          "app_id": "227300",
+          "name": "Euro Truck Simulator 2",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 75,
+          "rank": 2,
+          "rank_diff": 0
+        }
+      ],
+      "all_ranks": [
+        {
+          "rank": 1,
+          "name": "Counter-Strike 2",
+          "rank_diff": 0
+        },
+        {
+          "rank": 2,
+          "name": "Euro Truck Simulator 2",
+          "rank_diff": 0
+        },
+        {
+          "rank": 3,
+          "name": "EA SPORTS FC™ 27",
+          "rank_diff": 0
+        },
+        {
+          "rank": 4,
+          "name": "Steam Frame",
+          "rank_diff": 0
+        },
+        {
+          "rank": 5,
+          "name": "Grand Theft Auto: San Andreas – The Definitive Edition",
+          "rank_diff": 3
+        },
+        {
+          "rank": 6,
+          "name": "Kingdom Come: Deliverance II",
+          "rank_diff": 0
+        },
+        {
+          "rank": 7,
+          "name": "Hearts of Iron IV",
+          "rank_diff": 0
+        },
+        {
+          "rank": 8,
+          "name": "ROB RUN",
+          "rank_diff": -1
+        },
+        {
+          "rank": 9,
+          "name": "Grand Theft Auto IV: The Complete Edition",
+          "rank_diff": 6
+        },
+        {
+          "rank": 10,
+          "name": "Grand Theft Auto V Enhanced",
+          "rank_diff": 0
+        },
+        {
+          "rank": 11,
+          "name": "Bodycam",
+          "rank_diff": -1
+        },
+        {
+          "rank": 12,
+          "name": "Euro Truck Simulator 2 - Coaches",
+          "rank_diff": 0
+        },
+        {
+          "rank": 13,
+          "name": "Disney Dreamlight Valley",
+          "rank_diff": -8
+        },
+        {
+          "rank": 14,
+          "name": "FINAL FANTASY VII REBIRTH",
+          "rank_diff": 0
+        },
+        {
+          "rank": 15,
+          "name": "AION 2",
+          "rank_diff": -4
+        },
+        {
+          "rank": 16,
+          "name": "Dota 2",
+          "rank_diff": -3
+        },
+        {
+          "rank": 17,
+          "name": "Call of Duty®: WWII",
+          "rank_diff": -3
+        }
+      ]
+    },
+    "tr": {
+      "name": "터키",
+      "crimson_desert_rank": 16,
+      "rank_diff": -1,
+      "rivals": [],
+      "all_ranks": [
+        {
+          "rank": 1,
+          "name": "Counter-Strike 2",
+          "rank_diff": 0
+        },
+        {
+          "rank": 2,
+          "name": "EA SPORTS FC™ 27",
+          "rank_diff": 0
+        },
+        {
+          "rank": 3,
+          "name": "Euro Truck Simulator 2",
+          "rank_diff": 0
+        },
+        {
+          "rank": 4,
+          "name": "Football Manager 27",
+          "rank_diff": 0
+        },
+        {
+          "rank": 5,
+          "name": "AION 2",
+          "rank_diff": 2
+        },
+        {
+          "rank": 6,
+          "name": "Bodycam",
+          "rank_diff": 0
+        },
+        {
+          "rank": 7,
+          "name": "ROB RUN",
+          "rank_diff": -2
+        },
+        {
+          "rank": 8,
+          "name": "Euro Truck Simulator 2 - Coaches",
+          "rank_diff": 0
+        },
+        {
+          "rank": 9,
+          "name": "Kingdom Come: Deliverance II",
+          "rank_diff": 0
+        },
+        {
+          "rank": 10,
+          "name": "Call of Duty®: Modern Warfare® 4",
+          "rank_diff": 2
+        },
+        {
+          "rank": 11,
+          "name": "Grand Theft Auto IV: The Complete Edition",
+          "rank_diff": 3
+        },
+        {
+          "rank": 12,
+          "name": "Grand Theft Auto: San Andreas – The Definitive Edition",
+          "rank_diff": 1
+        },
+        {
+          "rank": 13,
+          "name": "Grand Theft Auto V Enhanced",
+          "rank_diff": 0
+        },
+        {
+          "rank": 14,
+          "name": "FINAL FANTASY VII REBIRTH",
+          "rank_diff": 0
+        },
+        {
+          "rank": 15,
+          "name": "Dota 2",
+          "rank_diff": -4
+        }
+      ]
+    },
+    "nl": {
+      "name": "네덜란드",
+      "crimson_desert_rank": 16,
+      "rank_diff": -4,
+      "rivals": [],
+      "all_ranks": [
+        {
+          "rank": 1,
+          "name": "Disney Dreamlight Valley",
+          "rank_diff": 0
+        },
+        {
+          "rank": 2,
+          "name": "Steam Frame",
+          "rank_diff": 2
+        },
+        {
+          "rank": 3,
+          "name": "Disney Dreamlight Valley: The Keepsake Sea",
+          "rank_diff": -1
+        },
+        {
+          "rank": 4,
+          "name": "Counter-Strike 2",
+          "rank_diff": -1
+        },
+        {
+          "rank": 5,
+          "name": "Disney Dreamlight Valley: The Keepsake Sea — Deluxe Edition",
+          "rank_diff": 0
+        },
+        {
+          "rank": 6,
+          "name": "Euro Truck Simulator 2",
+          "rank_diff": 1
+        },
+        {
+          "rank": 7,
+          "name": "Bodycam",
+          "rank_diff": -1
+        },
+        {
+          "rank": 8,
+          "name": "Hearts of Iron IV",
+          "rank_diff": 0
+        },
+        {
+          "rank": 9,
+          "name": "EA SPORTS FC™ 27",
+          "rank_diff": 0
+        },
+        {
+          "rank": 10,
+          "name": "Football Manager 27",
+          "rank_diff": 0
+        },
+        {
+          "rank": 11,
+          "name": "Crusader Kings III",
+          "rank_diff": 0
+        },
+        {
+          "rank": 12,
+          "name": "Kingdom Come: Deliverance II",
+          "rank_diff": 0
+        },
+        {
+          "rank": 13,
+          "name": "Zombies Aren't Real",
+          "rank_diff": 0
+        },
+        {
+          "rank": 14,
+          "name": "Melvor Idle 2: A RuneScape Adventure",
+          "rank_diff": -6
+        },
+        {
+          "rank": 15,
+          "name": "Euro Truck Simulator 2 - Coaches",
+          "rank_diff": 0
+        }
+      ]
+    },
+    "se": {
+      "name": "스웨덴",
+      "crimson_desert_rank": 11,
+      "rank_diff": 4,
+      "rivals": [],
+      "all_ranks": [
+        {
+          "rank": 1,
+          "name": "Counter-Strike 2",
+          "rank_diff": 0
+        },
+        {
+          "rank": 2,
+          "name": "Steam Frame",
+          "rank_diff": 2
+        },
+        {
+          "rank": 3,
+          "name": "Disney Dreamlight Valley",
+          "rank_diff": -1
+        },
+        {
+          "rank": 4,
+          "name": "Disney Dreamlight Valley: The Keepsake Sea",
+          "rank_diff": -1
+        },
+        {
+          "rank": 5,
+          "name": "Bodycam",
+          "rank_diff": 3
+        },
+        {
+          "rank": 6,
+          "name": "ROB RUN",
+          "rank_diff": 1
+        },
+        {
+          "rank": 7,
+          "name": "EA SPORTS FC™ 27",
+          "rank_diff": 3
+        },
+        {
+          "rank": 8,
+          "name": "Disney Dreamlight Valley: The Keepsake Sea — Deluxe Edition",
+          "rank_diff": -3
+        },
+        {
+          "rank": 9,
+          "name": "Hearts of Iron IV",
+          "rank_diff": 0
+        },
+        {
+          "rank": 10,
+          "name": "Football Manager 27",
+          "rank_diff": 3
+        }
+      ]
+    },
+    "no": {
+      "name": "노르웨이",
+      "crimson_desert_rank": 16,
+      "rank_diff": -4,
+      "rivals": [],
+      "all_ranks": [
+        {
+          "rank": 1,
+          "name": "Counter-Strike 2",
+          "rank_diff": 0
+        },
+        {
+          "rank": 2,
+          "name": "Disney Dreamlight Valley",
+          "rank_diff": 0
+        },
+        {
+          "rank": 3,
+          "name": "Disney Dreamlight Valley: The Keepsake Sea",
+          "rank_diff": 0
+        },
+        {
+          "rank": 4,
+          "name": "Football Manager 27",
+          "rank_diff": 2
+        },
+        {
+          "rank": 5,
+          "name": "EA SPORTS FC™ 27",
+          "rank_diff": 0
+        },
+        {
+          "rank": 6,
+          "name": "Euro Truck Simulator 2",
+          "rank_diff": 2
+        },
+        {
+          "rank": 7,
+          "name": "Disney Dreamlight Valley: The Keepsake Sea — Deluxe Edition",
+          "rank_diff": -3
+        },
+        {
+          "rank": 8,
+          "name": "Crusader Kings III",
+          "rank_diff": 1
+        },
+        {
+          "rank": 9,
+          "name": "AION 2",
+          "rank_diff": 0
+        },
+        {
+          "rank": 10,
+          "name": "Hearts of Iron IV",
+          "rank_diff": 0
+        },
+        {
+          "rank": 11,
+          "name": "ROB RUN",
+          "rank_diff": -4
+        },
+        {
+          "rank": 12,
+          "name": "Marvel Rivals",
+          "rank_diff": 0
+        },
+        {
+          "rank": 13,
+          "name": "Call of Duty®: Modern Warfare® 4",
+          "rank_diff": 0
+        },
+        {
+          "rank": 14,
+          "name": "Bodycam",
+          "rank_diff": -3
+        },
+        {
+          "rank": 15,
+          "name": "Melvor Idle 2: A RuneScape Adventure",
+          "rank_diff": -5
+        }
+      ]
+    },
+    "dk": {
+      "name": "덴마크",
+      "crimson_desert_rank": 30,
+      "rank_diff": 8,
+      "rivals": [],
+      "all_ranks": [
+        {
+          "rank": 1,
+          "name": "Counter-Strike 2",
+          "rank_diff": 0
+        },
+        {
+          "rank": 2,
+          "name": "Disney Dreamlight Valley",
+          "rank_diff": 0
+        },
+        {
+          "rank": 3,
+          "name": "Steam Frame",
+          "rank_diff": 0
+        },
+        {
+          "rank": 4,
+          "name": "EA SPORTS FC™ 27",
+          "rank_diff": 2
+        },
+        {
+          "rank": 5,
+          "name": "Disney Dreamlight Valley: The Keepsake Sea",
+          "rank_diff": -1
+        },
+        {
+          "rank": 6,
+          "name": "Football Manager 27",
+          "rank_diff": 4
+        },
+        {
+          "rank": 7,
+          "name": "Bodycam",
+          "rank_diff": 2
+        },
+        {
+          "rank": 8,
+          "name": "ROB RUN",
+          "rank_diff": -1
+        },
+        {
+          "rank": 9,
+          "name": "Disney Dreamlight Valley: The Keepsake Sea — Deluxe Edition",
+          "rank_diff": -4
+        },
+        {
+          "rank": 10,
+          "name": "Euro Truck Simulator 2",
+          "rank_diff": -2
+        },
+        {
+          "rank": 11,
+          "name": "Crusader Kings III",
+          "rank_diff": 0
+        },
+        {
+          "rank": 12,
+          "name": "GIRLS' FRONTLINE 2: EXILIUM",
+          "rank_diff": 0
+        },
+        {
+          "rank": 13,
+          "name": "Hearts of Iron IV",
+          "rank_diff": 12
+        },
+        {
+          "rank": 14,
+          "name": "Goat Simulator 3",
+          "rank_diff": 0
+        },
+        {
+          "rank": 15,
+          "name": "Zombies Aren't Real",
+          "rank_diff": -2
+        },
+        {
+          "rank": 16,
+          "name": "Melvor Idle 2: A RuneScape Adventure",
+          "rank_diff": -4
+        },
+        {
+          "rank": 17,
+          "name": "Moon Sweepers",
+          "rank_diff": -3
+        },
+        {
+          "rank": 18,
+          "name": "Grand Theft Auto V Enhanced",
+          "rank_diff": 2
+        },
+        {
+          "rank": 19,
+          "name": "Call of Duty®: Modern Warfare® 4",
+          "rank_diff": -1
+        },
+        {
+          "rank": 20,
+          "name": "Kingdom Come: Deliverance II",
+          "rank_diff": -1
+        },
+        {
+          "rank": 21,
+          "name": "Black Desert",
+          "rank_diff": 0
+        },
+        {
+          "rank": 22,
+          "name": "Phantom Blade Zero",
+          "rank_diff": 12
+        },
+        {
+          "rank": 23,
+          "name": "Apex Legends™",
+          "rank_diff": -7
+        },
+        {
+          "rank": 24,
+          "name": "Crusader Kings III: Silk &amp; Silver",
+          "rank_diff": -7
+        },
+        {
+          "rank": 25,
+          "name": "Forza Horizon 6",
+          "rank_diff": 0
+        },
+        {
+          "rank": 26,
+          "name": "Cities: Skylines II",
+          "rank_diff": -3
+        },
+        {
+          "rank": 27,
+          "name": "Where Winds Meet",
+          "rank_diff": 0
+        },
+        {
+          "rank": 28,
+          "name": "Goat Simulator 3 – Ticket to Dizzyworld",
+          "rank_diff": 0
+        },
+        {
+          "rank": 29,
+          "name": "Planet Zoo 2",
+          "rank_diff": -7
+        }
+      ]
+    },
+    "fi": {
+      "name": "핀란드",
+      "crimson_desert_rank": 15,
+      "rank_diff": 5,
+      "rivals": [],
+      "all_ranks": [
+        {
+          "rank": 1,
+          "name": "Counter-Strike 2",
+          "rank_diff": 0
+        },
+        {
+          "rank": 2,
+          "name": "Disney Dreamlight Valley",
+          "rank_diff": 0
+        },
+        {
+          "rank": 3,
+          "name": "Steam Frame",
+          "rank_diff": 0
+        },
+        {
+          "rank": 4,
+          "name": "Kingdom Come: Deliverance II",
+          "rank_diff": 1
+        },
+        {
+          "rank": 5,
+          "name": "Disney Dreamlight Valley: The Keepsake Sea",
+          "rank_diff": -1
+        },
+        {
+          "rank": 6,
+          "name": "Hearts of Iron IV",
+          "rank_diff": 5
+        },
+        {
+          "rank": 7,
+          "name": "FINAL FANTASY VII REBIRTH",
+          "rank_diff": 6
+        },
+        {
+          "rank": 8,
+          "name": "Bodycam",
+          "rank_diff": -2
+        },
+        {
+          "rank": 9,
+          "name": "Crusader Kings III",
+          "rank_diff": -2
+        },
+        {
+          "rank": 10,
+          "name": "Euro Truck Simulator 2",
+          "rank_diff": 0
+        },
+        {
+          "rank": 11,
+          "name": "Melvor Idle 2: A RuneScape Adventure",
+          "rank_diff": -2
+        },
+        {
+          "rank": 12,
+          "name": "Warframe",
+          "rank_diff": 3
+        },
+        {
+          "rank": 13,
+          "name": "Disney Dreamlight Valley: The Keepsake Sea — Deluxe Edition",
+          "rank_diff": -5
+        },
+        {
+          "rank": 14,
+          "name": "Call of Duty®: Modern Warfare® 4",
+          "rank_diff": 2
+        }
+      ]
+    },
+    "at": {
+      "name": "오스트리아",
+      "crimson_desert_rank": 16,
+      "rank_diff": -3,
+      "rivals": [],
+      "all_ranks": [
+        {
+          "rank": 1,
+          "name": "Counter-Strike 2",
+          "rank_diff": 0
+        },
+        {
+          "rank": 2,
+          "name": "Disney Dreamlight Valley",
+          "rank_diff": 0
+        },
+        {
+          "rank": 3,
+          "name": "Steam Frame",
+          "rank_diff": 3
+        },
+        {
+          "rank": 4,
+          "name": "Disney Dreamlight Valley: The Keepsake Sea",
+          "rank_diff": -1
+        },
+        {
+          "rank": 5,
+          "name": "AION 2",
+          "rank_diff": -1
+        },
+        {
+          "rank": 6,
+          "name": "EA SPORTS FC™ 27",
+          "rank_diff": 3
+        },
+        {
+          "rank": 7,
+          "name": "Disney Dreamlight Valley: The Keepsake Sea — Deluxe Edition",
+          "rank_diff": -2
+        },
+        {
+          "rank": 8,
+          "name": "Hearts of Iron IV",
+          "rank_diff": 0
+        },
+        {
+          "rank": 9,
+          "name": "Call of Duty®: Modern Warfare® 4",
+          "rank_diff": 0
+        },
+        {
+          "rank": 10,
+          "name": "Euro Truck Simulator 2",
+          "rank_diff": -3
+        },
+        {
+          "rank": 11,
+          "name": "Crusader Kings III",
+          "rank_diff": -1
+        },
+        {
+          "rank": 12,
+          "name": "Grand Theft Auto V Enhanced",
+          "rank_diff": 0
+        },
+        {
+          "rank": 13,
+          "name": "Bodycam",
+          "rank_diff": -5
+        },
+        {
+          "rank": 14,
+          "name": "Booster Pack Heroes",
+          "rank_diff": -3
+        },
+        {
+          "rank": 15,
+          "name": "Kingdom Come: Deliverance II",
+          "rank_diff": -3
+        }
+      ]
+    },
+    "ch": {
+      "name": "스위스",
+      "crimson_desert_rank": 10,
+      "rank_diff": 10,
+      "rivals": [],
+      "all_ranks": [
+        {
+          "rank": 1,
+          "name": "Counter-Strike 2",
+          "rank_diff": 0
+        },
+        {
+          "rank": 2,
+          "name": "Disney Dreamlight Valley",
+          "rank_diff": 0
+        },
+        {
+          "rank": 3,
+          "name": "AION 2",
+          "rank_diff": 0
+        },
+        {
+          "rank": 4,
+          "name": "EA SPORTS FC™ 27",
+          "rank_diff": 1
+        },
+        {
+          "rank": 5,
+          "name": "Bodycam",
+          "rank_diff": 2
+        },
+        {
+          "rank": 6,
+          "name": "Call of Duty®: Modern Warfare® 4",
+          "rank_diff": 4
+        },
+        {
+          "rank": 7,
+          "name": "Disney Dreamlight Valley: The Keepsake Sea",
+          "rank_diff": -3
+        },
+        {
+          "rank": 8,
+          "name": "Euro Truck Simulator 2",
+          "rank_diff": 5
+        },
+        {
+          "rank": 9,
+          "name": "Grand Theft Auto V Enhanced",
+          "rank_diff": 8
+        }
+      ]
+    },
+    "cz": {
+      "name": "체코",
+      "crimson_desert_rank": 16,
+      "rank_diff": 4,
+      "rivals": [],
+      "all_ranks": [
+        {
+          "rank": 1,
+          "name": "Counter-Strike 2",
+          "rank_diff": 0
+        },
+        {
+          "rank": 2,
+          "name": "Euro Truck Simulator 2",
+          "rank_diff": 1
+        },
+        {
+          "rank": 3,
+          "name": "Kingdom Come: Deliverance II",
+          "rank_diff": -1
+        },
+        {
+          "rank": 4,
+          "name": "Bodycam",
+          "rank_diff": 3
+        },
+        {
+          "rank": 5,
+          "name": "Euro Truck Simulator 2 - Coaches",
+          "rank_diff": 1
+        },
+        {
+          "rank": 6,
+          "name": "Zombies Aren't Real",
+          "rank_diff": -1
+        },
+        {
+          "rank": 7,
+          "name": "Hearts of Iron IV",
+          "rank_diff": 0
+        },
+        {
+          "rank": 8,
+          "name": "Grand Theft Auto: San Andreas – The Definitive Edition",
+          "rank_diff": 6
+        },
+        {
+          "rank": 9,
+          "name": "Goodgame Empire",
+          "rank_diff": 0
+        },
+        {
+          "rank": 10,
+          "name": "Disney Dreamlight Valley",
+          "rank_diff": -2
+        },
+        {
+          "rank": 11,
+          "name": "Call of Duty®: Modern Warfare® 4",
+          "rank_diff": 6
+        },
+        {
+          "rank": 12,
+          "name": "Call of Duty®: WWII",
+          "rank_diff": -2
+        },
+        {
+          "rank": 13,
+          "name": "Grand Theft Auto V Enhanced",
+          "rank_diff": 0
+        },
+        {
+          "rank": 14,
+          "name": "EA SPORTS FC™ 27",
+          "rank_diff": -2
+        },
+        {
+          "rank": 15,
+          "name": "Avatar: Frontiers of Pandora™",
+          "rank_diff": 0
+        }
+      ]
+    },
+    "sg": {
+      "name": "싱가포르",
+      "crimson_desert_rank": 25,
+      "rank_diff": -11,
+      "rivals": [],
+      "all_ranks": [
+        {
+          "rank": 1,
+          "name": "AION 2",
+          "rank_diff": 0
+        },
+        {
+          "rank": 2,
+          "name": "Counter-Strike 2",
+          "rank_diff": 0
+        },
+        {
+          "rank": 3,
+          "name": "FINAL FANTASY VII REBIRTH",
+          "rank_diff": 3
+        },
+        {
+          "rank": 4,
+          "name": "Escape from Tarkov",
+          "rank_diff": -1
+        },
+        {
+          "rank": 5,
+          "name": "Dota 2",
+          "rank_diff": 0
+        },
+        {
+          "rank": 6,
+          "name": "Bodycam",
+          "rank_diff": 2
+        },
+        {
+          "rank": 7,
+          "name": "FINAL FANTASY VII REMAKE INTERGRADE",
+          "rank_diff": 5
+        },
+        {
+          "rank": 8,
+          "name": "EA SPORTS FC™ 27",
+          "rank_diff": 0
+        },
+        {
+          "rank": 9,
+          "name": "GIRLS' FRONTLINE 2: EXILIUM",
+          "rank_diff": 4
+        },
+        {
+          "rank": 10,
+          "name": "Where Winds Meet",
+          "rank_diff": -6
+        },
+        {
+          "rank": 11,
+          "name": "Marvel Rivals",
+          "rank_diff": 0
+        },
+        {
+          "rank": 12,
+          "name": "Warframe",
+          "rank_diff": 0
+        },
+        {
+          "rank": 13,
+          "name": "Path of Exile 2",
+          "rank_diff": 0
+        },
+        {
+          "rank": 14,
+          "name": "Once Human",
+          "rank_diff": 0
+        },
+        {
+          "rank": 15,
+          "name": "Phantom Blade Zero",
+          "rank_diff": -6
+        },
+        {
+          "rank": 16,
+          "name": "Football Manager 27",
+          "rank_diff": 0
+        },
+        {
+          "rank": 17,
+          "name": "Call of Duty®: Modern Warfare® 4",
+          "rank_diff": -6
+        },
+        {
+          "rank": 18,
+          "name": "Climb Challenge - Find Items Cyberpunk",
+          "rank_diff": 0
+        },
+        {
+          "rank": 19,
+          "name": "PUBG: BATTLEGROUNDS",
+          "rank_diff": 0
+        },
+        {
+          "rank": 20,
+          "name": "Apex Legends™",
+          "rank_diff": 0
+        },
+        {
+          "rank": 21,
+          "name": "Mahjong Soul",
+          "rank_diff": -11
+        },
+        {
+          "rank": 22,
+          "name": "Slay the Spire 2",
+          "rank_diff": 0
+        },
+        {
+          "rank": 23,
+          "name": "Disney Dreamlight Valley",
+          "rank_diff": 0
+        },
+        {
+          "rank": 24,
+          "name": "Kingdom Come: Deliverance II",
+          "rank_diff": 0
+        }
+      ]
+    },
+    "be": {
+      "name": "벨기에",
+      "crimson_desert_rank": 11,
+      "rank_diff": 6,
+      "rivals": [],
+      "all_ranks": [
+        {
+          "rank": 1,
+          "name": "Disney Dreamlight Valley",
+          "rank_diff": 0
+        },
+        {
+          "rank": 2,
+          "name": "Disney Dreamlight Valley: The Keepsake Sea",
+          "rank_diff": 0
+        },
+        {
+          "rank": 3,
+          "name": "Disney Dreamlight Valley: The Keepsake Sea — Deluxe Edition",
+          "rank_diff": 0
+        },
+        {
+          "rank": 4,
+          "name": "Counter-Strike 2",
+          "rank_diff": 0
+        },
+        {
+          "rank": 5,
+          "name": "Euro Truck Simulator 2",
+          "rank_diff": 0
+        },
+        {
+          "rank": 6,
+          "name": "ROB RUN",
+          "rank_diff": 0
+        },
+        {
+          "rank": 7,
+          "name": "Football Manager 27",
+          "rank_diff": 5
+        },
+        {
+          "rank": 8,
+          "name": "Call of Duty®: Modern Warfare® 4",
+          "rank_diff": 2
+        },
+        {
+          "rank": 9,
+          "name": "Bodycam",
+          "rank_diff": -1
+        },
+        {
+          "rank": 10,
+          "name": "Kingdom Come: Deliverance II",
+          "rank_diff": -1
+        }
+      ]
+    },
+    "hk": {
+      "name": "홍콩",
+      "crimson_desert_rank": 17,
+      "rank_diff": -3,
+      "rivals": [],
+      "all_ranks": [
+        {
+          "rank": 1,
+          "name": "Counter-Strike 2",
+          "rank_diff": 0
+        },
+        {
+          "rank": 2,
+          "name": "雀魂麻將(MahjongSoul)",
+          "rank_diff": 0
+        },
+        {
+          "rank": 3,
+          "name": "Apex Legends™",
+          "rank_diff": 2
+        },
+        {
+          "rank": 4,
+          "name": "Hearts of Iron IV",
+          "rank_diff": 3
+        },
+        {
+          "rank": 5,
+          "name": "PUBG: BATTLEGROUNDS",
+          "rank_diff": -1
+        },
+        {
+          "rank": 6,
+          "name": "Phantom Blade Zero",
+          "rank_diff": -3
+        },
+        {
+          "rank": 7,
+          "name": "Worst Class Ever",
+          "rank_diff": 2
+        },
+        {
+          "rank": 8,
+          "name": "Grand Theft Auto V Enhanced",
+          "rank_diff": 0
+        },
+        {
+          "rank": 9,
+          "name": "eFootball™",
+          "rank_diff": 0
+        },
+        {
+          "rank": 10,
+          "name": "Once Human",
+          "rank_diff": 0
+        },
+        {
+          "rank": 11,
+          "name": "Euro Truck Simulator 2",
+          "rank_diff": -1
+        },
+        {
+          "rank": 12,
+          "name": "EA SPORTS FC™ 27",
+          "rank_diff": 0
+        },
+        {
+          "rank": 13,
+          "name": "Limbus Company",
+          "rank_diff": -2
+        },
+        {
+          "rank": 14,
+          "name": "Slotbound",
+          "rank_diff": -6
+        },
+        {
+          "rank": 15,
+          "name": "Dota 2",
+          "rank_diff": 0
+        },
+        {
+          "rank": 16,
+          "name": "Where Winds Meet",
+          "rank_diff": 0
+        }
+      ]
+    },
+    "nz": {
+      "name": "뉴질랜드",
+      "crimson_desert_rank": 15,
+      "rank_diff": 16,
+      "rivals": [],
+      "all_ranks": [
+        {
+          "rank": 1,
+          "name": "Disney Dreamlight Valley",
+          "rank_diff": 0
+        },
+        {
+          "rank": 2,
+          "name": "Counter-Strike 2",
+          "rank_diff": 0
+        },
+        {
+          "rank": 3,
+          "name": "Disney Dreamlight Valley: The Keepsake Sea",
+          "rank_diff": 0
+        },
+        {
+          "rank": 4,
+          "name": "MapleStory",
+          "rank_diff": 0
+        },
+        {
+          "rank": 5,
+          "name": "FINAL FANTASY VII REBIRTH",
+          "rank_diff": 3
+        },
+        {
+          "rank": 6,
+          "name": "Disney Dreamlight Valley: The Keepsake Sea — Deluxe Edition",
+          "rank_diff": 1
+        },
+        {
+          "rank": 7,
+          "name": "Bodycam",
+          "rank_diff": -2
+        },
+        {
+          "rank": 8,
+          "name": "Kingdom Come: Deliverance II",
+          "rank_diff": 1
+        },
+        {
+          "rank": 9,
+          "name": "Warframe",
+          "rank_diff": -3
+        },
+        {
+          "rank": 10,
+          "name": "Marvel Rivals",
+          "rank_diff": 2
+        },
+        {
+          "rank": 11,
+          "name": "Where Winds Meet",
+          "rank_diff": 13
+        },
+        {
+          "rank": 12,
+          "name": "FINAL FANTASY VII REMAKE INTERGRADE",
+          "rank_diff": 5
+        },
+        {
+          "rank": 13,
+          "name": "Zombies Aren't Real",
+          "rank_diff": -2
+        },
+        {
+          "rank": 14,
+          "name": "Dota 2",
+          "rank_diff": 0
+        }
+      ]
+    },
+    "tw": {
+      "name": "대만",
+      "crimson_desert_rank": 15,
+      "rank_diff": -5,
+      "rivals": [],
+      "all_ranks": [
+        {
+          "rank": 1,
+          "name": "雀魂麻將(MahjongSoul)",
+          "rank_diff": 0
+        },
+        {
+          "rank": 2,
+          "name": "Counter-Strike 2",
+          "rank_diff": 0
+        },
+        {
+          "rank": 3,
+          "name": "Where Winds Meet",
+          "rank_diff": 1
+        },
+        {
+          "rank": 4,
+          "name": "Apex Legends™",
+          "rank_diff": -1
+        },
+        {
+          "rank": 5,
+          "name": "Once Human",
+          "rank_diff": 0
+        },
+        {
+          "rank": 6,
+          "name": "Conqueror's Blade",
+          "rank_diff": 0
+        },
+        {
+          "rank": 7,
+          "name": "GIRLS' FRONTLINE 2: EXILIUM",
+          "rank_diff": 0
+        },
+        {
+          "rank": 8,
+          "name": "PUBG: BATTLEGROUNDS",
+          "rank_diff": -2
+        },
+        {
+          "rank": 9,
+          "name": "Phantom Blade Zero",
+          "rank_diff": 0
+        },
+        {
+          "rank": 10,
+          "name": "Euro Truck Simulator 2",
+          "rank_diff": -2
+        },
+        {
+          "rank": 11,
+          "name": "FINAL FANTASY VII REBIRTH",
+          "rank_diff": 0
+        },
+        {
+          "rank": 12,
+          "name": "NARAKA: BLADEPOINT",
+          "rank_diff": 0
+        },
+        {
+          "rank": 13,
+          "name": "just volleyball",
+          "rank_diff": 0
+        },
+        {
+          "rank": 14,
+          "name": "Grand Theft Auto V Enhanced",
+          "rank_diff": 0
+        }
+      ]
+    },
+    "th": {
+      "name": "태국",
+      "crimson_desert_rank": 22,
+      "rank_diff": -10,
+      "rivals": [
+        {
+          "app_id": "1462040",
+          "name": "FINAL FANTASY VII REMAKE INTERGRADE",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 82,
+          "rank": 2,
+          "rank_diff": 5
+        },
+        {
+          "app_id": "4521650",
+          "name": "Farm &amp; Feast",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 20,
+          "rank": 3,
+          "rank_diff": -1
+        },
+        {
+          "app_id": "570",
+          "name": "Dota 2",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 4,
+          "rank_diff": -1
+        },
+        {
+          "app_id": "730",
+          "name": "Counter-Strike 2",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 5,
+          "rank_diff": -4
+        },
+        {
+          "app_id": "3393110",
+          "name": "AION 2",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 7,
+          "rank_diff": -1
+        },
+        {
+          "app_id": "1203220",
+          "name": "NARAKA: BLADEPOINT",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 8,
+          "rank_diff": 1
+        },
+        {
+          "app_id": "578080",
+          "name": "PUBG: BATTLEGROUNDS",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 9,
+          "rank_diff": -1
+        },
+        {
+          "app_id": "1172470",
+          "name": "Apex Legends™",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 11,
+          "rank_diff": 0
+        },
+        {
+          "app_id": "2139460",
+          "name": "Once Human",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 12,
+          "rank_diff": 0
+        },
+        {
+          "app_id": "2561460",
+          "name": "Burning Sword: Death Sun",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 10,
+          "rank": 13,
+          "rank_diff": 0
+        },
+        {
+          "app_id": "5200620",
+          "name": "Dungeonbound",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 10,
+          "rank": 18,
+          "rank_diff": 0
+        },
+        {
+          "app_id": "3564740",
+          "name": "Where Winds Meet",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 20,
+          "rank_diff": 0
+        },
+        {
+          "app_id": "1973530",
+          "name": "Limbus Company",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 21,
+          "rank_diff": 0
+        }
+      ],
+      "all_ranks": [
+        {
+          "rank": 1,
+          "name": "FINAL FANTASY VII REBIRTH",
+          "rank_diff": 4
+        },
+        {
+          "rank": 2,
+          "name": "FINAL FANTASY VII REMAKE INTERGRADE",
+          "rank_diff": 5
+        },
+        {
+          "rank": 3,
+          "name": "Farm &amp; Feast",
+          "rank_diff": -1
+        },
+        {
+          "rank": 4,
+          "name": "Dota 2",
+          "rank_diff": -1
+        },
+        {
+          "rank": 5,
+          "name": "Counter-Strike 2",
+          "rank_diff": -4
+        },
+        {
+          "rank": 6,
+          "name": "EA SPORTS FC™ 27",
+          "rank_diff": -2
+        },
+        {
+          "rank": 7,
+          "name": "AION 2",
+          "rank_diff": -1
+        },
+        {
+          "rank": 8,
+          "name": "NARAKA: BLADEPOINT",
+          "rank_diff": 1
+        },
+        {
+          "rank": 9,
+          "name": "PUBG: BATTLEGROUNDS",
+          "rank_diff": -1
+        },
+        {
+          "rank": 10,
+          "name": "Phantom Blade Zero",
+          "rank_diff": 0
+        },
+        {
+          "rank": 11,
+          "name": "Apex Legends™",
+          "rank_diff": 0
+        },
+        {
+          "rank": 12,
+          "name": "Once Human",
+          "rank_diff": 0
+        },
+        {
+          "rank": 13,
+          "name": "Burning Sword: Death Sun",
+          "rank_diff": 0
+        },
+        {
+          "rank": 14,
+          "name": "Grand Theft Auto V Enhanced",
+          "rank_diff": 0
+        },
+        {
+          "rank": 15,
+          "name": "Call of Duty®: Modern Warfare® 4",
+          "rank_diff": 0
+        },
+        {
+          "rank": 16,
+          "name": "Scam With Your Friends",
+          "rank_diff": 0
+        },
+        {
+          "rank": 17,
+          "name": "Dead by Daylight",
+          "rank_diff": 0
+        },
+        {
+          "rank": 18,
+          "name": "Dungeonbound",
+          "rank_diff": 0
+        },
+        {
+          "rank": 19,
+          "name": "Football Manager 27",
+          "rank_diff": 0
+        },
+        {
+          "rank": 20,
+          "name": "Where Winds Meet",
+          "rank_diff": 0
+        },
+        {
+          "rank": 21,
+          "name": "Limbus Company",
+          "rank_diff": 0
+        }
+      ]
+    }
+  }
+}
