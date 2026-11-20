@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-20T10:00:12.596225+09:00",
-  "crimson_desert_rank": 15,
-  "rank_diff": 4,
+  "generated_at": "2026-11-20T18:36:35.758476+09:00",
+  "crimson_desert_rank": 16,
+  "rank_diff": -1,
   "rivals": [
     {
       "app_id": "730",
@@ -22,10 +22,28 @@
       "discount_pct": 0
     },
     {
+      "app_id": "1426210",
+      "name": "It Takes Two",
+      "rank": 4,
+      "rank_diff": 0,
+      "is_free": false,
+      "is_discounted": true,
+      "discount_pct": 80
+    },
+    {
+      "app_id": "4080220",
+      "name": "EA SPORTS FC™ 27",
+      "rank": 5,
+      "rank_diff": 1,
+      "is_free": false,
+      "is_discounted": true,
+      "discount_pct": 50
+    },
+    {
       "app_id": "2767030",
       "name": "Marvel Rivals",
-      "rank": 4,
-      "rank_diff": 5,
+      "rank": 6,
+      "rank_diff": -2,
       "is_free": true,
       "is_discounted": false,
       "discount_pct": 0
@@ -33,33 +51,24 @@
     {
       "app_id": "2406770",
       "name": "Bodycam",
-      "rank": 5,
-      "rank_diff": 0,
+      "rank": 7,
+      "rank_diff": -2,
       "is_free": false,
       "is_discounted": true,
       "discount_pct": 20
     },
     {
-      "app_id": "4080220",
-      "name": "EA SPORTS FC™ 27",
-      "rank": 6,
-      "rank_diff": 5,
-      "is_free": false,
-      "is_discounted": true,
-      "discount_pct": 50
-    },
-    {
-      "app_id": "3393110",
-      "name": "AION 2",
-      "rank": 7,
-      "rank_diff": -1,
+      "app_id": "1172470",
+      "name": "Apex Legends™",
+      "rank": 8,
+      "rank_diff": 1,
       "is_free": true,
       "is_discounted": false,
       "discount_pct": 0
     },
     {
-      "app_id": "1172470",
-      "name": "Apex Legends™",
+      "app_id": "3393110",
+      "name": "AION 2",
       "rank": 9,
       "rank_diff": -2,
       "is_free": true,
@@ -67,31 +76,31 @@
       "discount_pct": 0
     },
     {
-      "app_id": "1401590",
-      "name": "Disney Dreamlight Valley",
-      "rank": 10,
-      "rank_diff": -6,
+      "app_id": "2215430",
+      "name": "Ghost of Tsushima DIRECTOR'S CUT",
+      "rank": 12,
+      "rank_diff": 0,
       "is_free": false,
       "is_discounted": true,
-      "discount_pct": 40
+      "discount_pct": 50
     },
     {
       "app_id": "2909400",
       "name": "FINAL FANTASY VII REBIRTH",
-      "rank": 11,
+      "rank": 14,
       "rank_diff": -3,
       "is_free": false,
       "is_discounted": true,
       "discount_pct": 85
     },
     {
-      "app_id": "4262460",
-      "name": "ROB RUN",
-      "rank": 12,
-      "rank_diff": 5,
-      "is_free": true,
-      "is_discounted": false,
-      "discount_pct": 0
+      "app_id": "394360",
+      "name": "Hearts of Iron IV",
+      "rank": 15,
+      "rank_diff": 0,
+      "is_free": false,
+      "is_discounted": true,
+      "discount_pct": 70
     }
   ]
 }
