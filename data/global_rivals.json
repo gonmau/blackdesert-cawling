@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-20T03:49:30.306493+09:00",
-  "crimson_desert_rank": 19,
-  "rank_diff": -3,
+  "generated_at": "2026-11-20T10:00:12.596225+09:00",
+  "crimson_desert_rank": 15,
+  "rank_diff": 4,
   "rivals": [
     {
       "app_id": "730",
@@ -16,34 +16,43 @@
       "app_id": "570",
       "name": "Dota 2",
       "rank": 3,
-      "rank_diff": 2,
+      "rank_diff": 0,
       "is_free": true,
       "is_discounted": false,
       "discount_pct": 0
     },
     {
-      "app_id": "1401590",
-      "name": "Disney Dreamlight Valley",
+      "app_id": "2767030",
+      "name": "Marvel Rivals",
       "rank": 4,
-      "rank_diff": -2,
-      "is_free": false,
-      "is_discounted": true,
-      "discount_pct": 40
+      "rank_diff": 5,
+      "is_free": true,
+      "is_discounted": false,
+      "discount_pct": 0
     },
     {
       "app_id": "2406770",
       "name": "Bodycam",
       "rank": 5,
-      "rank_diff": 1,
+      "rank_diff": 0,
       "is_free": false,
       "is_discounted": true,
       "discount_pct": 20
     },
     {
+      "app_id": "4080220",
+      "name": "EA SPORTS FC™ 27",
+      "rank": 6,
+      "rank_diff": 5,
+      "is_free": false,
+      "is_discounted": true,
+      "discount_pct": 50
+    },
+    {
       "app_id": "3393110",
       "name": "AION 2",
-      "rank": 6,
-      "rank_diff": 2,
+      "rank": 7,
+      "rank_diff": -1,
       "is_free": true,
       "is_discounted": false,
       "discount_pct": 0
@@ -51,71 +60,35 @@
     {
       "app_id": "1172470",
       "name": "Apex Legends™",
-      "rank": 7,
-      "rank_diff": 0,
+      "rank": 9,
+      "rank_diff": -2,
       "is_free": true,
       "is_discounted": false,
       "discount_pct": 0
     },
     {
+      "app_id": "1401590",
+      "name": "Disney Dreamlight Valley",
+      "rank": 10,
+      "rank_diff": -6,
+      "is_free": false,
+      "is_discounted": true,
+      "discount_pct": 40
+    },
+    {
       "app_id": "2909400",
       "name": "FINAL FANTASY VII REBIRTH",
-      "rank": 8,
-      "rank_diff": 7,
+      "rank": 11,
+      "rank_diff": -3,
       "is_free": false,
       "is_discounted": true,
       "discount_pct": 85
     },
     {
-      "app_id": "2767030",
-      "name": "Marvel Rivals",
-      "rank": 9,
-      "rank_diff": 0,
-      "is_free": true,
-      "is_discounted": false,
-      "discount_pct": 0
-    },
-    {
-      "app_id": "4080220",
-      "name": "EA SPORTS FC™ 27",
-      "rank": 11,
-      "rank_diff": 1,
-      "is_free": false,
-      "is_discounted": true,
-      "discount_pct": 50
-    },
-    {
-      "app_id": "216150",
-      "name": "MapleStory",
-      "rank": 12,
-      "rank_diff": -2,
-      "is_free": true,
-      "is_discounted": false,
-      "discount_pct": 0
-    },
-    {
-      "app_id": "227300",
-      "name": "Euro Truck Simulator 2",
-      "rank": 14,
-      "rank_diff": 0,
-      "is_free": false,
-      "is_discounted": true,
-      "discount_pct": 75
-    },
-    {
-      "app_id": "1771300",
-      "name": "Kingdom Come: Deliverance II",
-      "rank": 16,
-      "rank_diff": -2,
-      "is_free": false,
-      "is_discounted": true,
-      "discount_pct": 67
-    },
-    {
       "app_id": "4262460",
       "name": "ROB RUN",
-      "rank": 17,
-      "rank_diff": 0,
+      "rank": 12,
+      "rank_diff": 5,
       "is_free": true,
       "is_discounted": false,
       "discount_pct": 0
