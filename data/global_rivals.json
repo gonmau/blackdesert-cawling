@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-21T03:15:27.189795+09:00",
-  "crimson_desert_rank": 17,
-  "rank_diff": -1,
+  "generated_at": "2026-11-21T09:33:20.689477+09:00",
+  "crimson_desert_rank": 14,
+  "rank_diff": 3,
   "rivals": [
     {
       "app_id": "730",
@@ -13,6 +13,15 @@
       "discount_pct": 0
     },
     {
+      "app_id": "4080220",
+      "name": "EA SPORTS FC™ 27",
+      "rank": 2,
+      "rank_diff": 2,
+      "is_free": false,
+      "is_discounted": true,
+      "discount_pct": 50
+    },
+    {
       "app_id": "4262460",
       "name": "ROB RUN",
       "rank": 3,
@@ -22,19 +31,10 @@
       "discount_pct": 0
     },
     {
-      "app_id": "4080220",
-      "name": "EA SPORTS FC™ 27",
-      "rank": 4,
-      "rank_diff": 1,
-      "is_free": false,
-      "is_discounted": true,
-      "discount_pct": 50
-    },
-    {
       "app_id": "570",
       "name": "Dota 2",
       "rank": 5,
-      "rank_diff": -2,
+      "rank_diff": 0,
       "is_free": true,
       "is_discounted": false,
       "discount_pct": 0
@@ -43,43 +43,34 @@
       "app_id": "1426210",
       "name": "It Takes Two",
       "rank": 6,
-      "rank_diff": -2,
+      "rank_diff": 0,
       "is_free": false,
       "is_discounted": true,
       "discount_pct": 80
     },
     {
-      "app_id": "2406770",
-      "name": "Bodycam",
-      "rank": 7,
-      "rank_diff": 0,
-      "is_free": false,
-      "is_discounted": true,
-      "discount_pct": 20
-    },
-    {
       "app_id": "2215430",
       "name": "Ghost of Tsushima DIRECTOR'S CUT",
-      "rank": 8,
-      "rank_diff": 4,
+      "rank": 7,
+      "rank_diff": 1,
       "is_free": false,
       "is_discounted": true,
       "discount_pct": 50
     },
     {
-      "app_id": "1172470",
-      "name": "Apex Legends™",
-      "rank": 9,
-      "rank_diff": -1,
+      "app_id": "3393110",
+      "name": "AION 2",
+      "rank": 10,
+      "rank_diff": 0,
       "is_free": true,
       "is_discounted": false,
       "discount_pct": 0
     },
     {
-      "app_id": "3393110",
-      "name": "AION 2",
-      "rank": 10,
-      "rank_diff": -1,
+      "app_id": "1172470",
+      "name": "Apex Legends™",
+      "rank": 11,
+      "rank_diff": -2,
       "is_free": true,
       "is_discounted": false,
       "discount_pct": 0
@@ -87,29 +78,11 @@
     {
       "app_id": "2767030",
       "name": "Marvel Rivals",
-      "rank": 14,
-      "rank_diff": -8,
+      "rank": 13,
+      "rank_diff": 1,
       "is_free": true,
       "is_discounted": false,
       "discount_pct": 0
-    },
-    {
-      "app_id": "578080",
-      "name": "PUBG: BATTLEGROUNDS",
-      "rank": 15,
-      "rank_diff": 0,
-      "is_free": true,
-      "is_discounted": false,
-      "discount_pct": 0
-    },
-    {
-      "app_id": "227300",
-      "name": "Euro Truck Simulator 2",
-      "rank": 16,
-      "rank_diff": 0,
-      "is_free": false,
-      "is_discounted": true,
-      "discount_pct": 75
     }
   ]
 }
