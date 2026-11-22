@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-22T06:26:44.094630+09:00",
+  "generated_at": "2026-11-22T10:52:26.811473+09:00",
   "crimson_desert_rank": 14,
-  "rank_diff": 1,
+  "rank_diff": 0,
   "rivals": [
     {
       "app_id": "730",
@@ -33,8 +33,8 @@
     {
       "app_id": "570",
       "name": "Dota 2",
-      "rank": 4,
-      "rank_diff": 0,
+      "rank": 5,
+      "rank_diff": -1,
       "is_free": true,
       "is_discounted": false,
       "discount_pct": 0
@@ -42,8 +42,8 @@
     {
       "app_id": "2483190",
       "name": "Forza Horizon 6",
-      "rank": 5,
-      "rank_diff": 1,
+      "rank": 6,
+      "rank_diff": -1,
       "is_free": false,
       "is_discounted": true,
       "discount_pct": 25
@@ -51,8 +51,8 @@
     {
       "app_id": "3393110",
       "name": "AION 2",
-      "rank": 7,
-      "rank_diff": 2,
+      "rank": 8,
+      "rank_diff": -1,
       "is_free": true,
       "is_discounted": false,
       "discount_pct": 0
@@ -60,29 +60,29 @@
     {
       "app_id": "1426210",
       "name": "It Takes Two",
-      "rank": 10,
-      "rank_diff": -5,
+      "rank": 9,
+      "rank_diff": 1,
       "is_free": false,
       "is_discounted": true,
       "discount_pct": 80
     },
     {
-      "app_id": "2215430",
-      "name": "Ghost of Tsushima DIRECTOR'S CUT",
-      "rank": 11,
-      "rank_diff": 0,
-      "is_free": false,
-      "is_discounted": true,
-      "discount_pct": 50
-    },
-    {
       "app_id": "1172470",
       "name": "Apex Legends™",
-      "rank": 12,
-      "rank_diff": -4,
+      "rank": 10,
+      "rank_diff": 2,
       "is_free": true,
       "is_discounted": false,
       "discount_pct": 0
+    },
+    {
+      "app_id": "2215430",
+      "name": "Ghost of Tsushima DIRECTOR'S CUT",
+      "rank": 12,
+      "rank_diff": -1,
+      "is_free": false,
+      "is_discounted": true,
+      "discount_pct": 50
     }
   ]
 }
