@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-23T14:35:13.453435+09:00",
-  "crimson_desert_rank": 12,
-  "rank_diff": 0,
+  "generated_at": "2026-11-24T02:16:40.545197+09:00",
+  "crimson_desert_rank": 15,
+  "rank_diff": -3,
   "rivals": [
     {
       "app_id": "730",
@@ -13,22 +13,22 @@
       "discount_pct": 0
     },
     {
-      "app_id": "4080220",
-      "name": "EA SPORTS FC™ 27",
-      "rank": 3,
-      "rank_diff": 0,
-      "is_free": false,
-      "is_discounted": true,
-      "discount_pct": 50
-    },
-    {
       "app_id": "570",
       "name": "Dota 2",
-      "rank": 4,
-      "rank_diff": 0,
+      "rank": 3,
+      "rank_diff": 1,
       "is_free": true,
       "is_discounted": false,
       "discount_pct": 0
+    },
+    {
+      "app_id": "4080220",
+      "name": "EA SPORTS FC™ 27",
+      "rank": 4,
+      "rank_diff": -1,
+      "is_free": false,
+      "is_discounted": true,
+      "discount_pct": 50
     },
     {
       "app_id": "4262460",
@@ -40,17 +40,17 @@
       "discount_pct": 0
     },
     {
-      "app_id": "1172470",
-      "name": "Apex Legends™",
+      "app_id": "3393110",
+      "name": "AION 2",
       "rank": 6,
-      "rank_diff": 3,
+      "rank_diff": 1,
       "is_free": true,
       "is_discounted": false,
       "discount_pct": 0
     },
     {
-      "app_id": "3393110",
-      "name": "AION 2",
+      "app_id": "1172470",
+      "name": "Apex Legends™",
       "rank": 7,
       "rank_diff": -1,
       "is_free": true,
@@ -60,8 +60,8 @@
     {
       "app_id": "1426210",
       "name": "It Takes Two",
-      "rank": 8,
-      "rank_diff": 3,
+      "rank": 9,
+      "rank_diff": -1,
       "is_free": false,
       "is_discounted": true,
       "discount_pct": 80
@@ -70,10 +70,37 @@
       "app_id": "2483190",
       "name": "Forza Horizon 6",
       "rank": 11,
-      "rank_diff": -1,
+      "rank_diff": 0,
       "is_free": false,
       "is_discounted": true,
       "discount_pct": 25
+    },
+    {
+      "app_id": "578080",
+      "name": "PUBG: BATTLEGROUNDS",
+      "rank": 12,
+      "rank_diff": 0,
+      "is_free": true,
+      "is_discounted": false,
+      "discount_pct": 0
+    },
+    {
+      "app_id": "2272360",
+      "name": "Warhammer 40,000: Dawn of War IV",
+      "rank": 13,
+      "rank_diff": 0,
+      "is_free": false,
+      "is_discounted": true,
+      "discount_pct": 10
+    },
+    {
+      "app_id": "227300",
+      "name": "Euro Truck Simulator 2",
+      "rank": 14,
+      "rank_diff": 0,
+      "is_free": false,
+      "is_discounted": true,
+      "discount_pct": 75
     }
   ]
 }
