@@ -1,0 +1,6940 @@
+{
+  "generated_at": "2026-11-25T10:47:17.609485+09:00",
+  "countries": {
+    "us": {
+      "name": "미국",
+      "crimson_desert_rank": 20,
+      "rank_diff": -5,
+      "rivals": [
+        {
+          "app_id": "1172470",
+          "name": "Apex Legends™",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 2,
+          "rank_diff": 0
+        },
+        {
+          "app_id": "1174180",
+          "name": "Red Dead Redemption 2",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 75,
+          "rank": 4,
+          "rank_diff": -3
+        },
+        {
+          "app_id": "730",
+          "name": "Counter-Strike 2",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 6,
+          "rank_diff": -4
+        },
+        {
+          "app_id": "4435490",
+          "name": "Call of Duty®: Modern Warfare® 4",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 15,
+          "rank": 7,
+          "rank_diff": -1
+        },
+        {
+          "app_id": "2272360",
+          "name": "Warhammer 40,000: Dawn of War IV",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 10,
+          "rank": 8,
+          "rank_diff": -3
+        },
+        {
+          "app_id": "3768760",
+          "name": "007 First Light",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 50,
+          "rank": 9,
+          "rank_diff": -5
+        },
+        {
+          "app_id": "3240220",
+          "name": "Grand Theft Auto V Enhanced",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 56,
+          "rank": 10,
+          "rank_diff": -3
+        },
+        {
+          "app_id": "1086940",
+          "name": "Baldur's Gate 3",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 30,
+          "rank": 11,
+          "rank_diff": -2
+        },
+        {
+          "app_id": "3393110",
+          "name": "AION 2",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 12,
+          "rank_diff": -4
+        },
+        {
+          "app_id": "5527800",
+          "name": "No Asteroids",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 20,
+          "rank": 13,
+          "rank_diff": 0
+        },
+        {
+          "app_id": "4262460",
+          "name": "ROB RUN",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 14,
+          "rank_diff": -4
+        },
+        {
+          "app_id": "216150",
+          "name": "MapleStory",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 15,
+          "rank_diff": 0
+        },
+        {
+          "app_id": "230410",
+          "name": "Warframe",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 16,
+          "rank_diff": -3
+        },
+        {
+          "app_id": "2767030",
+          "name": "Marvel Rivals",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 17,
+          "rank_diff": -3
+        },
+        {
+          "app_id": "1449850",
+          "name": "Yu-Gi-Oh! Master Duel",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 18,
+          "rank_diff": 0
+        },
+        {
+          "app_id": "3751260",
+          "name": "The Blood of Dawnwalker",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 20,
+          "rank": 19,
+          "rank_diff": -7
+        }
+      ],
+      "all_ranks": [
+        {
+          "rank": 1,
+          "name": "Dead by Daylight",
+          "rank_diff": 0
+        },
+        {
+          "rank": 2,
+          "name": "Apex Legends™",
+          "rank_diff": 0
+        },
+        {
+          "rank": 3,
+          "name": "Steam Frame",
+          "rank_diff": 0
+        },
+        {
+          "rank": 4,
+          "name": "Red Dead Redemption 2",
+          "rank_diff": -3
+        },
+        {
+          "rank": 5,
+          "name": "Dead by Daylight: Terrifier",
+          "rank_diff": 0
+        },
+        {
+          "rank": 6,
+          "name": "Counter-Strike 2",
+          "rank_diff": -4
+        },
+        {
+          "rank": 7,
+          "name": "Call of Duty®: Modern Warfare® 4",
+          "rank_diff": -1
+        },
+        {
+          "rank": 8,
+          "name": "Warhammer 40,000: Dawn of War IV",
+          "rank_diff": -3
+        },
+        {
+          "rank": 9,
+          "name": "007 First Light",
+          "rank_diff": -5
+        },
+        {
+          "rank": 10,
+          "name": "Grand Theft Auto V Enhanced",
+          "rank_diff": -3
+        },
+        {
+          "rank": 11,
+          "name": "Baldur's Gate 3",
+          "rank_diff": -2
+        },
+        {
+          "rank": 12,
+          "name": "AION 2",
+          "rank_diff": -4
+        },
+        {
+          "rank": 13,
+          "name": "No Asteroids",
+          "rank_diff": 0
+        },
+        {
+          "rank": 14,
+          "name": "ROB RUN",
+          "rank_diff": -4
+        },
+        {
+          "rank": 15,
+          "name": "MapleStory",
+          "rank_diff": 0
+        },
+        {
+          "rank": 16,
+          "name": "Warframe",
+          "rank_diff": -3
+        },
+        {
+          "rank": 17,
+          "name": "Marvel Rivals",
+          "rank_diff": -3
+        },
+        {
+          "rank": 18,
+          "name": "Yu-Gi-Oh! Master Duel",
+          "rank_diff": 0
+        },
+        {
+          "rank": 19,
+          "name": "The Blood of Dawnwalker",
+          "rank_diff": -7
+        }
+      ]
+    },
+    "gb": {
+      "name": "영국",
+      "crimson_desert_rank": 24,
+      "rank_diff": -6,
+      "rivals": [
+        {
+          "app_id": "1172470",
+          "name": "Apex Legends™",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 2,
+          "rank_diff": 0
+        },
+        {
+          "app_id": "1174180",
+          "name": "Red Dead Redemption 2",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 75,
+          "rank": 3,
+          "rank_diff": -2
+        },
+        {
+          "app_id": "2272360",
+          "name": "Warhammer 40,000: Dawn of War IV",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 10,
+          "rank": 4,
+          "rank_diff": -2
+        },
+        {
+          "app_id": "730",
+          "name": "Counter-Strike 2",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 6,
+          "rank_diff": -2
+        },
+        {
+          "app_id": "3768760",
+          "name": "007 First Light",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 50,
+          "rank": 7,
+          "rank_diff": -2
+        },
+        {
+          "app_id": "3240220",
+          "name": "Grand Theft Auto V Enhanced",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 56,
+          "rank": 8,
+          "rank_diff": -2
+        },
+        {
+          "app_id": "1086940",
+          "name": "Baldur's Gate 3",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 30,
+          "rank": 9,
+          "rank_diff": -2
+        },
+        {
+          "app_id": "4262460",
+          "name": "ROB RUN",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 10,
+          "rank_diff": 0
+        },
+        {
+          "app_id": "4080220",
+          "name": "EA SPORTS FC™ 27",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 50,
+          "rank": 11,
+          "rank_diff": -3
+        },
+        {
+          "app_id": "5527800",
+          "name": "No Asteroids",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 20,
+          "rank": 12,
+          "rank_diff": 0
+        },
+        {
+          "app_id": "3393110",
+          "name": "AION 2",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 14,
+          "rank_diff": 0
+        },
+        {
+          "app_id": "281990",
+          "name": "Stellaris",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 70,
+          "rank": 15,
+          "rank_diff": -3
+        },
+        {
+          "app_id": "4435490",
+          "name": "Call of Duty®: Modern Warfare® 4",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 15,
+          "rank": 16,
+          "rank_diff": -2
+        },
+        {
+          "app_id": "230410",
+          "name": "Warframe",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 17,
+          "rank_diff": -1
+        },
+        {
+          "app_id": "2537590",
+          "name": "Microsoft Flight Simulator 2024",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 30,
+          "rank": 19,
+          "rank_diff": 0
+        },
+        {
+          "app_id": "4678800",
+          "name": "Train Sim World® 7 ",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 25,
+          "rank": 20,
+          "rank_diff": -9
+        },
+        {
+          "app_id": "1449850",
+          "name": "Yu-Gi-Oh! Master Duel",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 21,
+          "rank_diff": -6
+        },
+        {
+          "app_id": "1222140",
+          "name": "Detroit: Become Human",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 90,
+          "rank": 23,
+          "rank_diff": 0
+        }
+      ],
+      "all_ranks": [
+        {
+          "rank": 1,
+          "name": "Dead by Daylight",
+          "rank_diff": 16
+        },
+        {
+          "rank": 2,
+          "name": "Apex Legends™",
+          "rank_diff": 0
+        },
+        {
+          "rank": 3,
+          "name": "Red Dead Redemption 2",
+          "rank_diff": -2
+        },
+        {
+          "rank": 4,
+          "name": "Warhammer 40,000: Dawn of War IV",
+          "rank_diff": -2
+        },
+        {
+          "rank": 5,
+          "name": "Dead by Daylight: Terrifier",
+          "rank_diff": 0
+        },
+        {
+          "rank": 6,
+          "name": "Counter-Strike 2",
+          "rank_diff": -2
+        },
+        {
+          "rank": 7,
+          "name": "007 First Light",
+          "rank_diff": -2
+        },
+        {
+          "rank": 8,
+          "name": "Grand Theft Auto V Enhanced",
+          "rank_diff": -2
+        },
+        {
+          "rank": 9,
+          "name": "Baldur's Gate 3",
+          "rank_diff": -2
+        },
+        {
+          "rank": 10,
+          "name": "ROB RUN",
+          "rank_diff": 0
+        },
+        {
+          "rank": 11,
+          "name": "EA SPORTS FC™ 27",
+          "rank_diff": -3
+        },
+        {
+          "rank": 12,
+          "name": "No Asteroids",
+          "rank_diff": 0
+        },
+        {
+          "rank": 13,
+          "name": "Football Manager 27",
+          "rank_diff": -4
+        },
+        {
+          "rank": 14,
+          "name": "AION 2",
+          "rank_diff": 0
+        },
+        {
+          "rank": 15,
+          "name": "Stellaris",
+          "rank_diff": -3
+        },
+        {
+          "rank": 16,
+          "name": "Call of Duty®: Modern Warfare® 4",
+          "rank_diff": -2
+        },
+        {
+          "rank": 17,
+          "name": "Warframe",
+          "rank_diff": -1
+        },
+        {
+          "rank": 18,
+          "name": "Steam Frame",
+          "rank_diff": -15
+        },
+        {
+          "rank": 19,
+          "name": "Microsoft Flight Simulator 2024",
+          "rank_diff": 0
+        },
+        {
+          "rank": 20,
+          "name": "Train Sim World® 7 ",
+          "rank_diff": -9
+        },
+        {
+          "rank": 21,
+          "name": "Yu-Gi-Oh! Master Duel",
+          "rank_diff": -6
+        },
+        {
+          "rank": 22,
+          "name": "Euro Truck Simulator 2",
+          "rank_diff": -9
+        },
+        {
+          "rank": 23,
+          "name": "Detroit: Become Human",
+          "rank_diff": 0
+        }
+      ]
+    },
+    "de": {
+      "name": "독일",
+      "crimson_desert_rank": 33,
+      "rank_diff": -8,
+      "rivals": [
+        {
+          "app_id": "3393110",
+          "name": "AION 2",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 2,
+          "rank_diff": 1
+        },
+        {
+          "app_id": "1174180",
+          "name": "Red Dead Redemption 2",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 75,
+          "rank": 3,
+          "rank_diff": -2
+        },
+        {
+          "app_id": "1172470",
+          "name": "Apex Legends™",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 4,
+          "rank_diff": 0
+        },
+        {
+          "app_id": "3768760",
+          "name": "007 First Light",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 50,
+          "rank": 6,
+          "rank_diff": -2
+        },
+        {
+          "app_id": "730",
+          "name": "Counter-Strike 2",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 7,
+          "rank_diff": -5
+        },
+        {
+          "app_id": "5527800",
+          "name": "No Asteroids",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 20,
+          "rank": 8,
+          "rank_diff": 0
+        },
+        {
+          "app_id": "2272360",
+          "name": "Warhammer 40,000: Dawn of War IV",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 10,
+          "rank": 9,
+          "rank_diff": -2
+        },
+        {
+          "app_id": "3240220",
+          "name": "Grand Theft Auto V Enhanced",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 56,
+          "rank": 10,
+          "rank_diff": -4
+        },
+        {
+          "app_id": "1449850",
+          "name": "Yu-Gi-Oh! Master Duel",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 11,
+          "rank_diff": 3
+        },
+        {
+          "app_id": "1086940",
+          "name": "Baldur's Gate 3",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 30,
+          "rank": 12,
+          "rank_diff": -2
+        },
+        {
+          "app_id": "4080220",
+          "name": "EA SPORTS FC™ 27",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 50,
+          "rank": 14,
+          "rank_diff": -3
+        },
+        {
+          "app_id": "784150",
+          "name": "Workers &amp; Resources: Soviet Republic",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 75,
+          "rank": 16,
+          "rank_diff": -8
+        },
+        {
+          "app_id": "4262460",
+          "name": "ROB RUN",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 17,
+          "rank_diff": -2
+        },
+        {
+          "app_id": "4435490",
+          "name": "Call of Duty®: Modern Warfare® 4",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 15,
+          "rank": 18,
+          "rank_diff": -5
+        },
+        {
+          "app_id": "2537590",
+          "name": "Microsoft Flight Simulator 2024",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 30,
+          "rank": 19,
+          "rank_diff": 0
+        },
+        {
+          "app_id": "2001120",
+          "name": "Split Fiction",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 40,
+          "rank": 20,
+          "rank_diff": -2
+        },
+        {
+          "app_id": "1222140",
+          "name": "Detroit: Become Human",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 90,
+          "rank": 21,
+          "rank_diff": -1
+        },
+        {
+          "app_id": "3751260",
+          "name": "The Blood of Dawnwalker",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 20,
+          "rank": 22,
+          "rank_diff": -3
+        },
+        {
+          "app_id": "4678800",
+          "name": "Train Sim World® 7 ",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 25,
+          "rank": 23,
+          "rank_diff": -7
+        },
+        {
+          "app_id": "281990",
+          "name": "Stellaris",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 70,
+          "rank": 24,
+          "rank_diff": -7
+        },
+        {
+          "app_id": "1716740",
+          "name": "Starfield",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 50,
+          "rank": 25,
+          "rank_diff": -2
+        },
+        {
+          "app_id": "5303130",
+          "name": "Workers &amp; Resources: Soviet Republic - Space Program",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 10,
+          "rank": 26,
+          "rank_diff": -14
+        },
+        {
+          "app_id": "2483190",
+          "name": "Forza Horizon 6",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 25,
+          "rank": 27,
+          "rank_diff": -5
+        },
+        {
+          "app_id": "5472080",
+          "name": "SHRED A BILLION",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 20,
+          "rank": 28,
+          "rank_diff": 0
+        },
+        {
+          "app_id": "1771300",
+          "name": "Kingdom Come: Deliverance II",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 67,
+          "rank": 29,
+          "rank_diff": -8
+        },
+        {
+          "app_id": "1158310",
+          "name": "Crusader Kings III",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 70,
+          "rank": 31,
+          "rank_diff": -7
+        },
+        {
+          "app_id": "4990940",
+          "name": "PC Store Together",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 15,
+          "rank": 32,
+          "rank_diff": 0
+        }
+      ],
+      "all_ranks": [
+        {
+          "rank": 1,
+          "name": "Dead by Daylight",
+          "rank_diff": 0
+        },
+        {
+          "rank": 2,
+          "name": "AION 2",
+          "rank_diff": 1
+        },
+        {
+          "rank": 3,
+          "name": "Red Dead Redemption 2",
+          "rank_diff": -2
+        },
+        {
+          "rank": 4,
+          "name": "Apex Legends™",
+          "rank_diff": 0
+        },
+        {
+          "rank": 5,
+          "name": "Dead by Daylight: Terrifier",
+          "rank_diff": 0
+        },
+        {
+          "rank": 6,
+          "name": "007 First Light",
+          "rank_diff": -2
+        },
+        {
+          "rank": 7,
+          "name": "Counter-Strike 2",
+          "rank_diff": -5
+        },
+        {
+          "rank": 8,
+          "name": "No Asteroids",
+          "rank_diff": 0
+        },
+        {
+          "rank": 9,
+          "name": "Warhammer 40,000: Dawn of War IV",
+          "rank_diff": -2
+        },
+        {
+          "rank": 10,
+          "name": "Grand Theft Auto V Enhanced",
+          "rank_diff": -4
+        },
+        {
+          "rank": 11,
+          "name": "Yu-Gi-Oh! Master Duel",
+          "rank_diff": 3
+        },
+        {
+          "rank": 12,
+          "name": "Baldur's Gate 3",
+          "rank_diff": -2
+        },
+        {
+          "rank": 13,
+          "name": "Steam Frame",
+          "rank_diff": -8
+        },
+        {
+          "rank": 14,
+          "name": "EA SPORTS FC™ 27",
+          "rank_diff": -3
+        },
+        {
+          "rank": 15,
+          "name": "Euro Truck Simulator 2",
+          "rank_diff": -6
+        },
+        {
+          "rank": 16,
+          "name": "Workers &amp; Resources: Soviet Republic",
+          "rank_diff": -8
+        },
+        {
+          "rank": 17,
+          "name": "ROB RUN",
+          "rank_diff": -2
+        },
+        {
+          "rank": 18,
+          "name": "Call of Duty®: Modern Warfare® 4",
+          "rank_diff": -5
+        },
+        {
+          "rank": 19,
+          "name": "Microsoft Flight Simulator 2024",
+          "rank_diff": 0
+        },
+        {
+          "rank": 20,
+          "name": "Split Fiction",
+          "rank_diff": -2
+        },
+        {
+          "rank": 21,
+          "name": "Detroit: Become Human",
+          "rank_diff": -1
+        },
+        {
+          "rank": 22,
+          "name": "The Blood of Dawnwalker",
+          "rank_diff": -3
+        },
+        {
+          "rank": 23,
+          "name": "Train Sim World® 7 ",
+          "rank_diff": -7
+        },
+        {
+          "rank": 24,
+          "name": "Stellaris",
+          "rank_diff": -7
+        },
+        {
+          "rank": 25,
+          "name": "Starfield",
+          "rank_diff": -2
+        },
+        {
+          "rank": 26,
+          "name": "Workers &amp; Resources: Soviet Republic - Space Program",
+          "rank_diff": -14
+        },
+        {
+          "rank": 27,
+          "name": "Forza Horizon 6",
+          "rank_diff": -5
+        },
+        {
+          "rank": 28,
+          "name": "SHRED A BILLION",
+          "rank_diff": 0
+        },
+        {
+          "rank": 29,
+          "name": "Kingdom Come: Deliverance II",
+          "rank_diff": -8
+        },
+        {
+          "rank": 30,
+          "name": "Moon Sweepers",
+          "rank_diff": 0
+        },
+        {
+          "rank": 31,
+          "name": "Crusader Kings III",
+          "rank_diff": -7
+        },
+        {
+          "rank": 32,
+          "name": "PC Store Together",
+          "rank_diff": 0
+        }
+      ]
+    },
+    "fr": {
+      "name": "프랑스",
+      "crimson_desert_rank": 26,
+      "rank_diff": -10,
+      "rivals": [
+        {
+          "app_id": "1174180",
+          "name": "Red Dead Redemption 2",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 75,
+          "rank": 2,
+          "rank_diff": -1
+        },
+        {
+          "app_id": "3393110",
+          "name": "AION 2",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 3,
+          "rank_diff": -1
+        },
+        {
+          "app_id": "1172470",
+          "name": "Apex Legends™",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 4,
+          "rank_diff": 0
+        },
+        {
+          "app_id": "4262460",
+          "name": "ROB RUN",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 6,
+          "rank_diff": -2
+        },
+        {
+          "app_id": "2272360",
+          "name": "Warhammer 40,000: Dawn of War IV",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 10,
+          "rank": 7,
+          "rank_diff": -4
+        },
+        {
+          "app_id": "1086940",
+          "name": "Baldur's Gate 3",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 30,
+          "rank": 8,
+          "rank_diff": 0
+        },
+        {
+          "app_id": "3768760",
+          "name": "007 First Light",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 50,
+          "rank": 9,
+          "rank_diff": -3
+        },
+        {
+          "app_id": "730",
+          "name": "Counter-Strike 2",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 10,
+          "rank_diff": -5
+        },
+        {
+          "app_id": "3240220",
+          "name": "Grand Theft Auto V Enhanced",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 56,
+          "rank": 11,
+          "rank_diff": -4
+        },
+        {
+          "app_id": "5527800",
+          "name": "No Asteroids",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 20,
+          "rank": 13,
+          "rank_diff": 0
+        },
+        {
+          "app_id": "4080220",
+          "name": "EA SPORTS FC™ 27",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 50,
+          "rank": 14,
+          "rank_diff": -5
+        },
+        {
+          "app_id": "4435490",
+          "name": "Call of Duty®: Modern Warfare® 4",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 15,
+          "rank": 15,
+          "rank_diff": -3
+        },
+        {
+          "app_id": "1222140",
+          "name": "Detroit: Become Human",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 90,
+          "rank": 16,
+          "rank_diff": 0
+        },
+        {
+          "app_id": "2001120",
+          "name": "Split Fiction",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 40,
+          "rank": 17,
+          "rank_diff": -4
+        },
+        {
+          "app_id": "2537590",
+          "name": "Microsoft Flight Simulator 2024",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 30,
+          "rank": 19,
+          "rank_diff": 0
+        },
+        {
+          "app_id": "1449850",
+          "name": "Yu-Gi-Oh! Master Duel",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 20,
+          "rank_diff": 0
+        },
+        {
+          "app_id": "1716740",
+          "name": "Starfield",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 50,
+          "rank": 22,
+          "rank_diff": 0
+        },
+        {
+          "app_id": "281990",
+          "name": "Stellaris",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 70,
+          "rank": 23,
+          "rank_diff": -9
+        },
+        {
+          "app_id": "1158310",
+          "name": "Crusader Kings III",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 70,
+          "rank": 24,
+          "rank_diff": 0
+        },
+        {
+          "app_id": "230410",
+          "name": "Warframe",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 25,
+          "rank_diff": 0
+        }
+      ],
+      "all_ranks": [
+        {
+          "rank": 1,
+          "name": "Dead by Daylight",
+          "rank_diff": 0
+        },
+        {
+          "rank": 2,
+          "name": "Red Dead Redemption 2",
+          "rank_diff": -1
+        },
+        {
+          "rank": 3,
+          "name": "AION 2",
+          "rank_diff": -1
+        },
+        {
+          "rank": 4,
+          "name": "Apex Legends™",
+          "rank_diff": 0
+        },
+        {
+          "rank": 5,
+          "name": "Dead by Daylight: Terrifier",
+          "rank_diff": 0
+        },
+        {
+          "rank": 6,
+          "name": "ROB RUN",
+          "rank_diff": -2
+        },
+        {
+          "rank": 7,
+          "name": "Warhammer 40,000: Dawn of War IV",
+          "rank_diff": -4
+        },
+        {
+          "rank": 8,
+          "name": "Baldur's Gate 3",
+          "rank_diff": 0
+        },
+        {
+          "rank": 9,
+          "name": "007 First Light",
+          "rank_diff": -3
+        },
+        {
+          "rank": 10,
+          "name": "Counter-Strike 2",
+          "rank_diff": -5
+        },
+        {
+          "rank": 11,
+          "name": "Grand Theft Auto V Enhanced",
+          "rank_diff": -4
+        },
+        {
+          "rank": 12,
+          "name": "Steam Frame",
+          "rank_diff": -1
+        },
+        {
+          "rank": 13,
+          "name": "No Asteroids",
+          "rank_diff": 0
+        },
+        {
+          "rank": 14,
+          "name": "EA SPORTS FC™ 27",
+          "rank_diff": -5
+        },
+        {
+          "rank": 15,
+          "name": "Call of Duty®: Modern Warfare® 4",
+          "rank_diff": -3
+        },
+        {
+          "rank": 16,
+          "name": "Detroit: Become Human",
+          "rank_diff": 0
+        },
+        {
+          "rank": 17,
+          "name": "Split Fiction",
+          "rank_diff": -4
+        },
+        {
+          "rank": 18,
+          "name": "Euro Truck Simulator 2",
+          "rank_diff": -8
+        },
+        {
+          "rank": 19,
+          "name": "Microsoft Flight Simulator 2024",
+          "rank_diff": 0
+        },
+        {
+          "rank": 20,
+          "name": "Yu-Gi-Oh! Master Duel",
+          "rank_diff": 0
+        },
+        {
+          "rank": 21,
+          "name": "Football Manager 27",
+          "rank_diff": -6
+        },
+        {
+          "rank": 22,
+          "name": "Starfield",
+          "rank_diff": 0
+        },
+        {
+          "rank": 23,
+          "name": "Stellaris",
+          "rank_diff": -9
+        },
+        {
+          "rank": 24,
+          "name": "Crusader Kings III",
+          "rank_diff": 0
+        },
+        {
+          "rank": 25,
+          "name": "Warframe",
+          "rank_diff": 0
+        }
+      ]
+    },
+    "ca": {
+      "name": "캐나다",
+      "crimson_desert_rank": 19,
+      "rank_diff": -5,
+      "rivals": [
+        {
+          "app_id": "1172470",
+          "name": "Apex Legends™",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 1,
+          "rank_diff": 0
+        },
+        {
+          "app_id": "1174180",
+          "name": "Red Dead Redemption 2",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 75,
+          "rank": 4,
+          "rank_diff": -3
+        },
+        {
+          "app_id": "730",
+          "name": "Counter-Strike 2",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 5,
+          "rank_diff": -3
+        },
+        {
+          "app_id": "1086940",
+          "name": "Baldur's Gate 3",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 30,
+          "rank": 6,
+          "rank_diff": 0
+        },
+        {
+          "app_id": "2272360",
+          "name": "Warhammer 40,000: Dawn of War IV",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 10,
+          "rank": 7,
+          "rank_diff": -2
+        },
+        {
+          "app_id": "216150",
+          "name": "MapleStory",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 8,
+          "rank_diff": 5
+        },
+        {
+          "app_id": "3240220",
+          "name": "Grand Theft Auto V Enhanced",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 56,
+          "rank": 9,
+          "rank_diff": -5
+        },
+        {
+          "app_id": "3768760",
+          "name": "007 First Light",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 50,
+          "rank": 11,
+          "rank_diff": -8
+        },
+        {
+          "app_id": "4435490",
+          "name": "Call of Duty®: Modern Warfare® 4",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 15,
+          "rank": 12,
+          "rank_diff": -4
+        },
+        {
+          "app_id": "5527800",
+          "name": "No Asteroids",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 20,
+          "rank": 13,
+          "rank_diff": 0
+        },
+        {
+          "app_id": "3393110",
+          "name": "AION 2",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 14,
+          "rank_diff": -3
+        },
+        {
+          "app_id": "4262460",
+          "name": "ROB RUN",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 15,
+          "rank_diff": -3
+        },
+        {
+          "app_id": "3751260",
+          "name": "The Blood of Dawnwalker",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 20,
+          "rank": 16,
+          "rank_diff": -7
+        },
+        {
+          "app_id": "1449850",
+          "name": "Yu-Gi-Oh! Master Duel",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 17,
+          "rank_diff": 0
+        },
+        {
+          "app_id": "281990",
+          "name": "Stellaris",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 70,
+          "rank": 18,
+          "rank_diff": -8
+        }
+      ],
+      "all_ranks": [
+        {
+          "rank": 1,
+          "name": "Apex Legends™",
+          "rank_diff": 0
+        },
+        {
+          "rank": 2,
+          "name": "Dead by Daylight",
+          "rank_diff": 0
+        },
+        {
+          "rank": 3,
+          "name": "Steam Frame",
+          "rank_diff": 4
+        },
+        {
+          "rank": 4,
+          "name": "Red Dead Redemption 2",
+          "rank_diff": -3
+        },
+        {
+          "rank": 5,
+          "name": "Counter-Strike 2",
+          "rank_diff": -3
+        },
+        {
+          "rank": 6,
+          "name": "Baldur's Gate 3",
+          "rank_diff": 0
+        },
+        {
+          "rank": 7,
+          "name": "Warhammer 40,000: Dawn of War IV",
+          "rank_diff": -2
+        },
+        {
+          "rank": 8,
+          "name": "MapleStory",
+          "rank_diff": 5
+        },
+        {
+          "rank": 9,
+          "name": "Grand Theft Auto V Enhanced",
+          "rank_diff": -5
+        },
+        {
+          "rank": 10,
+          "name": "Dead by Daylight: Terrifier",
+          "rank_diff": 0
+        },
+        {
+          "rank": 11,
+          "name": "007 First Light",
+          "rank_diff": -8
+        },
+        {
+          "rank": 12,
+          "name": "Call of Duty®: Modern Warfare® 4",
+          "rank_diff": -4
+        },
+        {
+          "rank": 13,
+          "name": "No Asteroids",
+          "rank_diff": 0
+        },
+        {
+          "rank": 14,
+          "name": "AION 2",
+          "rank_diff": -3
+        },
+        {
+          "rank": 15,
+          "name": "ROB RUN",
+          "rank_diff": -3
+        },
+        {
+          "rank": 16,
+          "name": "The Blood of Dawnwalker",
+          "rank_diff": -7
+        },
+        {
+          "rank": 17,
+          "name": "Yu-Gi-Oh! Master Duel",
+          "rank_diff": 0
+        },
+        {
+          "rank": 18,
+          "name": "Stellaris",
+          "rank_diff": -8
+        }
+      ]
+    },
+    "br": {
+      "name": "브라질",
+      "crimson_desert_rank": 39,
+      "rank_diff": -10,
+      "rivals": [
+        {
+          "app_id": "1174180",
+          "name": "Red Dead Redemption 2",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 75,
+          "rank": 1,
+          "rank_diff": 1
+        },
+        {
+          "app_id": "730",
+          "name": "Counter-Strike 2",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 2,
+          "rank_diff": -1
+        },
+        {
+          "app_id": "4080220",
+          "name": "EA SPORTS FC™ 27",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 50,
+          "rank": 5,
+          "rank_diff": -2
+        },
+        {
+          "app_id": "3240220",
+          "name": "Grand Theft Auto V Enhanced",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 56,
+          "rank": 6,
+          "rank_diff": -2
+        },
+        {
+          "app_id": "3393110",
+          "name": "AION 2",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 7,
+          "rank_diff": -2
+        },
+        {
+          "app_id": "1086940",
+          "name": "Baldur's Gate 3",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 30,
+          "rank": 8,
+          "rank_diff": -2
+        },
+        {
+          "app_id": "1222140",
+          "name": "Detroit: Become Human",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 90,
+          "rank": 9,
+          "rank_diff": -1
+        },
+        {
+          "app_id": "4262460",
+          "name": "ROB RUN",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 10,
+          "rank_diff": 0
+        },
+        {
+          "app_id": "3768760",
+          "name": "007 First Light",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 50,
+          "rank": 11,
+          "rank_diff": 1
+        },
+        {
+          "app_id": "374320",
+          "name": "DARK SOULS™ III",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 50,
+          "rank": 13,
+          "rank_diff": 4
+        },
+        {
+          "app_id": "4435490",
+          "name": "Call of Duty®: Modern Warfare® 4",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 15,
+          "rank": 14,
+          "rank_diff": -1
+        },
+        {
+          "app_id": "1593500",
+          "name": "God of War",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 60,
+          "rank": 15,
+          "rank_diff": -4
+        },
+        {
+          "app_id": "570",
+          "name": "Dota 2",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 16,
+          "rank_diff": 0
+        },
+        {
+          "app_id": "2537590",
+          "name": "Microsoft Flight Simulator 2024",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 30,
+          "rank": 17,
+          "rank_diff": 0
+        },
+        {
+          "app_id": "990080",
+          "name": "Hogwarts Legacy",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 90,
+          "rank": 18,
+          "rank_diff": 0
+        },
+        {
+          "app_id": "1172620",
+          "name": "Sea of Thieves: 2026 Edition",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 65,
+          "rank": 19,
+          "rank_diff": -4
+        },
+        {
+          "app_id": "2807960",
+          "name": "Battlefield™ 6",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 67,
+          "rank": 20,
+          "rank_diff": -1
+        },
+        {
+          "app_id": "1426210",
+          "name": "It Takes Two",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 80,
+          "rank": 21,
+          "rank_diff": -1
+        },
+        {
+          "app_id": "2483190",
+          "name": "Forza Horizon 6",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 25,
+          "rank": 22,
+          "rank_diff": 0
+        },
+        {
+          "app_id": "2215430",
+          "name": "Ghost of Tsushima DIRECTOR'S CUT",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 50,
+          "rank": 23,
+          "rank_diff": 1
+        },
+        {
+          "app_id": "570940",
+          "name": "DARK SOULS™: REMASTERED",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 50,
+          "rank": 24,
+          "rank_diff": -3
+        },
+        {
+          "app_id": "4356430",
+          "name": "NBA 2K27",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 55,
+          "rank": 25,
+          "rank_diff": 0
+        },
+        {
+          "app_id": "1259420",
+          "name": "Days Gone",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 67,
+          "rank": 26,
+          "rank_diff": -4
+        },
+        {
+          "app_id": "1817070",
+          "name": "Marvel’s Spider-Man Remastered",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 60,
+          "rank": 27,
+          "rank_diff": 0
+        },
+        {
+          "app_id": "2183900",
+          "name": "Warhammer 40,000: Space Marine 2",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 75,
+          "rank": 28,
+          "rank_diff": 0
+        },
+        {
+          "app_id": "1551360",
+          "name": "Forza Horizon 5",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 60,
+          "rank": 29,
+          "rank_diff": 0
+        },
+        {
+          "app_id": "1971870",
+          "name": "Mortal Kombat 1",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 85,
+          "rank": 31,
+          "rank_diff": 0
+        },
+        {
+          "app_id": "2909400",
+          "name": "FINAL FANTASY VII REBIRTH",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 85,
+          "rank": 32,
+          "rank_diff": -6
+        },
+        {
+          "app_id": "2001120",
+          "name": "Split Fiction",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 40,
+          "rank": 33,
+          "rank_diff": 0
+        },
+        {
+          "app_id": "2531310",
+          "name": "The Last of Us™ Part II Remastered",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 33,
+          "rank": 34,
+          "rank_diff": -6
+        },
+        {
+          "app_id": "1888930",
+          "name": "The Last of Us™ Part I",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 50,
+          "rank": 36,
+          "rank_diff": -13
+        },
+        {
+          "app_id": "2322010",
+          "name": "God of War Ragnarök",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 33,
+          "rank": 38,
+          "rank_diff": 0
+        }
+      ],
+      "all_ranks": [
+        {
+          "rank": 1,
+          "name": "Red Dead Redemption 2",
+          "rank_diff": 1
+        },
+        {
+          "rank": 2,
+          "name": "Counter-Strike 2",
+          "rank_diff": -1
+        },
+        {
+          "rank": 3,
+          "name": "Dead by Daylight",
+          "rank_diff": 4
+        },
+        {
+          "rank": 4,
+          "name": "Dead by Daylight: Terrifier",
+          "rank_diff": 0
+        },
+        {
+          "rank": 5,
+          "name": "EA SPORTS FC™ 27",
+          "rank_diff": -2
+        },
+        {
+          "rank": 6,
+          "name": "Grand Theft Auto V Enhanced",
+          "rank_diff": -2
+        },
+        {
+          "rank": 7,
+          "name": "AION 2",
+          "rank_diff": -2
+        },
+        {
+          "rank": 8,
+          "name": "Baldur's Gate 3",
+          "rank_diff": -2
+        },
+        {
+          "rank": 9,
+          "name": "Detroit: Become Human",
+          "rank_diff": -1
+        },
+        {
+          "rank": 10,
+          "name": "ROB RUN",
+          "rank_diff": 0
+        },
+        {
+          "rank": 11,
+          "name": "007 First Light",
+          "rank_diff": 1
+        },
+        {
+          "rank": 12,
+          "name": "just volleyball",
+          "rank_diff": -3
+        },
+        {
+          "rank": 13,
+          "name": "DARK SOULS™ III",
+          "rank_diff": 4
+        },
+        {
+          "rank": 14,
+          "name": "Call of Duty®: Modern Warfare® 4",
+          "rank_diff": -1
+        },
+        {
+          "rank": 15,
+          "name": "God of War",
+          "rank_diff": -4
+        },
+        {
+          "rank": 16,
+          "name": "Dota 2",
+          "rank_diff": 0
+        },
+        {
+          "rank": 17,
+          "name": "Microsoft Flight Simulator 2024",
+          "rank_diff": 0
+        },
+        {
+          "rank": 18,
+          "name": "Hogwarts Legacy",
+          "rank_diff": 0
+        },
+        {
+          "rank": 19,
+          "name": "Sea of Thieves: 2026 Edition",
+          "rank_diff": -4
+        },
+        {
+          "rank": 20,
+          "name": "Battlefield™ 6",
+          "rank_diff": -1
+        },
+        {
+          "rank": 21,
+          "name": "It Takes Two",
+          "rank_diff": -1
+        },
+        {
+          "rank": 22,
+          "name": "Forza Horizon 6",
+          "rank_diff": 0
+        },
+        {
+          "rank": 23,
+          "name": "Ghost of Tsushima DIRECTOR'S CUT",
+          "rank_diff": 1
+        },
+        {
+          "rank": 24,
+          "name": "DARK SOULS™: REMASTERED",
+          "rank_diff": -3
+        },
+        {
+          "rank": 25,
+          "name": "NBA 2K27",
+          "rank_diff": 0
+        },
+        {
+          "rank": 26,
+          "name": "Days Gone",
+          "rank_diff": -4
+        },
+        {
+          "rank": 27,
+          "name": "Marvel’s Spider-Man Remastered",
+          "rank_diff": 0
+        },
+        {
+          "rank": 28,
+          "name": "Warhammer 40,000: Space Marine 2",
+          "rank_diff": 0
+        },
+        {
+          "rank": 29,
+          "name": "Forza Horizon 5",
+          "rank_diff": 0
+        },
+        {
+          "rank": 30,
+          "name": "Euro Truck Simulator 2",
+          "rank_diff": -16
+        },
+        {
+          "rank": 31,
+          "name": "Mortal Kombat 1",
+          "rank_diff": 0
+        },
+        {
+          "rank": 32,
+          "name": "FINAL FANTASY VII REBIRTH",
+          "rank_diff": -6
+        },
+        {
+          "rank": 33,
+          "name": "Split Fiction",
+          "rank_diff": 0
+        },
+        {
+          "rank": 34,
+          "name": "The Last of Us™ Part II Remastered",
+          "rank_diff": -6
+        },
+        {
+          "rank": 35,
+          "name": "Red Dead Redemption",
+          "rank_diff": 0
+        },
+        {
+          "rank": 36,
+          "name": "The Last of Us™ Part I",
+          "rank_diff": -13
+        },
+        {
+          "rank": 37,
+          "name": "Phantom Blade Zero",
+          "rank_diff": -12
+        },
+        {
+          "rank": 38,
+          "name": "God of War Ragnarök",
+          "rank_diff": 0
+        }
+      ]
+    },
+    "jp": {
+      "name": "일본",
+      "crimson_desert_rank": 94,
+      "rank_diff": -1,
+      "rivals": [
+        {
+          "app_id": "1172470",
+          "name": "Apex Legends™",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 1,
+          "rank_diff": 1
+        },
+        {
+          "app_id": "1449850",
+          "name": "Yu-Gi-Oh! Master Duel",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 2,
+          "rank_diff": -1
+        },
+        {
+          "app_id": "3393110",
+          "name": "AION 2",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 3,
+          "rank_diff": 0
+        },
+        {
+          "app_id": "2052410",
+          "name": "WITCH ON THE HOLY NIGHT",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 50,
+          "rank": 6,
+          "rank_diff": -1
+        },
+        {
+          "app_id": "3240220",
+          "name": "Grand Theft Auto V Enhanced",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 56,
+          "rank": 8,
+          "rank_diff": -2
+        },
+        {
+          "app_id": "2717220",
+          "name": "Mahjong Soul",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 9,
+          "rank_diff": -2
+        },
+        {
+          "app_id": "2288340",
+          "name": "ACE COMBAT 8: WINGS OF THEVE",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 20,
+          "rank": 10,
+          "rank_diff": -2
+        },
+        {
+          "app_id": "2909400",
+          "name": "FINAL FANTASY VII REBIRTH",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 85,
+          "rank": 11,
+          "rank_diff": -1
+        },
+        {
+          "app_id": "1973530",
+          "name": "Limbus Company",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 12,
+          "rank_diff": 4
+        },
+        {
+          "app_id": "4080220",
+          "name": "EA SPORTS FC™ 27",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 50,
+          "rank": 13,
+          "rank_diff": 2
+        },
+        {
+          "app_id": "1174180",
+          "name": "Red Dead Redemption 2",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 75,
+          "rank": 14,
+          "rank_diff": 0
+        },
+        {
+          "app_id": "1462040",
+          "name": "FINAL FANTASY VII REMAKE INTERGRADE",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 82,
+          "rank": 15,
+          "rank_diff": -3
+        },
+        {
+          "app_id": "2868840",
+          "name": "Slay the Spire 2",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 20,
+          "rank": 16,
+          "rank_diff": -5
+        },
+        {
+          "app_id": "1607250",
+          "name": "MY HERO ULTRA RUMBLE",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 17,
+          "rank_diff": -4
+        },
+        {
+          "app_id": "374320",
+          "name": "DARK SOULS™ III",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 50,
+          "rank": 18,
+          "rank_diff": 2
+        },
+        {
+          "app_id": "3564400",
+          "name": "ウマ娘 プリティーダービー",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 19,
+          "rank_diff": 2
+        },
+        {
+          "app_id": "4435490",
+          "name": "Call of Duty®: Modern Warfare® 4",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 15,
+          "rank": 20,
+          "rank_diff": 3
+        },
+        {
+          "app_id": "2357570",
+          "name": "Overwatch®",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 21,
+          "rank_diff": -3
+        },
+        {
+          "app_id": "3101040",
+          "name": "Magical Girl Witch Trials",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 20,
+          "rank": 23,
+          "rank_diff": -4
+        },
+        {
+          "app_id": "4508340",
+          "name": "NTE: Neverness to Everness",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 24,
+          "rank_diff": 14
+        },
+        {
+          "app_id": "2764370",
+          "name": "Starward",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 25,
+          "rank_diff": -3
+        },
+        {
+          "app_id": "4262460",
+          "name": "ROB RUN",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 26,
+          "rank_diff": 2
+        },
+        {
+          "app_id": "5527800",
+          "name": "No Asteroids",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 20,
+          "rank": 27,
+          "rank_diff": 0
+        },
+        {
+          "app_id": "2483190",
+          "name": "Forza Horizon 6",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 25,
+          "rank": 28,
+          "rank_diff": 4
+        },
+        {
+          "app_id": "570940",
+          "name": "DARK SOULS™: REMASTERED",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 50,
+          "rank": 29,
+          "rank_diff": 2
+        },
+        {
+          "app_id": "1222140",
+          "name": "Detroit: Become Human",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 90,
+          "rank": 31,
+          "rank_diff": -4
+        },
+        {
+          "app_id": "1808500",
+          "name": "ARC Raiders",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 50,
+          "rank": 32,
+          "rank_diff": -8
+        },
+        {
+          "app_id": "394360",
+          "name": "Hearts of Iron IV",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 70,
+          "rank": 33,
+          "rank_diff": -3
+        },
+        {
+          "app_id": "3489700",
+          "name": "Stellar Blade™",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 33,
+          "rank": 34,
+          "rank_diff": 5
+        },
+        {
+          "app_id": "3280350",
+          "name": "DEATH STRANDING 2: ON THE BEACH",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 33,
+          "rank": 35,
+          "rank_diff": -1
+        },
+        {
+          "app_id": "3768760",
+          "name": "007 First Light",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 50,
+          "rank": 36,
+          "rank_diff": 7
+        },
+        {
+          "app_id": "2584990",
+          "name": "Shadowverse: Worlds Beyond",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 38,
+          "rank_diff": -9
+        },
+        {
+          "app_id": "335300",
+          "name": "DARK SOULS™ II: Scholar of the First Sin",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 50,
+          "rank": 39,
+          "rank_diff": -2
+        },
+        {
+          "app_id": "1665460",
+          "name": "eFootball™",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 41,
+          "rank_diff": -16
+        },
+        {
+          "app_id": "3679080",
+          "name": "The Seven Deadly Sins: Origin",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 42,
+          "rank_diff": 8
+        },
+        {
+          "app_id": "2215430",
+          "name": "Ghost of Tsushima DIRECTOR'S CUT",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 50,
+          "rank": 44,
+          "rank_diff": -8
+        },
+        {
+          "app_id": "4025700",
+          "name": "Heartopia",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 45,
+          "rank_diff": 4
+        },
+        {
+          "app_id": "2139460",
+          "name": "Once Human",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 46,
+          "rank_diff": 21
+        },
+        {
+          "app_id": "1716740",
+          "name": "Starfield",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 50,
+          "rank": 48,
+          "rank_diff": 20
+        }
+      ],
+      "all_ranks": [
+        {
+          "rank": 1,
+          "name": "Apex Legends™",
+          "rank_diff": 1
+        },
+        {
+          "rank": 2,
+          "name": "Yu-Gi-Oh! Master Duel",
+          "rank_diff": -1
+        },
+        {
+          "rank": 3,
+          "name": "AION 2",
+          "rank_diff": 0
+        },
+        {
+          "rank": 4,
+          "name": "DRAGON QUEST MONSTERS: The Withered World",
+          "rank_diff": 0
+        },
+        {
+          "rank": 5,
+          "name": "Dead by Daylight",
+          "rank_diff": 4
+        },
+        {
+          "rank": 6,
+          "name": "WITCH ON THE HOLY NIGHT",
+          "rank_diff": -1
+        },
+        {
+          "rank": 7,
+          "name": "Dead by Daylight: Terrifier",
+          "rank_diff": 0
+        },
+        {
+          "rank": 8,
+          "name": "Grand Theft Auto V Enhanced",
+          "rank_diff": -2
+        },
+        {
+          "rank": 9,
+          "name": "Mahjong Soul",
+          "rank_diff": -2
+        },
+        {
+          "rank": 10,
+          "name": "ACE COMBAT 8: WINGS OF THEVE",
+          "rank_diff": -2
+        },
+        {
+          "rank": 11,
+          "name": "FINAL FANTASY VII REBIRTH",
+          "rank_diff": -1
+        },
+        {
+          "rank": 12,
+          "name": "Limbus Company",
+          "rank_diff": 4
+        },
+        {
+          "rank": 13,
+          "name": "EA SPORTS FC™ 27",
+          "rank_diff": 2
+        },
+        {
+          "rank": 14,
+          "name": "Red Dead Redemption 2",
+          "rank_diff": 0
+        },
+        {
+          "rank": 15,
+          "name": "FINAL FANTASY VII REMAKE INTERGRADE",
+          "rank_diff": -3
+        },
+        {
+          "rank": 16,
+          "name": "Slay the Spire 2",
+          "rank_diff": -5
+        },
+        {
+          "rank": 17,
+          "name": "MY HERO ULTRA RUMBLE",
+          "rank_diff": -4
+        },
+        {
+          "rank": 18,
+          "name": "DARK SOULS™ III",
+          "rank_diff": 2
+        },
+        {
+          "rank": 19,
+          "name": "ウマ娘 プリティーダービー",
+          "rank_diff": 2
+        },
+        {
+          "rank": 20,
+          "name": "Call of Duty®: Modern Warfare® 4",
+          "rank_diff": 3
+        },
+        {
+          "rank": 21,
+          "name": "Overwatch®",
+          "rank_diff": -3
+        },
+        {
+          "rank": 22,
+          "name": "Psycho-Sleuth",
+          "rank_diff": -5
+        },
+        {
+          "rank": 23,
+          "name": "Magical Girl Witch Trials",
+          "rank_diff": -4
+        },
+        {
+          "rank": 24,
+          "name": "NTE: Neverness to Everness",
+          "rank_diff": 14
+        },
+        {
+          "rank": 25,
+          "name": "Starward",
+          "rank_diff": -3
+        },
+        {
+          "rank": 26,
+          "name": "ROB RUN",
+          "rank_diff": 2
+        },
+        {
+          "rank": 27,
+          "name": "No Asteroids",
+          "rank_diff": 0
+        },
+        {
+          "rank": 28,
+          "name": "Forza Horizon 6",
+          "rank_diff": 4
+        },
+        {
+          "rank": 29,
+          "name": "DARK SOULS™: REMASTERED",
+          "rank_diff": 2
+        },
+        {
+          "rank": 30,
+          "name": "FINAL FANTASY XIV Online",
+          "rank_diff": 23
+        },
+        {
+          "rank": 31,
+          "name": "Detroit: Become Human",
+          "rank_diff": -4
+        },
+        {
+          "rank": 32,
+          "name": "ARC Raiders",
+          "rank_diff": -8
+        },
+        {
+          "rank": 33,
+          "name": "Hearts of Iron IV",
+          "rank_diff": -3
+        },
+        {
+          "rank": 34,
+          "name": "Stellar Blade™",
+          "rank_diff": 5
+        },
+        {
+          "rank": 35,
+          "name": "DEATH STRANDING 2: ON THE BEACH",
+          "rank_diff": -1
+        },
+        {
+          "rank": 36,
+          "name": "007 First Light",
+          "rank_diff": 7
+        },
+        {
+          "rank": 37,
+          "name": "Attack on Titan 3 / A.O.T. 3",
+          "rank_diff": 4
+        },
+        {
+          "rank": 38,
+          "name": "Shadowverse: Worlds Beyond",
+          "rank_diff": -9
+        },
+        {
+          "rank": 39,
+          "name": "DARK SOULS™ II: Scholar of the First Sin",
+          "rank_diff": -2
+        },
+        {
+          "rank": 40,
+          "name": "Street Fighter™ 6",
+          "rank_diff": -7
+        },
+        {
+          "rank": 41,
+          "name": "eFootball™",
+          "rank_diff": -16
+        },
+        {
+          "rank": 42,
+          "name": "The Seven Deadly Sins: Origin",
+          "rank_diff": 8
+        },
+        {
+          "rank": 43,
+          "name": "Monster Hunter Wilds",
+          "rank_diff": 8
+        },
+        {
+          "rank": 44,
+          "name": "Ghost of Tsushima DIRECTOR'S CUT",
+          "rank_diff": -8
+        },
+        {
+          "rank": 45,
+          "name": "Heartopia",
+          "rank_diff": 4
+        },
+        {
+          "rank": 46,
+          "name": "Once Human",
+          "rank_diff": 21
+        },
+        {
+          "rank": 47,
+          "name": "Potato Please",
+          "rank_diff": 7
+        },
+        {
+          "rank": 48,
+          "name": "Starfield",
+          "rank_diff": 20
+        },
+        {
+          "rank": 49,
+          "name": "Booster Pack Heroes",
+          "rank_diff": -14
+        },
+        {
+          "rank": 50,
+          "name": "Japanese Ramen Simulator",
+          "rank_diff": -24
+        },
+        {
+          "rank": 51,
+          "name": "Baldur's Gate 3",
+          "rank_diff": -3
+        },
+        {
+          "rank": 52,
+          "name": "Stellaris",
+          "rank_diff": -5
+        },
+        {
+          "rank": 53,
+          "name": "Escape from Tarkov",
+          "rank_diff": 33
+        },
+        {
+          "rank": 54,
+          "name": "FINAL FANTASY RESONANCE",
+          "rank_diff": -12
+        },
+        {
+          "rank": 55,
+          "name": "Tower of Fantasy",
+          "rank_diff": -9
+        },
+        {
+          "rank": 56,
+          "name": "DEAD OR ALIVE Xtreme Venus Vacation",
+          "rank_diff": 10
+        },
+        {
+          "rank": 57,
+          "name": "Warframe",
+          "rank_diff": 14
+        },
+        {
+          "rank": 58,
+          "name": "Crusader Kings III",
+          "rank_diff": 2
+        },
+        {
+          "rank": 59,
+          "name": "Euro Truck Simulator 2",
+          "rank_diff": -15
+        },
+        {
+          "rank": 60,
+          "name": "Wuthering Waves",
+          "rank_diff": -5
+        },
+        {
+          "rank": 61,
+          "name": "Annihilated",
+          "rank_diff": -21
+        },
+        {
+          "rank": 62,
+          "name": "Moon Sweepers",
+          "rank_diff": -17
+        },
+        {
+          "rank": 63,
+          "name": "VRChat",
+          "rank_diff": -11
+        },
+        {
+          "rank": 64,
+          "name": "Persona 3 Reload",
+          "rank_diff": -2
+        },
+        {
+          "rank": 65,
+          "name": "Counter-Strike 2",
+          "rank_diff": -6
+        },
+        {
+          "rank": 66,
+          "name": "Zenless Zone Zero",
+          "rank_diff": -5
+        },
+        {
+          "rank": 67,
+          "name": "Phantom Blade Zero",
+          "rank_diff": 15
+        },
+        {
+          "rank": 68,
+          "name": "PUBG: BATTLEGROUNDS",
+          "rank_diff": -12
+        },
+        {
+          "rank": 69,
+          "name": "Hogwarts Legacy",
+          "rank_diff": 0
+        },
+        {
+          "rank": 70,
+          "name": "GIRLS' FRONTLINE 2: EXILIUM",
+          "rank_diff": 0
+        },
+        {
+          "rank": 71,
+          "name": "Warota: I Live Next to The Demon King's Castle LOL",
+          "rank_diff": -7
+        },
+        {
+          "rank": 72,
+          "name": "Path of Exile 2",
+          "rank_diff": 4
+        },
+        {
+          "rank": 73,
+          "name": "Romancing SaGa 2: Revenge of the Seven",
+          "rank_diff": 15
+        },
+        {
+          "rank": 74,
+          "name": "Cities: Skylines",
+          "rank_diff": 3
+        },
+        {
+          "rank": 75,
+          "name": "Persona5: The Phantom X",
+          "rank_diff": -12
+        },
+        {
+          "rank": 76,
+          "name": "Probably Stolen - Cyberpunk Shopkeeper Sim",
+          "rank_diff": 8
+        },
+        {
+          "rank": 77,
+          "name": "FATAL FURY: City of the Wolves",
+          "rank_diff": 3
+        },
+        {
+          "rank": 78,
+          "name": "Aniimo",
+          "rank_diff": 3
+        },
+        {
+          "rank": 79,
+          "name": "Mecha BREAK",
+          "rank_diff": -1
+        },
+        {
+          "rank": 80,
+          "name": "Dungeonbound",
+          "rank_diff": 9
+        },
+        {
+          "rank": 81,
+          "name": "Football Manager 27",
+          "rank_diff": 0
+        },
+        {
+          "rank": 82,
+          "name": "Fallout 76",
+          "rank_diff": 0
+        },
+        {
+          "rank": 83,
+          "name": "Nioh 3",
+          "rank_diff": 0
+        },
+        {
+          "rank": 84,
+          "name": "Persona 5 Royal",
+          "rank_diff": 7
+        },
+        {
+          "rank": 85,
+          "name": "just volleyball",
+          "rank_diff": -28
+        },
+        {
+          "rank": 86,
+          "name": "Wizardry Variants Daphne",
+          "rank_diff": -1
+        },
+        {
+          "rank": 87,
+          "name": "Summoners War",
+          "rank_diff": -14
+        },
+        {
+          "rank": 88,
+          "name": "BOMBANANA!",
+          "rank_diff": -16
+        },
+        {
+          "rank": 89,
+          "name": "DRAGON QUEST VII Reimagined",
+          "rank_diff": 0
+        },
+        {
+          "rank": 90,
+          "name": "FINAL FANTASY XIV: Evercold",
+          "rank_diff": 0
+        },
+        {
+          "rank": 91,
+          "name": "777 HERO ~The One Who Defies Time~",
+          "rank_diff": -8
+        },
+        {
+          "rank": 92,
+          "name": "ELDEN RING",
+          "rank_diff": 0
+        },
+        {
+          "rank": 93,
+          "name": "DRAGON QUEST I &amp; II HD-2D Remake",
+          "rank_diff": 0
+        }
+      ]
+    },
+    "kr": {
+      "name": "한국",
+      "crimson_desert_rank": 6,
+      "rank_diff": 1,
+      "rivals": [],
+      "all_ranks": [
+        {
+          "rank": 1,
+          "name": "PUBG: BATTLEGROUNDS",
+          "rank_diff": 0
+        },
+        {
+          "rank": 2,
+          "name": "Call of Duty®: Modern Warfare® 4",
+          "rank_diff": 0
+        },
+        {
+          "rank": 3,
+          "name": "Eternal Return",
+          "rank_diff": 0
+        },
+        {
+          "rank": 4,
+          "name": "Yu-Gi-Oh! Master Duel",
+          "rank_diff": 0
+        },
+        {
+          "rank": 5,
+          "name": "Red Dead Redemption 2",
+          "rank_diff": 0
+        }
+      ]
+    },
+    "cn": {
+      "name": "중국",
+      "crimson_desert_rank": 33,
+      "rank_diff": 0,
+      "rivals": [],
+      "all_ranks": [
+        {
+          "rank": 1,
+          "name": "Apex Legends™",
+          "rank_diff": 1
+        },
+        {
+          "rank": 2,
+          "name": "Red Dead Redemption 2",
+          "rank_diff": 1
+        },
+        {
+          "rank": 3,
+          "name": "Grand Theft Auto V Enhanced",
+          "rank_diff": -2
+        },
+        {
+          "rank": 4,
+          "name": "Baldur's Gate 3",
+          "rank_diff": 0
+        },
+        {
+          "rank": 5,
+          "name": "It Takes Two",
+          "rank_diff": 0
+        },
+        {
+          "rank": 6,
+          "name": "Split Fiction",
+          "rank_diff": 0
+        },
+        {
+          "rank": 7,
+          "name": "Yu-Gi-Oh! Master Duel",
+          "rank_diff": 0
+        },
+        {
+          "rank": 8,
+          "name": "Call of Duty®: Modern Warfare® 4",
+          "rank_diff": 6
+        },
+        {
+          "rank": 9,
+          "name": "Counter-Strike 2",
+          "rank_diff": -1
+        },
+        {
+          "rank": 10,
+          "name": "Phantom Blade Zero",
+          "rank_diff": -1
+        },
+        {
+          "rank": 11,
+          "name": "PUBG: BATTLEGROUNDS",
+          "rank_diff": -1
+        },
+        {
+          "rank": 12,
+          "name": "Forza Horizon 5",
+          "rank_diff": -1
+        },
+        {
+          "rank": 13,
+          "name": "Forza Horizon 6",
+          "rank_diff": -1
+        },
+        {
+          "rank": 14,
+          "name": "EA SPORTS FC™ 27",
+          "rank_diff": -1
+        },
+        {
+          "rank": 15,
+          "name": "Dead by Daylight",
+          "rank_diff": 0
+        },
+        {
+          "rank": 16,
+          "name": "Delta Force",
+          "rank_diff": -1
+        },
+        {
+          "rank": 17,
+          "name": "Kingdom Come: Deliverance II",
+          "rank_diff": 0
+        },
+        {
+          "rank": 18,
+          "name": "Warframe",
+          "rank_diff": 2
+        },
+        {
+          "rank": 19,
+          "name": "The Escapists 2",
+          "rank_diff": -1
+        },
+        {
+          "rank": 20,
+          "name": "雀魂麻將(MahjongSoul)",
+          "rank_diff": -4
+        },
+        {
+          "rank": 21,
+          "name": "Detroit: Become Human",
+          "rank_diff": -2
+        },
+        {
+          "rank": 22,
+          "name": "天坑追匪",
+          "rank_diff": 6
+        },
+        {
+          "rank": 23,
+          "name": "Hogwarts Legacy",
+          "rank_diff": -1
+        },
+        {
+          "rank": 24,
+          "name": "Battlefield™ 6",
+          "rank_diff": -1
+        },
+        {
+          "rank": 25,
+          "name": "007 First Light",
+          "rank_diff": 1
+        },
+        {
+          "rank": 26,
+          "name": "Worst Class Ever",
+          "rank_diff": -2
+        },
+        {
+          "rank": 27,
+          "name": "NBA 2K27",
+          "rank_diff": -6
+        },
+        {
+          "rank": 28,
+          "name": "Dota 2",
+          "rank_diff": -3
+        },
+        {
+          "rank": 29,
+          "name": "Dead by Daylight: Terrifier",
+          "rank_diff": 0
+        },
+        {
+          "rank": 30,
+          "name": "Slay the Spire 2",
+          "rank_diff": -3
+        },
+        {
+          "rank": 31,
+          "name": "Slotbound",
+          "rank_diff": -2
+        },
+        {
+          "rank": 32,
+          "name": "Probably Stolen - Cyberpunk Shopkeeper Sim",
+          "rank_diff": -2
+        }
+      ]
+    },
+    "ru": {
+      "name": "러시아",
+      "crimson_desert_rank": 16,
+      "rank_diff": -4,
+      "rivals": [],
+      "all_ranks": [
+        {
+          "rank": 1,
+          "name": "Dota 2",
+          "rank_diff": 0
+        },
+        {
+          "rank": 2,
+          "name": "Counter-Strike 2",
+          "rank_diff": 0
+        },
+        {
+          "rank": 3,
+          "name": "ROB RUN",
+          "rank_diff": 0
+        },
+        {
+          "rank": 4,
+          "name": "Detroit: Become Human",
+          "rank_diff": 0
+        },
+        {
+          "rank": 5,
+          "name": "Baldur's Gate 3",
+          "rank_diff": 2
+        },
+        {
+          "rank": 6,
+          "name": "Atomic Heart",
+          "rank_diff": 0
+        },
+        {
+          "rank": 7,
+          "name": "Euro Truck Simulator 2",
+          "rank_diff": -2
+        },
+        {
+          "rank": 8,
+          "name": "ARC Raiders",
+          "rank_diff": -2
+        },
+        {
+          "rank": 9,
+          "name": "Warhammer 40,000: Space Marine 2",
+          "rank_diff": 0
+        },
+        {
+          "rank": 10,
+          "name": "Workers &amp; Resources: Soviet Republic",
+          "rank_diff": -2
+        },
+        {
+          "rank": 11,
+          "name": "Rust",
+          "rank_diff": -2
+        },
+        {
+          "rank": 12,
+          "name": "PUBG: BATTLEGROUNDS",
+          "rank_diff": 0
+        },
+        {
+          "rank": 13,
+          "name": "DARK SOULS™ III",
+          "rank_diff": -3
+        },
+        {
+          "rank": 14,
+          "name": "No Asteroids",
+          "rank_diff": 0
+        },
+        {
+          "rank": 15,
+          "name": "Stellaris",
+          "rank_diff": 0
+        }
+      ]
+    },
+    "au": {
+      "name": "호주",
+      "crimson_desert_rank": 21,
+      "rank_diff": -3,
+      "rivals": [],
+      "all_ranks": [
+        {
+          "rank": 1,
+          "name": "Warhammer 40,000: Dawn of War IV",
+          "rank_diff": 2
+        },
+        {
+          "rank": 2,
+          "name": "Dead by Daylight",
+          "rank_diff": 0
+        },
+        {
+          "rank": 3,
+          "name": "Red Dead Redemption 2",
+          "rank_diff": -2
+        },
+        {
+          "rank": 4,
+          "name": "Counter-Strike 2",
+          "rank_diff": -2
+        },
+        {
+          "rank": 5,
+          "name": "Apex Legends™",
+          "rank_diff": 0
+        },
+        {
+          "rank": 6,
+          "name": "007 First Light",
+          "rank_diff": -2
+        },
+        {
+          "rank": 7,
+          "name": "Grand Theft Auto V Enhanced",
+          "rank_diff": -2
+        },
+        {
+          "rank": 8,
+          "name": "Dead by Daylight: Terrifier",
+          "rank_diff": 0
+        },
+        {
+          "rank": 9,
+          "name": "Baldur's Gate 3",
+          "rank_diff": -3
+        },
+        {
+          "rank": 10,
+          "name": "The Blood of Dawnwalker",
+          "rank_diff": -2
+        },
+        {
+          "rank": 11,
+          "name": "Call of Duty®: Modern Warfare® 4",
+          "rank_diff": -4
+        },
+        {
+          "rank": 12,
+          "name": "MapleStory",
+          "rank_diff": 0
+        },
+        {
+          "rank": 13,
+          "name": "Stellaris",
+          "rank_diff": -4
+        },
+        {
+          "rank": 14,
+          "name": "Yu-Gi-Oh! Master Duel",
+          "rank_diff": -4
+        },
+        {
+          "rank": 15,
+          "name": "No Asteroids",
+          "rank_diff": 0
+        },
+        {
+          "rank": 16,
+          "name": "EA SPORTS FC™ 27",
+          "rank_diff": -3
+        },
+        {
+          "rank": 17,
+          "name": "Warframe",
+          "rank_diff": -2
+        },
+        {
+          "rank": 18,
+          "name": "AION 2",
+          "rank_diff": -2
+        },
+        {
+          "rank": 19,
+          "name": "Detroit: Become Human",
+          "rank_diff": -5
+        },
+        {
+          "rank": 20,
+          "name": "Starfield",
+          "rank_diff": 0
+        }
+      ]
+    },
+    "es": {
+      "name": "스페인",
+      "crimson_desert_rank": 21,
+      "rank_diff": -1,
+      "rivals": [],
+      "all_ranks": [
+        {
+          "rank": 1,
+          "name": "Red Dead Redemption 2",
+          "rank_diff": 0
+        },
+        {
+          "rank": 2,
+          "name": "Dead by Daylight",
+          "rank_diff": 13
+        },
+        {
+          "rank": 3,
+          "name": "Dead by Daylight: Terrifier",
+          "rank_diff": 0
+        },
+        {
+          "rank": 4,
+          "name": "EA SPORTS FC™ 27",
+          "rank_diff": -2
+        },
+        {
+          "rank": 5,
+          "name": "Counter-Strike 2",
+          "rank_diff": -2
+        },
+        {
+          "rank": 6,
+          "name": "Grand Theft Auto V Enhanced",
+          "rank_diff": -2
+        },
+        {
+          "rank": 7,
+          "name": "Baldur's Gate 3",
+          "rank_diff": 0
+        },
+        {
+          "rank": 8,
+          "name": "AION 2",
+          "rank_diff": -3
+        },
+        {
+          "rank": 9,
+          "name": "ROB RUN",
+          "rank_diff": -3
+        },
+        {
+          "rank": 10,
+          "name": "Apex Legends™",
+          "rank_diff": 0
+        },
+        {
+          "rank": 11,
+          "name": "007 First Light",
+          "rank_diff": -2
+        },
+        {
+          "rank": 12,
+          "name": "Detroit: Become Human",
+          "rank_diff": -2
+        },
+        {
+          "rank": 13,
+          "name": "Call of Duty®: Modern Warfare® 4",
+          "rank_diff": -1
+        },
+        {
+          "rank": 14,
+          "name": "Euro Truck Simulator 2",
+          "rank_diff": -6
+        },
+        {
+          "rank": 15,
+          "name": "Warhammer 40,000: Dawn of War IV",
+          "rank_diff": -4
+        },
+        {
+          "rank": 16,
+          "name": "Kingdom Come: Deliverance II",
+          "rank_diff": -2
+        },
+        {
+          "rank": 17,
+          "name": "FINAL FANTASY VII REBIRTH",
+          "rank_diff": -4
+        },
+        {
+          "rank": 18,
+          "name": "Split Fiction",
+          "rank_diff": 0
+        },
+        {
+          "rank": 19,
+          "name": "Queen's Domain",
+          "rank_diff": -2
+        },
+        {
+          "rank": 20,
+          "name": "No Asteroids",
+          "rank_diff": 0
+        }
+      ]
+    },
+    "it": {
+      "name": "이탈리아",
+      "crimson_desert_rank": 32,
+      "rank_diff": -18,
+      "rivals": [],
+      "all_ranks": [
+        {
+          "rank": 1,
+          "name": "Red Dead Redemption 2",
+          "rank_diff": 0
+        },
+        {
+          "rank": 2,
+          "name": "Dead by Daylight",
+          "rank_diff": 0
+        },
+        {
+          "rank": 3,
+          "name": "EA SPORTS FC™ 27",
+          "rank_diff": -1
+        },
+        {
+          "rank": 4,
+          "name": "AION 2",
+          "rank_diff": 1
+        },
+        {
+          "rank": 5,
+          "name": "Apex Legends™",
+          "rank_diff": 0
+        },
+        {
+          "rank": 6,
+          "name": "Baldur's Gate 3",
+          "rank_diff": -3
+        },
+        {
+          "rank": 7,
+          "name": "Dead by Daylight: Terrifier",
+          "rank_diff": 0
+        },
+        {
+          "rank": 8,
+          "name": "Grand Theft Auto V Enhanced",
+          "rank_diff": -4
+        },
+        {
+          "rank": 9,
+          "name": "Call of Duty®: Modern Warfare® 4",
+          "rank_diff": -1
+        },
+        {
+          "rank": 10,
+          "name": "007 First Light",
+          "rank_diff": -3
+        },
+        {
+          "rank": 11,
+          "name": "Detroit: Become Human",
+          "rank_diff": -2
+        },
+        {
+          "rank": 12,
+          "name": "ROB RUN",
+          "rank_diff": 0
+        },
+        {
+          "rank": 13,
+          "name": "Forza Horizon 6",
+          "rank_diff": 0
+        },
+        {
+          "rank": 14,
+          "name": "Yu-Gi-Oh! Master Duel",
+          "rank_diff": 0
+        },
+        {
+          "rank": 15,
+          "name": "Counter-Strike 2",
+          "rank_diff": -5
+        },
+        {
+          "rank": 16,
+          "name": "Euro Truck Simulator 2",
+          "rank_diff": -10
+        },
+        {
+          "rank": 17,
+          "name": "Football Manager 27",
+          "rank_diff": -6
+        },
+        {
+          "rank": 18,
+          "name": "Starfield",
+          "rank_diff": 0
+        },
+        {
+          "rank": 19,
+          "name": "Split Fiction",
+          "rank_diff": 0
+        },
+        {
+          "rank": 20,
+          "name": "Warhammer 40,000: Dawn of War IV",
+          "rank_diff": 0
+        },
+        {
+          "rank": 21,
+          "name": "Warframe",
+          "rank_diff": 0
+        },
+        {
+          "rank": 22,
+          "name": "Hogwarts Legacy",
+          "rank_diff": 0
+        },
+        {
+          "rank": 23,
+          "name": "No Asteroids",
+          "rank_diff": 0
+        },
+        {
+          "rank": 24,
+          "name": "DARK SOULS™ III",
+          "rank_diff": 0
+        },
+        {
+          "rank": 25,
+          "name": "Microsoft Flight Simulator 2024",
+          "rank_diff": 0
+        },
+        {
+          "rank": 26,
+          "name": "Stellaris",
+          "rank_diff": 0
+        },
+        {
+          "rank": 27,
+          "name": "The Blood of Dawnwalker",
+          "rank_diff": 0
+        },
+        {
+          "rank": 28,
+          "name": "The Elder Scrolls IV: Oblivion Remastered",
+          "rank_diff": 0
+        },
+        {
+          "rank": 29,
+          "name": "FINAL FANTASY VII REBIRTH",
+          "rank_diff": 0
+        },
+        {
+          "rank": 30,
+          "name": "Red Dead Redemption",
+          "rank_diff": 0
+        },
+        {
+          "rank": 31,
+          "name": "Kingdom Come: Deliverance II",
+          "rank_diff": 0
+        }
+      ]
+    },
+    "pl": {
+      "name": "폴란드",
+      "crimson_desert_rank": 34,
+      "rank_diff": 0,
+      "rivals": [],
+      "all_ranks": [
+        {
+          "rank": 1,
+          "name": "Counter-Strike 2",
+          "rank_diff": 0
+        },
+        {
+          "rank": 2,
+          "name": "Dead by Daylight",
+          "rank_diff": 16
+        },
+        {
+          "rank": 3,
+          "name": "Red Dead Redemption 2",
+          "rank_diff": -1
+        },
+        {
+          "rank": 4,
+          "name": "Dead by Daylight: Terrifier",
+          "rank_diff": 0
+        },
+        {
+          "rank": 5,
+          "name": "EA SPORTS FC™ 27",
+          "rank_diff": -2
+        },
+        {
+          "rank": 6,
+          "name": "Grand Theft Auto V Enhanced",
+          "rank_diff": -1
+        },
+        {
+          "rank": 7,
+          "name": "Detroit: Become Human",
+          "rank_diff": 0
+        },
+        {
+          "rank": 8,
+          "name": "007 First Light",
+          "rank_diff": 0
+        },
+        {
+          "rank": 9,
+          "name": "ROB RUN",
+          "rank_diff": -3
+        },
+        {
+          "rank": 10,
+          "name": "Euro Truck Simulator 2",
+          "rank_diff": -6
+        },
+        {
+          "rank": 11,
+          "name": "Baldur's Gate 3",
+          "rank_diff": -1
+        },
+        {
+          "rank": 12,
+          "name": "AION 2",
+          "rank_diff": -1
+        },
+        {
+          "rank": 13,
+          "name": "Warhammer 40,000: Dawn of War IV",
+          "rank_diff": -1
+        },
+        {
+          "rank": 14,
+          "name": "Forza Horizon 6",
+          "rank_diff": -1
+        },
+        {
+          "rank": 15,
+          "name": "Workers &amp; Resources: Soviet Republic",
+          "rank_diff": -6
+        },
+        {
+          "rank": 16,
+          "name": "Call of Duty®: Modern Warfare® 4",
+          "rank_diff": -2
+        },
+        {
+          "rank": 17,
+          "name": "No Asteroids",
+          "rank_diff": 0
+        },
+        {
+          "rank": 18,
+          "name": "Apex Legends™",
+          "rank_diff": 0
+        },
+        {
+          "rank": 19,
+          "name": "Kingdom Come: Deliverance II",
+          "rank_diff": -2
+        },
+        {
+          "rank": 20,
+          "name": "Split Fiction",
+          "rank_diff": 3
+        },
+        {
+          "rank": 21,
+          "name": "Hogwarts Legacy",
+          "rank_diff": 6
+        },
+        {
+          "rank": 22,
+          "name": "Ghost of Tsushima DIRECTOR'S CUT",
+          "rank_diff": -3
+        },
+        {
+          "rank": 23,
+          "name": "Steam Frame",
+          "rank_diff": -7
+        },
+        {
+          "rank": 24,
+          "name": "Battlefield™ 6",
+          "rank_diff": -3
+        },
+        {
+          "rank": 25,
+          "name": "The Blood of Dawnwalker",
+          "rank_diff": -1
+        },
+        {
+          "rank": 26,
+          "name": "Dota 2",
+          "rank_diff": -6
+        },
+        {
+          "rank": 27,
+          "name": "Starfield",
+          "rank_diff": 0
+        },
+        {
+          "rank": 28,
+          "name": "Workers &amp; Resources: Soviet Republic - Space Program",
+          "rank_diff": -13
+        },
+        {
+          "rank": 29,
+          "name": "World of Tanks",
+          "rank_diff": 0
+        },
+        {
+          "rank": 30,
+          "name": "Microsoft Flight Simulator 2024",
+          "rank_diff": -2
+        },
+        {
+          "rank": 31,
+          "name": "Euro Truck Simulator 2 - Coaches",
+          "rank_diff": -5
+        },
+        {
+          "rank": 32,
+          "name": "Stellaris",
+          "rank_diff": -2
+        },
+        {
+          "rank": 33,
+          "name": "Forza Horizon 5",
+          "rank_diff": -2
+        }
+      ]
+    },
+    "tr": {
+      "name": "터키",
+      "crimson_desert_rank": 29,
+      "rank_diff": 6,
+      "rivals": [],
+      "all_ranks": [
+        {
+          "rank": 1,
+          "name": "Counter-Strike 2",
+          "rank_diff": 0
+        },
+        {
+          "rank": 2,
+          "name": "EA SPORTS FC™ 27",
+          "rank_diff": 0
+        },
+        {
+          "rank": 3,
+          "name": "Red Dead Redemption 2",
+          "rank_diff": 0
+        },
+        {
+          "rank": 4,
+          "name": "007 First Light",
+          "rank_diff": 1
+        },
+        {
+          "rank": 5,
+          "name": "Grand Theft Auto V Enhanced",
+          "rank_diff": 1
+        },
+        {
+          "rank": 6,
+          "name": "ROB RUN",
+          "rank_diff": 1
+        },
+        {
+          "rank": 7,
+          "name": "AION 2",
+          "rank_diff": 1
+        },
+        {
+          "rank": 8,
+          "name": "Dead by Daylight",
+          "rank_diff": 16
+        },
+        {
+          "rank": 9,
+          "name": "Apex Legends™",
+          "rank_diff": 0
+        },
+        {
+          "rank": 10,
+          "name": "Euro Truck Simulator 2",
+          "rank_diff": -6
+        },
+        {
+          "rank": 11,
+          "name": "Football Manager 27",
+          "rank_diff": -2
+        },
+        {
+          "rank": 12,
+          "name": "Call of Duty®: Modern Warfare® 4",
+          "rank_diff": -2
+        },
+        {
+          "rank": 13,
+          "name": "Dead by Daylight: Terrifier",
+          "rank_diff": 0
+        },
+        {
+          "rank": 14,
+          "name": "Baldur's Gate 3",
+          "rank_diff": -3
+        },
+        {
+          "rank": 15,
+          "name": "Detroit: Become Human",
+          "rank_diff": -3
+        },
+        {
+          "rank": 16,
+          "name": "Forza Horizon 6",
+          "rank_diff": -3
+        },
+        {
+          "rank": 17,
+          "name": "The Blood of Dawnwalker",
+          "rank_diff": 2
+        },
+        {
+          "rank": 18,
+          "name": "Dota 2",
+          "rank_diff": -4
+        },
+        {
+          "rank": 19,
+          "name": "Kingdom Come: Deliverance II",
+          "rank_diff": -2
+        },
+        {
+          "rank": 20,
+          "name": "Euro Truck Simulator 2 - Coaches",
+          "rank_diff": -5
+        },
+        {
+          "rank": 21,
+          "name": "The Last of Us™ Part I",
+          "rank_diff": -3
+        },
+        {
+          "rank": 22,
+          "name": "DARK SOULS™ III",
+          "rank_diff": -2
+        },
+        {
+          "rank": 23,
+          "name": "Ghost of Tsushima DIRECTOR'S CUT",
+          "rank_diff": -2
+        },
+        {
+          "rank": 24,
+          "name": "Battlefield™ 6",
+          "rank_diff": 0
+        },
+        {
+          "rank": 25,
+          "name": "eFootball™",
+          "rank_diff": -9
+        },
+        {
+          "rank": 26,
+          "name": "PUBG: BATTLEGROUNDS",
+          "rank_diff": -1
+        },
+        {
+          "rank": 27,
+          "name": "The Last of Us™ Part II Remastered",
+          "rank_diff": -1
+        },
+        {
+          "rank": 28,
+          "name": "Split Fiction",
+          "rank_diff": 6
+        }
+      ]
+    },
+    "nl": {
+      "name": "네덜란드",
+      "crimson_desert_rank": 18,
+      "rank_diff": -6,
+      "rivals": [],
+      "all_ranks": [
+        {
+          "rank": 1,
+          "name": "Red Dead Redemption 2",
+          "rank_diff": 0
+        },
+        {
+          "rank": 2,
+          "name": "Dead by Daylight",
+          "rank_diff": 0
+        },
+        {
+          "rank": 3,
+          "name": "007 First Light",
+          "rank_diff": -1
+        },
+        {
+          "rank": 4,
+          "name": "Counter-Strike 2",
+          "rank_diff": -1
+        },
+        {
+          "rank": 5,
+          "name": "Apex Legends™",
+          "rank_diff": 0
+        },
+        {
+          "rank": 6,
+          "name": "Steam Frame",
+          "rank_diff": -2
+        },
+        {
+          "rank": 7,
+          "name": "EA SPORTS FC™ 27",
+          "rank_diff": 0
+        },
+        {
+          "rank": 8,
+          "name": "Grand Theft Auto V Enhanced",
+          "rank_diff": -3
+        },
+        {
+          "rank": 9,
+          "name": "Baldur's Gate 3",
+          "rank_diff": 0
+        },
+        {
+          "rank": 10,
+          "name": "Dead by Daylight: Terrifier",
+          "rank_diff": 0
+        },
+        {
+          "rank": 11,
+          "name": "Warhammer 40,000: Dawn of War IV",
+          "rank_diff": -1
+        },
+        {
+          "rank": 12,
+          "name": "Call of Duty®: Modern Warfare® 4",
+          "rank_diff": -4
+        },
+        {
+          "rank": 13,
+          "name": "Euro Truck Simulator 2",
+          "rank_diff": -7
+        },
+        {
+          "rank": 14,
+          "name": "ROB RUN",
+          "rank_diff": -3
+        },
+        {
+          "rank": 15,
+          "name": "Split Fiction",
+          "rank_diff": 0
+        },
+        {
+          "rank": 16,
+          "name": "Microsoft Flight Simulator 2024",
+          "rank_diff": 0
+        },
+        {
+          "rank": 17,
+          "name": "The Blood of Dawnwalker",
+          "rank_diff": 0
+        }
+      ]
+    },
+    "se": {
+      "name": "스웨덴",
+      "crimson_desert_rank": 22,
+      "rank_diff": 0,
+      "rivals": [],
+      "all_ranks": [
+        {
+          "rank": 1,
+          "name": "Counter-Strike 2",
+          "rank_diff": 0
+        },
+        {
+          "rank": 2,
+          "name": "Apex Legends™",
+          "rank_diff": 0
+        },
+        {
+          "rank": 3,
+          "name": "Red Dead Redemption 2",
+          "rank_diff": 0
+        },
+        {
+          "rank": 4,
+          "name": "Dead by Daylight",
+          "rank_diff": 12
+        },
+        {
+          "rank": 5,
+          "name": "ROB RUN",
+          "rank_diff": 3
+        },
+        {
+          "rank": 6,
+          "name": "007 First Light",
+          "rank_diff": -2
+        },
+        {
+          "rank": 7,
+          "name": "Warhammer 40,000: Dawn of War IV",
+          "rank_diff": -1
+        },
+        {
+          "rank": 8,
+          "name": "AION 2",
+          "rank_diff": 1
+        },
+        {
+          "rank": 9,
+          "name": "EA SPORTS FC™ 27",
+          "rank_diff": -2
+        },
+        {
+          "rank": 10,
+          "name": "Call of Duty®: Modern Warfare® 4",
+          "rank_diff": 0
+        },
+        {
+          "rank": 11,
+          "name": "Dead by Daylight: Terrifier",
+          "rank_diff": 0
+        },
+        {
+          "rank": 12,
+          "name": "Baldur's Gate 3",
+          "rank_diff": -1
+        },
+        {
+          "rank": 13,
+          "name": "Grand Theft Auto V Enhanced",
+          "rank_diff": -8
+        },
+        {
+          "rank": 14,
+          "name": "Where Winds Meet",
+          "rank_diff": 0
+        },
+        {
+          "rank": 15,
+          "name": "Steam Frame",
+          "rank_diff": -13
+        },
+        {
+          "rank": 16,
+          "name": "The Blood of Dawnwalker",
+          "rank_diff": -1
+        },
+        {
+          "rank": 17,
+          "name": "No Asteroids",
+          "rank_diff": 0
+        },
+        {
+          "rank": 18,
+          "name": "Warframe",
+          "rank_diff": 0
+        },
+        {
+          "rank": 19,
+          "name": "Dota 2",
+          "rank_diff": 0
+        },
+        {
+          "rank": 20,
+          "name": "Euro Truck Simulator 2",
+          "rank_diff": -7
+        },
+        {
+          "rank": 21,
+          "name": "World of Tanks Blitz",
+          "rank_diff": 0
+        }
+      ]
+    },
+    "no": {
+      "name": "노르웨이",
+      "crimson_desert_rank": 16,
+      "rank_diff": -3,
+      "rivals": [],
+      "all_ranks": [
+        {
+          "rank": 1,
+          "name": "Counter-Strike 2",
+          "rank_diff": 0
+        },
+        {
+          "rank": 2,
+          "name": "Apex Legends™",
+          "rank_diff": 9
+        },
+        {
+          "rank": 3,
+          "name": "Red Dead Redemption 2",
+          "rank_diff": -1
+        },
+        {
+          "rank": 4,
+          "name": "AION 2",
+          "rank_diff": 3
+        },
+        {
+          "rank": 5,
+          "name": "EA SPORTS FC™ 27",
+          "rank_diff": -2
+        },
+        {
+          "rank": 6,
+          "name": "Dead by Daylight",
+          "rank_diff": 0
+        },
+        {
+          "rank": 7,
+          "name": "007 First Light",
+          "rank_diff": -3
+        },
+        {
+          "rank": 8,
+          "name": "ROB RUN",
+          "rank_diff": -3
+        },
+        {
+          "rank": 9,
+          "name": "Football Manager 27",
+          "rank_diff": -1
+        },
+        {
+          "rank": 10,
+          "name": "Baldur's Gate 3",
+          "rank_diff": 2
+        },
+        {
+          "rank": 11,
+          "name": "Grand Theft Auto V Enhanced",
+          "rank_diff": -5
+        },
+        {
+          "rank": 12,
+          "name": "Warhammer 40,000: Dawn of War IV",
+          "rank_diff": -3
+        },
+        {
+          "rank": 13,
+          "name": "Dead by Daylight: Terrifier",
+          "rank_diff": 0
+        },
+        {
+          "rank": 14,
+          "name": "No Asteroids",
+          "rank_diff": 0
+        },
+        {
+          "rank": 15,
+          "name": "Microsoft Flight Simulator 2024",
+          "rank_diff": 0
+        }
+      ]
+    },
+    "dk": {
+      "name": "덴마크",
+      "crimson_desert_rank": 28,
+      "rank_diff": -4,
+      "rivals": [],
+      "all_ranks": [
+        {
+          "rank": 1,
+          "name": "Counter-Strike 2",
+          "rank_diff": 0
+        },
+        {
+          "rank": 2,
+          "name": "007 First Light",
+          "rank_diff": 1
+        },
+        {
+          "rank": 3,
+          "name": "Apex Legends™",
+          "rank_diff": 0
+        },
+        {
+          "rank": 4,
+          "name": "Red Dead Redemption 2",
+          "rank_diff": -2
+        },
+        {
+          "rank": 5,
+          "name": "Dead by Daylight",
+          "rank_diff": 0
+        },
+        {
+          "rank": 6,
+          "name": "EA SPORTS FC™ 27",
+          "rank_diff": -2
+        },
+        {
+          "rank": 7,
+          "name": "ROB RUN",
+          "rank_diff": -2
+        },
+        {
+          "rank": 8,
+          "name": "Warhammer 40,000: Dawn of War IV",
+          "rank_diff": -2
+        },
+        {
+          "rank": 9,
+          "name": "No Asteroids",
+          "rank_diff": 0
+        },
+        {
+          "rank": 10,
+          "name": "Baldur's Gate 3",
+          "rank_diff": 0
+        },
+        {
+          "rank": 11,
+          "name": "Grand Theft Auto V Enhanced",
+          "rank_diff": -4
+        },
+        {
+          "rank": 12,
+          "name": "Dead by Daylight: Terrifier",
+          "rank_diff": 0
+        },
+        {
+          "rank": 13,
+          "name": "Euro Truck Simulator 2",
+          "rank_diff": -2
+        },
+        {
+          "rank": 14,
+          "name": "Football Manager 27",
+          "rank_diff": -6
+        },
+        {
+          "rank": 15,
+          "name": "Yu-Gi-Oh! Master Duel",
+          "rank_diff": -3
+        },
+        {
+          "rank": 16,
+          "name": "The Blood of Dawnwalker",
+          "rank_diff": 0
+        },
+        {
+          "rank": 17,
+          "name": "AION 2",
+          "rank_diff": -3
+        },
+        {
+          "rank": 18,
+          "name": "Microsoft Flight Simulator 2024",
+          "rank_diff": 0
+        },
+        {
+          "rank": 19,
+          "name": "Forza Horizon 6",
+          "rank_diff": -4
+        },
+        {
+          "rank": 20,
+          "name": "Stellaris",
+          "rank_diff": -3
+        },
+        {
+          "rank": 21,
+          "name": "Detroit: Become Human",
+          "rank_diff": -1
+        },
+        {
+          "rank": 22,
+          "name": "Warframe",
+          "rank_diff": 0
+        },
+        {
+          "rank": 23,
+          "name": "Moon Sweepers",
+          "rank_diff": -4
+        },
+        {
+          "rank": 24,
+          "name": "SHRED A BILLION",
+          "rank_diff": 0
+        },
+        {
+          "rank": 25,
+          "name": "Crusader Kings III",
+          "rank_diff": -7
+        },
+        {
+          "rank": 26,
+          "name": "Steam Frame",
+          "rank_diff": -17
+        },
+        {
+          "rank": 27,
+          "name": "Ghost of Tsushima DIRECTOR'S CUT",
+          "rank_diff": 0
+        }
+      ]
+    },
+    "fi": {
+      "name": "핀란드",
+      "crimson_desert_rank": 26,
+      "rank_diff": -16,
+      "rivals": [],
+      "all_ranks": [
+        {
+          "rank": 1,
+          "name": "Counter-Strike 2",
+          "rank_diff": 0
+        },
+        {
+          "rank": 2,
+          "name": "Red Dead Redemption 2",
+          "rank_diff": 0
+        },
+        {
+          "rank": 3,
+          "name": "Dead by Daylight",
+          "rank_diff": 0
+        },
+        {
+          "rank": 4,
+          "name": "007 First Light",
+          "rank_diff": 0
+        },
+        {
+          "rank": 5,
+          "name": "Apex Legends™",
+          "rank_diff": 0
+        },
+        {
+          "rank": 6,
+          "name": "Dead by Daylight: Terrifier",
+          "rank_diff": 0
+        },
+        {
+          "rank": 7,
+          "name": "Grand Theft Auto V Enhanced",
+          "rank_diff": -2
+        },
+        {
+          "rank": 8,
+          "name": "Steam Frame",
+          "rank_diff": -5
+        },
+        {
+          "rank": 9,
+          "name": "Baldur's Gate 3",
+          "rank_diff": -3
+        },
+        {
+          "rank": 10,
+          "name": "Detroit: Become Human",
+          "rank_diff": 0
+        },
+        {
+          "rank": 11,
+          "name": "Kingdom Come: Deliverance II",
+          "rank_diff": 0
+        },
+        {
+          "rank": 12,
+          "name": "Stellaris",
+          "rank_diff": -3
+        },
+        {
+          "rank": 13,
+          "name": "EA SPORTS FC™ 27",
+          "rank_diff": -6
+        },
+        {
+          "rank": 14,
+          "name": "Microsoft Flight Simulator 2024",
+          "rank_diff": 0
+        },
+        {
+          "rank": 15,
+          "name": "Split Fiction",
+          "rank_diff": 0
+        },
+        {
+          "rank": 16,
+          "name": "AION 2",
+          "rank_diff": 0
+        },
+        {
+          "rank": 17,
+          "name": "ROB RUN",
+          "rank_diff": 0
+        },
+        {
+          "rank": 18,
+          "name": "Euro Truck Simulator 2",
+          "rank_diff": 0
+        },
+        {
+          "rank": 19,
+          "name": "No Asteroids",
+          "rank_diff": 0
+        },
+        {
+          "rank": 20,
+          "name": "Starfield",
+          "rank_diff": 0
+        },
+        {
+          "rank": 21,
+          "name": "Where Winds Meet",
+          "rank_diff": 0
+        },
+        {
+          "rank": 22,
+          "name": "Warhammer 40,000: Dawn of War IV",
+          "rank_diff": -14
+        },
+        {
+          "rank": 23,
+          "name": "Warframe",
+          "rank_diff": 0
+        },
+        {
+          "rank": 24,
+          "name": "The Blood of Dawnwalker",
+          "rank_diff": 0
+        },
+        {
+          "rank": 25,
+          "name": "War Thunder",
+          "rank_diff": 0
+        }
+      ]
+    },
+    "at": {
+      "name": "오스트리아",
+      "crimson_desert_rank": 22,
+      "rank_diff": -2,
+      "rivals": [],
+      "all_ranks": [
+        {
+          "rank": 1,
+          "name": "Dead by Daylight",
+          "rank_diff": 0
+        },
+        {
+          "rank": 2,
+          "name": "Counter-Strike 2",
+          "rank_diff": -1
+        },
+        {
+          "rank": 3,
+          "name": "Red Dead Redemption 2",
+          "rank_diff": -1
+        },
+        {
+          "rank": 4,
+          "name": "AION 2",
+          "rank_diff": 3
+        },
+        {
+          "rank": 5,
+          "name": "007 First Light",
+          "rank_diff": -2
+        },
+        {
+          "rank": 6,
+          "name": "Apex Legends™",
+          "rank_diff": 0
+        },
+        {
+          "rank": 7,
+          "name": "Dead by Daylight: Terrifier",
+          "rank_diff": 0
+        },
+        {
+          "rank": 8,
+          "name": "Steam Frame",
+          "rank_diff": -4
+        },
+        {
+          "rank": 9,
+          "name": "Warhammer 40,000: Dawn of War IV",
+          "rank_diff": -4
+        },
+        {
+          "rank": 10,
+          "name": "Grand Theft Auto V Enhanced",
+          "rank_diff": -4
+        },
+        {
+          "rank": 11,
+          "name": "No Asteroids",
+          "rank_diff": 0
+        },
+        {
+          "rank": 12,
+          "name": "EA SPORTS FC™ 27",
+          "rank_diff": -2
+        },
+        {
+          "rank": 13,
+          "name": "Microsoft Flight Simulator 2024",
+          "rank_diff": 0
+        },
+        {
+          "rank": 14,
+          "name": "Baldur's Gate 3",
+          "rank_diff": -6
+        },
+        {
+          "rank": 15,
+          "name": "Yu-Gi-Oh! Master Duel",
+          "rank_diff": -6
+        },
+        {
+          "rank": 16,
+          "name": "Split Fiction",
+          "rank_diff": 2
+        },
+        {
+          "rank": 17,
+          "name": "Call of Duty®: Modern Warfare® 4",
+          "rank_diff": -6
+        },
+        {
+          "rank": 18,
+          "name": "Starfield",
+          "rank_diff": 0
+        },
+        {
+          "rank": 19,
+          "name": "Stellaris",
+          "rank_diff": -3
+        },
+        {
+          "rank": 20,
+          "name": "The Blood of Dawnwalker",
+          "rank_diff": -7
+        },
+        {
+          "rank": 21,
+          "name": "ROB RUN",
+          "rank_diff": -7
+        }
+      ]
+    },
+    "ch": {
+      "name": "스위스",
+      "crimson_desert_rank": 41,
+      "rank_diff": -20,
+      "rivals": [],
+      "all_ranks": [
+        {
+          "rank": 1,
+          "name": "Apex Legends™",
+          "rank_diff": 0
+        },
+        {
+          "rank": 2,
+          "name": "AION 2",
+          "rank_diff": -1
+        },
+        {
+          "rank": 3,
+          "name": "Dead by Daylight",
+          "rank_diff": 0
+        },
+        {
+          "rank": 4,
+          "name": "Red Dead Redemption 2",
+          "rank_diff": -1
+        },
+        {
+          "rank": 5,
+          "name": "Counter-Strike 2",
+          "rank_diff": -3
+        },
+        {
+          "rank": 6,
+          "name": "007 First Light",
+          "rank_diff": -1
+        },
+        {
+          "rank": 7,
+          "name": "Grand Theft Auto V Enhanced",
+          "rank_diff": -3
+        },
+        {
+          "rank": 8,
+          "name": "Microsoft Flight Simulator 2024",
+          "rank_diff": 4
+        },
+        {
+          "rank": 9,
+          "name": "Warhammer 40,000: Dawn of War IV",
+          "rank_diff": -1
+        },
+        {
+          "rank": 10,
+          "name": "Baldur's Gate 3",
+          "rank_diff": -4
+        },
+        {
+          "rank": 11,
+          "name": "Call of Duty®: Modern Warfare® 4",
+          "rank_diff": -2
+        },
+        {
+          "rank": 12,
+          "name": "EA SPORTS FC™ 27",
+          "rank_diff": -5
+        },
+        {
+          "rank": 13,
+          "name": "Dead by Daylight: Terrifier",
+          "rank_diff": 0
+        },
+        {
+          "rank": 14,
+          "name": "ROB RUN",
+          "rank_diff": -4
+        },
+        {
+          "rank": 15,
+          "name": "Forza Horizon 6",
+          "rank_diff": 3
+        },
+        {
+          "rank": 16,
+          "name": "No Asteroids",
+          "rank_diff": 0
+        },
+        {
+          "rank": 17,
+          "name": "The Blood of Dawnwalker",
+          "rank_diff": -4
+        },
+        {
+          "rank": 18,
+          "name": "Yu-Gi-Oh! Master Duel",
+          "rank_diff": 0
+        },
+        {
+          "rank": 19,
+          "name": "Euro Truck Simulator 2",
+          "rank_diff": -5
+        },
+        {
+          "rank": 20,
+          "name": "Where Winds Meet",
+          "rank_diff": 0
+        },
+        {
+          "rank": 21,
+          "name": "Workers &amp; Resources: Soviet Republic",
+          "rank_diff": -10
+        },
+        {
+          "rank": 22,
+          "name": "Split Fiction",
+          "rank_diff": 0
+        },
+        {
+          "rank": 23,
+          "name": "Cities: Skylines",
+          "rank_diff": 0
+        },
+        {
+          "rank": 24,
+          "name": "Age of Wonders 4",
+          "rank_diff": 0
+        },
+        {
+          "rank": 25,
+          "name": "Detroit: Become Human",
+          "rank_diff": -6
+        },
+        {
+          "rank": 26,
+          "name": "Black Desert",
+          "rank_diff": 0
+        },
+        {
+          "rank": 27,
+          "name": "GIRLS' FRONTLINE 2: EXILIUM",
+          "rank_diff": 0
+        },
+        {
+          "rank": 28,
+          "name": "War Thunder",
+          "rank_diff": 0
+        },
+        {
+          "rank": 29,
+          "name": "Bodycam",
+          "rank_diff": 0
+        },
+        {
+          "rank": 30,
+          "name": "Stellaris",
+          "rank_diff": 0
+        },
+        {
+          "rank": 31,
+          "name": "Moon Sweepers",
+          "rank_diff": -11
+        },
+        {
+          "rank": 32,
+          "name": "MapleStory",
+          "rank_diff": 0
+        },
+        {
+          "rank": 33,
+          "name": "Hearts of Iron IV",
+          "rank_diff": 0
+        },
+        {
+          "rank": 34,
+          "name": "Indiana Jones and the Great Circle",
+          "rank_diff": 0
+        },
+        {
+          "rank": 35,
+          "name": "Train Sim World® 7 ",
+          "rank_diff": -18
+        },
+        {
+          "rank": 36,
+          "name": "Hogwarts Legacy",
+          "rank_diff": 0
+        },
+        {
+          "rank": 37,
+          "name": "Aniimo",
+          "rank_diff": 0
+        },
+        {
+          "rank": 38,
+          "name": "Queen's Domain",
+          "rank_diff": 0
+        },
+        {
+          "rank": 39,
+          "name": "Ski-E-O! Ski Resort Tycoon",
+          "rank_diff": 0
+        },
+        {
+          "rank": 40,
+          "name": "Total War: WARHAMMER III",
+          "rank_diff": 0
+        }
+      ]
+    },
+    "cz": {
+      "name": "체코",
+      "crimson_desert_rank": 21,
+      "rank_diff": -1,
+      "rivals": [
+        {
+          "app_id": "1771300",
+          "name": "Kingdom Come: Deliverance II",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 67,
+          "rank": 9,
+          "rank_diff": -1
+        },
+        {
+          "app_id": "784150",
+          "name": "Workers &amp; Resources: Soviet Republic",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 75,
+          "rank": 10,
+          "rank_diff": -5
+        },
+        {
+          "app_id": "1086940",
+          "name": "Baldur's Gate 3",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 30,
+          "rank": 11,
+          "rank_diff": 0
+        },
+        {
+          "app_id": "1222140",
+          "name": "Detroit: Become Human",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 90,
+          "rank": 12,
+          "rank_diff": 1
+        },
+        {
+          "app_id": "3393110",
+          "name": "AION 2",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 13,
+          "rank_diff": 3
+        },
+        {
+          "app_id": "4080220",
+          "name": "EA SPORTS FC™ 27",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 50,
+          "rank": 14,
+          "rank_diff": -4
+        },
+        {
+          "app_id": "2272360",
+          "name": "Warhammer 40,000: Dawn of War IV",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 10,
+          "rank": 15,
+          "rank_diff": 3
+        },
+        {
+          "app_id": "4435490",
+          "name": "Call of Duty®: Modern Warfare® 4",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 15,
+          "rank": 16,
+          "rank_diff": -1
+        },
+        {
+          "app_id": "5527800",
+          "name": "No Asteroids",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 20,
+          "rank": 17,
+          "rank_diff": 0
+        },
+        {
+          "app_id": "5303130",
+          "name": "Workers &amp; Resources: Soviet Republic - Space Program",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 10,
+          "rank": 18,
+          "rank_diff": -11
+        },
+        {
+          "app_id": "3751260",
+          "name": "The Blood of Dawnwalker",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 20,
+          "rank": 19,
+          "rank_diff": -5
+        },
+        {
+          "app_id": "2001120",
+          "name": "Split Fiction",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 40,
+          "rank": 20,
+          "rank_diff": -3
+        }
+      ],
+      "all_ranks": [
+        {
+          "rank": 1,
+          "name": "Counter-Strike 2",
+          "rank_diff": 0
+        },
+        {
+          "rank": 2,
+          "name": "Red Dead Redemption 2",
+          "rank_diff": 0
+        },
+        {
+          "rank": 3,
+          "name": "Dead by Daylight",
+          "rank_diff": 0
+        },
+        {
+          "rank": 4,
+          "name": "Grand Theft Auto V Enhanced",
+          "rank_diff": -1
+        },
+        {
+          "rank": 5,
+          "name": "Dead by Daylight: Terrifier",
+          "rank_diff": 0
+        },
+        {
+          "rank": 6,
+          "name": "Apex Legends™",
+          "rank_diff": 0
+        },
+        {
+          "rank": 7,
+          "name": "007 First Light",
+          "rank_diff": 2
+        },
+        {
+          "rank": 8,
+          "name": "Euro Truck Simulator 2",
+          "rank_diff": -4
+        },
+        {
+          "rank": 9,
+          "name": "Kingdom Come: Deliverance II",
+          "rank_diff": -1
+        },
+        {
+          "rank": 10,
+          "name": "Workers &amp; Resources: Soviet Republic",
+          "rank_diff": -5
+        },
+        {
+          "rank": 11,
+          "name": "Baldur's Gate 3",
+          "rank_diff": 0
+        },
+        {
+          "rank": 12,
+          "name": "Detroit: Become Human",
+          "rank_diff": 1
+        },
+        {
+          "rank": 13,
+          "name": "AION 2",
+          "rank_diff": 3
+        },
+        {
+          "rank": 14,
+          "name": "EA SPORTS FC™ 27",
+          "rank_diff": -4
+        },
+        {
+          "rank": 15,
+          "name": "Warhammer 40,000: Dawn of War IV",
+          "rank_diff": 3
+        },
+        {
+          "rank": 16,
+          "name": "Call of Duty®: Modern Warfare® 4",
+          "rank_diff": -1
+        },
+        {
+          "rank": 17,
+          "name": "No Asteroids",
+          "rank_diff": 0
+        },
+        {
+          "rank": 18,
+          "name": "Workers &amp; Resources: Soviet Republic - Space Program",
+          "rank_diff": -11
+        },
+        {
+          "rank": 19,
+          "name": "The Blood of Dawnwalker",
+          "rank_diff": -5
+        },
+        {
+          "rank": 20,
+          "name": "Split Fiction",
+          "rank_diff": -3
+        }
+      ]
+    },
+    "sg": {
+      "name": "싱가포르",
+      "crimson_desert_rank": 17,
+      "rank_diff": -1,
+      "rivals": [
+        {
+          "app_id": "3393110",
+          "name": "AION 2",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 1,
+          "rank_diff": 0
+        },
+        {
+          "app_id": "1172470",
+          "name": "Apex Legends™",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 2,
+          "rank_diff": 0
+        },
+        {
+          "app_id": "730",
+          "name": "Counter-Strike 2",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 3,
+          "rank_diff": -1
+        },
+        {
+          "app_id": "3564740",
+          "name": "Where Winds Meet",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 4,
+          "rank_diff": 0
+        },
+        {
+          "app_id": "1174180",
+          "name": "Red Dead Redemption 2",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 75,
+          "rank": 5,
+          "rank_diff": 0
+        },
+        {
+          "app_id": "3240220",
+          "name": "Grand Theft Auto V Enhanced",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 56,
+          "rank": 6,
+          "rank_diff": 1
+        },
+        {
+          "app_id": "3768760",
+          "name": "007 First Light",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 50,
+          "rank": 7,
+          "rank_diff": -4
+        },
+        {
+          "app_id": "4080220",
+          "name": "EA SPORTS FC™ 27",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 50,
+          "rank": 8,
+          "rank_diff": -2
+        },
+        {
+          "app_id": "1449850",
+          "name": "Yu-Gi-Oh! Master Duel",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 9,
+          "rank_diff": 1
+        },
+        {
+          "app_id": "570",
+          "name": "Dota 2",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 10,
+          "rank_diff": -1
+        },
+        {
+          "app_id": "1086940",
+          "name": "Baldur's Gate 3",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 30,
+          "rank": 11,
+          "rank_diff": -3
+        },
+        {
+          "app_id": "4435490",
+          "name": "Call of Duty®: Modern Warfare® 4",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 15,
+          "rank": 12,
+          "rank_diff": -1
+        },
+        {
+          "app_id": "2288340",
+          "name": "ACE COMBAT 8: WINGS OF THEVE",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 20,
+          "rank": 14,
+          "rank_diff": 1
+        },
+        {
+          "app_id": "2272360",
+          "name": "Warhammer 40,000: Dawn of War IV",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 10,
+          "rank": 16,
+          "rank_diff": -3
+        }
+      ],
+      "all_ranks": [
+        {
+          "rank": 1,
+          "name": "AION 2",
+          "rank_diff": 0
+        },
+        {
+          "rank": 2,
+          "name": "Apex Legends™",
+          "rank_diff": 0
+        },
+        {
+          "rank": 3,
+          "name": "Counter-Strike 2",
+          "rank_diff": -1
+        },
+        {
+          "rank": 4,
+          "name": "Where Winds Meet",
+          "rank_diff": 0
+        },
+        {
+          "rank": 5,
+          "name": "Red Dead Redemption 2",
+          "rank_diff": 0
+        },
+        {
+          "rank": 6,
+          "name": "Grand Theft Auto V Enhanced",
+          "rank_diff": 1
+        },
+        {
+          "rank": 7,
+          "name": "007 First Light",
+          "rank_diff": -4
+        },
+        {
+          "rank": 8,
+          "name": "EA SPORTS FC™ 27",
+          "rank_diff": -2
+        },
+        {
+          "rank": 9,
+          "name": "Yu-Gi-Oh! Master Duel",
+          "rank_diff": 1
+        },
+        {
+          "rank": 10,
+          "name": "Dota 2",
+          "rank_diff": -1
+        },
+        {
+          "rank": 11,
+          "name": "Baldur's Gate 3",
+          "rank_diff": -3
+        },
+        {
+          "rank": 12,
+          "name": "Call of Duty®: Modern Warfare® 4",
+          "rank_diff": -1
+        },
+        {
+          "rank": 13,
+          "name": "Escape from Tarkov",
+          "rank_diff": -1
+        },
+        {
+          "rank": 14,
+          "name": "ACE COMBAT 8: WINGS OF THEVE",
+          "rank_diff": 1
+        },
+        {
+          "rank": 15,
+          "name": "Phantom Blade Zero",
+          "rank_diff": 0
+        },
+        {
+          "rank": 16,
+          "name": "Warhammer 40,000: Dawn of War IV",
+          "rank_diff": -3
+        }
+      ]
+    },
+    "be": {
+      "name": "벨기에",
+      "crimson_desert_rank": 44,
+      "rank_diff": -24,
+      "rivals": [
+        {
+          "app_id": "1174180",
+          "name": "Red Dead Redemption 2",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 75,
+          "rank": 2,
+          "rank_diff": -1
+        },
+        {
+          "app_id": "1172470",
+          "name": "Apex Legends™",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 3,
+          "rank_diff": 0
+        },
+        {
+          "app_id": "3768760",
+          "name": "007 First Light",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 50,
+          "rank": 4,
+          "rank_diff": -2
+        },
+        {
+          "app_id": "4262460",
+          "name": "ROB RUN",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 5,
+          "rank_diff": -2
+        },
+        {
+          "app_id": "1086940",
+          "name": "Baldur's Gate 3",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 30,
+          "rank": 7,
+          "rank_diff": 1
+        },
+        {
+          "app_id": "3240220",
+          "name": "Grand Theft Auto V Enhanced",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 56,
+          "rank": 8,
+          "rank_diff": -3
+        },
+        {
+          "app_id": "2272360",
+          "name": "Warhammer 40,000: Dawn of War IV",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 10,
+          "rank": 11,
+          "rank_diff": -2
+        },
+        {
+          "app_id": "4080220",
+          "name": "EA SPORTS FC™ 27",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 50,
+          "rank": 12,
+          "rank_diff": -2
+        },
+        {
+          "app_id": "4435490",
+          "name": "Call of Duty®: Modern Warfare® 4",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 15,
+          "rank": 13,
+          "rank_diff": -2
+        },
+        {
+          "app_id": "730",
+          "name": "Counter-Strike 2",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 14,
+          "rank_diff": -7
+        },
+        {
+          "app_id": "702320",
+          "name": "March of Empires",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 15,
+          "rank_diff": 0
+        },
+        {
+          "app_id": "1222140",
+          "name": "Detroit: Become Human",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 90,
+          "rank": 16,
+          "rank_diff": 3
+        },
+        {
+          "app_id": "5527800",
+          "name": "No Asteroids",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 20,
+          "rank": 17,
+          "rank_diff": 0
+        },
+        {
+          "app_id": "2001120",
+          "name": "Split Fiction",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 40,
+          "rank": 18,
+          "rank_diff": -6
+        },
+        {
+          "app_id": "2537590",
+          "name": "Microsoft Flight Simulator 2024",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 30,
+          "rank": 19,
+          "rank_diff": 0
+        },
+        {
+          "app_id": "281990",
+          "name": "Stellaris",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 70,
+          "rank": 20,
+          "rank_diff": -5
+        },
+        {
+          "app_id": "528740",
+          "name": "Operation: New Earth",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 21,
+          "rank_diff": 0
+        },
+        {
+          "app_id": "2483190",
+          "name": "Forza Horizon 6",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 25,
+          "rank": 23,
+          "rank_diff": -5
+        },
+        {
+          "app_id": "230410",
+          "name": "Warframe",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 24,
+          "rank_diff": 0
+        },
+        {
+          "app_id": "784150",
+          "name": "Workers &amp; Resources: Soviet Republic",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 75,
+          "rank": 25,
+          "rank_diff": -9
+        },
+        {
+          "app_id": "3751260",
+          "name": "The Blood of Dawnwalker",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 20,
+          "rank": 26,
+          "rank_diff": 0
+        },
+        {
+          "app_id": "990080",
+          "name": "Hogwarts Legacy",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 90,
+          "rank": 27,
+          "rank_diff": 0
+        },
+        {
+          "app_id": "4678800",
+          "name": "Train Sim World® 7 ",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 25,
+          "rank": 28,
+          "rank_diff": -14
+        },
+        {
+          "app_id": "216150",
+          "name": "MapleStory",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 29,
+          "rank_diff": 0
+        },
+        {
+          "app_id": "394360",
+          "name": "Hearts of Iron IV",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 70,
+          "rank": 30,
+          "rank_diff": 0
+        },
+        {
+          "app_id": "4990940",
+          "name": "PC Store Together",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 15,
+          "rank": 31,
+          "rank_diff": 0
+        },
+        {
+          "app_id": "3059520",
+          "name": "F1® 25",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 40,
+          "rank": 34,
+          "rank_diff": 0
+        },
+        {
+          "app_id": "255710",
+          "name": "Cities: Skylines",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 70,
+          "rank": 35,
+          "rank_diff": 0
+        },
+        {
+          "app_id": "1158310",
+          "name": "Crusader Kings III",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 70,
+          "rank": 36,
+          "rank_diff": 0
+        },
+        {
+          "app_id": "2215430",
+          "name": "Ghost of Tsushima DIRECTOR'S CUT",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 50,
+          "rank": 37,
+          "rank_diff": 0
+        },
+        {
+          "app_id": "1401590",
+          "name": "Disney Dreamlight Valley",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 40,
+          "rank": 38,
+          "rank_diff": 0
+        },
+        {
+          "app_id": "2868840",
+          "name": "Slay the Spire 2",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 20,
+          "rank": 39,
+          "rank_diff": 0
+        },
+        {
+          "app_id": "2677660",
+          "name": "Indiana Jones and the Great Circle",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 40,
+          "rank": 41,
+          "rank_diff": 0
+        },
+        {
+          "app_id": "1771300",
+          "name": "Kingdom Come: Deliverance II",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 67,
+          "rank": 42,
+          "rank_diff": 0
+        },
+        {
+          "app_id": "2897580",
+          "name": "Idle Hero TD - Tower Defense RPG",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 43,
+          "rank_diff": 0
+        }
+      ],
+      "all_ranks": [
+        {
+          "rank": 1,
+          "name": "Dead by Daylight",
+          "rank_diff": 0
+        },
+        {
+          "rank": 2,
+          "name": "Red Dead Redemption 2",
+          "rank_diff": -1
+        },
+        {
+          "rank": 3,
+          "name": "Apex Legends™",
+          "rank_diff": 0
+        },
+        {
+          "rank": 4,
+          "name": "007 First Light",
+          "rank_diff": -2
+        },
+        {
+          "rank": 5,
+          "name": "ROB RUN",
+          "rank_diff": -2
+        },
+        {
+          "rank": 6,
+          "name": "Dead by Daylight: Terrifier",
+          "rank_diff": 0
+        },
+        {
+          "rank": 7,
+          "name": "Baldur's Gate 3",
+          "rank_diff": 1
+        },
+        {
+          "rank": 8,
+          "name": "Grand Theft Auto V Enhanced",
+          "rank_diff": -3
+        },
+        {
+          "rank": 9,
+          "name": "Euro Truck Simulator 2",
+          "rank_diff": -3
+        },
+        {
+          "rank": 10,
+          "name": "Steam Frame",
+          "rank_diff": -6
+        },
+        {
+          "rank": 11,
+          "name": "Warhammer 40,000: Dawn of War IV",
+          "rank_diff": -2
+        },
+        {
+          "rank": 12,
+          "name": "EA SPORTS FC™ 27",
+          "rank_diff": -2
+        },
+        {
+          "rank": 13,
+          "name": "Call of Duty®: Modern Warfare® 4",
+          "rank_diff": -2
+        },
+        {
+          "rank": 14,
+          "name": "Counter-Strike 2",
+          "rank_diff": -7
+        },
+        {
+          "rank": 15,
+          "name": "March of Empires",
+          "rank_diff": 0
+        },
+        {
+          "rank": 16,
+          "name": "Detroit: Become Human",
+          "rank_diff": 3
+        },
+        {
+          "rank": 17,
+          "name": "No Asteroids",
+          "rank_diff": 0
+        },
+        {
+          "rank": 18,
+          "name": "Split Fiction",
+          "rank_diff": -6
+        },
+        {
+          "rank": 19,
+          "name": "Microsoft Flight Simulator 2024",
+          "rank_diff": 0
+        },
+        {
+          "rank": 20,
+          "name": "Stellaris",
+          "rank_diff": -5
+        },
+        {
+          "rank": 21,
+          "name": "Operation: New Earth",
+          "rank_diff": 0
+        },
+        {
+          "rank": 22,
+          "name": "Football Manager 27",
+          "rank_diff": -9
+        },
+        {
+          "rank": 23,
+          "name": "Forza Horizon 6",
+          "rank_diff": -5
+        },
+        {
+          "rank": 24,
+          "name": "Warframe",
+          "rank_diff": 0
+        },
+        {
+          "rank": 25,
+          "name": "Workers &amp; Resources: Soviet Republic",
+          "rank_diff": -9
+        },
+        {
+          "rank": 26,
+          "name": "The Blood of Dawnwalker",
+          "rank_diff": 0
+        },
+        {
+          "rank": 27,
+          "name": "Hogwarts Legacy",
+          "rank_diff": 0
+        },
+        {
+          "rank": 28,
+          "name": "Train Sim World® 7 ",
+          "rank_diff": -14
+        },
+        {
+          "rank": 29,
+          "name": "MapleStory",
+          "rank_diff": 0
+        },
+        {
+          "rank": 30,
+          "name": "Hearts of Iron IV",
+          "rank_diff": 0
+        },
+        {
+          "rank": 31,
+          "name": "PC Store Together",
+          "rank_diff": 0
+        },
+        {
+          "rank": 32,
+          "name": "Euro Truck Simulator 2 - Coaches",
+          "rank_diff": 0
+        },
+        {
+          "rank": 33,
+          "name": "Zombies Aren't Real",
+          "rank_diff": 0
+        },
+        {
+          "rank": 34,
+          "name": "F1® 25",
+          "rank_diff": 0
+        },
+        {
+          "rank": 35,
+          "name": "Cities: Skylines",
+          "rank_diff": 0
+        },
+        {
+          "rank": 36,
+          "name": "Crusader Kings III",
+          "rank_diff": 0
+        },
+        {
+          "rank": 37,
+          "name": "Ghost of Tsushima DIRECTOR'S CUT",
+          "rank_diff": 0
+        },
+        {
+          "rank": 38,
+          "name": "Disney Dreamlight Valley",
+          "rank_diff": 0
+        },
+        {
+          "rank": 39,
+          "name": "Slay the Spire 2",
+          "rank_diff": 0
+        },
+        {
+          "rank": 40,
+          "name": "Cyberpunk 2077",
+          "rank_diff": 0
+        },
+        {
+          "rank": 41,
+          "name": "Indiana Jones and the Great Circle",
+          "rank_diff": 0
+        },
+        {
+          "rank": 42,
+          "name": "Kingdom Come: Deliverance II",
+          "rank_diff": 0
+        },
+        {
+          "rank": 43,
+          "name": "Idle Hero TD - Tower Defense RPG",
+          "rank_diff": 0
+        }
+      ]
+    },
+    "hk": {
+      "name": "홍콩",
+      "crimson_desert_rank": 33,
+      "rank_diff": 24,
+      "rivals": [
+        {
+          "app_id": "1172470",
+          "name": "Apex Legends™",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 1,
+          "rank_diff": 4
+        },
+        {
+          "app_id": "1449850",
+          "name": "Yu-Gi-Oh! Master Duel",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 2,
+          "rank_diff": -1
+        },
+        {
+          "app_id": "3240220",
+          "name": "Grand Theft Auto V Enhanced",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 56,
+          "rank": 3,
+          "rank_diff": -1
+        },
+        {
+          "app_id": "730",
+          "name": "Counter-Strike 2",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 4,
+          "rank_diff": -1
+        },
+        {
+          "app_id": "1174180",
+          "name": "Red Dead Redemption 2",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 75,
+          "rank": 5,
+          "rank_diff": -1
+        },
+        {
+          "app_id": "578080",
+          "name": "PUBG: BATTLEGROUNDS",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 6,
+          "rank_diff": 0
+        },
+        {
+          "app_id": "394360",
+          "name": "Hearts of Iron IV",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 70,
+          "rank": 7,
+          "rank_diff": 0
+        },
+        {
+          "app_id": "3768760",
+          "name": "007 First Light",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 50,
+          "rank": 8,
+          "rank_diff": 4
+        },
+        {
+          "app_id": "1426210",
+          "name": "It Takes Two",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 80,
+          "rank": 11,
+          "rank_diff": -1
+        },
+        {
+          "app_id": "4080220",
+          "name": "EA SPORTS FC™ 27",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 50,
+          "rank": 12,
+          "rank_diff": -4
+        },
+        {
+          "app_id": "1086940",
+          "name": "Baldur's Gate 3",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 30,
+          "rank": 13,
+          "rank_diff": -2
+        },
+        {
+          "app_id": "1222140",
+          "name": "Detroit: Become Human",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 90,
+          "rank": 14,
+          "rank_diff": 0
+        },
+        {
+          "app_id": "230410",
+          "name": "Warframe",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 15,
+          "rank_diff": 6
+        },
+        {
+          "app_id": "3564740",
+          "name": "Where Winds Meet",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 16,
+          "rank_diff": -1
+        },
+        {
+          "app_id": "1329410",
+          "name": "雀魂麻將(MahjongSoul)",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 17,
+          "rank_diff": 1
+        },
+        {
+          "app_id": "990080",
+          "name": "Hogwarts Legacy",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 90,
+          "rank": 18,
+          "rank_diff": 1
+        },
+        {
+          "app_id": "1973530",
+          "name": "Limbus Company",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 19,
+          "rank_diff": -2
+        },
+        {
+          "app_id": "4435490",
+          "name": "Call of Duty®: Modern Warfare® 4",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 15,
+          "rank": 22,
+          "rank_diff": 1
+        },
+        {
+          "app_id": "1665460",
+          "name": "eFootball™",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 23,
+          "rank_diff": -3
+        },
+        {
+          "app_id": "570",
+          "name": "Dota 2",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 24,
+          "rank_diff": 2
+        },
+        {
+          "app_id": "2483190",
+          "name": "Forza Horizon 6",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 25,
+          "rank": 25,
+          "rank_diff": -1
+        },
+        {
+          "app_id": "281990",
+          "name": "Stellaris",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 70,
+          "rank": 27,
+          "rank_diff": -5
+        },
+        {
+          "app_id": "1962663",
+          "name": "Call of Duty®: Warzone™",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 30,
+          "rank_diff": -5
+        },
+        {
+          "app_id": "1144200",
+          "name": "Ready or Not",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 50,
+          "rank": 31,
+          "rank_diff": 3
+        },
+        {
+          "app_id": "1462040",
+          "name": "FINAL FANTASY VII REMAKE INTERGRADE",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 82,
+          "rank": 32,
+          "rank_diff": 3
+        }
+      ],
+      "all_ranks": [
+        {
+          "rank": 1,
+          "name": "Apex Legends™",
+          "rank_diff": 4
+        },
+        {
+          "rank": 2,
+          "name": "Yu-Gi-Oh! Master Duel",
+          "rank_diff": -1
+        },
+        {
+          "rank": 3,
+          "name": "Grand Theft Auto V Enhanced",
+          "rank_diff": -1
+        },
+        {
+          "rank": 4,
+          "name": "Counter-Strike 2",
+          "rank_diff": -1
+        },
+        {
+          "rank": 5,
+          "name": "Red Dead Redemption 2",
+          "rank_diff": -1
+        },
+        {
+          "rank": 6,
+          "name": "PUBG: BATTLEGROUNDS",
+          "rank_diff": 0
+        },
+        {
+          "rank": 7,
+          "name": "Hearts of Iron IV",
+          "rank_diff": 0
+        },
+        {
+          "rank": 8,
+          "name": "007 First Light",
+          "rank_diff": 4
+        },
+        {
+          "rank": 9,
+          "name": "Dead by Daylight",
+          "rank_diff": 40
+        },
+        {
+          "rank": 10,
+          "name": "Phantom Blade Zero",
+          "rank_diff": -1
+        },
+        {
+          "rank": 11,
+          "name": "It Takes Two",
+          "rank_diff": -1
+        },
+        {
+          "rank": 12,
+          "name": "EA SPORTS FC™ 27",
+          "rank_diff": -4
+        },
+        {
+          "rank": 13,
+          "name": "Baldur's Gate 3",
+          "rank_diff": -2
+        },
+        {
+          "rank": 14,
+          "name": "Detroit: Become Human",
+          "rank_diff": 0
+        },
+        {
+          "rank": 15,
+          "name": "Warframe",
+          "rank_diff": 6
+        },
+        {
+          "rank": 16,
+          "name": "Where Winds Meet",
+          "rank_diff": -1
+        },
+        {
+          "rank": 17,
+          "name": "雀魂麻將(MahjongSoul)",
+          "rank_diff": 1
+        },
+        {
+          "rank": 18,
+          "name": "Hogwarts Legacy",
+          "rank_diff": 1
+        },
+        {
+          "rank": 19,
+          "name": "Limbus Company",
+          "rank_diff": -2
+        },
+        {
+          "rank": 20,
+          "name": "Dead by Daylight: Terrifier",
+          "rank_diff": 0
+        },
+        {
+          "rank": 21,
+          "name": "Euro Truck Simulator 2",
+          "rank_diff": -8
+        },
+        {
+          "rank": 22,
+          "name": "Call of Duty®: Modern Warfare® 4",
+          "rank_diff": 1
+        },
+        {
+          "rank": 23,
+          "name": "eFootball™",
+          "rank_diff": -3
+        },
+        {
+          "rank": 24,
+          "name": "Dota 2",
+          "rank_diff": 2
+        },
+        {
+          "rank": 25,
+          "name": "Forza Horizon 6",
+          "rank_diff": -1
+        },
+        {
+          "rank": 26,
+          "name": "Football Manager 27",
+          "rank_diff": 3
+        },
+        {
+          "rank": 27,
+          "name": "Stellaris",
+          "rank_diff": -5
+        },
+        {
+          "rank": 28,
+          "name": "Wallpaper Engine",
+          "rank_diff": -1
+        },
+        {
+          "rank": 29,
+          "name": "Worst Class Ever",
+          "rank_diff": -1
+        },
+        {
+          "rank": 30,
+          "name": "Call of Duty®: Warzone™",
+          "rank_diff": -5
+        },
+        {
+          "rank": 31,
+          "name": "Ready or Not",
+          "rank_diff": 3
+        },
+        {
+          "rank": 32,
+          "name": "FINAL FANTASY VII REMAKE INTERGRADE",
+          "rank_diff": 3
+        }
+      ]
+    },
+    "nz": {
+      "name": "뉴질랜드",
+      "crimson_desert_rank": 22,
+      "rank_diff": -13,
+      "rivals": [
+        {
+          "app_id": "1174180",
+          "name": "Red Dead Redemption 2",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 75,
+          "rank": 1,
+          "rank_diff": 0
+        },
+        {
+          "app_id": "2272360",
+          "name": "Warhammer 40,000: Dawn of War IV",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 10,
+          "rank": 2,
+          "rank_diff": 0
+        },
+        {
+          "app_id": "3240220",
+          "name": "Grand Theft Auto V Enhanced",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 56,
+          "rank": 3,
+          "rank_diff": 0
+        },
+        {
+          "app_id": "1172470",
+          "name": "Apex Legends™",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 5,
+          "rank_diff": 0
+        },
+        {
+          "app_id": "730",
+          "name": "Counter-Strike 2",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 6,
+          "rank_diff": -2
+        },
+        {
+          "app_id": "3768760",
+          "name": "007 First Light",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 50,
+          "rank": 7,
+          "rank_diff": -2
+        },
+        {
+          "app_id": "4435490",
+          "name": "Call of Duty®: Modern Warfare® 4",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 15,
+          "rank": 8,
+          "rank_diff": -1
+        },
+        {
+          "app_id": "2537590",
+          "name": "Microsoft Flight Simulator 2024",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 30,
+          "rank": 9,
+          "rank_diff": 0
+        },
+        {
+          "app_id": "1086940",
+          "name": "Baldur's Gate 3",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 30,
+          "rank": 10,
+          "rank_diff": -4
+        },
+        {
+          "app_id": "230410",
+          "name": "Warframe",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 11,
+          "rank_diff": -3
+        },
+        {
+          "app_id": "4262460",
+          "name": "ROB RUN",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 13,
+          "rank_diff": 0
+        },
+        {
+          "app_id": "216150",
+          "name": "MapleStory",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 14,
+          "rank_diff": 0
+        },
+        {
+          "app_id": "3393110",
+          "name": "AION 2",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 15,
+          "rank_diff": 0
+        },
+        {
+          "app_id": "5527800",
+          "name": "No Asteroids",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 20,
+          "rank": 16,
+          "rank_diff": 0
+        },
+        {
+          "app_id": "2001120",
+          "name": "Split Fiction",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 40,
+          "rank": 17,
+          "rank_diff": 0
+        },
+        {
+          "app_id": "2868840",
+          "name": "Slay the Spire 2",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 20,
+          "rank": 18,
+          "rank_diff": 0
+        },
+        {
+          "app_id": "281990",
+          "name": "Stellaris",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 70,
+          "rank": 19,
+          "rank_diff": 0
+        },
+        {
+          "app_id": "1222140",
+          "name": "Detroit: Become Human",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 90,
+          "rank": 20,
+          "rank_diff": 0
+        },
+        {
+          "app_id": "3751260",
+          "name": "The Blood of Dawnwalker",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 20,
+          "rank": 21,
+          "rank_diff": 0
+        }
+      ],
+      "all_ranks": [
+        {
+          "rank": 1,
+          "name": "Red Dead Redemption 2",
+          "rank_diff": 0
+        },
+        {
+          "rank": 2,
+          "name": "Warhammer 40,000: Dawn of War IV",
+          "rank_diff": 0
+        },
+        {
+          "rank": 3,
+          "name": "Grand Theft Auto V Enhanced",
+          "rank_diff": 0
+        },
+        {
+          "rank": 4,
+          "name": "Dead by Daylight",
+          "rank_diff": 0
+        },
+        {
+          "rank": 5,
+          "name": "Apex Legends™",
+          "rank_diff": 0
+        },
+        {
+          "rank": 6,
+          "name": "Counter-Strike 2",
+          "rank_diff": -2
+        },
+        {
+          "rank": 7,
+          "name": "007 First Light",
+          "rank_diff": -2
+        },
+        {
+          "rank": 8,
+          "name": "Call of Duty®: Modern Warfare® 4",
+          "rank_diff": -1
+        },
+        {
+          "rank": 9,
+          "name": "Microsoft Flight Simulator 2024",
+          "rank_diff": 0
+        },
+        {
+          "rank": 10,
+          "name": "Baldur's Gate 3",
+          "rank_diff": -4
+        },
+        {
+          "rank": 11,
+          "name": "Warframe",
+          "rank_diff": -3
+        },
+        {
+          "rank": 12,
+          "name": "Dead by Daylight: Terrifier",
+          "rank_diff": 0
+        },
+        {
+          "rank": 13,
+          "name": "ROB RUN",
+          "rank_diff": 0
+        },
+        {
+          "rank": 14,
+          "name": "MapleStory",
+          "rank_diff": 0
+        },
+        {
+          "rank": 15,
+          "name": "AION 2",
+          "rank_diff": 0
+        },
+        {
+          "rank": 16,
+          "name": "No Asteroids",
+          "rank_diff": 0
+        },
+        {
+          "rank": 17,
+          "name": "Split Fiction",
+          "rank_diff": 0
+        },
+        {
+          "rank": 18,
+          "name": "Slay the Spire 2",
+          "rank_diff": 0
+        },
+        {
+          "rank": 19,
+          "name": "Stellaris",
+          "rank_diff": 0
+        },
+        {
+          "rank": 20,
+          "name": "Detroit: Become Human",
+          "rank_diff": 0
+        },
+        {
+          "rank": 21,
+          "name": "The Blood of Dawnwalker",
+          "rank_diff": 0
+        }
+      ]
+    },
+    "tw": {
+      "name": "대만",
+      "crimson_desert_rank": 22,
+      "rank_diff": 2,
+      "rivals": [
+        {
+          "app_id": "1172470",
+          "name": "Apex Legends™",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 1,
+          "rank_diff": 6
+        },
+        {
+          "app_id": "3240220",
+          "name": "Grand Theft Auto V Enhanced",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 56,
+          "rank": 2,
+          "rank_diff": -1
+        },
+        {
+          "app_id": "1449850",
+          "name": "Yu-Gi-Oh! Master Duel",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 3,
+          "rank_diff": -1
+        },
+        {
+          "app_id": "3564740",
+          "name": "Where Winds Meet",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 4,
+          "rank_diff": -1
+        },
+        {
+          "app_id": "578080",
+          "name": "PUBG: BATTLEGROUNDS",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 5,
+          "rank_diff": -1
+        },
+        {
+          "app_id": "1174180",
+          "name": "Red Dead Redemption 2",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 75,
+          "rank": 6,
+          "rank_diff": -1
+        },
+        {
+          "app_id": "3768760",
+          "name": "007 First Light",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 50,
+          "rank": 7,
+          "rank_diff": 1
+        },
+        {
+          "app_id": "730",
+          "name": "Counter-Strike 2",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 8,
+          "rank_diff": -2
+        },
+        {
+          "app_id": "1329410",
+          "name": "雀魂麻將(MahjongSoul)",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 9,
+          "rank_diff": 1
+        },
+        {
+          "app_id": "2483190",
+          "name": "Forza Horizon 6",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 25,
+          "rank": 10,
+          "rank_diff": -1
+        },
+        {
+          "app_id": "4435490",
+          "name": "Call of Duty®: Modern Warfare® 4",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 15,
+          "rank": 12,
+          "rank_diff": -1
+        },
+        {
+          "app_id": "2001120",
+          "name": "Split Fiction",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 40,
+          "rank": 13,
+          "rank_diff": 0
+        },
+        {
+          "app_id": "1086940",
+          "name": "Baldur's Gate 3",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 30,
+          "rank": 14,
+          "rank_diff": 3
+        },
+        {
+          "app_id": "2272360",
+          "name": "Warhammer 40,000: Dawn of War IV",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 10,
+          "rank": 15,
+          "rank_diff": 1
+        },
+        {
+          "app_id": "2139460",
+          "name": "Once Human",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 19,
+          "rank_diff": 1
+        },
+        {
+          "app_id": "1771300",
+          "name": "Kingdom Come: Deliverance II",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 67,
+          "rank": 21,
+          "rank_diff": -2
+        }
+      ],
+      "all_ranks": [
+        {
+          "rank": 1,
+          "name": "Apex Legends™",
+          "rank_diff": 6
+        },
+        {
+          "rank": 2,
+          "name": "Grand Theft Auto V Enhanced",
+          "rank_diff": -1
+        },
+        {
+          "rank": 3,
+          "name": "Yu-Gi-Oh! Master Duel",
+          "rank_diff": -1
+        },
+        {
+          "rank": 4,
+          "name": "Where Winds Meet",
+          "rank_diff": -1
+        },
+        {
+          "rank": 5,
+          "name": "PUBG: BATTLEGROUNDS",
+          "rank_diff": -1
+        },
+        {
+          "rank": 6,
+          "name": "Red Dead Redemption 2",
+          "rank_diff": -1
+        },
+        {
+          "rank": 7,
+          "name": "007 First Light",
+          "rank_diff": 1
+        },
+        {
+          "rank": 8,
+          "name": "Counter-Strike 2",
+          "rank_diff": -2
+        },
+        {
+          "rank": 9,
+          "name": "雀魂麻將(MahjongSoul)",
+          "rank_diff": 1
+        },
+        {
+          "rank": 10,
+          "name": "Forza Horizon 6",
+          "rank_diff": -1
+        },
+        {
+          "rank": 11,
+          "name": "Dead by Daylight",
+          "rank_diff": 0
+        },
+        {
+          "rank": 12,
+          "name": "Call of Duty®: Modern Warfare® 4",
+          "rank_diff": -1
+        },
+        {
+          "rank": 13,
+          "name": "Split Fiction",
+          "rank_diff": 0
+        },
+        {
+          "rank": 14,
+          "name": "Baldur's Gate 3",
+          "rank_diff": 3
+        },
+        {
+          "rank": 15,
+          "name": "Warhammer 40,000: Dawn of War IV",
+          "rank_diff": 1
+        },
+        {
+          "rank": 16,
+          "name": "Phantom Blade Zero",
+          "rank_diff": -1
+        },
+        {
+          "rank": 17,
+          "name": "Euro Truck Simulator 2",
+          "rank_diff": -3
+        },
+        {
+          "rank": 18,
+          "name": "just volleyball",
+          "rank_diff": -6
+        },
+        {
+          "rank": 19,
+          "name": "Once Human",
+          "rank_diff": 1
+        },
+        {
+          "rank": 20,
+          "name": "Dead by Daylight: Terrifier",
+          "rank_diff": 0
+        },
+        {
+          "rank": 21,
+          "name": "Kingdom Come: Deliverance II",
+          "rank_diff": -2
+        }
+      ]
+    },
+    "th": {
+      "name": "태국",
+      "crimson_desert_rank": 28,
+      "rank_diff": -8,
+      "rivals": [
+        {
+          "app_id": "1174180",
+          "name": "Red Dead Redemption 2",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 75,
+          "rank": 1,
+          "rank_diff": 0
+        },
+        {
+          "app_id": "4080220",
+          "name": "EA SPORTS FC™ 27",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 50,
+          "rank": 4,
+          "rank_diff": -2
+        },
+        {
+          "app_id": "3768760",
+          "name": "007 First Light",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 50,
+          "rank": 5,
+          "rank_diff": 0
+        },
+        {
+          "app_id": "570",
+          "name": "Dota 2",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 6,
+          "rank_diff": -3
+        },
+        {
+          "app_id": "3240220",
+          "name": "Grand Theft Auto V Enhanced",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 56,
+          "rank": 7,
+          "rank_diff": -3
+        },
+        {
+          "app_id": "3393110",
+          "name": "AION 2",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 8,
+          "rank_diff": 1
+        },
+        {
+          "app_id": "1172470",
+          "name": "Apex Legends™",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 9,
+          "rank_diff": 0
+        },
+        {
+          "app_id": "730",
+          "name": "Counter-Strike 2",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 10,
+          "rank_diff": -3
+        },
+        {
+          "app_id": "578080",
+          "name": "PUBG: BATTLEGROUNDS",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 11,
+          "rank_diff": -5
+        },
+        {
+          "app_id": "2215430",
+          "name": "Ghost of Tsushima DIRECTOR'S CUT",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 50,
+          "rank": 12,
+          "rank_diff": -2
+        },
+        {
+          "app_id": "2909400",
+          "name": "FINAL FANTASY VII REBIRTH",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 85,
+          "rank": 13,
+          "rank_diff": 0
+        },
+        {
+          "app_id": "4435490",
+          "name": "Call of Duty®: Modern Warfare® 4",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 15,
+          "rank": 15,
+          "rank_diff": 0
+        },
+        {
+          "app_id": "2272360",
+          "name": "Warhammer 40,000: Dawn of War IV",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 10,
+          "rank": 16,
+          "rank_diff": 0
+        },
+        {
+          "app_id": "990080",
+          "name": "Hogwarts Legacy",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 90,
+          "rank": 17,
+          "rank_diff": -2
+        },
+        {
+          "app_id": "1086940",
+          "name": "Baldur's Gate 3",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 30,
+          "rank": 18,
+          "rank_diff": -4
+        },
+        {
+          "app_id": "4521650",
+          "name": "Farm &amp; Feast",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 20,
+          "rank": 19,
+          "rank_diff": -8
+        },
+        {
+          "app_id": "1462040",
+          "name": "FINAL FANTASY VII REMAKE INTERGRADE",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 82,
+          "rank": 21,
+          "rank_diff": -3
+        },
+        {
+          "app_id": "2807960",
+          "name": "Battlefield™ 6",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 67,
+          "rank": 22,
+          "rank_diff": -3
+        },
+        {
+          "app_id": "2483190",
+          "name": "Forza Horizon 6",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 25,
+          "rank": 23,
+          "rank_diff": -6
+        },
+        {
+          "app_id": "4025700",
+          "name": "Heartopia",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 24,
+          "rank_diff": 0
+        },
+        {
+          "app_id": "1973530",
+          "name": "Limbus Company",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 25,
+          "rank_diff": 0
+        },
+        {
+          "app_id": "1222140",
+          "name": "Detroit: Become Human",
+          "is_free": false,
+          "is_discounted": true,
+          "discount_pct": 90,
+          "rank": 26,
+          "rank_diff": 0
+        },
+        {
+          "app_id": "1222670",
+          "name": "The Sims™ 4",
+          "is_free": true,
+          "is_discounted": false,
+          "discount_pct": 0,
+          "rank": 27,
+          "rank_diff": 0
+        }
+      ],
+      "all_ranks": [
+        {
+          "rank": 1,
+          "name": "Red Dead Redemption 2",
+          "rank_diff": 0
+        },
+        {
+          "rank": 2,
+          "name": "Dead by Daylight",
+          "rank_diff": 6
+        },
+        {
+          "rank": 3,
+          "name": "Dead by Daylight: Terrifier",
+          "rank_diff": 0
+        },
+        {
+          "rank": 4,
+          "name": "EA SPORTS FC™ 27",
+          "rank_diff": -2
+        },
+        {
+          "rank": 5,
+          "name": "007 First Light",
+          "rank_diff": 0
+        },
+        {
+          "rank": 6,
+          "name": "Dota 2",
+          "rank_diff": -3
+        },
+        {
+          "rank": 7,
+          "name": "Grand Theft Auto V Enhanced",
+          "rank_diff": -3
+        },
+        {
+          "rank": 8,
+          "name": "AION 2",
+          "rank_diff": 1
+        },
+        {
+          "rank": 9,
+          "name": "Apex Legends™",
+          "rank_diff": 0
+        },
+        {
+          "rank": 10,
+          "name": "Counter-Strike 2",
+          "rank_diff": -3
+        },
+        {
+          "rank": 11,
+          "name": "PUBG: BATTLEGROUNDS",
+          "rank_diff": -5
+        },
+        {
+          "rank": 12,
+          "name": "Ghost of Tsushima DIRECTOR'S CUT",
+          "rank_diff": -2
+        },
+        {
+          "rank": 13,
+          "name": "FINAL FANTASY VII REBIRTH",
+          "rank_diff": 0
+        },
+        {
+          "rank": 14,
+          "name": "Phantom Blade Zero",
+          "rank_diff": -2
+        },
+        {
+          "rank": 15,
+          "name": "Call of Duty®: Modern Warfare® 4",
+          "rank_diff": 0
+        },
+        {
+          "rank": 16,
+          "name": "Warhammer 40,000: Dawn of War IV",
+          "rank_diff": 0
+        },
+        {
+          "rank": 17,
+          "name": "Hogwarts Legacy",
+          "rank_diff": -2
+        },
+        {
+          "rank": 18,
+          "name": "Baldur's Gate 3",
+          "rank_diff": -4
+        },
+        {
+          "rank": 19,
+          "name": "Farm &amp; Feast",
+          "rank_diff": -8
+        },
+        {
+          "rank": 20,
+          "name": "Football Manager 27",
+          "rank_diff": -4
+        },
+        {
+          "rank": 21,
+          "name": "FINAL FANTASY VII REMAKE INTERGRADE",
+          "rank_diff": -3
+        },
+        {
+          "rank": 22,
+          "name": "Battlefield™ 6",
+          "rank_diff": -3
+        },
+        {
+          "rank": 23,
+          "name": "Forza Horizon 6",
+          "rank_diff": -6
+        },
+        {
+          "rank": 24,
+          "name": "Heartopia",
+          "rank_diff": 0
+        },
+        {
+          "rank": 25,
+          "name": "Limbus Company",
+          "rank_diff": 0
+        },
+        {
+          "rank": 26,
+          "name": "Detroit: Become Human",
+          "rank_diff": 0
+        },
+        {
+          "rank": 27,
+          "name": "The Sims™ 4",
+          "rank_diff": 0
+        }
+      ]
+    }
+  }
+}
