@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-26T02:46:03.543611+09:00",
+  "generated_at": "2026-11-26T10:30:46.574948+09:00",
   "crimson_desert_rank": 22,
-  "rank_diff": 2,
+  "rank_diff": 0,
   "rivals": [
     {
       "app_id": "1172470",
@@ -16,7 +16,7 @@
       "app_id": "3393110",
       "name": "AION 2",
       "rank": 2,
-      "rank_diff": 6,
+      "rank_diff": 0,
       "is_free": true,
       "is_discounted": false,
       "discount_pct": 0
@@ -33,8 +33,8 @@
     {
       "app_id": "1174180",
       "name": "Red Dead Redemption 2",
-      "rank": 5,
-      "rank_diff": -1,
+      "rank": 4,
+      "rank_diff": 1,
       "is_free": false,
       "is_discounted": true,
       "discount_pct": 75
@@ -43,7 +43,7 @@
       "app_id": "578080",
       "name": "PUBG: BATTLEGROUNDS",
       "rank": 6,
-      "rank_diff": 1,
+      "rank_diff": 0,
       "is_free": true,
       "is_discounted": false,
       "discount_pct": 0
@@ -51,119 +51,119 @@
     {
       "app_id": "3240220",
       "name": "Grand Theft Auto V Enhanced",
-      "rank": 7,
-      "rank_diff": -2,
+      "rank": 8,
+      "rank_diff": -1,
       "is_free": false,
       "is_discounted": true,
       "discount_pct": 56
     },
     {
-      "app_id": "570",
-      "name": "Dota 2",
-      "rank": 8,
-      "rank_diff": 6,
-      "is_free": true,
-      "is_discounted": false,
-      "discount_pct": 0
-    },
-    {
       "app_id": "4435490",
       "name": "Call of Duty®: Modern Warfare® 4",
-      "rank": 10,
-      "rank_diff": 0,
+      "rank": 9,
+      "rank_diff": 1,
       "is_free": false,
       "is_discounted": true,
       "discount_pct": 15
     },
     {
+      "app_id": "4080220",
+      "name": "EA SPORTS FC™ 27",
+      "rank": 10,
+      "rank_diff": 4,
+      "is_free": false,
+      "is_discounted": true,
+      "discount_pct": 50
+    },
+    {
       "app_id": "2272360",
       "name": "Warhammer 40,000: Dawn of War IV",
       "rank": 11,
-      "rank_diff": 4,
+      "rank_diff": 0,
       "is_free": false,
       "is_discounted": true,
       "discount_pct": 10
     },
     {
+      "app_id": "570",
+      "name": "Dota 2",
+      "rank": 12,
+      "rank_diff": -4,
+      "is_free": true,
+      "is_discounted": false,
+      "discount_pct": 0
+    },
+    {
+      "app_id": "216150",
+      "name": "MapleStory",
+      "rank": 13,
+      "rank_diff": 2,
+      "is_free": true,
+      "is_discounted": false,
+      "discount_pct": 0
+    },
+    {
+      "app_id": "2947440",
+      "name": "SILENT HILL f",
+      "rank": 14,
+      "rank_diff": 0,
+      "is_free": false,
+      "is_discounted": true,
+      "discount_pct": 72
+    },
+    {
       "app_id": "1086940",
       "name": "Baldur's Gate 3",
-      "rank": 13,
-      "rank_diff": -4,
+      "rank": 15,
+      "rank_diff": -2,
       "is_free": false,
       "is_discounted": true,
       "discount_pct": 30
     },
     {
-      "app_id": "4080220",
-      "name": "EA SPORTS FC™ 27",
-      "rank": 14,
-      "rank_diff": 2,
+      "app_id": "3768760",
+      "name": "007 First Light",
+      "rank": 16,
+      "rank_diff": 0,
       "is_free": false,
       "is_discounted": true,
       "discount_pct": 50
     },
     {
-      "app_id": "216150",
-      "name": "MapleStory",
-      "rank": 15,
-      "rank_diff": 0,
+      "app_id": "4262460",
+      "name": "ROB RUN",
+      "rank": 17,
+      "rank_diff": 1,
       "is_free": true,
       "is_discounted": false,
       "discount_pct": 0
     },
     {
-      "app_id": "3768760",
-      "name": "007 First Light",
-      "rank": 16,
-      "rank_diff": -3,
-      "is_free": false,
-      "is_discounted": true,
-      "discount_pct": 50
-    },
-    {
-      "app_id": "5527800",
-      "name": "No Asteroids",
-      "rank": 17,
-      "rank_diff": 3,
+      "app_id": "4078430",
+      "name": "STAR WARS: Galactic Racer™",
+      "rank": 19,
+      "rank_diff": 0,
       "is_free": false,
       "is_discounted": true,
       "discount_pct": 20
     },
     {
-      "app_id": "4262460",
-      "name": "ROB RUN",
-      "rank": 18,
-      "rank_diff": -1,
-      "is_free": true,
-      "is_discounted": false,
-      "discount_pct": 0
-    },
-    {
-      "app_id": "2483190",
-      "name": "Forza Horizon 6",
-      "rank": 19,
-      "rank_diff": 0,
-      "is_free": false,
-      "is_discounted": true,
-      "discount_pct": 25
-    },
-    {
-      "app_id": "1449850",
-      "name": "Yu-Gi-Oh! Master Duel",
+      "app_id": "230410",
+      "name": "Warframe",
       "rank": 20,
-      "rank_diff": -9,
+      "rank_diff": 0,
       "is_free": true,
       "is_discounted": false,
       "discount_pct": 0
     },
     {
-      "app_id": "1222140",
-      "name": "Detroit: Become Human",
+      "app_id": "5527800",
+      "name": "No Asteroids",
       "rank": 21,
-      "rank_diff": 0,
+      "rank_diff": -4,
       "is_free": false,
       "is_discounted": true,
-      "discount_pct": 90
+      "discount_pct": 20
     }
   ]
 }
