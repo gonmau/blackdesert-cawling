@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-28T12:02:51.720134+09:00",
-  "crimson_desert_rank": 18,
-  "rank_diff": 1,
+  "generated_at": "2026-11-28T21:40:01.882519+09:00",
+  "crimson_desert_rank": 19,
+  "rank_diff": -1,
   "rivals": [
     {
       "app_id": "1091500",
@@ -22,22 +22,22 @@
       "discount_pct": 0
     },
     {
-      "app_id": "730",
-      "name": "Counter-Strike 2",
-      "rank": 3,
-      "rank_diff": 1,
-      "is_free": true,
-      "is_discounted": false,
-      "discount_pct": 0
-    },
-    {
       "app_id": "4080220",
       "name": "EA SPORTS FC™ 27",
-      "rank": 4,
-      "rank_diff": -1,
+      "rank": 3,
+      "rank_diff": 1,
       "is_free": false,
       "is_discounted": true,
       "discount_pct": 50
+    },
+    {
+      "app_id": "730",
+      "name": "Counter-Strike 2",
+      "rank": 4,
+      "rank_diff": -1,
+      "is_free": true,
+      "is_discounted": false,
+      "discount_pct": 0
     },
     {
       "app_id": "1174180",
@@ -49,28 +49,46 @@
       "discount_pct": 75
     },
     {
-      "app_id": "2138330",
-      "name": "Cyberpunk 2077: Phantom Liberty",
-      "rank": 6,
-      "rank_diff": 0,
-      "is_free": false,
-      "is_discounted": true,
-      "discount_pct": 40
-    },
-    {
       "app_id": "2272360",
       "name": "Warhammer 40,000: Dawn of War IV",
-      "rank": 7,
-      "rank_diff": 0,
+      "rank": 6,
+      "rank_diff": 1,
       "is_free": false,
       "is_discounted": true,
       "discount_pct": 10
     },
     {
+      "app_id": "2138330",
+      "name": "Cyberpunk 2077: Phantom Liberty",
+      "rank": 7,
+      "rank_diff": -1,
+      "is_free": false,
+      "is_discounted": true,
+      "discount_pct": 40
+    },
+    {
+      "app_id": "3240220",
+      "name": "Grand Theft Auto V Enhanced",
+      "rank": 8,
+      "rank_diff": 3,
+      "is_free": false,
+      "is_discounted": true,
+      "discount_pct": 56
+    },
+    {
+      "app_id": "570",
+      "name": "Dota 2",
+      "rank": 9,
+      "rank_diff": 7,
+      "is_free": true,
+      "is_discounted": false,
+      "discount_pct": 0
+    },
+    {
       "app_id": "4435490",
       "name": "Call of Duty®: Modern Warfare® 4",
-      "rank": 8,
-      "rank_diff": 2,
+      "rank": 10,
+      "rank_diff": -2,
       "is_free": false,
       "is_discounted": true,
       "discount_pct": 15
@@ -78,8 +96,8 @@
     {
       "app_id": "3393110",
       "name": "AION 2",
-      "rank": 9,
-      "rank_diff": 0,
+      "rank": 11,
+      "rank_diff": -2,
       "is_free": true,
       "is_discounted": false,
       "discount_pct": 0
@@ -87,26 +105,8 @@
     {
       "app_id": "4126040",
       "name": "Aniimo",
-      "rank": 10,
-      "rank_diff": -2,
-      "is_free": true,
-      "is_discounted": false,
-      "discount_pct": 0
-    },
-    {
-      "app_id": "3240220",
-      "name": "Grand Theft Auto V Enhanced",
-      "rank": 11,
-      "rank_diff": 0,
-      "is_free": false,
-      "is_discounted": true,
-      "discount_pct": 56
-    },
-    {
-      "app_id": "2767030",
-      "name": "Marvel Rivals",
       "rank": 12,
-      "rank_diff": 1,
+      "rank_diff": -2,
       "is_free": true,
       "is_discounted": false,
       "discount_pct": 0
@@ -115,19 +115,19 @@
       "app_id": "1086940",
       "name": "Baldur's Gate 3",
       "rank": 13,
-      "rank_diff": 3,
+      "rank_diff": 0,
       "is_free": false,
       "is_discounted": true,
       "discount_pct": 30
     },
     {
-      "app_id": "2947440",
-      "name": "SILENT HILL f",
+      "app_id": "4356430",
+      "name": "NBA 2K27",
       "rank": 14,
-      "rank_diff": 0,
+      "rank_diff": 3,
       "is_free": false,
       "is_discounted": true,
-      "discount_pct": 72
+      "discount_pct": 55
     },
     {
       "app_id": "3768760",
@@ -139,22 +139,31 @@
       "discount_pct": 50
     },
     {
-      "app_id": "570",
-      "name": "Dota 2",
+      "app_id": "2947440",
+      "name": "SILENT HILL f",
       "rank": 16,
-      "rank_diff": -4,
+      "rank_diff": -2,
+      "is_free": false,
+      "is_discounted": true,
+      "discount_pct": 72
+    },
+    {
+      "app_id": "2767030",
+      "name": "Marvel Rivals",
+      "rank": 17,
+      "rank_diff": -5,
       "is_free": true,
       "is_discounted": false,
       "discount_pct": 0
     },
     {
-      "app_id": "4356430",
-      "name": "NBA 2K27",
-      "rank": 17,
+      "app_id": "578080",
+      "name": "PUBG: BATTLEGROUNDS",
+      "rank": 18,
       "rank_diff": 0,
-      "is_free": false,
-      "is_discounted": true,
-      "discount_pct": 55
+      "is_free": true,
+      "is_discounted": false,
+      "discount_pct": 0
     }
   ]
 }
